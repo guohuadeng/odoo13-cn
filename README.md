@@ -33,3 +33,21 @@ po下载与上传： https://www.transifex.com/odoo/odoo-13/language/zh_CN/
 ├─ref    参考文档
 ├─source    通过 .tx 获取的odoo的 PO 翻译文档，并更新，可直接用于 odoo13
 
+## 获取最新 .po 文件，更新后发布至 transifex
+1. 安装 tx 客户端，请先自行安装 pip3，并在 transifex 注册自己的 token
+```
+pip3 install transifex-client -i https://mirrors.ustc.edu.cn/pypi/web/simple
+```
+2. 取最新的 po，先进入 /source 目录 
+```
+cd source
+tx pull -l zh_CN
+```
+3. 查看下载的 po 文件并更改，在 ./source 目录下，即可看到相关的 odoo 翻译文件
+4. 推送翻译文件至 tx，参考 https://docs.transifex.com/transifex-github-integrations/github-tx-client
+```
+tx push -t
+```
+
+
+
