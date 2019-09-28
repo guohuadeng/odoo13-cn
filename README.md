@@ -1,0 +1,35 @@
+# odoo 13 中文专业版翻译，广州尚鹏 https://www.Sunpop.cn
+---------------------------------------
+## 概述
+odoo13 有在功能、性能、界面都有极大的更新，在可预见的将来必然会蓬勃发展。
+广州尚鹏是 odoo 官方合作伙伴，亦可审核 Transifex 上的中文化翻译。
+为推动 odoo 中文化的发展，同时为保证自有商业客户的正常使用，建立此开源代码仓库repo进行 odoo13 中文化翻译。
+
+## 翻译规范
+我们使用 odoo 对标 SAP 系统，故翻译上主要也参考 SAP。其次参考 MRPII 规范。在ref目录有相关文档。
+1. SAP 术语
+2. MRPII 术语
+3. 行业标准术语
+
+## 如何贡献 odoo13 翻译
+odoo13 官方翻译主要通过 transifex.com ，由于 transifex 上的使用方便和审核效率问题，我们同时也建立了这个仓库，力争更快更精确的实现 odoo13 中文化。
+
+### 方法一：通过我们的 github 贡献翻译
+仓库地址：https://github.com/guohuadeng/odoo13-cn
+更新提交：使用 git PR(pull request)，参考 https://www.jianshu.com/p/d921828bf623
+建议：在此 repo 上提 issue
+
+### 方法二：通过 transifex.com
+1. 注册登录
+http://www.transifex.com 
+2. 加入 odoo 中国团队
+https://www.transifex.com/odoo/teams/
+3. 参与 odoo13 翻译
+总览： https://www.transifex.com/odoo/odoo-13/dashboard/
+模块翻译： https://www.transifex.com/odoo/odoo-13/translate/#zh_CN
+po下载与上传： https://www.transifex.com/odoo/odoo-13/language/zh_CN/
+
+## 文件夹说明
+├─ref    参考文档
+├─source    通过 .tx 获取的odoo的 PO 翻译文档，并更新，可直接用于 odoo13
+
