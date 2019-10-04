@@ -41,6 +41,7 @@ pip3 install transifex-client -i https://mirrors.ustc.edu.cn/pypi/web/simple
 2. 取最新的 po，先进入 /source 目录 
 ```
 cd source
+SET PATH=d:\odoo10\runtime\python;%PATH%
 tx pull -l zh_CN
 ```
 3. 查看下载的 po 文件并更改，在 ./source 目录下，即可看到相关的 odoo 翻译文件
