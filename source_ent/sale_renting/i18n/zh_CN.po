@@ -46,13 +46,13 @@ msgstr ""
 #: code:addons/sale_renting/wizard/rental_configurator.py:0
 #, python-format
 msgid "/day"
-msgstr ""
+msgstr "/天"
 
 #. module: sale_renting
 #: code:addons/sale_renting/wizard/rental_configurator.py:0
 #, python-format
 msgid "/hour"
-msgstr ""
+msgstr "/小时"
 
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.res_config_settings_view_form
