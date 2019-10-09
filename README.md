@@ -17,6 +17,10 @@ odoo13 在功能、性能、界面都有极大的更新，在可预见的将来�
 ## 如何贡献 odoo13 翻译
 odoo13 官方翻译主要通过 transifex.com ，由于 transifex 上的使用方便和审核效率问题，我们同时也建立了这个仓库，力争更快更精确的实现 odoo13 中文化。
 
+## odoo13 翻译生效说明
+此 repo 是人工合并，人工 push 到 tx，每次的 push 我们会直接在 tx 上马上审核，故会比其它第三方的翻译优先级更高。
+然后 odoo 官方定期同步 tx 上的翻译，一般是一周。故传递到 odoo13 的企业版及社区版时，更新会有所延迟。
+
 ### 方法一：通过我们的 github 贡献翻译
 仓库地址：https://github.com/guohuadeng/odoo13-cn
 更新提交：使用 git PR(pull request)，参考 https://www.jianshu.com/p/d921828bf623
