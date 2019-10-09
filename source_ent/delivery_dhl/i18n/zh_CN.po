@@ -1,0 +1,512 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* delivery_dhl
+# 
+# Translators:
+# Martin Trigaux, 2019
+# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# Felix Yuen <fyu@odoo.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-26 08:05+0000\n"
+"PO-Revision-Date: 2019-08-26 09:35+0000\n"
+"Last-Translator: Felix Yuen <fyu@odoo.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__0
+msgid "0 - Logistics Services"
+msgstr "0 - 物流服务"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__1
+msgid "1 - Domestic Express 12:00"
+msgstr "1 - 国内快递 12:00"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__2
+msgid "2 - B2C"
+msgstr "2 - B2C"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__3
+msgid "3 - B2C"
+msgstr "3 - B2C"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__4
+msgid "4 - Jetline"
+msgstr "4 - Jetline"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__5
+msgid "5 - Sprintline"
+msgstr "5 - Sprintline"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__6
+msgid "6 - Secureline"
+msgstr "6 - Secureline"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__6x4_a4_pdf
+msgid "6X4_A4_PDF"
+msgstr "6X4_A4_PDF"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__6x4_pdf
+msgid "6X4_PDF"
+msgstr "6X4_PDF"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__6x4_thermal
+msgid "6X4_thermal"
+msgstr "6X4_thermal"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__7
+msgid "7 - Express Easy"
+msgstr "7 - 速递易"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__8
+msgid "8 - Express Easy"
+msgstr "8 - 速递易"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__8x4_a4_pdf
+msgid "8X4_A4_PDF"
+msgstr "8X4_A4_PDF"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__8x4_a4_tc_pdf
+msgid "8X4_A4_TC_PDF"
+msgstr "8X4_A4_TC_PDF"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__8x4_ci_pdf
+msgid "8X4_CI_PDF"
+msgstr "8X4_CI_PDF"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__8x4_ci_thermal
+msgid "8X4_CI_thermal"
+msgstr "8X4_CI_thermal"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__8x4_pdf
+msgid "8X4_PDF"
+msgstr "8X4_PDF"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__8x4_ru_a4_pdf
+msgid "8X4_RU_A4_PDF"
+msgstr "8X4_RU_A4_PDF"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_template__8x4_thermal
+msgid "8X4_thermal"
+msgstr "8X4_thermal"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__9
+msgid "9 - Europack"
+msgstr "9 - Europack"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__a
+msgid "A - Auto Reversals"
+msgstr "A - 自动退货"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_region_code__am
+msgid "America"
+msgstr "美国"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_region_code__ap
+msgid "Asia Pacific"
+msgstr "亚太"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__b
+msgid "B - Break Bulk Express"
+msgstr "B - 散装速递"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__c
+msgid "C - Medical Express"
+msgstr "C - 医疗快递"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,field_description:delivery_dhl.field_product_packaging__package_carrier_type
+msgid "Carrier"
+msgstr "承运方"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_package_dimension_unit__c
+msgid "Centimeters"
+msgstr "厘米"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,help:delivery_dhl.field_delivery_carrier__dhl_dutiable
+msgid "Check this if your package is dutiable."
+msgstr "包裹需缴税选项"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__d
+msgid "D - Express Worldwide"
+msgstr "D－全球快递"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__delivery_type__dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__product_packaging__package_carrier_type__dhl
+msgid "DHL"
+msgstr "DHL"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_account_number
+msgid "DHL Account Number"
+msgstr "DHL　账号"
+
+#. module: delivery_dhl
+#: model_terms:ir.ui.view,arch_db:delivery_dhl.view_delivery_carrier_form_with_provider_dhl
+msgid "DHL Configuration"
+msgstr "DHL配置"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_default_packaging_id
+msgid "DHL Default Packaging Type"
+msgstr "DHL 默认包装类型"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_password
+msgid "DHL Password"
+msgstr "DHL密码"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_product_code
+msgid "DHL Product"
+msgstr "DHL 产品"
+
+#. module: delivery_dhl
+#: model_terms:ir.ui.view,arch_db:delivery_dhl.res_config_settings_view_form_sale
+#: model_terms:ir.ui.view,arch_db:delivery_dhl.res_config_settings_view_form_stock
+msgid "DHL Shipping Methods"
+msgstr "DHL运输方式"
+
+#. module: delivery_dhl
+#: code:addons/delivery_dhl/models/dhl_request.py:0
+#, python-format
+msgid "DHL Site ID is missing, please modify your delivery method settings."
+msgstr "DHL站点ID丢失，请更正你的运输方式设置　"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_SiteID
+msgid "DHL SiteID"
+msgstr "DHL站点ID"
+
+#. module: delivery_dhl
+#: model:delivery.carrier,name:delivery_dhl.delivery_carrier_dhl_dom
+#: model:product.product,name:delivery_dhl.product_product_delivery_dhl_usa
+#: model:product.template,name:delivery_dhl.product_product_delivery_dhl_usa_product_template
+msgid "DHL USA"
+msgstr "DHL USA"
+
+#. module: delivery_dhl
+#: model:delivery.carrier,name:delivery_dhl.delivery_carrier_dhl_intl
+#: model:product.product,name:delivery_dhl.product_product_delivery_dhl_intl
+#: model:product.template,name:delivery_dhl.product_product_delivery_dhl_intl_product_template
+msgid "DHL USA -> International"
+msgstr "DHL USA -> 国际"
+
+#. module: delivery_dhl
+#: code:addons/delivery_dhl/models/dhl_request.py:0
+#, python-format
+msgid ""
+"DHL account number is missing, please modify your delivery method settings."
+msgstr "DHL账号丢失，请更正你的运输方式设置"
+
+#. module: delivery_dhl
+#: code:addons/delivery_dhl/models/dhl_request.py:0
+#, python-format
+msgid "DHL password is missing, please modify your delivery method settings."
+msgstr "DHL密码丢失，请更正你的运输方式设置"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_duty_payment
+msgid "Dhl Duty Payment"
+msgstr "DHL关税款项"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_dutiable
+msgid "Dutiable Material"
+msgstr "应税材料"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__e
+msgid "E - Express 9:00"
+msgstr "E - 快递 9:00"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_image_format__epl2
+msgid "EPL2"
+msgstr "EPL2"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_region_code__eu
+msgid "Europe"
+msgstr "欧洲"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__f
+msgid "F - Freight Worldwide"
+msgstr "F - 全球货运"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__g
+msgid "G - Domestic Economy Select"
+msgstr "G - 国内经济选择"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__h
+msgid "H - Economy Select"
+msgstr "H - 经济选择"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__i
+msgid "I - Break Bulk Economy"
+msgstr "I - 散装经济"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_package_dimension_unit__i
+msgid "Inches"
+msgstr "英寸"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__j
+msgid "J - Jumbo Box"
+msgstr "J - 超重包裹"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__k
+msgid "K - Express 9:00"
+msgstr "K - Express 9:00"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_package_weight_unit__k
+msgid "Kilograms"
+msgstr "千克"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__l
+msgid "L - Express 10:30"
+msgstr "L - Express 10:30"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_label_image_format
+msgid "Label Image Format"
+msgstr "标签图像格式"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_label_template
+msgid "Label Template"
+msgstr "标签模板"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__m
+msgid "M - Express 10:30"
+msgstr "M - Express 10:30"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__n
+msgid "N - Domestic Express"
+msgstr "N - 国内快递"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__o
+msgid "O - DOM Express 10:30"
+msgstr "O - DOM 快递 10:30"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__p
+msgid "P - Express Worldwide"
+msgstr "P - 全球快递"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_image_format__pdf
+msgid "PDF"
+msgstr "PDF"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_package_dimension_unit
+msgid "Package Dimension Unit"
+msgstr "包裹尺寸单位"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_package_weight_unit
+msgid "Package Weight Unit"
+msgstr "包装重量单位"
+
+#. module: delivery_dhl
+#: code:addons/delivery_dhl/models/dhl_request.py:0
+#, python-format
+msgid "Please provide at least one item to ship."
+msgstr "请至少提供一个发货项目"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_package_weight_unit__l
+msgid "Pounds"
+msgstr "英镑"
+
+#. module: delivery_dhl
+#: model:ir.model,name:delivery_dhl.model_product_packaging
+msgid "Product Packaging"
+msgstr "产品包装"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__delivery_type
+msgid "Provider"
+msgstr "供应商"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__q
+msgid "Q - Medical Express"
+msgstr "Q - 医疗快递"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__r
+msgid "R - GlobalMail Business"
+msgstr "R - 全球邮件服务"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_duty_payment__r
+msgid "Recipient"
+msgstr "收件人"
+
+#. module: delivery_dhl
+#: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_region_code
+msgid "Region"
+msgstr "地区"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__s
+msgid "S - Same Day"
+msgstr "S - 同一天"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_duty_payment__s
+msgid "Sender"
+msgstr "发送者"
+
+#. module: delivery_dhl
+#: code:addons/delivery_dhl/models/delivery_dhl.py:0
+#: code:addons/delivery_dhl/models/delivery_dhl.py:0
+#, python-format
+msgid "Shipment created into DHL <br/> <b>Tracking Number : </b>%s"
+msgstr "DHL发货 <br/> <b>运单号: </b>%s"
+
+#. module: delivery_dhl
+#: model:ir.model,name:delivery_dhl.model_delivery_carrier
+msgid "Shipping Methods"
+msgstr "送货方式"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__t
+msgid "T - Express 12:00"
+msgstr "T - 快递 12:00"
+
+#. module: delivery_dhl
+#: code:addons/delivery_dhl/models/dhl_request.py:0
+#, python-format
+msgid ""
+"The address of the customer is missing or wrong (Missing field(s) :\n"
+" %s)"
+msgstr ""
+"客户地址缺失或错误（缺少字段：\n"
+" %s）"
+
+#. module: delivery_dhl
+#: code:addons/delivery_dhl/models/dhl_request.py:0
+#, python-format
+msgid ""
+"The address of your company warehouse is missing or wrong (Missing field(s) :\n"
+" %s)"
+msgstr ""
+"公司仓库的地址缺失或者错误（缺失字段（集）：\n"
+" %s)"
+
+#. module: delivery_dhl
+#: code:addons/delivery_dhl/models/dhl_request.py:0
+#, python-format
+msgid ""
+"The estimated price cannot be computed because the weight of your product is"
+" missing."
+msgstr "因为产品重量缺失所以无法估算价格"
+
+#. module: delivery_dhl
+#: code:addons/delivery_dhl/models/delivery_dhl.py:0
+#, python-format
+msgid ""
+"There is no price available for this shipping, you should rather try with "
+"the DHL product %s"
+msgstr "此运费没有价格，你应该尝试使用DHL产品%s"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__u
+msgid "U - Express Worldwide"
+msgstr "U - 全球快递"
+
+#. module: delivery_dhl
+#: model:product.product,uom_name:delivery_dhl.product_product_delivery_dhl_intl
+#: model:product.product,uom_name:delivery_dhl.product_product_delivery_dhl_usa
+#: model:product.template,uom_name:delivery_dhl.product_product_delivery_dhl_intl_product_template
+#: model:product.template,uom_name:delivery_dhl.product_product_delivery_dhl_usa_product_template
+msgid "Units"
+msgstr "单位"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__v
+msgid "V - Europack"
+msgstr "V - Europack"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__w
+msgid "W - Economy Select"
+msgstr "W - 经济选择"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__x
+msgid "X - Express Envelope"
+msgstr "X - 快递封"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__y
+msgid "Y - Express 12:00"
+msgstr "Y - 快递 12:00"
+
+#. module: delivery_dhl
+#: code:addons/delivery_dhl/models/delivery_dhl.py:0
+#, python-format
+msgid "You can't cancel DHL shipping without pickup date."
+msgstr "不能取消没有拣货日期的DHL装运"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_product_code__z
+msgid "Z - Destination Charges"
+msgstr "Z - 目的地运费"
+
+#. module: delivery_dhl
+#: model:ir.model.fields.selection,name:delivery_dhl.selection__delivery_carrier__dhl_label_image_format__zpl2
+msgid "ZPL2"
+msgstr "ZPL2"

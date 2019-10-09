@@ -1,0 +1,1044 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_calendar
+# 
+# Translators:
+# Martin Trigaux, 2019
+# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# niulin lnc. <admin@niulin.net>, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# guohuadeng <guohuadeng@hotmail.com>, 2019
+# Fisher <fisher@kdomi.com>, 2019
+# Lisa Zhang <lzh@odoo.com>, 2019
+# bower Guo <124358678@qq.com>, 2019
+# roye w <159820@qq.com>, 2019
+# Youfu Sheng <wdmsyf@sina.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# Jeanphy <hzh0292@qq.com>, 2019
+# ChinaMaker <liuct@chinamaker.net>, 2019
+# e2f <projects@e2f.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-07 07:21+0000\n"
+"PO-Revision-Date: 2019-08-26 09:39+0000\n"
+"Last-Translator: e2f <projects@e2f.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: website_calendar
+#: code:addons/website_calendar/models/calendar_appointment.py:0
+#, python-format
+msgid " (copy)"
+msgstr " (副本)"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__appointment_count
+msgid "# Appointments"
+msgstr "# 约会"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "#{day['today_cls'] and 'Today' or ''}"
+msgstr "#{day['today_cls'] and 'Today' or ''}"
+
+#. module: website_calendar
+#: code:addons/website_calendar/controllers/main.py:0
+#, python-format
+msgid "%s with %s"
+msgstr "%s 与 %s"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "(timezone:"
+msgstr "（时区："
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "+1 (650) 691-3277"
+msgstr "+1 (650) 691-3277"
+
+#. module: website_calendar
+#: code:addons/website_calendar/controllers/main.py:0
+#, python-format
+msgid ", All Day"
+msgstr "，全天"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "-- select a country --"
+msgstr "-选择国家-"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid ""
+"<br/>\n"
+"                            It's too late to cancel online, please contact the attendees another way if you really can't make it."
+msgstr ""
+"<br/>\n"
+"                            在线取消已经太迟，如果您不能如期赴约，请采用其他方式联系出席者."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_kanban
+msgid "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
+msgstr "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "<i class=\"fa fa-fw fa-arrow-right\"/>Add to Google Calendar"
+msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>添加到 Google 日历"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "<i class=\"fa fa-fw fa-arrow-right\"/>Add to iCal/Outlook"
+msgstr "<i class=\"fa fa-fw fa-arrow-right\"/>添加到 iCal/Outlook"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "<i class=\"fa fa-fw fa-times\"/>Cancel / Reschedule"
+msgstr "<i class=\"fa fa-fw fa-times\"/>取消/重新安排"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span> days</span>"
+msgstr "<span> 天</span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span> hours before</span>"
+msgstr "<span> 小时，早于</span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span> hours</span>"
+msgstr "<span> 小时</span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span>and not after </span>"
+msgstr "<span>且不晚于 </span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span>at least </span>"
+msgstr "<span>至少 </span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "<span>until </span>"
+msgstr "<span>直到 </span>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid ""
+"<strong>Appointment canceled!</strong>\n"
+"                            You can schedule another appointment from here."
+msgstr ""
+"<strong>约会取消成功!</strong>\n"
+"                            您可在此处安排下次约会."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+msgid ""
+"<strong>Appointment failed!</strong>\n"
+"                            The selected timeslot is not available anymore.\n"
+"                            Someone has booked the same time slot a few\n"
+"                            seconds before you."
+msgstr ""
+"<strong>约会失败!</strong>\n"
+"                            所选时间段不可用.\n"
+"                            短短数秒之前\n"
+"                            有人抢先预定了相同的时间段."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+msgid ""
+"<strong>Appointment failed!</strong>\n"
+"                            The selected timeslot is not available.\n"
+"                            It appears you already have another meeting with us at that date."
+msgstr ""
+"<strong>约会失败!</strong>\n"
+"                            所选时间段不可用.\n"
+"                            似乎您已经与我们在这一天安排了会面."
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "<strong>Your appointment has been successfully booked!</strong>"
+msgstr "<strong>你的约会已经被成功预订了!</strong>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "A text message reminder is sent to you before your appointment"
+msgstr "约会之前，会给您发送短信提醒"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_event__access_token
+msgid "Access Token"
+msgstr "访问令牌"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_needaction
+msgid "Action Needed"
+msgstr "需要采取行动"
+
+#. module: website_calendar
+#: model:res.groups,name:website_calendar.group_calendar_manager
+msgid "Administrator"
+msgstr "管理员"
+
+#. module: website_calendar
+#: model:ir.actions.act_window,name:website_calendar.website_calendar_report
+#: model:ir.ui.menu,name:website_calendar.menu_schedule_report_online
+msgid "All Appointments"
+msgstr "所有约会"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Allow Cancelling"
+msgstr "允许取消"
+
+#. module: website_calendar
+#: model_terms:ir.actions.act_window,help:website_calendar.calendar_appointment_type_action
+msgid ""
+"Allow your customers to book an appointment on your website\n"
+"                by creating appointment types here."
+msgstr ""
+"\n"
+" 在此处创建约会类型，可允许客户在您的网站预约。"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__name
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_answer_view_form
+msgid "Answer"
+msgstr "答案"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+#: model:website.menu,name:website_calendar.menu_appointment
+msgid "Appointment"
+msgstr "约会"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Appointment Confirmation"
+msgstr "约会确认"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__appointment_duration
+msgid "Appointment Duration"
+msgstr "约会时长"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Appointment Introduction"
+msgstr "约会介绍"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+msgid "Appointment Time"
+msgstr "约会时间"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__appointment_type_id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__appointment_type_id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__name
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_tree
+msgid "Appointment Type"
+msgstr "约会类型"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Appointment:"
+msgstr "约会："
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid "Appointment<span class=\"chevron\"/>"
+msgstr "约会<span class=\"chevron\"/>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_event_view_graph
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_event_view_pivot
+msgid "Appointments"
+msgstr "约会"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__assignation_method
+msgid "Assignation Method"
+msgstr "分配方法"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_attachment_count
+msgid "Attachment Count"
+msgstr "附件数量"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Attendees:"
+msgstr "出席者："
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__slot_ids
+msgid "Availabilities"
+msgstr "可用性"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__answer_ids
+msgid "Available Answers"
+msgstr "可用答案"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Available Employees"
+msgstr "可用员工"
+
+#. module: website_calendar
+#: model:ir.ui.menu,name:website_calendar.calendar_appointment_type_menu_action
+msgid "Calendar"
+msgstr "日历"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_calendar_event
+msgid "Calendar Event"
+msgstr "日历事件"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__can_publish
+msgid "Can Publish"
+msgstr "可以发布"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__min_cancellation_hours
+msgid "Cancel Before (hours)"
+msgstr "在（小时）之前取消"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_question__question_type__checkbox
+msgid "Checkboxes (multiple answers)"
+msgstr "复选框（多个答案）"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_type__assignation_method__chosen
+msgid "Chosen by the Customer"
+msgstr "客户选择"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Confirm Appointment <span class=\"fa fa-arrow-right\"/>"
+msgstr "确认约会 <span class=\"fa fa-arrow-right\"/>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Confirm your details"
+msgstr "确认详细信息"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_confirmation
+msgid "Confirmation Message"
+msgstr "确认消息"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid "Confirmation<span class=\"chevron\"/>"
+msgstr "确认<span class=\"chevron\"/>"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Confirmed"
+msgstr "已确认"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: website_calendar
+#. openerp-web
+#: code:addons/website_calendar/static/src/js/appointment_employee_url.js:0
+#, python-format
+msgid "Copied !"
+msgstr "已复制 !"
+
+#. module: website_calendar
+#: model_terms:ir.actions.act_window,help:website_calendar.calendar_appointment_type_action
+msgid "Create a new appointment type"
+msgstr "创建新的约会类型"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__create_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__create_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__create_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__create_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__create_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__create_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Declined"
+msgstr "已拒绝"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Description:"
+msgstr "说明："
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__display_name
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__display_name
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__display_name
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_question__question_type__select
+msgid "Dropdown (one answer)"
+msgstr "下拉菜单（一个答案）"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Duration:"
+msgstr "时长："
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_kanban
+msgid "Edit"
+msgstr "编辑"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__employee_ids
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Employees"
+msgstr "员工"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_follower_ids
+msgid "Followers"
+msgstr "关注者"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_channel_ids
+msgid "Followers (Channels)"
+msgstr "关注者(渠道)"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "关注者(业务伙伴)"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Fri"
+msgstr "周五"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__5
+msgid "Friday"
+msgstr "周五"
+
+#. module: website_calendar
+#: model_terms:calendar.appointment.type,message_intro:website_calendar.calendar_appointment
+msgid ""
+"Get a <strong>customized demo</strong> and an <strong>analysis of your "
+"needs</strong>."
+msgstr "获取<strong>定制演示</strong>及<strong>需求分析。</strong>"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__assignation_method
+msgid ""
+"How employees will be assigned to meetings customers book on your website."
+msgstr "如何将员工分配到客户在您的网站上预定的会议。"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__id
+msgid "ID"
+msgstr "ID"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_needaction
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_unread
+msgid "If checked, new messages require your attention."
+msgstr "确认后, 出现提示消息."
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_has_error
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_has_sms_error
+msgid "If checked, some messages have a delivery error."
+msgstr "如果勾选此项， 某些消息将会产生传递错误。"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.setup
+msgid ""
+"In order to configure your first appointment, go\n"
+"                        to the \"Calendar\" application in Odoo and create\n"
+"                        an online appointment."
+msgstr ""
+"为了配置您的第一次约会，请转\n"
+" 至 Odoo 中的“日历”应用程序并创建\n"
+" 在线约会。"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Individual Appointment Link"
+msgstr "个人约会链接"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_intro
+msgid "Introduction Message"
+msgstr "介绍消息"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_is_follower
+msgid "Is Follower"
+msgstr "关注者"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__is_published
+msgid "Is Published"
+msgstr "已发布"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__country_ids
+msgid ""
+"Keep empty to allow visitors from any country, otherwise you only allow "
+"visitors from selected countries"
+msgstr "请留空，从而允许来自任何国家的访客参加，否则只能允许来自所选国家的访客参加"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer____last_update
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question____last_update
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot____last_update
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type____last_update
+msgid "Last Modified on"
+msgstr "最后更改日"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__write_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__write_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__write_uid
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__write_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__write_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__write_date
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__write_date
+msgid "Last Updated on"
+msgstr "更新时间"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__location
+msgid "Location"
+msgstr "位置"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__location
+msgid "Location of the appointments"
+msgstr "约会地点"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Location:"
+msgstr "地点："
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "附件"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_has_error
+msgid "Message Delivery error"
+msgstr "消息传递错误"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_ids
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Messages"
+msgstr "消息"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Mon"
+msgstr "周一"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__1
+msgid "Monday"
+msgstr "周一"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_question__question_type__text
+msgid "Multi-line text"
+msgstr "多行文本"
+
+#. module: website_calendar
+#. openerp-web
+#: code:addons/website_calendar/static/src/js/website_calendar.editor.js:0
+#, python-format
+msgid "Name"
+msgstr "名称"
+
+#. module: website_calendar
+#. openerp-web
+#: code:addons/website_calendar/static/src/js/website_calendar.editor.js:0
+#, python-format
+msgid "New Appointment Type"
+msgstr "新约会类型"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.setup
+msgid "No appointments available!"
+msgstr "无可用约会！"
+
+#. module: website_calendar
+#: model_terms:ir.actions.act_window,help:website_calendar.calendar_event_action_reporting
+#: model_terms:ir.actions.act_window,help:website_calendar.website_calendar_report
+msgid "No data found"
+msgstr "空空如也"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_needaction_counter
+msgid "Number of Actions"
+msgstr "操作次数"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_has_error_counter
+msgid "Number of errors"
+msgstr "错误数"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_needaction_counter
+msgid "Number of messages which requires an action"
+msgstr "需要操作消息数量"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "递送错误消息数量"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__message_unread_counter
+msgid "Number of unread messages"
+msgstr "未读消息数量"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_event__appointment_type_id
+msgid "Online Appointment"
+msgstr "在线约会"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_calendar_appointment_answer
+msgid "Online Appointment : Answers"
+msgstr "在线预约：答案"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_calendar_appointment_question
+msgid "Online Appointment : Questions"
+msgstr "在线预约：问题"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_calendar_appointment_slot
+msgid "Online Appointment : Time Slot"
+msgstr "在线预约：时间段"
+
+#. module: website_calendar
+#: model:ir.model,name:website_calendar.model_calendar_appointment_type
+msgid "Online Appointment Type"
+msgstr "在线预约类型"
+
+#. module: website_calendar
+#: model:ir.actions.act_window,name:website_calendar.calendar_appointment_type_action
+#: model:ir.actions.act_window,name:website_calendar.calendar_event_action_reporting
+#: model:ir.module.category,name:website_calendar.module_category_calendar
+#: model:ir.ui.menu,name:website_calendar.appointment_type_menu
+#: model:ir.ui.menu,name:website_calendar.menu_schedule_report_all
+#: model:ir.ui.menu,name:website_calendar.website_appointment_type_menu
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_event_view_search_inherit_website_calendar
+msgid "Online Appointments"
+msgstr "在线约会"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__placeholder
+msgid "Placeholder"
+msgstr "占位符"
+
+#. module: website_calendar
+#: code:addons/website_calendar/models/calendar_appointment.py:0
+#, python-format
+msgid "Please enter a valid hour between 0:00 to 24:00 for your slots."
+msgstr "请为您的插槽在0:00 至 24:00之间输入有效时间。"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+msgid "Please, select another date."
+msgstr "请选择其他日期。"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__name
+msgid "Question"
+msgstr "疑问"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__question_type
+msgid "Question Type"
+msgstr "问题类型"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_answer__question_id
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__question_ids
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Questions"
+msgstr "问题"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_question__question_type__radio
+msgid "Radio (one answer)"
+msgstr "单选（一个答案）"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_type__assignation_method__random
+msgid "Random"
+msgstr "随机"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__reminder_ids
+msgid "Reminders"
+msgstr "提醒"
+
+#. module: website_calendar
+#: model:ir.ui.menu,name:website_calendar.menu_schedule_report
+msgid "Reporting"
+msgstr "报表"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__question_required
+msgid "Required Answer"
+msgstr "必要答案"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__country_ids
+msgid "Restrict Countries"
+msgstr "限制国家"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_kanban
+msgid "SCHEDULED"
+msgstr ""
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__is_seo_optimized
+msgid "SEO optimized"
+msgstr "SEO优化"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_has_sms_error
+msgid "SMS Delivery error"
+msgstr "短信发送错误"
+
+#. module: website_calendar
+#: model:calendar.alarm,name:website_calendar.calendar_alarm_data_1h_sms
+msgid "SMS Text Message - 1 Hours"
+msgstr ""
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Sat"
+msgstr "周六"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__6
+msgid "Saturday"
+msgstr "周六"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Schedule Appointment"
+msgstr "安排约会"
+
+#. module: website_calendar
+#: model:calendar.appointment.type,name:website_calendar.calendar_appointment
+msgid "Schedule a Demo"
+msgstr "安排演示"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid "Schedule an Appointment"
+msgstr "安排约会"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__min_schedule_hours
+msgid "Schedule before (hours)"
+msgstr "（小时）前安排"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__max_schedule_days
+msgid "Schedule not after (days)"
+msgstr "不晚于（天）安排"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Scheduling & Availability"
+msgstr "安排 & 可用性"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_question__sequence
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__sequence
+msgid "Sequence"
+msgstr "单号规则"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_question__question_type__char
+msgid "Single line text"
+msgstr "单行文本"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Slots"
+msgstr "插槽"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__hour
+msgid "Starting Hour"
+msgstr "开始时间"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "Starting Hour (0:00 - 24:00)"
+msgstr "开始时间 (0:00 - 24:00)"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Sun"
+msgstr "周日"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__7
+msgid "Sunday"
+msgstr "周日"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__website_url
+msgid "The full URL to access the document through the website."
+msgstr "通过网站访问文档的完整网址。"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Thu"
+msgstr "周四"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__4
+msgid "Thursday"
+msgstr "周四"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Time"
+msgstr "时间"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Time displayed in"
+msgstr "时间显示在"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_select_timezone
+msgid "Time zone:"
+msgstr "时区："
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid "Time<span class=\"chevron\"/>"
+msgstr "时间<span class=\"chevron\"/>"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__appointment_tz
+msgid "Timezone"
+msgstr "时区"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__appointment_tz
+msgid "Timezone where appointment take place"
+msgstr "约会的时区"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Tue"
+msgstr "周二"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__2
+msgid "Tuesday"
+msgstr "周二"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_unread
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__message_unread_counter
+msgid "Unread Messages Counter"
+msgstr "未读消息计数器"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.index
+msgid "View Availabilities <span class=\"fa fa-arrow-right\"/>"
+msgstr "查看可用性 <span class=\"fa fa-arrow-right\"/>"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_published
+msgid "Visible on current website"
+msgstr "在当前网站显示"
+
+#. module: website_calendar
+#: model_terms:calendar.appointment.type,message_confirmation:website_calendar.calendar_appointment
+msgid ""
+"We thank you for your interest in our products!<br>\n"
+"               Please make sure to arrive <strong>10 minutes</strong> before your appointment."
+msgstr ""
+"诚挚感谢您对我们的产品感兴趣！<br>\n"
+" 请确保约会前 10 分钟到达。<strong></strong>"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_message_ids
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_url
+msgid "Website URL"
+msgstr "网站网址"
+
+#. module: website_calendar
+#: model:ir.model.fields,help:website_calendar.field_calendar_appointment_type__website_message_ids
+msgid "Website communication history"
+msgstr "网上沟通记录"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_meta_description
+msgid "Website meta description"
+msgstr "网站原说明"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_meta_keywords
+msgid "Website meta keywords"
+msgstr "网站meta关键词"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_meta_title
+msgid "Website meta title"
+msgstr "网站标题meta元素"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_type__website_meta_og_img
+msgid "Website opengraph image"
+msgstr "网站opengraph图像"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "Wed"
+msgstr "周三"
+
+#. module: website_calendar
+#: model:ir.model.fields.selection,name:website_calendar.selection__calendar_appointment_slot__weekday__3
+msgid "Wednesday"
+msgstr "周三"
+
+#. module: website_calendar
+#: model:ir.model.fields,field_description:website_calendar.field_calendar_appointment_slot__weekday
+msgid "Week Day"
+msgstr "工作日"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "When:"
+msgstr "时间："
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.employee_select
+msgid "With:"
+msgstr "与："
+
+#. module: website_calendar
+#: model_terms:ir.actions.act_window,help:website_calendar.calendar_event_action_reporting
+#: model_terms:ir.actions.act_window,help:website_calendar.website_calendar_report
+msgid "You should schedule appointments to get statistics."
+msgstr "你应该安排约会来获得统计数据。"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Your Country"
+msgstr "您的国家"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Your Email"
+msgstr "你的EMail"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Your Name"
+msgstr "姓名"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "Your Phone"
+msgstr "你的电话"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "Your appointment is in less than"
+msgstr "您的约会时间少于"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.calendar_appointment_type_view_form
+msgid "e.g. Schedule a demo"
+msgstr "例如：安排演示"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "hour"
+msgstr "小时"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_validated
+msgid "hours from now!"
+msgstr "时间从现在开始！"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_form
+msgid "on"
+msgstr "在"
+
+#. module: website_calendar
+#: model_terms:ir.ui.view,arch_db:website_calendar.appointment_calendar
+msgid "timezone"
+msgstr "时区"

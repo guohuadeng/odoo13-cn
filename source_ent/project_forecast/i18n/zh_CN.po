@@ -1,0 +1,137 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* project_forecast
+# 
+# Translators:
+# Martin Trigaux, 2019
+# keecome <7017511@qq.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27 09:19+0000\n"
+"PO-Revision-Date: 2019-08-26 09:37+0000\n"
+"Last-Translator: Jeffery CHEN <jeffery9@gmail.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: project_forecast
+#: model_terms:ir.ui.view,arch_db:project_forecast.project_view_kanban_inherit_project_forecast
+msgid "<span class=\"o_label\">Planning</span>"
+msgstr ""
+
+#. module: project_forecast
+#: model_terms:ir.ui.view,arch_db:project_forecast.project_view_form_inherit_project_forecast
+msgid "<span>Planning</span>"
+msgstr ""
+
+#. module: project_forecast
+#: model:ir.model.fields,field_description:project_forecast.field_project_task__allow_forecast
+msgid "Allow Planning"
+msgstr ""
+
+#. module: project_forecast
+#: model:ir.ui.menu,name:project_forecast.project_forecast_group_by_user
+msgid "By Employee"
+msgstr "按员工"
+
+#. module: project_forecast
+#: model:ir.ui.menu,name:project_forecast.planning_menu_schedule_by_project
+#: model:ir.ui.menu,name:project_forecast.project_forecast_group_by_project
+msgid "By Project"
+msgstr "按项目"
+
+#. module: project_forecast
+#: model:ir.model.fields,help:project_forecast.field_project_project__allow_forecast
+#: model:ir.model.fields,help:project_forecast.field_project_task__allow_forecast
+msgid "Enable planning tasks on the project."
+msgstr ""
+
+#. module: project_forecast
+#: model:ir.model.constraint,message:project_forecast.constraint_planning_slot_project_required_if_task
+msgid "If the planning is linked to a task, the project must be set too."
+msgstr ""
+
+#. module: project_forecast
+#: model:ir.actions.act_window,name:project_forecast.project_forecast_action_from_project
+#: model:ir.model.fields,field_description:project_forecast.field_project_project__allow_forecast
+#: model:ir.ui.menu,name:project_forecast.project_forecast_menu
+msgid "Planning"
+msgstr "计划"
+
+#. module: project_forecast
+#: model:ir.actions.act_window,name:project_forecast.project_forecast_action_analysis
+#: model:ir.ui.menu,name:project_forecast.project_forecast_report_activities
+#: model_terms:ir.ui.view,arch_db:project_forecast.project_forecast_view_graph
+#: model_terms:ir.ui.view,arch_db:project_forecast.project_forecast_view_pivot
+msgid "Planning Analysis"
+msgstr ""
+
+#. module: project_forecast
+#: model:ir.actions.act_window,name:project_forecast.planning_action_schedule_by_project
+msgid "Planning Schedule"
+msgstr ""
+
+#. module: project_forecast
+#: model:ir.model,name:project_forecast.model_planning_slot
+msgid "Planning Shift"
+msgstr ""
+
+#. module: project_forecast
+#: model:ir.actions.act_window,name:project_forecast.project_forecast_action_by_user
+msgid "Planning by Employee"
+msgstr ""
+
+#. module: project_forecast
+#: model:ir.actions.act_window,name:project_forecast.project_forecast_action_by_project
+msgid "Planning by project"
+msgstr ""
+
+#. module: project_forecast
+#: model:ir.model,name:project_forecast.model_project_project
+#: model:ir.model.fields,field_description:project_forecast.field_planning_slot__project_id
+#: model_terms:ir.ui.view,arch_db:project_forecast.planning_slot_view_search
+msgid "Project"
+msgstr "项目"
+
+#. module: project_forecast
+#: model:ir.model,name:project_forecast.model_project_task
+#: model:ir.model.fields,field_description:project_forecast.field_planning_slot__task_id
+#: model_terms:ir.ui.view,arch_db:project_forecast.planning_slot_view_search
+msgid "Task"
+msgstr "任务"
+
+#. module: project_forecast
+#: model:ir.filters,name:project_forecast.ir_filter_forecast_time_by_month
+msgid "Time by month"
+msgstr "时间按月"
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project.py:0
+#, python-format
+msgid ""
+"You cannot delete a project containing plannings. You can either delete all "
+"the project's forecasts and then delete the project or simply deactivate the"
+" project."
+msgstr ""
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project.py:0
+#, python-format
+msgid ""
+"You cannot delete a task containing plannings. You can either delete all the"
+" task's plannings and then delete the task or simply deactivate the task."
+msgstr ""
+
+#. module: project_forecast
+#: code:addons/project_forecast/models/project_forecast.py:0
+#, python-format
+msgid "Your task is not in the selected project."
+msgstr "项目中暂无任务"

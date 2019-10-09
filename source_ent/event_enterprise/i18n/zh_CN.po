@@ -1,0 +1,35 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * event_enterprise
+# 
+# Translators:
+# Martin Trigaux, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~11.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-21 14:06+0000\n"
+"PO-Revision-Date: 2019-08-26 09:35+0000\n"
+"Last-Translator: Martin Trigaux, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: event_enterprise
+#: model_terms:ir.ui.view,arch_db:event_enterprise.event_registration_view_cohort
+msgid "Attendees"
+msgstr "与会者"
+
+#. module: event_enterprise
+#: model:ir.model,name:event_enterprise.model_event_registration
+msgid "Event Registration"
+msgstr "活动登记"
+
+#. module: event_enterprise
+#: model:ir.model.fields,field_description:event_enterprise.field_event_registration__event_begin_date
+msgid "Event Start Date"
+msgstr "活动开始日期"

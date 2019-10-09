@@ -1,0 +1,202 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* helpdesk_fsm
+# 
+# Translators:
+# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# guohuadeng <guohuadeng@hotmail.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# Felix Yuen <fyu@odoo.com>, 2019
+# Martin Trigaux, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-23 11:38+0000\n"
+"PO-Revision-Date: 2019-08-26 09:35+0000\n"
+"Last-Translator: Martin Trigaux, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,help:helpdesk_fsm.field_helpdesk_team__use_fsm
+#: model:ir.model.fields,help:helpdesk_fsm.field_helpdesk_ticket__use_fsm
+msgid "Convert tickets into Field Service tasks"
+msgstr ""
+
+#. module: helpdesk_fsm
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.create_fsm_task_view_form
+msgid "Create & View Task"
+msgstr ""
+
+#. module: helpdesk_fsm
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.create_fsm_task_view_form
+msgid "Create Task"
+msgstr "创建任务"
+
+#. module: helpdesk_fsm
+#: code:addons/helpdesk_fsm/models/helpdesk.py:0
+#: model:ir.model,name:helpdesk_fsm.model_helpdesk_create_fsm_task
+#, python-format
+msgid "Create a Field Service task"
+msgstr ""
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__partner_id
+msgid "Customer"
+msgstr "客户"
+
+#. module: helpdesk_fsm
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.create_fsm_task_view_form
+msgid "Discard"
+msgstr "丢弃"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: helpdesk_fsm
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.helpdesk_team_view_form
+msgid "Field Service"
+msgstr "现场服务"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_ticket__fsm_task_count
+msgid "Fsm Task Count"
+msgstr ""
+
+#. module: helpdesk_fsm
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.project_task_view_form
+msgid "Helpdesk"
+msgstr "服务台"
+
+#. module: helpdesk_fsm
+#: model:ir.model,name:helpdesk_fsm.model_helpdesk_team
+msgid "Helpdesk Team"
+msgstr "帮助中心团队"
+
+#. module: helpdesk_fsm
+#: model:ir.model,name:helpdesk_fsm.model_helpdesk_ticket
+msgid "Helpdesk Ticket"
+msgstr "帮助中心工单"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__id
+msgid "ID"
+msgstr "ID"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task____last_update
+msgid "Last Modified on"
+msgstr "最后更改日"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__write_date
+msgid "Last Updated on"
+msgstr "更新时间"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_team__use_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_ticket__use_fsm
+msgid "Onsite Interventions"
+msgstr ""
+
+#. module: helpdesk_fsm
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.helpdesk_team_view_form
+msgid "Plan Field Service tasks from tickets"
+msgstr ""
+
+#. module: helpdesk_fsm
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.helpdesk_ticket_view_form
+msgid "Plan Intervention"
+msgstr ""
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__project_id
+msgid "Project"
+msgstr "项目"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,help:helpdesk_fsm.field_helpdesk_create_fsm_task__project_id
+msgid "Project in which to create the task"
+msgstr ""
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__helpdesk_ticket_id
+msgid "Related ticket"
+msgstr ""
+
+#. module: helpdesk_fsm
+#: model:ir.model,name:helpdesk_fsm.model_project_task
+msgid "Task"
+msgstr "任务"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_ticket__fsm_task_ids
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.helpdesk_ticket_view_form
+msgid "Tasks"
+msgstr "任务"
+
+#. module: helpdesk_fsm
+#: code:addons/helpdesk_fsm/models/helpdesk.py:0
+#: code:addons/helpdesk_fsm/wizard/create_task.py:0
+#, python-format
+msgid "Tasks from Tickets"
+msgstr ""
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,help:helpdesk_fsm.field_helpdesk_ticket__fsm_task_ids
+msgid "Tasks generated from this ticket"
+msgstr ""
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_project_task__helpdesk_ticket_id
+msgid "Ticket"
+msgstr "门票"
+
+#. module: helpdesk_fsm
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.project_task_view_form
+msgid "Ticket from this task"
+msgstr ""
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,help:helpdesk_fsm.field_project_task__helpdesk_ticket_id
+msgid "Ticket this task was generated from"
+msgstr ""
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,help:helpdesk_fsm.field_helpdesk_create_fsm_task__partner_id
+msgid "Ticket's customer, will be linked to the task"
+msgstr ""
+
+#. module: helpdesk_fsm
+#: model_terms:ir.ui.view,arch_db:helpdesk_fsm.project_task_view_form
+msgid "Tickets"
+msgstr "服务单"
+
+#. module: helpdesk_fsm
+#: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_create_fsm_task__name
+msgid "Title"
+msgstr "标题"

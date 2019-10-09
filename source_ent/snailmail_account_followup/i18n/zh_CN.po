@@ -1,0 +1,192 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* snailmail_account_followup
+# 
+# Translators:
+# Martin Trigaux, 2019
+# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# waveyeung <waveyeung@qq.com>, 2019
+# bf2549c5415a9287249cba2b8a5823c7, 2019
+# guohuadeng <guohuadeng@hotmail.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-23 11:39+0000\n"
+"PO-Revision-Date: 2019-09-13 11:49+0000\n"
+"Last-Translator: inspur qiuguodong <qiuguodong@inspur.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: snailmail_account_followup
+#: code:addons/snailmail_account_followup/wizard/followup_send.py:0
+#, python-format
+msgid ""
+"%s of the selected partner(s) had an invalid address. The corresponding "
+"followups were not sent"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid ""
+"<i class=\"fa fa-info-circle\" role=\"img\" aria-label=\"Warning\" title=\"                         The letter will be sent using the IAP service from Odoo.&#10;Make sure you have enough credits on your account or proceed to a recharge.                         \"/>\n"
+"                        <br/>"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid ""
+"<span attrs=\"{'invisible': [('letters_qty', '&gt;', 1)]}\"> Sending this "
+"document will cost </span>"
+msgstr ""
+"<span attrs=\"{'invisible': [('letters_qty', '&gt;', 1)]}\"> 发送此文档将花费 "
+"</span>"
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid ""
+"<span class=\"text-danger\" attrs=\"{'invisible': [('letters_qty', '&gt;', 1)]}\">\n"
+"                                The recipient's address is incomplete.\n"
+"                            </span>"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid ""
+"<span class=\"text-danger\">\n"
+"                                    Some customer addresses are not complete.\n"
+"                                </span>"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid "Cancel"
+msgstr "取消日期"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: snailmail_account_followup
+#: model:ir.model,name:snailmail_account_followup.model_account_followup_followup_line
+msgid "Follow-up Criteria"
+msgstr "催款准则"
+
+#. module: snailmail_account_followup
+#: model:ir.model,name:snailmail_account_followup.model_account_followup_report
+msgid "Follow-up Report"
+msgstr "催款报告"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__id
+msgid "ID"
+msgstr "ID"
+
+#. module: snailmail_account_followup
+#: code:addons/snailmail_account_followup/wizard/followup_send.py:0
+#: code:addons/snailmail_account_followup/wizard/followup_send.py:0
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__invalid_partner_ids
+#, python-format
+msgid "Invalid Addresses"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__invalid_addresses
+msgid "Invalid Addresses Count"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send____last_update
+msgid "Last Modified on"
+msgstr "最后更改日"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__write_date
+msgid "Last Updated on"
+msgstr "更新时间"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__letters_qty
+msgid "Number of letters"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__partner_ids
+msgid "Recipients"
+msgstr "收件人"
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid "Send Follow-Ups"
+msgstr "发送催款"
+
+#. module: snailmail_account_followup
+#: model:ir.model,name:snailmail_account_followup.model_followup_send
+msgid "Send Follow-ups"
+msgstr ""
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_account_followup_followup_line__send_letter
+msgid "Send a Letter"
+msgstr "发送信"
+
+#. module: snailmail_account_followup
+#. openerp-web
+#: code:addons/snailmail_account_followup/static/src/xml/account_reports_followup_template.xml:0
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+#, python-format
+msgid "Send by Post"
+msgstr "透过邮递"
+
+#. module: snailmail_account_followup
+#: model:ir.actions.act_window,name:snailmail_account_followup.followup_send
+msgid "Send by post"
+msgstr "透过邮递"
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid "Sending these"
+msgstr "发送中"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,field_description:snailmail_account_followup.field_followup_send__snailmail_cost
+msgid "Stamp(s)"
+msgstr "邮戳(s)"
+
+#. module: snailmail_account_followup
+#: model:ir.model.fields,help:snailmail_account_followup.field_account_followup_followup_line__send_letter
+msgid "When processing, it will send a letter by Post"
+msgstr "处理时，通过邮政发送信件"
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid "customers"
+msgstr "客户"
+
+#. module: snailmail_account_followup
+#: model_terms:ir.ui.view,arch_db:snailmail_account_followup.followup_send_wizard_form
+msgid "documents will cost"
+msgstr "documents will cost"

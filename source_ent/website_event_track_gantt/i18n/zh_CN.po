@@ -1,0 +1,35 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_event_track_gantt
+# 
+# Translators:
+# Felix Yuen <fyu@odoo.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-26 08:05+0000\n"
+"PO-Revision-Date: 2019-08-26 09:39+0000\n"
+"Last-Translator: Felix Yuen <fyu@odoo.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: website_event_track_gantt
+#: model_terms:ir.ui.view,arch_db:website_event_track_gantt.view_event_track_gantt
+msgid "<strong>Proposed By: </strong>"
+msgstr "<strong>提议者：</strong>"
+
+#. module: website_event_track_gantt
+#: model_terms:ir.ui.view,arch_db:website_event_track_gantt.view_event_track_gantt
+msgid "<strong>Start Date: </strong>"
+msgstr "<strong>开始日: </strong>"
+
+#. module: website_event_track_gantt
+#: model_terms:ir.ui.view,arch_db:website_event_track_gantt.view_event_track_gantt
+msgid "Tracks"
+msgstr "踪迹"

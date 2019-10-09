@@ -1,0 +1,121 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_mobile
+# 
+# Translators:
+# Martin Trigaux, 2019
+# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# ChinaMaker <liuct@chinamaker.net>, 2019
+# xu xiaohu <xu.xiaohu@gmail.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# John An <johnxan@163.com>, 2019
+# Felix Yuen <fyu@odoo.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-26 08:05+0000\n"
+"PO-Revision-Date: 2019-08-26 09:38+0000\n"
+"Last-Translator: Felix Yuen <fyu@odoo.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: web_mobile
+#. openerp-web
+#: code:addons/web_mobile/static/src/xml/contact_sync.xml:0
+#, python-format
+msgid "Add"
+msgstr "添加"
+
+#. module: web_mobile
+#. openerp-web
+#: code:addons/web_mobile/static/src/xml/contact_sync.xml:0
+#, python-format
+msgid "Add to"
+msgstr "添加到"
+
+#. module: web_mobile
+#. openerp-web
+#: code:addons/web_mobile/static/src/xml/user_menu.xml:0
+#, python-format
+msgid "Add to Home Screen"
+msgstr "添加到首页"
+
+#. module: web_mobile
+#: model:ir.model,name:web_mobile.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设置"
+
+#. module: web_mobile
+#: model:ir.model,name:web_mobile.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: web_mobile
+#: model_terms:ir.ui.view,arch_db:web_mobile.res_config_settings_view_form
+msgid "Get notifications on Android and iOS application"
+msgstr "在安卓和iOS应用上获得提示"
+
+#. module: web_mobile
+#: model:ir.model.fields,field_description:web_mobile.field_res_partner__image_medium
+#: model:ir.model.fields,field_description:web_mobile.field_res_users__image_medium
+msgid "Medium-sized image"
+msgstr "中等尺寸图像"
+
+#. module: web_mobile
+#. openerp-web
+#: code:addons/web_mobile/static/src/xml/contact_sync.xml:0
+#, python-format
+msgid "Mobile"
+msgstr "手机"
+
+#. module: web_mobile
+#. openerp-web
+#: code:addons/web_mobile/static/src/js/user_menu.js:0
+#, python-format
+msgid "No shortcut for Home Menu"
+msgstr "没有首页菜单快捷方式"
+
+#. module: web_mobile
+#: model_terms:ir.ui.view,arch_db:web_mobile.res_config_settings_view_form
+msgid "Odoo Cloud Notification (OCN)"
+msgstr "Odoo云通知（OCN）"
+
+#. module: web_mobile
+#. openerp-web
+#: code:addons/web_mobile/static/src/xml/settings_dashboard.xml:0
+#, python-format
+msgid "On Apple Store"
+msgstr "在苹果应用商店"
+
+#. module: web_mobile
+#. openerp-web
+#: code:addons/web_mobile/static/src/xml/settings_dashboard.xml:0
+#, python-format
+msgid "On Google Play"
+msgstr "在谷歌应用市场"
+
+#. module: web_mobile
+#: model:ir.model.fields,field_description:web_mobile.field_res_config_settings__module_ocn_client
+msgid "Push Notifications"
+msgstr "推送通知"
+
+#. module: web_mobile
+#. openerp-web
+#: code:addons/web_mobile/static/src/xml/barcode_fields.xml:0
+#, python-format
+msgid "Scan barcode"
+msgstr "扫描条码"
+
+#. module: web_mobile
+#. openerp-web
+#: code:addons/web_mobile/static/src/xml/user_menu.xml:0
+#, python-format
+msgid "Switch/Add Account"
+msgstr "切换/添加账户"

@@ -1,0 +1,136 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_helpdesk_forum
+# 
+# Translators:
+# Martin Trigaux, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# 湘子 南 <1360857908@qq.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.4+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-12 11:29+0000\n"
+"PO-Revision-Date: 2019-08-26 09:39+0000\n"
+"Last-Translator: inspur qiuguodong <qiuguodong@inspur.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.forum_posts_page
+msgid ""
+"<i class=\"fa fa-check-circle oe_answer_true\" role=\"img\" aria-"
+"label=\"Question has accepted answer\"/>"
+msgstr ""
+"<i class=\"fa fa-check-circle oe_answer_true\" role=\"img\" aria-"
+"label=\"Question has accepted answer\"/>"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.forum_posts_page
+msgid "<span>By </span>"
+msgstr "<span>作者 </span>"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.forum_posts_page
+msgid "Click here to view more result..."
+msgstr "点击查看更多结果..."
+
+#. module: website_helpdesk_forum
+#: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_ticket__forum_post_id
+msgid "Forum Post"
+msgstr "论坛帖子"
+
+#. module: website_helpdesk_forum
+#: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_ticket__use_website_helpdesk_forum
+msgid "Help Center Active"
+msgstr "帮助中心激活"
+
+#. module: website_helpdesk_forum
+#: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_team__forum_id
+msgid "Help Center Forum"
+msgstr "帮助中心论坛"
+
+#. module: website_helpdesk_forum
+#: model:ir.model.fields,field_description:website_helpdesk_forum.field_helpdesk_team__forum_url
+msgid "Help Center Forum URL"
+msgstr "帮助中心论坛URL"
+
+#. module: website_helpdesk_forum
+#: code:addons/website_helpdesk_forum/models/helpdesk.py:63
+#: code:addons/website_helpdesk_forum/models/helpdesk.py:84
+#, python-format
+msgid "Help Center not active for this team."
+msgstr "这个团队的帮助中心不活跃。"
+
+#. module: website_helpdesk_forum
+#: model:ir.model,name:website_helpdesk_forum.model_helpdesk_team
+msgid "Helpdesk Team"
+msgstr "帮助中心团队"
+
+#. module: website_helpdesk_forum
+#: model:ir.model,name:website_helpdesk_forum.model_helpdesk_ticket
+msgid "Helpdesk Ticket"
+msgstr "帮助中心工单"
+
+#. module: website_helpdesk_forum
+#: code:addons/website_helpdesk_forum/models/helpdesk.py:86
+#, python-format
+msgid "No post associated to this ticket."
+msgstr "没有与这张票相关的帖子。"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.website_helpdesk_forum_team_page
+msgid "No question yet."
+msgstr "还没有问题."
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.helpdesk_ticket_view_form_inherit_website_helpdesk_forum
+msgid "Open Post"
+msgstr "打开帖子"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.website_helpdesk_forum_team_page
+msgid "Popular Questions"
+msgstr "流行问题"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.forum_posts_page
+msgid "Question"
+msgstr "疑问"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.forum_posts_page
+msgid "Question has accepted answer"
+msgstr "问题已接受回复"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.helpdesk_ticket_view_form_inherit_website_helpdesk_forum
+msgid "Share on the Forum"
+msgstr "在论坛分享"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.helpdesk_team_view_form_inherit_website_helpdesk_forum
+msgid "The related forum is:<br/>"
+msgstr "相关论坛为:<br/>"
+
+#. module: website_helpdesk_forum
+#: code:addons/website_helpdesk_forum/models/helpdesk.py:77
+#, python-format
+msgid "Ticket has been shared on the %s forum."
+msgstr "工单已在 %s 论坛上分享。"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.forum_posts_page
+msgid "View"
+msgstr "视图"
+
+#. module: website_helpdesk_forum
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_forum.helpdesk_team_view_form_inherit_website_helpdesk_forum
+msgid "View the Help Center:<br/>"
+msgstr "查看帮助中心:<br/>"

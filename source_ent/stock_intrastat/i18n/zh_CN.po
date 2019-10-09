@@ -1,0 +1,42 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * stock_intrastat
+# 
+# Translators:
+# Martin Trigaux, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~11.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-18 10:05+0000\n"
+"PO-Revision-Date: 2019-08-26 09:38+0000\n"
+"Last-Translator: inspur qiuguodong <qiuguodong@inspur.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: stock_intrastat
+#: model:ir.model.fields,field_description:stock_intrastat.field_stock_warehouse__company_country_id
+msgid "Country"
+msgstr "国家/地区"
+
+#. module: stock_intrastat
+#: model:ir.model,name:stock_intrastat.model_account_intrastat_report
+msgid "Intrastat Report"
+msgstr "国际贸易统计报告"
+
+#. module: stock_intrastat
+#: model:ir.model.fields,field_description:stock_intrastat.field_stock_warehouse__intrastat_region_id
+msgid "Intrastat region"
+msgstr "国家地区"
+
+#. module: stock_intrastat
+#: model:ir.model,name:stock_intrastat.model_stock_warehouse
+msgid "Warehouse"
+msgstr "仓库"

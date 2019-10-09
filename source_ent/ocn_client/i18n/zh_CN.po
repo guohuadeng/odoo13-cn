@@ -1,0 +1,56 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ocn_client
+# 
+# Translators:
+# Martin Trigaux, 2019
+# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# ChinaMaker <liuct@chinamaker.net>, 2019
+# xu xiaohu <xu.xiaohu@gmail.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.4+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-12 11:29+0000\n"
+"PO-Revision-Date: 2019-08-26 09:37+0000\n"
+"Last-Translator: inspur qiuguodong <qiuguodong@inspur.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: ocn_client
+#: model:ir.model,name:ocn_client.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设置"
+
+#. module: ocn_client
+#: model:ir.model,name:ocn_client.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: ocn_client
+#: model:ir.model,name:ocn_client.model_mail_thread
+msgid "Email Thread"
+msgstr "EMail线程"
+
+#. module: ocn_client
+#: model:ir.model,name:ocn_client.model_ir_http
+msgid "HTTP Routing"
+msgstr "HTTP 路由"
+
+#. module: ocn_client
+#: model:ir.model.fields,field_description:ocn_client.field_res_partner__ocn_token
+#: model:ir.model.fields,field_description:ocn_client.field_res_users__ocn_token
+msgid "OCN Token"
+msgstr "OCN令牌"
+
+#. module: ocn_client
+#: model:ir.model.fields,help:ocn_client.field_res_partner__ocn_token
+#: model:ir.model.fields,help:ocn_client.field_res_users__ocn_token
+msgid "Used for sending notification to registered devices"
+msgstr "给已注册设备发送提示"

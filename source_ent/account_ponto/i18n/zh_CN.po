@@ -1,0 +1,123 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_ponto
+# 
+# Translators:
+# Martin Trigaux, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# neter ji <jifuyi@qq.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-23 11:38+0000\n"
+"PO-Revision-Date: 2019-08-26 09:34+0000\n"
+"Last-Translator: inspur qiuguodong <qiuguodong@inspur.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Account"
+msgstr "账户"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "An error occurred during online synchronization"
+msgstr "在线同步期间发生错误"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Fetching transactions took too much time."
+msgstr ""
+
+#. module: account_ponto
+#: model:ir.model,name:account_ponto.model_account_online_journal
+msgid "Interface for Online Account Journal"
+msgstr "在线会计账簿接口"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Invalid access token"
+msgstr ""
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Link your Ponto account"
+msgstr ""
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#: model:ir.model.fields.selection,name:account_ponto.selection__account_online_provider__provider_type__ponto
+#, python-format
+msgid "Ponto"
+msgstr ""
+
+#. module: account_ponto
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_journal__ponto_last_synchronization_identifier
+msgid "Ponto Last Synchronization Identifier"
+msgstr ""
+
+#. module: account_ponto
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_provider__ponto_token
+msgid "Ponto Token"
+msgstr ""
+
+#. module: account_ponto
+#: model:ir.model.fields,field_description:account_ponto.field_account_online_provider__provider_type
+msgid "Provider Type"
+msgstr "供应商类型"
+
+#. module: account_ponto
+#: model:ir.model,name:account_ponto.model_account_online_provider
+msgid "Provider for online account synchronization"
+msgstr "在线帐户同步的供应商"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Server not reachable, please try again later"
+msgstr "服务器无法访问，请稍后再试"
+
+#. module: account_ponto
+#: model:ir.model.fields,help:account_ponto.field_account_online_provider__ponto_token
+msgid "Technical field that contains the ponto token"
+msgstr ""
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "The following error happened during the synchronization: %s"
+msgstr "在同步期间发生以下错误：%s"
+
+#. module: account_ponto
+#: code:addons/account_ponto/models/ponto.py:0
+#, python-format
+msgid "Timeout: the server did not reply within 60s"
+msgstr "超时：服务器在60秒内没有响应"
+
+#. module: account_ponto
+#: model_terms:ir.ui.view,arch_db:account_ponto.ponto_online_provider_account_form_view
+msgid "Update Accounts"
+msgstr ""
+
+#. module: account_ponto
+#: model:ir.model,name:account_ponto.model_account_online_wizard
+msgid "Wizard to link synchronized accounts to journal"
+msgstr "关联同步账户到日记账向导"
+
+#. module: account_ponto
+#: model:ir.model.fields,help:account_ponto.field_account_online_journal__ponto_last_synchronization_identifier
+msgid "id of ponto synchronization"
+msgstr ""

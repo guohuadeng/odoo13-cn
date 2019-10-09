@@ -1,0 +1,97 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_plaid
+# 
+# Translators:
+# Martin Trigaux, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# neter ji <jifuyi@qq.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-26 08:04+0000\n"
+"PO-Revision-Date: 2019-08-26 09:34+0000\n"
+"Last-Translator: inspur qiuguodong <qiuguodong@inspur.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_plaid
+#: model:ir.model.fields,help:account_plaid.field_account_online_provider__plaid_error_type
+msgid "Additional information on error"
+msgstr "附加错误信息"
+
+#. module: account_plaid
+#: code:addons/account_plaid/models/plaid.py:0
+#, python-format
+msgid "Get %s status code for call to %s. Content message: %s"
+msgstr "获取 %s 状态代码以调用 %s 。内容消息：%s"
+
+#. module: account_plaid
+#: model:ir.model,name:account_plaid.model_account_online_journal
+msgid "Interface for Online Account Journal"
+msgstr "在线会计账簿接口"
+
+#. module: account_plaid
+#: code:addons/account_plaid/models/plaid.py:0
+#, python-format
+msgid "Only an Accountant is allowed to perform this operation."
+msgstr "只有会计人员允许执行此操作"
+
+#. module: account_plaid
+#: model:ir.model.fields.selection,name:account_plaid.selection__account_online_provider__provider_type__plaid
+msgid "Plaid"
+msgstr "方格"
+
+#. module: account_plaid
+#: model:ir.model.fields,field_description:account_plaid.field_account_online_provider__plaid_error_type
+msgid "Plaid Error Type"
+msgstr "Plaid错误类型"
+
+#. module: account_plaid
+#: model:ir.model.fields,field_description:account_plaid.field_account_online_provider__plaid_item_id
+msgid "Plaid Item"
+msgstr "Plaid项"
+
+#. module: account_plaid
+#: model:ir.model.fields,field_description:account_plaid.field_account_online_provider__provider_type
+msgid "Provider Type"
+msgstr "供应商类型"
+
+#. module: account_plaid
+#: model:ir.model,name:account_plaid.model_account_online_provider
+msgid "Provider for online account synchronization"
+msgstr "在线帐户同步的供应商"
+
+#. module: account_plaid
+#: code:addons/account_plaid/models/plaid.py:0
+#, python-format
+msgid ""
+"There was en error with Plaid Services!\n"
+"{message: %s,\n"
+"error code: %s,\n"
+"error type: %s,\n"
+"request id: %s}"
+msgstr ""
+"有一个Plaid服务错误！\n"
+"{信息：%s，\n"
+"错误码：%s，\n"
+"错误类型：%s，\n"
+"请求ID：%s}"
+
+#. module: account_plaid
+#: code:addons/account_plaid/models/plaid.py:0
+#, python-format
+msgid "Timeout: the server did not reply within 60s"
+msgstr "超时：服务器在60秒内没有响应"
+
+#. module: account_plaid
+#: model:ir.model.fields,help:account_plaid.field_account_online_provider__plaid_item_id
+msgid "item id in plaid database"
+msgstr "plaid数据库记录id"

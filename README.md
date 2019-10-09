@@ -5,6 +5,9 @@ odoo13 在功能、性能、界面都有极大的更新，在可预见的将来�
 广州尚鹏是 odoo 官方合作伙伴，亦可审核 Transifex 上的中文化翻译。
 为推动 odoo 中文化的发展，同时为保证自有商业客户的正常使用，建立此开源代码仓库repo进行 odoo13 中文化翻译。
 
+## 增加 odoo13 企业版翻译
+/source_ent
+
 ## 翻译规范
 我们使用 odoo 对标 SAP 系统，故翻译上主要也参考 SAP。其次参考 MRPII 规范。在ref目录有相关文档。
 1. SAP 术语
@@ -38,10 +41,12 @@ po下载与上传： https://www.transifex.com/odoo/odoo-13/language/zh_CN/
 ```
 pip3 install transifex-client -i https://mirrors.ustc.edu.cn/pypi/web/simple
 ```
-2. 取最新的 po，先进入 /source 目录 
+2. 取最新的 po，先进入 /source 目录，设置好 python2 路径，因为tx支持问题，故暂时只用 python 2.7 处理
 ```
-cd source
-SET PATH=d:\odoo10\runtime\python;%PATH%
+cd odoo13-cn\source
+SET PATH=d:\odoo10\runtime\python;d:\odoo10\runtime\python\scripts;%PATH%
+tx pull -l zh_CN
+cd ..\source_ent
 tx pull -l zh_CN
 ```
 3. 查看下载的 po 文件并更改，在 ./source 目录下，即可看到相关的 odoo 翻译文件

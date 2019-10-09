@@ -1,0 +1,590 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_subscription_dashboard
+# 
+# Translators:
+# Martin Trigaux, 2019
+# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# John An <johnxan@163.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27 09:19+0000\n"
+"PO-Revision-Date: 2019-08-26 09:38+0000\n"
+"Last-Translator: John An <johnxan@163.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "# of Subscriptions"
+msgstr "# 订阅"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "% Complete (success)"
+msgstr "% 完成(成功)"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "1 month ago"
+msgstr "1个月前"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "12 months ago"
+msgstr "12个月前"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "3 months ago"
+msgstr "3个月前"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "30 Days Ago"
+msgstr "30天前"
+
+#. module: sale_subscription_dashboard
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.move_line_entries_report_search
+msgid "Active invoices"
+msgstr "有效发票"
+
+#. module: sale_subscription_dashboard
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Annual Run-Rate"
+msgstr "年运行率"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "Churned MRR"
+msgstr "流失MRR"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Current"
+msgstr "当前"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Current MRR"
+msgstr "当前MRR"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "Current Value: "
+msgstr "当前值"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Detailed Analysis"
+msgstr "详细分析"
+
+#. module: sale_subscription_dashboard
+#: model:ir.actions.client,name:sale_subscription_dashboard.action_subscription_dashboard_report_detailed
+msgid "Detailed KPI"
+msgstr "详细的KPI"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "Down MRR"
+msgstr "首付MRR"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "Expansion MRR"
+msgstr "扩张MRR"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Exponential"
+msgstr "指数"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Filter on categories"
+msgstr "在分类上筛选"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Filter on companies"
+msgstr "根据公司过滤"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Filter on sales team"
+msgstr "在销售团队上筛选"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Filter on subscriptions"
+msgstr "筛选订阅"
+
+#. module: sale_subscription_dashboard
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Forecasted Annual MRR Growth"
+msgstr "预测年度月MRR增长"
+
+#. module: sale_subscription_dashboard
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Forecasted Annual Subscriptions Growth"
+msgstr "预测的年度订阅增长"
+
+#. module: sale_subscription_dashboard
+#: model:ir.actions.client,name:sale_subscription_dashboard.action_subscription_dashboard_report_forecast
+msgid "Forecasted KPIs"
+msgstr "预测指标"
+
+#. module: sale_subscription_dashboard
+#: model_terms:ir.actions.act_window,help:sale_subscription_dashboard.action_move_line_entries_report
+msgid ""
+"From this view, have an analysis of your different invoice line entries."
+msgstr "从这个图表，有不同的发票行输入的分析。"
+
+#. module: sale_subscription_dashboard
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.move_line_entries_report_search
+msgid "Group By"
+msgstr "分组"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Growth Type:"
+msgstr "成长类型"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "In"
+msgstr "在"
+
+#. module: sale_subscription_dashboard
+#: model:ir.actions.act_window,name:sale_subscription_dashboard.action_move_line_entries_report
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.move_line_entries_report_pivot
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.move_line_entries_report_search
+msgid "Invoice Line Entries Analysis"
+msgstr "发票行分录分析"
+
+#. module: sale_subscription_dashboard
+#: code:addons/sale_subscription_dashboard/controllers/revenue_kpis_dashboard.py:0
+#, python-format
+msgid ""
+"It makes no sense to sum MRR of different currencies. Please select "
+"companies with the same currency."
+msgstr "根据不同货币汇总 MRP 没有意义。请使用同一货币的公司进行汇总。"
+
+#. module: sale_subscription_dashboard
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Lifetime Value"
+msgstr "终生价值"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Linear"
+msgstr "线性"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "List of NRR invoices"
+msgstr "非经常性收入发票"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "List of subscription modifications"
+msgstr "订阅修改列表"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Loading..."
+msgstr "正在加载..."
+
+#. module: sale_subscription_dashboard
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Logo Churn"
+msgstr "商标滥用"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "MRR :"
+msgstr "MRR :"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "MRR Growth"
+msgstr "MRR增长"
+
+#. module: sale_subscription_dashboard
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Monthly Recurring Revenue"
+msgstr "每月经常性收入"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Monthly Recurring Revenue Growth"
+msgstr "每月经常性收入增长"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Months"
+msgstr "月"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "NRR"
+msgstr "NRR"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "NRR :"
+msgstr "NRR :"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "Net New MRR"
+msgstr "净新MRR"
+
+#. module: sale_subscription_dashboard
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Net Revenue"
+msgstr "净收入"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "New MRR"
+msgstr "新MRR"
+
+#. module: sale_subscription_dashboard
+#: code:addons/sale_subscription_dashboard/controllers/revenue_kpis_dashboard.py:0
+#, python-format
+msgid "No company selected."
+msgstr "未选择公司。"
+
+#. module: sale_subscription_dashboard
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Non-Recurring Revenue"
+msgstr "非经常性收入"
+
+#. module: sale_subscription_dashboard
+#: model_terms:ir.ui.view,arch_db:sale_subscription_dashboard.move_line_entries_report_search
+msgid "OUT invoices"
+msgstr "开出发票"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Partner"
+msgstr "业务伙伴"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Pick a salesman and a period"
+msgstr "选择一个销售员和期间"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Plan"
+msgstr "安排"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Previous MRR"
+msgstr "前一个MRR"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Projection Time:"
+msgstr "项目时间"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Recurring Revenue Dashboard for"
+msgstr "经常性收入仪表板"
+
+#. module: sale_subscription_dashboard
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Revenue Churn"
+msgstr "收入流失"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Revenue Churn:"
+msgstr "收入流失"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Revenue Growth:"
+msgstr "收入增长"
+
+#. module: sale_subscription_dashboard
+#: model:ir.actions.client,name:sale_subscription_dashboard.action_subscription_dashboard_report_main
+#: model:ir.ui.menu,name:sale_subscription_dashboard.menu_action_subscription_dashboard_report_main
+msgid "Revenue KPIs"
+msgstr "收入指标"
+
+#. module: sale_subscription_dashboard
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#, python-format
+msgid "Revenue per Subscription"
+msgstr "每份订阅的收入"
+
+#. module: sale_subscription_dashboard
+#: model:ir.actions.client,name:sale_subscription_dashboard.action_subscription_dashboard_report_salesman
+#: model:ir.ui.menu,name:sale_subscription_dashboard.menu_action_subscription_dashboard_report_salesman
+msgid "Salesperson Dashboard"
+msgstr "销售仪表板"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Sample data"
+msgstr "示例数据"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "Select at least one company."
+msgstr "至少选择一个公司。"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Starting MRR:"
+msgstr "MRR开始:"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Starting Subscription:"
+msgstr "开始订阅："
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Subscription"
+msgstr "订阅"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/controllers/stat_types.py:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Subscriptions"
+msgstr "订阅"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Subscriptions Churn:"
+msgstr "订阅流失："
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Subscriptions Growth:"
+msgstr "订阅增长："
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Template"
+msgstr "模板"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "There is no NRR invoice during this period."
+msgstr "在此期间没有NRR发票。"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "There is no subscription modification during this period."
+msgstr "此期间没有订阅修改。"
+
+#. module: sale_subscription_dashboard
+#: code:addons/sale_subscription_dashboard/controllers/revenue_kpis_dashboard.py:0
+#, python-format
+msgid "Unknown error"
+msgstr "未知错误"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "Update"
+msgstr "更新"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#: code:addons/sale_subscription_dashboard/static/src/js/sale_subscription_dashboard.js:0
+#, python-format
+msgid "Warning"
+msgstr "警告"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "churn, your MRR will be"
+msgstr "流失，你的MMR会"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "churn, your subscription base will be"
+msgstr "客户流失，您的合同基础将"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "growth and"
+msgstr "增长和"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "months with"
+msgstr "月份和"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "subscription growth and"
+msgstr "订阅增长和"
+
+#. module: sale_subscription_dashboard
+#. openerp-web
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#: code:addons/sale_subscription_dashboard/static/src/xml/sale_subscription_dashboard.xml:0
+#, python-format
+msgid "to"
+msgstr "到"

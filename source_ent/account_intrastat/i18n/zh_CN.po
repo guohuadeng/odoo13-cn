@@ -1,0 +1,375 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_intrastat
+# 
+# Translators:
+# Jeanphy <hzh0292@qq.com>, 2019
+# Martin Trigaux, 2019
+# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# v2exerer <9010446@qq.com>, 2019
+# 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
+# bf2549c5415a9287249cba2b8a5823c7, 2019
+# keecome <7017511@qq.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-26 08:04+0000\n"
+"PO-Revision-Date: 2019-08-26 09:34+0000\n"
+"Last-Translator: inspur qiuguodong <qiuguodong@inspur.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_intrastat
+#: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_intrastat_type
+msgid ""
+"<span class=\"fa fa-filter\"/>\n"
+"                Types:"
+msgstr ""
+"<span class=\"fa fa-filter\"/>\n"
+"                类型:"
+
+#. module: account_intrastat
+#: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_intrastat_extended
+msgid "<span class=\"fa fa-filter\"/> Options:"
+msgstr "<span class=\"fa fa-filter\"/> 选项:"
+
+#. module: account_intrastat
+#: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_vat
+msgid "<span class=\"fa fa-filter\"/> Partners:"
+msgstr "<span class=\"fa fa-filter\"/> 业务伙伴:"
+
+#. module: account_intrastat
+#: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_vat
+msgid "All"
+msgstr "全部"
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_intrastat_report.py:0
+#, python-format
+msgid "Arrival"
+msgstr "到达"
+
+#. module: account_intrastat
+#: model_terms:ir.ui.view,arch_db:account_intrastat.invoice_form_inherit_account_intrastat
+msgid "Arrival country"
+msgstr "抵达国家"
+
+#. module: account_intrastat
+#: model_terms:ir.ui.view,arch_db:account_intrastat.view_intrastat_code_search
+msgid "By country"
+msgstr "从国家"
+
+#. module: account_intrastat
+#: model_terms:ir.ui.view,arch_db:account_intrastat.view_intrastat_code_search
+msgid "By type"
+msgstr "按类型"
+
+#. module: account_intrastat
+#: model:ir.model.fields.selection,name:account_intrastat.selection__account_intrastat_code__type__commodity
+#: model_terms:ir.ui.view,arch_db:account_intrastat.view_intrastat_code_search
+msgid "Commodity"
+msgstr "优惠"
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_intrastat_report.py:0
+#: model:ir.model.fields,field_description:account_intrastat.field_product_category__intrastat_id
+#: model:ir.model.fields,field_description:account_intrastat.field_product_product__intrastat_id
+#: model:ir.model.fields,field_description:account_intrastat.field_product_template__intrastat_id
+#, python-format
+msgid "Commodity Code"
+msgstr "优惠码"
+
+#. module: account_intrastat
+#: model:ir.model,name:account_intrastat.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. module: account_intrastat
+#: model:ir.model.fields,field_description:account_intrastat.field_res_config_settings__company_country_id
+msgid "Company country"
+msgstr "公司所属的国家"
+
+#. module: account_intrastat
+#: model:ir.model,name:account_intrastat.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设置"
+
+#. module: account_intrastat
+#: model:ir.model,name:account_intrastat.model_res_country
+msgid "Country"
+msgstr "国家/地区"
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_intrastat_report.py:0
+#: code:addons/account_intrastat/models/account_sales_report.py:0
+#, python-format
+msgid "Country Code"
+msgstr "国家/地区代码"
+
+#. module: account_intrastat
+#: model:ir.model.fields,field_description:account_intrastat.field_product_product__intrastat_origin_country_id
+#: model:ir.model.fields,field_description:account_intrastat.field_product_template__intrastat_origin_country_id
+msgid "Country of Origin"
+msgstr ""
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_intrastat_report.py:0
+#, python-format
+msgid "Date"
+msgstr "日期"
+
+#. module: account_intrastat
+#: model:ir.model.fields,field_description:account_intrastat.field_res_company__intrastat_transport_mode_id
+msgid "Default Transport Mode"
+msgstr "默认交易模式"
+
+#. module: account_intrastat
+#: model:ir.model.fields,field_description:account_intrastat.field_res_company__incoterm_id
+#: model:ir.model.fields,field_description:account_intrastat.field_res_config_settings__incoterm_id
+msgid "Default incoterm for Intrastat"
+msgstr "默认的国际贸易术语"
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_intrastat_report.py:0
+#, python-format
+msgid "Dispatch"
+msgstr "派遣"
+
+#. module: account_intrastat
+#: model:ir.model.fields,field_description:account_intrastat.field_account_intrastat_report__display_name
+#: model:ir.model.fields,field_description:account_intrastat.field_account_sales_report__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_sales_report.py:0
+#: model:ir.actions.client,name:account_intrastat.action_account_report_sales
+#: model:ir.model,name:account_intrastat.model_account_sales_report
+#: model:ir.ui.menu,name:account_intrastat.menu_action_account_report_sales
+#, python-format
+msgid "EC Sales List"
+msgstr "EC销售明细行"
+
+#. module: account_intrastat
+#: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_intrastat_extended
+msgid "Extended"
+msgstr "扩大的"
+
+#. module: account_intrastat
+#: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_intrastat_extended
+msgid "Extended Mode"
+msgstr "扩展模式"
+
+#. module: account_intrastat
+#: model:ir.model.fields,field_description:account_intrastat.field_account_intrastat_report__id
+#: model:ir.model.fields,field_description:account_intrastat.field_account_sales_report__id
+msgid "ID"
+msgstr "ID"
+
+#. module: account_intrastat
+#: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_vat
+msgid "Include VAT"
+msgstr ""
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_intrastat_report.py:0
+#, python-format
+msgid "Incoterm Code"
+msgstr "贸易代码"
+
+#. module: account_intrastat
+#: model:ir.model.fields,help:account_intrastat.field_res_company__incoterm_id
+#: model:ir.model.fields,help:account_intrastat.field_res_config_settings__incoterm_id
+msgid ""
+"International Commercial Terms are a series of predefined commercial terms "
+"used in international transactions."
+msgstr "国际商业条款是一系列用于国际交易的事先定义的商业条款。"
+
+#. module: account_intrastat
+#: model:ir.model.fields,field_description:account_intrastat.field_account_move_line__intrastat_transaction_id
+#: model_terms:ir.ui.view,arch_db:account_intrastat.invoice_form_inherit_account_intrastat
+#: model_terms:ir.ui.view,arch_db:account_intrastat.product_category_form_view_inherit_account_intrastat
+#: model_terms:ir.ui.view,arch_db:account_intrastat.product_template_form_view_inherit_account_intrastat
+msgid "Intrastat"
+msgstr "国际贸易统计组织"
+
+#. module: account_intrastat
+#: model:ir.actions.act_window,name:account_intrastat.action_report_intrastat_code_tree
+#: model:ir.model,name:account_intrastat.model_account_intrastat_code
+#: model:ir.ui.menu,name:account_intrastat.menu_report_intrastat_code
+#: model_terms:ir.ui.view,arch_db:account_intrastat.view_report_intrastat_code_form
+msgid "Intrastat Code"
+msgstr "国际间统计组织代码"
+
+#. module: account_intrastat
+#: model:ir.model.fields,field_description:account_intrastat.field_account_move__intrastat_country_id
+msgid "Intrastat Country"
+msgstr "欧盟内部国家"
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_intrastat_report.py:0
+#: model:ir.actions.client,name:account_intrastat.action_account_report_intrastat
+#: model:ir.model,name:account_intrastat.model_account_intrastat_report
+#: model:ir.ui.menu,name:account_intrastat.menu_action_account_report_intrastat
+#, python-format
+msgid "Intrastat Report"
+msgstr "国际贸易统计报告"
+
+#. module: account_intrastat
+#: model:ir.model.fields,field_description:account_intrastat.field_account_move__intrastat_transport_mode_id
+msgid "Intrastat Transport Mode"
+msgstr "内部贸易模式"
+
+#. module: account_intrastat
+#: model_terms:ir.ui.view,arch_db:account_intrastat.view_report_intrastat_code_tree
+msgid "Intrastat code"
+msgstr "国际间组织代码"
+
+#. module: account_intrastat
+#: model:ir.model.fields,help:account_intrastat.field_account_move__intrastat_country_id
+msgid "Intrastat country, arrival for sales, dispatch for purchases"
+msgstr "欧盟内部的国家，销售交付，采购计划"
+
+#. module: account_intrastat
+#: model:ir.model.fields,field_description:account_intrastat.field_res_country__intrastat
+msgid "Intrastat member"
+msgstr "国际贸易统计组织成员"
+
+#. module: account_intrastat
+#: model:ir.model.fields,field_description:account_intrastat.field_res_company__intrastat_region_id
+msgid "Intrastat region"
+msgstr "国家地区"
+
+#. module: account_intrastat
+#: model:ir.model,name:account_intrastat.model_account_move
+msgid "Journal Entries"
+msgstr "日记账分录"
+
+#. module: account_intrastat
+#: model:ir.model,name:account_intrastat.model_account_move_line
+msgid "Journal Item"
+msgstr "日记账项"
+
+#. module: account_intrastat
+#: model:ir.model.fields,field_description:account_intrastat.field_account_intrastat_report____last_update
+#: model:ir.model.fields,field_description:account_intrastat.field_account_sales_report____last_update
+msgid "Last Modified on"
+msgstr "最后更改日"
+
+#. module: account_intrastat
+#: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_vat
+msgid "Only with VAT numbers"
+msgstr ""
+
+#. module: account_intrastat
+#: model:ir.model,name:account_intrastat.model_product_category
+msgid "Product Category"
+msgstr "产品类别"
+
+#. module: account_intrastat
+#: model:ir.model,name:account_intrastat.model_product_template
+msgid "Product Template"
+msgstr "产品模板"
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_intrastat_report.py:0
+#, python-format
+msgid "Quantity"
+msgstr "数量"
+
+#. module: account_intrastat
+#: model:ir.model.fields.selection,name:account_intrastat.selection__account_intrastat_code__type__region
+#: model_terms:ir.ui.view,arch_db:account_intrastat.view_intrastat_code_search
+msgid "Region"
+msgstr "地区"
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_intrastat_report.py:0
+#, python-format
+msgid "Region Code"
+msgstr "地区代码"
+
+#. module: account_intrastat
+#: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_intrastat_extended
+msgid "Standard"
+msgstr "标准"
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_intrastat_report.py:0
+#, python-format
+msgid "System"
+msgstr "系统"
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_intrastat_report.py:0
+#: code:addons/account_intrastat/models/account_sales_report.py:0
+#, python-format
+msgid "Total"
+msgstr "合计"
+
+#. module: account_intrastat
+#: model:ir.model.fields.selection,name:account_intrastat.selection__account_intrastat_code__type__transaction
+#: model_terms:ir.ui.view,arch_db:account_intrastat.view_intrastat_code_search
+msgid "Transaction"
+msgstr "交易"
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_intrastat_report.py:0
+#, python-format
+msgid "Transaction Code"
+msgstr "交易代码"
+
+#. module: account_intrastat
+#: model:ir.model.fields.selection,name:account_intrastat.selection__account_intrastat_code__type__transport
+#: model_terms:ir.ui.view,arch_db:account_intrastat.view_intrastat_code_search
+msgid "Transport"
+msgstr "物流"
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_intrastat_report.py:0
+#, python-format
+msgid "Transport Code"
+msgstr "物流代码"
+
+#. module: account_intrastat
+#: model:ir.model.constraint,message:account_intrastat.constraint_account_intrastat_code_intrastat_region_code_unique
+msgid "Triplet code/type/country_id must be unique."
+msgstr "三项 代码/类型/ country_id必须是唯一的。"
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_intrastat_report.py:0
+#, python-format
+msgid "Type"
+msgstr "类型"
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_sales_report.py:0
+#, python-format
+msgid "VAT"
+msgstr "增值税"
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_intrastat_report.py:0
+#: code:addons/account_intrastat/models/account_sales_report.py:0
+#, python-format
+msgid "Value"
+msgstr "值"
+
+#. module: account_intrastat
+#: code:addons/account_intrastat/models/account_intrastat_report.py:0
+#, python-format
+msgid "Weight"
+msgstr "重量"
+
+#. module: account_intrastat
+#: model_terms:ir.ui.view,arch_db:account_intrastat.search_template_vat
+msgid "With VAT numbers"
+msgstr ""

@@ -1,0 +1,356 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_iot
+# 
+# Translators:
+# diaojiaolou <124412206@qq.com>, 2019
+# Jeanphy <hzh0292@qq.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# Felix Yuen <fyu@odoo.com>, 2019
+# Martin Trigaux, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-23 11:37+0000\n"
+"PO-Revision-Date: 2019-08-26 09:37+0000\n"
+"Last-Translator: Martin Trigaux, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+msgid "Accept payments with a SIX payment terminal"
+msgstr ""
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+msgid "Accept payments with an Ingenico payment terminal"
+msgstr ""
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/xml/pos.xml:0
+#, python-format
+msgid "Access your"
+msgstr ""
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
+msgid "Barcode Scanners"
+msgstr ""
+
+#. module: pos_iot
+#: model:ir.model.fields,help:pos_iot.field_pos_config__iface_print_via_proxy
+msgid "Bypass browser printing and prints via the hardware proxy."
+msgstr "绕过浏览器打印，通过硬件代理进行打印。"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
+msgid "Cashdrawer"
+msgstr "钱箱"
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/xml/pos.xml:0
+#, python-format
+msgid "Click on Advanced/Show Details/Details/More information"
+msgstr "点击高级／显示详细资料／细节／更多信息"
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/xml/pos.xml:0
+#, python-format
+msgid ""
+"Click on Proceed to .../Add Exception/Visit this website/Go on to the "
+"webpage"
+msgstr "单击继续 ...／添加例外／访问此网站／转到网页"
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/xml/pos.xml:0
+#, python-format
+msgid "Close this window and try again"
+msgstr "关闭窗口并重试"
+
+#. module: pos_iot
+#: model:ir.model,name:pos_iot.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设置"
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/js/payment.js:0
+#, python-format
+msgid "Configuration of payment terminal failed"
+msgstr ""
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/js/iot.js:0
+#: code:addons/pos_iot/static/src/js/payment.js:0
+#, python-format
+msgid "Connection to IoT Box failed"
+msgstr "连接到IoT 盒子失败"
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/js/chrome.js:0
+#: code:addons/pos_iot/static/src/js/close_session.js:0
+#: code:addons/pos_iot/static/src/js/payment.js:0
+#, python-format
+msgid "Connection to terminal failed"
+msgstr ""
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/js/scale.js:0
+#, python-format
+msgid "Could not connect to IoT scale"
+msgstr ""
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
+msgid "Customer Display"
+msgstr "客户显示"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_customer_facing_display
+msgid "Customer Facing Display"
+msgstr "面向客户的显示"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_electronic_scale
+#: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
+msgid "Electronic Scale"
+msgstr "电子秤"
+
+#. module: pos_iot
+#: model:ir.model.fields,help:pos_iot.field_pos_config__iface_scan_via_proxy
+msgid "Enable barcode scanning with a remotely connected barcode scanner."
+msgstr "使用远程连接的条码扫描器进行条码扫描。"
+
+#. module: pos_iot
+#: model:ir.model.fields,help:pos_iot.field_pos_config__iface_electronic_scale
+msgid "Enables Electronic Scale integration."
+msgstr "启用电子秤集成。"
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/js/close_session.js:0
+#, python-format
+msgid "Error performing balance"
+msgstr ""
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/xml/pos.xml:0
+#, python-format
+msgid "Firefox only : Click on Confirm Security Exception"
+msgstr "仅火狐：在确认安全异常上点击"
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/xml/pos.xml:0
+#, python-format
+msgid ""
+"If you are on a secure server (HTTPS) check if you accepted the certificate:"
+msgstr "如果您是通过安全服务器（HTTPS），检查是否接受了证书："
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_display_id
+msgid "Iface Display"
+msgstr ""
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_printer_id
+msgid "Iface Printer"
+msgstr ""
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_scale_id
+msgid "Iface Scale"
+msgstr ""
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_scanner_ids
+msgid "Iface Scanner"
+msgstr ""
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+msgid "Ingenico (BENELUX)"
+msgstr ""
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__ingenico_payment_terminal
+msgid "Ingenico Payment Terminal"
+msgstr ""
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/xml/pos.xml:0
+#, python-format
+msgid "IoT Box Homepage"
+msgstr "IoT Box主页"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
+msgid "IoT Devices"
+msgstr ""
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iot_device_ids
+msgid "Iot Device"
+msgstr ""
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/js/scale.js:0
+#, python-format
+msgid ""
+"It seems that no scale was detected.\n"
+"Make sure that the scale is connected and visible in the IoT app."
+msgstr ""
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/js/scale.js:0
+#, python-format
+msgid "No Scale Detected"
+msgstr ""
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/xml/pos.xml:0
+#, python-format
+msgid "Ok"
+msgstr "确定"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_payment_method__payment_terminal_ids
+msgid "Payment Terminal"
+msgstr "付款终端"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__payment_terminal_device_ids
+#: model:ir.model.fields,field_description:pos_iot.field_pos_payment_method__iot_device_id
+msgid "Payment Terminal Device"
+msgstr ""
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/js/payment.js:0
+#: code:addons/pos_iot/static/src/js/payment.js:0
+#, python-format
+msgid "Payment terminal error"
+msgstr ""
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/js/payment.js:0
+#: code:addons/pos_iot/static/src/xml/pos.xml:0
+#, python-format
+msgid "Please check if the IoT Box is still connected."
+msgstr "请检查IoT盒子是否仍连接。"
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/js/chrome.js:0
+#: code:addons/pos_iot/static/src/js/close_session.js:0
+#: code:addons/pos_iot/static/src/js/payment.js:0
+#, python-format
+msgid "Please check if the terminal is still connected."
+msgstr ""
+
+#. module: pos_iot
+#: model:ir.model,name:pos_iot.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "POS配置"
+
+#. module: pos_iot
+#: model:ir.model,name:pos_iot.model_pos_payment_method
+msgid "Point of Sale Payment Methods"
+msgstr "POS付款方式"
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_print_via_proxy
+msgid "Print via Proxy"
+msgstr "通过代理打印"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_config_view_form
+msgid "Receipt Printer"
+msgstr "票据打印机"
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+msgid "SIX"
+msgstr ""
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_res_config_settings__six_payment_terminal
+msgid "SIX Payment Terminal"
+msgstr ""
+
+#. module: pos_iot
+#: model:ir.model.fields,field_description:pos_iot.field_pos_config__iface_scan_via_proxy
+msgid "Scan via Proxy"
+msgstr "通过代理浏览"
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/js/chrome.js:0
+#, python-format
+msgid "Send Balance"
+msgstr ""
+
+#. module: pos_iot
+#: model:ir.model.fields,help:pos_iot.field_pos_config__iface_customer_facing_display
+msgid "Show checkout to customers with a remotely-connected screen."
+msgstr "通过远程连接的屏幕向客户显示结账。"
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/js/chrome.js:0
+#, python-format
+msgid "Terminal Error"
+msgstr ""
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/js/scale.js:0
+#, python-format
+msgid "The IoT scale is not responding. You should check your connection."
+msgstr ""
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+msgid ""
+"The transactions are processed by Ingenico. Set your Ingenico device on the "
+"related payment method."
+msgstr ""
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.res_config_view_form_inherit_pos_iot
+msgid ""
+"The transactions are processed by Six. Set your Six device on the related "
+"payment method."
+msgstr ""
+
+#. module: pos_iot
+#: model_terms:ir.ui.view,arch_db:pos_iot.pos_iot_session_view_form
+msgid "Validate Closing & Post Entries"
+msgstr "确认关闭并登录分录"
+
+#. module: pos_iot
+#. openerp-web
+#: code:addons/pos_iot/static/src/js/payment.js:0
+#, python-format
+msgid "You must select a payment terminal in your POS config."
+msgstr ""
