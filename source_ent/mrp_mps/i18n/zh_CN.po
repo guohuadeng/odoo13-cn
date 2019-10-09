@@ -38,7 +38,7 @@ msgstr "(实际需求)"
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "(Actual Replenishment)"
-msgstr "(实际补货)"
+msgstr "(已下单补货)"
 
 #. module: mrp_mps
 #. openerp-web
@@ -447,7 +447,7 @@ msgstr "数量"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__moves_qty
 msgid "Quantity from Incoming Moves"
-msgstr "入库数量"
+msgstr "入库数量(在途)"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__manufacture_qty
@@ -472,7 +472,7 @@ msgstr ""
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_forecast_details_form_view
 msgid "Receipts"
-msgstr "入库数量"
+msgstr "收货数量(在途)"
 
 #. module: mrp_mps
 #. openerp-web
@@ -490,7 +490,7 @@ msgstr "补货数量已被手工更新"
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_forecast_details_form_view
 msgid "Requests for quotation"
-msgstr "销售单数量"
+msgstr "采购在途"
 
 #. module: mrp_mps
 #. openerp-web
