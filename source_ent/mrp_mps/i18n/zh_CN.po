@@ -31,63 +31,63 @@ msgstr ""
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "(Actual Demand)"
-msgstr ""
+msgstr "(实际需求)"
 
 #. module: mrp_mps
 #. openerp-web
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "(Actual Replenishment)"
-msgstr ""
+msgstr "(实际生产)"
 
 #. module: mrp_mps
 #. openerp-web
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "(Available to Promise)"
-msgstr ""
+msgstr "(最小数量保证)"
 
 #. module: mrp_mps
 #. openerp-web
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "+ Starting Inventory"
-msgstr ""
+msgstr "+ 初始库存"
 
 #. module: mrp_mps
 #. openerp-web
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "+ To Replenish"
-msgstr ""
+msgstr "+ 计划补货(生产或采购)"
 
 #. module: mrp_mps
 #. openerp-web
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "- Demand Forecast"
-msgstr ""
+msgstr "- 需求预测"
 
 #. module: mrp_mps
 #. openerp-web
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "- Indirect Demand Forecast"
-msgstr ""
+msgstr "- 含间接需求预测"
 
 #. module: mrp_mps
 #. openerp-web
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "<&hellip;<"
-msgstr ""
+msgstr "<&hellip;<"
 
 #. module: mrp_mps
 #. openerp-web
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "= Forecasted Stock"
-msgstr ""
+msgstr "= 预测库存"
 
 #. module: mrp_mps
 #. openerp-web
@@ -95,13 +95,13 @@ msgstr ""
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "Actual Demand"
-msgstr ""
+msgstr "实际需求"
 
 #. module: mrp_mps
 #: code:addons/mrp_mps/models/mrp_mps.py:0
 #, python-format
 msgid "Actual Demand %s %s (%s - %s)"
-msgstr ""
+msgstr "实际需求 %s %s (%s - %s)"
 
 #. module: mrp_mps
 #. openerp-web
@@ -110,13 +110,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__total_qty
 #, python-format
 msgid "Actual Replenishment"
-msgstr ""
+msgstr "实际补货(生产或采购)"
 
 #. module: mrp_mps
 #: code:addons/mrp_mps/models/mrp_mps.py:0
 #, python-format
 msgid "Actual Replenishment %s %s (%s - %s)"
-msgstr ""
+msgstr "实际补货 %s %s (%s - %s)"
 
 #. module: mrp_mps
 #. openerp-web
@@ -139,7 +139,7 @@ msgstr "你确定要删除此记录吗？"
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "Available to Promise"
-msgstr ""
+msgstr "最小数量保证"
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_production_schedule_form_view
@@ -221,27 +221,27 @@ msgstr "需求预测"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_actual_demand
 msgid "Display Actual Demand"
-msgstr ""
+msgstr "显示实际需求"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_actual_replenishment
 msgid "Display Actual Replenishment"
-msgstr ""
+msgstr "显示实际补货"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_available_to_promise
 msgid "Display Available to Promise"
-msgstr ""
+msgstr "显示最小数量保证"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_demand_forecast
 msgid "Display Demand Forecast"
-msgstr ""
+msgstr "显示预测数量"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_indirect_demand
 msgid "Display Indirect Demand"
-msgstr ""
+msgstr "显示间接需求"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__display_name
@@ -253,22 +253,22 @@ msgstr "显示名称"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_safety_stock
 msgid "Display Safety Stock"
-msgstr ""
+msgstr "显示安全库存"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_starting_inventory
 msgid "Display Starting Inventory"
-msgstr ""
+msgstr "显示初始库存"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__mrp_mps_show_to_replenish
 msgid "Display To Replenish"
-msgstr ""
+msgstr "显示计划补货"
 
 #. module: mrp_mps
 #: model:ir.model,name:mrp_mps.model_mrp_mps_forecast_details
 msgid "Forecast Demand Details"
-msgstr ""
+msgstr "显示需求明细"
 
 #. module: mrp_mps
 #. openerp-web
@@ -359,12 +359,12 @@ msgstr "主生产排程"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__max_to_replenish_qty
 msgid "Maximum to Replenish"
-msgstr ""
+msgstr "最大补货数量"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__min_to_replenish_qty
 msgid "Minimum to Replenish"
-msgstr ""
+msgstr "最小补货数量"
 
 #. module: mrp_mps
 #: model:ir.model.fields.selection,name:mrp_mps.selection__res_company__manufacturing_period__month
@@ -379,12 +379,12 @@ msgstr "移动"
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.res_config_settings_view_form
 msgid "Number of Columns"
-msgstr ""
+msgstr "显示列数"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_config_settings__manufacturing_period_to_display
 msgid "Number of Manufacturing Period Columns"
-msgstr ""
+msgstr "生产期间的列数"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__manufacturing_period_to_display
@@ -392,11 +392,12 @@ msgid ""
 "Number of columns for the        given period to display in Master "
 "Production Schedule"
 msgstr ""
+"在主生产排程中显示的生产期间列数"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_product_forecast__procurement_launched
 msgid "Procurement has been run for this forecast"
-msgstr ""
+msgstr "此预测的生产计划MRP已运行"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__product_id
@@ -406,7 +407,7 @@ msgstr "产品"
 #. module: mrp_mps
 #: model:ir.model,name:mrp_mps.model_mrp_product_forecast
 msgid "Product Forecast at Date"
-msgstr ""
+msgstr "该日期的产品预测"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__product_tmpl_id
@@ -421,12 +422,12 @@ msgstr "产品计量单位"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_product_forecast__production_schedule_id
 msgid "Production Schedule"
-msgstr ""
+msgstr "生产计划"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__warehouse_id
 msgid "Production Warehouse"
-msgstr ""
+msgstr "生产成品仓库"
 
 #. module: mrp_mps
 #: model:ir.model,name:mrp_mps.model_purchase_order
@@ -446,17 +447,17 @@ msgstr "数量"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__moves_qty
 msgid "Quantity from Incoming Moves"
-msgstr ""
+msgstr "入库数量"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__manufacture_qty
 msgid "Quantity from Manufacturing Order"
-msgstr ""
+msgstr "生产订单数量"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details__rfq_qty
 msgid "Quantity from RFQ"
-msgstr ""
+msgstr "采购数量"
 
 #. module: mrp_mps
 #. openerp-web
@@ -466,6 +467,7 @@ msgid ""
 "Quantity predicted to be available for sale at the end of the period (= to "
 "replenish - actual demand)."
 msgstr ""
+"在此期间后，可用于销售的数量(= 补货数量 - 实际需求数量)."
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_forecast_details_form_view
@@ -478,17 +480,17 @@ msgstr "入库"
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "Replenish"
-msgstr "补给"
+msgstr "补货"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_product_forecast__replenish_qty_updated
 msgid "Replenish_qty has been manually updated"
-msgstr ""
+msgstr "补货数量已被手工更新"
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_forecast_details_form_view
 msgid "Requests for quotation"
-msgstr ""
+msgstr "要求报价"
 
 #. module: mrp_mps
 #. openerp-web
@@ -500,7 +502,7 @@ msgstr "行"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__forecast_target_qty
 msgid "Safety Stock Target"
-msgstr ""
+msgstr "安全库存目标"
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_production_schedule_form_view
@@ -510,7 +512,7 @@ msgstr "保存"
 #. module: mrp_mps
 #: model:ir.model,name:mrp_mps.model_mrp_production_schedule
 msgid "Schedule the production of Product in a warehouse"
-msgstr ""
+msgstr "在此仓库中进行产品生产计划"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_purchase_order__date_planned_mps
@@ -528,7 +530,7 @@ msgstr "单号规则"
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "Starting Inventory"
-msgstr "开始库存"
+msgstr "初始库存"
 
 #. module: mrp_mps
 #: model:ir.model,name:mrp_mps.model_stock_rule
@@ -538,14 +540,14 @@ msgstr "库存规则"
 #. module: mrp_mps
 #: model:ir.model.constraint,message:mrp_mps.constraint_mrp_production_schedule_warehouse_product_ref_uniq
 msgid "The combination of warehouse and product must be unique !"
-msgstr ""
+msgstr "同时只可以同一仓库及产品进行预测"
 
 #. module: mrp_mps
 #. openerp-web
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "The confirmed demand, based on the confirmed sales orders."
-msgstr ""
+msgstr "确定的需求，源于确定的销售订单"
 
 #. module: mrp_mps
 #. openerp-web
@@ -554,28 +556,28 @@ msgstr ""
 msgid ""
 "The forecasted demand to fulfill the needs in components of the "
 "Manufacturing Orders."
-msgstr ""
+msgstr "生产单计算出来的半成品及原材料的预测需求"
 
 #. module: mrp_mps
 #. openerp-web
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "The forecasted demand. This value has to be entered manually."
-msgstr ""
+msgstr "需求预测。相关数量已被人工输入。"
 
 #. module: mrp_mps
 #. openerp-web
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "The forecasted quantity in stock at the beginning of the period."
-msgstr ""
+msgstr "在此期间开始，预测的库存数量"
 
 #. module: mrp_mps
 #. openerp-web
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "The forecasted quantity in stock at the end of the period."
-msgstr ""
+msgstr "在此期间结束后，预测的库存数量"
 
 #. module: mrp_mps
 #. openerp-web
@@ -585,6 +587,7 @@ msgid ""
 "The quantity being replenished, based on the Requests for Quotation and the "
 "Manufacturing Orders."
 msgstr ""
+"计算补货生产的指定数量，基于已存在的销售订单及生产单。"
 
 #. module: mrp_mps
 #. openerp-web
@@ -593,6 +596,7 @@ msgstr ""
 msgid ""
 "The quantity to replenish through Purchase Orders or Manufacturing Orders."
 msgstr ""
+"通过采购或生产，补货的数量。"
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.res_config_settings_view_form
@@ -606,7 +610,7 @@ msgstr "时间范围"
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_product_forecast__replenish_qty
 #, python-format
 msgid "To Replenish"
-msgstr ""
+msgstr "补货计划"
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_stock_move_tree_view
@@ -629,4 +633,4 @@ msgstr "每周"
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "by"
-msgstr "作者"
+msgstr "由"
