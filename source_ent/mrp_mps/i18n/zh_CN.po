@@ -633,4 +633,4 @@ msgstr "每周"
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "by"
-msgstr "由"
+msgstr "单位"
