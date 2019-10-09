@@ -18072,7 +18072,7 @@ msgstr "向发言者群发邮件"
 #: model:ir.module.module,shortdesc:base.module_mrp_mps
 #: model:ir.module.module,summary:base.module_mrp_mps
 msgid "Master Production Schedule"
-msgstr "主生产排程"
+msgstr "主生产计划"
 
 #. module: base
 #: model:res.country,name:base.mr

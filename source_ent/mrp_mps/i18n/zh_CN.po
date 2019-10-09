@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* mrp_mps
-# 
+#
 # Translators:
 # Martin Trigaux, 2019
 # Jeffery CHEN <jeffery9@gmail.com>, 2019
@@ -11,7 +11,7 @@
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # Jeanphy <hzh0292@qq.com>, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~12.5+e\n"
@@ -339,7 +339,7 @@ msgstr "MPS"
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_forecast_details_form_view
 msgid "Manufacturing Orders"
-msgstr "生产单"
+msgstr "生产数量"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_res_company__manufacturing_period
@@ -354,7 +354,7 @@ msgstr "制造期间"
 #: model:ir.ui.menu,name:mrp_mps.mrp_mps_report_menu
 #, python-format
 msgid "Master Production Schedule"
-msgstr "主生产排程"
+msgstr "主生产计划"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__max_to_replenish_qty
@@ -472,7 +472,7 @@ msgstr ""
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_forecast_details_form_view
 msgid "Receipts"
-msgstr "入库"
+msgstr "入库数量"
 
 #. module: mrp_mps
 #. openerp-web
@@ -490,7 +490,7 @@ msgstr "补货数量已被手工更新"
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.mrp_mps_forecast_details_form_view
 msgid "Requests for quotation"
-msgstr "要求报价"
+msgstr "销售单数量"
 
 #. module: mrp_mps
 #. openerp-web
@@ -596,7 +596,7 @@ msgstr ""
 msgid ""
 "The quantity to replenish through Purchase Orders or Manufacturing Orders."
 msgstr ""
-"通过采购或生产，补货的数量。"
+"通过采购或生产，补货的累计数量。"
 
 #. module: mrp_mps
 #: model_terms:ir.ui.view,arch_db:mrp_mps.res_config_settings_view_form
