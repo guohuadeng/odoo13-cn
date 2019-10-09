@@ -38,7 +38,7 @@ msgstr "(实际需求)"
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "(Actual Replenishment)"
-msgstr "(实际生产)"
+msgstr "(实际补货)"
 
 #. module: mrp_mps
 #. openerp-web
@@ -288,7 +288,7 @@ msgstr "预测库存"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__forecast_ids
 msgid "Forecasted quantity at date"
-msgstr ""
+msgstr "该时刻预测数量"
 
 #. module: mrp_mps
 #: model:ir.model.fields,help:mrp_mps.field_mrp_production_schedule__sequence
@@ -308,7 +308,7 @@ msgstr "ID"
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "Indirect Demand Forecast"
-msgstr ""
+msgstr "间接需求预测数量"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_mps_forecast_details____last_update
@@ -480,7 +480,7 @@ msgstr "入库"
 #: code:addons/mrp_mps/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "Replenish"
-msgstr "补货"
+msgstr "执行补货"
 
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_product_forecast__replenish_qty_updated
