@@ -1,0 +1,52 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* social_crm
+# 
+# Translators:
+# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-23 11:39+0000\n"
+"PO-Revision-Date: 2019-09-23 14:02+0000\n"
+"Last-Translator: Jeffery CHEN <jeffery9@gmail.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: social_crm
+#: model_terms:ir.ui.view,arch_db:social_crm.social_post_view_form
+msgid ""
+"<span class=\"o_stat_text\" attrs=\"{'invisible': [('use_leads', '=', False)]}\">Leads</span>\n"
+"                        <span class=\"o_stat_text\" attrs=\"{'invisible': [('use_leads', '=', True)]}\">Opportunities</span>"
+msgstr ""
+
+#. module: social_crm
+#: model:ir.model.fields,field_description:social_crm.field_social_post__leads_opportunities_count
+msgid "Leads / Opportunities count"
+msgstr ""
+
+#. module: social_crm
+#: model_terms:ir.ui.view,arch_db:social_crm.social_post_view_kanban
+msgid "Leads:"
+msgstr ""
+
+#. module: social_crm
+#: model_terms:ir.ui.view,arch_db:social_crm.social_post_view_kanban
+msgid "Opportunities:"
+msgstr ""
+
+#. module: social_crm
+#: model:ir.model,name:social_crm.model_social_post
+msgid "Social Post"
+msgstr ""
+
+#. module: social_crm
+#: model:ir.model.fields,field_description:social_crm.field_social_post__use_leads
+msgid "Use Leads"
+msgstr "使用线索"

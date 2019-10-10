@@ -1,0 +1,47 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_predictive_bills
+# 
+# Translators:
+# Jeanphy <hzh0292@qq.com>, 2019
+# Felix Yuen <fyu@odoo.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.4+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-12 11:29+0000\n"
+"PO-Revision-Date: 2019-08-26 09:34+0000\n"
+"Last-Translator: Felix Yuen <fyu@odoo.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_predictive_bills
+#: model:ir.model,name:account_predictive_bills.model_account_move
+msgid "Journal Entries"
+msgstr "日记账分录"
+
+#. module: account_predictive_bills
+#: model:ir.model,name:account_predictive_bills.model_account_move_line
+msgid "Journal Item"
+msgstr "日记账项"
+
+#. module: account_predictive_bills
+#: model:ir.model.fields,field_description:account_predictive_bills.field_account_move_line__predict_from_name
+msgid "Predict From Name"
+msgstr "从名字预测"
+
+#. module: account_predictive_bills
+#: model:ir.model.fields,field_description:account_predictive_bills.field_account_move_line__predict_override_default_account
+msgid "Predict Override Default Account"
+msgstr "预测覆盖默认帐户"
+
+#. module: account_predictive_bills
+#: model:ir.model.fields,help:account_predictive_bills.field_account_move_line__predict_from_name
+msgid ""
+"Technical field used to know on which lines the prediction must be done."
+msgstr "技术领域用于了解必须在哪些明细行上进行预测。"

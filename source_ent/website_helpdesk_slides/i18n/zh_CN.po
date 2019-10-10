@@ -1,0 +1,291 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_helpdesk_slides
+# 
+# Translators:
+# Martin Trigaux, 2019
+# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# niulin lnc. <admin@niulin.net>, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# guohuadeng <guohuadeng@hotmail.com>, 2019
+# 李赋 <fu792659@163.com>, 2019
+# Lisa Zhang <lzh@odoo.com>, 2019
+# snow wang <147156565@qq.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.4+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-12 11:29+0000\n"
+"PO-Revision-Date: 2019-08-26 09:39+0000\n"
+"Last-Translator: inspur qiuguodong <qiuguodong@inspur.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: website_helpdesk_slides
+#: code:addons/website_helpdesk_slides/wizard/slide_slide.py:72
+#, python-format
+msgid "Already exists in %s : <a href=\"%s\">click here to view it.</a>"
+msgstr "已存在于 %s : <a href=\"%s\">点击这里查看它</a>"
+
+#. module: website_helpdesk_slides
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_slides.slide_upload_wizard_view_form
+msgid "Cancel"
+msgstr "取消日期"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__category_id
+msgid "Category"
+msgstr "类别"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__channel_id
+msgid "Channel"
+msgstr "频道"
+
+#. module: website_helpdesk_slides
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_slides.slides_page
+msgid "Click here to view more result..."
+msgstr "点击查看更多结果..."
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__datas
+msgid "Content"
+msgstr "内容"
+
+#. module: website_helpdesk_slides
+#: code:addons/website_helpdesk_slides/wizard/slide_slide.py:38
+#, python-format
+msgid ""
+"Could not fetch data from url. Document or access right not available:\n"
+"%s"
+msgstr ""
+"无法从网址获得数据。文档或者访问权限不存在:\n"
+"%s"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__description
+msgid "Description"
+msgstr "说明"
+
+#. module: website_helpdesk_slides
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_slides.slide_upload_wizard_view_form
+msgid "Description..."
+msgstr "说明..."
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: website_helpdesk_slides
+#: selection:slide.upload.wizard,slide_type:0
+msgid "Document"
+msgstr "文档"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__document_id
+msgid "Document ID"
+msgstr "文档ID"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__url
+msgid "Document URL"
+msgstr "文档网址"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__file_name
+msgid "Filename"
+msgstr "文件名"
+
+#. module: website_helpdesk_slides
+#: model:ir.model,name:website_helpdesk_slides.model_helpdesk_team
+msgid "Helpdesk Team"
+msgstr "帮助中心团队"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: website_helpdesk_slides
+#: selection:slide.upload.wizard,slide_type:0
+msgid "Infographic"
+msgstr "信息图"
+
+#. module: website_helpdesk_slides
+#: code:addons/website_helpdesk_slides/wizard/slide_slide.py:53
+#, python-format
+msgid "Invalid file type. Please select pdf or image file"
+msgstr "错误的文件类型。请选择pfd文件或者图像"
+
+#. module: website_helpdesk_slides
+#: code:addons/website_helpdesk_slides/wizard/slide_slide.py:61
+#, python-format
+msgid "Invalid slide type. Please select document or presentation type."
+msgstr "无效的幻灯片类型。请选择文档或演示类型。"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard____last_update
+msgid "Last Modified on"
+msgstr "最后更改日"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__write_date
+msgid "Last Updated on"
+msgstr "更新时间"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__mime_type
+msgid "Mime-type"
+msgstr "类型"
+
+#. module: website_helpdesk_slides
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_slides.slide_upload_wizard_view_form
+msgid "Name"
+msgstr "名称"
+
+#. module: website_helpdesk_slides
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_slides.website_helpdesk_slides_team_page
+msgid "No presentations yet."
+msgstr "没有幻灯片."
+
+#. module: website_helpdesk_slides
+#: code:addons/website_helpdesk_slides/wizard/slide_slide.py:41
+#, python-format
+msgid "Please enter valid Youtube or Google Doc URL"
+msgstr "请输入有效的YouTube或谷歌文档的URL"
+
+#. module: website_helpdesk_slides
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_slides.website_helpdesk_slides_team_page
+msgid "Popular Presentations"
+msgstr "热门演示"
+
+#. module: website_helpdesk_slides
+#: selection:slide.upload.wizard,slide_type:0
+msgid "Presentation"
+msgstr "演示"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_helpdesk_team__elearning_url
+msgid "Presentations URL"
+msgstr "演示网址"
+
+#. module: website_helpdesk_slides
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_slides.slide_upload_wizard_view_form
+msgid "Save"
+msgstr "保存"
+
+#. module: website_helpdesk_slides
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_slides.slide_upload_wizard_view_form
+msgid "Slide"
+msgstr "幻灯片"
+
+#. module: website_helpdesk_slides
+#: model:ir.actions.act_window,name:website_helpdesk_slides.slide_upload_action
+msgid "Slide Upload"
+msgstr "幻灯片上传"
+
+#. module: website_helpdesk_slides
+#: model:ir.model,name:website_helpdesk_slides.model_slide_upload_wizard
+msgid "Slide Upload Wizard"
+msgstr "幻灯片上传向导"
+
+#. module: website_helpdesk_slides
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_slides.slides_page
+msgid "Slide image"
+msgstr "幻灯片图片"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__tag_ids
+msgid "Tags"
+msgstr "标签"
+
+#. module: website_helpdesk_slides
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_slides.slide_upload_wizard_view_form
+msgid "Tags..."
+msgstr "标签..."
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,help:website_helpdesk_slides.field_slide_upload_wizard__slide_type
+msgid ""
+"The document type will be set automatically based on the document URL and "
+"properties (e.g. height and width for presentation and document)."
+msgstr "将根据文档网址和属性（例如演示文稿的高度和宽度以及文档）自动设置文档类型。"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,help:website_helpdesk_slides.field_helpdesk_team__elearning_url
+msgid "The full URL to access the document through the website."
+msgstr "通过网站访问文档的完整网址。"
+
+#. module: website_helpdesk_slides
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_slides.helpdesk_team_view_form_inherit_website_helpdesk_slides
+msgid "The related channel is:<br/>"
+msgstr "相关频道是：<br/>"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__name
+msgid "Title"
+msgstr "标题"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_slide_upload_wizard__slide_type
+msgid "Type"
+msgstr "类型"
+
+#. module: website_helpdesk_slides
+#: code:addons/website_helpdesk_slides/wizard/slide_slide.py:87
+#, python-format
+msgid "Uploded new slide : <a href=\"%s\">click here to view it.</a>"
+msgstr "上传的新幻灯片：<a href=\"%s\">点击此处进行查看。</a>"
+
+#. module: website_helpdesk_slides
+#: selection:slide.upload.wizard,slide_type:0
+msgid "Video"
+msgstr "视频"
+
+#. module: website_helpdesk_slides
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_slides.helpdesk_team_view_form_inherit_website_helpdesk_slides
+msgid "View the presentations:<br/>"
+msgstr "查看简报：<br/>"
+
+#. module: website_helpdesk_slides
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_slides.slides_page
+msgid "Views ."
+msgstr "视图"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,help:website_helpdesk_slides.field_slide_upload_wizard__document_id
+msgid "Youtube or Google Document ID"
+msgstr "YouTube或谷歌文档ID"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,help:website_helpdesk_slides.field_slide_upload_wizard__url
+msgid "Youtube or Google Document URL"
+msgstr "YouTube或谷歌文档的网址"
+
+#. module: website_helpdesk_slides
+#: model:ir.model.fields,field_description:website_helpdesk_slides.field_helpdesk_team__elearning_id
+#: model_terms:ir.ui.view,arch_db:website_helpdesk_slides.helpdesk_team_view_form_inherit_website_helpdesk_slides
+msgid "eLearning"
+msgstr "在线学习"

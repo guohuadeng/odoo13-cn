@@ -1,0 +1,50 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* account_bank_statement_import_csv
+# 
+# Translators:
+# Jeanphy <hzh0292@qq.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-26 08:04+0000\n"
+"PO-Revision-Date: 2019-08-26 09:34+0000\n"
+"Last-Translator: Jeanphy <hzh0292@qq.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: account_bank_statement_import_csv
+#: model:ir.model,name:account_bank_statement_import_csv.model_base_import_import
+msgid "Base Import"
+msgstr "基础导入"
+
+#. module: account_bank_statement_import_csv
+#: model_terms:ir.ui.view,arch_db:account_bank_statement_import_csv.account_bank_statement_import_csv
+msgid "Comma Separated values (CSV)"
+msgstr "以逗号分隔文件内容(CSV)"
+
+#. module: account_bank_statement_import_csv
+#. openerp-web
+#: code:addons/account_bank_statement_import_csv/static/src/js/import_bank_stmt.js:0
+#: model:ir.model,name:account_bank_statement_import_csv.model_account_bank_statement_import
+#, python-format
+msgid "Import Bank Statement"
+msgstr "导入银行对账单"
+
+#. module: account_bank_statement_import_csv
+#: model:ir.model,name:account_bank_statement_import_csv.model_account_journal
+msgid "Journal"
+msgstr "日记账"
+
+#. module: account_bank_statement_import_csv
+#. openerp-web
+#: code:addons/account_bank_statement_import_csv/static/src/js/import_bank_stmt.js:0
+#, python-format
+msgid "Reconciliation on Bank Statements"
+msgstr "银行对账单核销"

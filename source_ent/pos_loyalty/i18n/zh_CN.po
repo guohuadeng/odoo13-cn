@@ -1,0 +1,516 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* pos_loyalty
+# 
+# Translators:
+# Martin Trigaux, 2019
+# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# guohuadeng <guohuadeng@hotmail.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-23 11:37+0000\n"
+"PO-Revision-Date: 2019-08-26 09:37+0000\n"
+"Last-Translator: inspur qiuguodong <qiuguodong@inspur.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_kanban
+msgid "<span>Points per currency :</span>"
+msgstr "<span>每元积分：</span>"
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_kanban
+msgid "<strong>Points per order :</strong>"
+msgstr "<strong>按订单积分:</strong>"
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_kanban
+msgid "<strong>Points per product :</strong>"
+msgstr "<strong>每个产品的积分：</strong>"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_program__name
+msgid "An internal identification for the loyalty program configuration"
+msgstr "忠诚度方案配置的内部标识"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__name
+msgid "An internal identification for this loyalty program rule"
+msgstr "忠诚度方案规则的内部标识"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__name
+msgid "An internal identification for this loyalty reward"
+msgstr "忠诚奖励的内部标识"
+
+#. module: pos_loyalty
+#: model:ir.model.fields.selection,name:pos_loyalty.selection__loyalty_rule__rule_type__category
+msgid "Category"
+msgstr "类别"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: pos_loyalty
+#: model_terms:ir.actions.act_window,help:pos_loyalty.action_loyalty_program_form
+msgid "Create a new loyalty program"
+msgstr "创建忠诚度方案"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__create_uid
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__create_uid
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__create_date
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__create_date
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__cumulative
+msgid "Cumulative"
+msgstr "累积"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__discount
+msgid "Discount"
+msgstr "折扣"
+
+#. module: pos_loyalty
+#: model:ir.model.fields.selection,name:pos_loyalty.selection__loyalty_reward__reward_type__discount
+msgid "Discount (in %)"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields.selection,name:pos_loyalty.selection__loyalty_reward__reward_type__resale
+msgid "Discount (in value)"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__discount_product_id
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form
+msgid "Discount Product"
+msgstr "折扣产品"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__display_name
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__display_name
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__rule_type
+msgid "Does this rule affects products, or a category of products ?"
+msgstr "这个规则影响产品，还是产品种类"
+
+#. module: pos_loyalty
+#: model:ir.model.fields.selection,name:pos_loyalty.selection__loyalty_reward__reward_type__gift
+msgid "Gift"
+msgstr "礼品"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__gift_product_id
+msgid "Gift Product"
+msgstr "礼品产品"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_program__pp_product
+msgid "How many loyalty points are given to the customer by product sold"
+msgstr "按产品销售量给客户多少积分"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_program__pp_currency
+msgid "How many loyalty points are given to the customer by sold currency"
+msgstr "按销售额给客户多少积分"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_program__pp_order
+msgid ""
+"How many loyalty points are given to the customer for each sale or order"
+msgstr "对于每个销售或订单给客户多少积分"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__pp_product
+msgid "How many points the product will earn per product ordered"
+msgstr "按每个产品订单会赚取多少积分"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__pp_currency
+msgid "How many points the product will earn per value sold"
+msgstr "按销售价值会赚取多少积分"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__id
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__id
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__id
+msgid "ID"
+msgstr "ID"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__point_cost
+msgid ""
+"If the reward is a gift, that's the cost of the gift in points. If the "
+"reward type is a discount that's the cost in point per currency (e.g. 1 "
+"point per $)"
+msgstr ""
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program____last_update
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward____last_update
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule____last_update
+msgid "Last Modified on"
+msgstr "最后更改日"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__write_uid
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__write_uid
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__write_date
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__write_date
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__write_date
+msgid "Last Updated on"
+msgstr "更新时间"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_pos_order__loyalty_points
+#: model:ir.model.fields,field_description:pos_loyalty.field_res_partner__loyalty_points
+#: model:ir.model.fields,field_description:pos_loyalty.field_res_users__loyalty_points
+msgid "Loyalty Points"
+msgstr "忠诚积分"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_loyalty_program
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__loyalty_program_id
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__loyalty_program_id
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.pos_config_view_form_inherit_pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_form
+msgid "Loyalty Program"
+msgstr "忠诚度方案"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__name
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_form
+msgid "Loyalty Program Name"
+msgstr "忠诚度方案名称"
+
+#. module: pos_loyalty
+#: model:ir.actions.act_window,name:pos_loyalty.action_loyalty_program_form
+#: model:ir.ui.menu,name:pos_loyalty.menu_loyalty_program
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_tree
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_pos_pos_form
+msgid "Loyalty Programs"
+msgstr "忠诚度方案"
+
+#. module: pos_loyalty
+#: model_terms:ir.actions.act_window,help:pos_loyalty.action_loyalty_program_form
+msgid ""
+"Loyalty Programs allows you customer to earn points\n"
+"                    and rewards when doing business at your shops."
+msgstr "忠诚度方案可以让客户到店做生意赚取积分和奖励"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_loyalty_reward
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form
+msgid "Loyalty Reward"
+msgstr "忠诚奖励"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_loyalty_rule
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_rule_form
+msgid "Loyalty Rule"
+msgstr "忠诚规则"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_base_partner_merge_automatic_wizard
+msgid "Merge Partner Wizard"
+msgstr "合并业务伙伴向导"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__minimum_points
+msgid "Minimum Points"
+msgstr "最小积分"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__name
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__name
+msgid "Name"
+msgstr "名称"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/js/loyalty.js:0
+#, python-format
+msgid "No Rewards Available"
+msgstr "无可用奖励"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/js/loyalty.js:0
+#, python-format
+msgid "Please select a reward"
+msgstr "请选择一个奖励"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__point_product_id
+msgid "Point Product"
+msgstr "积分产品"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "POS配置"
+
+#. module: pos_loyalty
+#: model:ir.model,name:pos_loyalty.model_pos_order
+msgid "Point of Sale Orders"
+msgstr "POS订单"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/loyalty.xml:0
+#: code:addons/pos_loyalty/static/src/xml/loyalty.xml:0
+#: code:addons/pos_loyalty/static/src/xml/loyalty.xml:0
+#, python-format
+msgid "Points"
+msgstr "积分"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__rounding
+msgid "Points Rounding"
+msgstr "积分舍入"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/loyalty.xml:0
+#, python-format
+msgid "Points Spent"
+msgstr "花费的积分"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/loyalty.xml:0
+#, python-format
+msgid "Points Won"
+msgstr "赢得的积分"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__pp_currency
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__pp_currency
+msgid "Points per currency"
+msgstr "每金钱的积分"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__pp_order
+msgid "Points per order"
+msgstr "每个订单的积分"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__pp_product
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__pp_product
+msgid "Points per product"
+msgstr "每个产品的积分"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_pos_config__loyalty_id
+msgid "Pos Loyalty Program"
+msgstr "忠诚度方案"
+
+#. module: pos_loyalty
+#: model:ir.model.fields.selection,name:pos_loyalty.selection__loyalty_rule__rule_type__product
+msgid "Product"
+msgstr "产品"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__point_cost
+msgid "Reward Cost"
+msgstr ""
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_reward_form
+msgid "Reward Name"
+msgstr "奖励名称"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_reward__reward_type
+msgid "Reward Type"
+msgstr "奖励类型"
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_form
+msgid "Reward the customer with gifts or discounts for loyalty points"
+msgstr "用礼品或折扣奖励客户来提升忠诚度"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/loyalty.xml:0
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__reward_ids
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_form
+#, python-format
+msgid "Rewards"
+msgstr "奖励"
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_rule_form
+msgid "Rule Name"
+msgstr "规则名称"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__rule_type
+msgid "Rule Type"
+msgstr "规则类型"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_program__rule_ids
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_form
+msgid "Rules"
+msgstr "规则"
+
+#. module: pos_loyalty
+#: model_terms:ir.ui.view,arch_db:pos_loyalty.view_loyalty_program_form
+msgid ""
+"Rules change how loyalty points are earned for specific products or "
+"categories"
+msgstr "对指定产品或品种的规则更改来赚取忠诚度"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__category_id
+msgid "Target Category"
+msgstr "目标类别"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,field_description:pos_loyalty.field_loyalty_rule__product_id
+msgid "Target Product"
+msgstr "目标产品"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__loyalty_program_id
+msgid "The Loyalty Program this exception belongs to"
+msgstr "此异常所属的忠诚度方案"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__loyalty_program_id
+msgid "The Loyalty Program this reward belongs to"
+msgstr "此奖励所属的忠诚度方案"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_pos_order__loyalty_points
+msgid "The amount of Loyalty points the customer won or lost with this order"
+msgstr "客户在此订单上的获得或花费的积分"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__category_id
+msgid "The category affected by the rule"
+msgstr "种类由规则影响"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__discount
+msgid "The discount percentage"
+msgstr "折扣百分比"
+
+#. module: pos_loyalty
+#: code:addons/pos_loyalty/models/pos_loyalty.py:0
+#, python-format
+msgid "The discount product field is mandatory for discount rewards"
+msgstr "打折产品字段对打折奖励是必须的"
+
+#. module: pos_loyalty
+#: code:addons/pos_loyalty/models/pos_loyalty.py:0
+#, python-format
+msgid "The gift product field is mandatory for gift rewards"
+msgstr "礼品产品字段对礼品奖励是必须的"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_program__rounding
+msgid "The loyalty point amounts are rounded to multiples of this value."
+msgstr "对这个值积分积分被四舍五入计入"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_res_partner__loyalty_points
+#: model:ir.model.fields,help:pos_loyalty.field_res_users__loyalty_points
+msgid "The loyalty points the user won as part of a Loyalty Program"
+msgstr "用户或得的积分点是忠诚度方案的一部分"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_pos_config__loyalty_id
+msgid "The loyalty program used by this point of sale."
+msgstr "由此销售点使用的忠诚度方案。"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__minimum_points
+msgid ""
+"The minimum amount of points the customer must have to qualify for this "
+"reward"
+msgstr "客户必须拥有此奖励的最低积分点"
+
+#. module: pos_loyalty
+#: code:addons/pos_loyalty/models/pos_loyalty.py:0
+#, python-format
+msgid "The point product field is mandatory for point resale rewards"
+msgstr "积分点产品字段对积分销售奖励是必须的 "
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__cumulative
+msgid "The points won from this rule will be won in addition to other rules"
+msgstr "积分可以从多个规则中赢取"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__product_id
+msgid "The product affected by the rule"
+msgstr "产品由规则影响"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__gift_product_id
+msgid "The product given as a reward"
+msgstr "产品被当作奖励给予"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__point_product_id
+msgid "The product that represents a point that is sold by the customer"
+msgstr "产品表示一个积分点被客户使用"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__discount_product_id
+msgid "The product used to apply discounts"
+msgstr "此产品可以申请折扣"
+
+#. module: pos_loyalty
+#: model:ir.model.fields,help:pos_loyalty.field_loyalty_reward__reward_type
+msgid "The type of the reward"
+msgstr "奖励类型"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/js/loyalty.js:0
+#, python-format
+msgid ""
+"There are no rewards available for this customer as part of the loyalty "
+"program"
+msgstr "当前忠诚度方案的客户没有可用奖励"
+
+#. module: pos_loyalty
+#. openerp-web
+#: code:addons/pos_loyalty/static/src/xml/loyalty.xml:0
+#, python-format
+msgid "Total Points"
+msgstr "总积分"

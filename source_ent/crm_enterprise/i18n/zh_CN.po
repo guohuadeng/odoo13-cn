@@ -1,0 +1,282 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* crm_enterprise
+# 
+# Translators:
+# liAnGjiA <liangjia@qq.com>, 2019
+# zpq001 <zpq001@live.com>, 2019
+# 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
+# diaojiaolou <124412206@qq.com>, 2019
+# neter ji <jifuyi@qq.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# Martin Trigaux, 2019
+# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27 09:18+0000\n"
+"PO-Revision-Date: 2019-08-26 09:35+0000\n"
+"Last-Translator: Jeffery CHEN <jeffery9@gmail.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+msgid "% Opportunities"
+msgstr "% 商机"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Archived"
+msgstr "已归档"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Average Deal Size"
+msgstr "平均交易规模"
+
+#. module: crm_enterprise
+#: model:ir.model,name:crm_enterprise.model_crm_activity_report
+msgid "CRM Activity Analysis"
+msgstr "CRM活动分析"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Campaign"
+msgstr "营销"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "City"
+msgstr "城市"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Closed Date"
+msgstr "关闭日期"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Company"
+msgstr "公司"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Conversion Date"
+msgstr "转换日期"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Country"
+msgstr "国家/地区"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Creation Date"
+msgstr "创建日期"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_view_map
+msgid "Customer"
+msgstr "客户"
+
+#. module: crm_enterprise
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__days_to_convert
+msgid "Days To Convert"
+msgstr "日期转换"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+msgid "Days To Opportunity"
+msgstr "商机日期。 "
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Days to Assign"
+msgstr "分配天数"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Days to Close"
+msgstr "关闭日期"
+
+#. module: crm_enterprise
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__days_exceeding_closing
+msgid "Exceeded Closing Days"
+msgstr "超出年休"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Exceeding Close Days"
+msgstr "超出关单日期"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Expected Closing Date"
+msgstr "预期结束"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Expected Revenue"
+msgstr "预期收益"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Extended Filters"
+msgstr "扩展筛选"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Group By"
+msgstr "分组"
+
+#. module: crm_enterprise
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_activity_report__won_status
+#: model:ir.model.fields,field_description:crm_enterprise.field_crm_lead__won_status
+msgid "Is Won"
+msgstr "赢得"
+
+#. module: crm_enterprise
+#: model:ir.model,name:crm_enterprise.model_crm_lead
+msgid "Lead/Opportunity"
+msgstr "线索/商机"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_view_pivot
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Leads"
+msgstr "线索"
+
+#. module: crm_enterprise
+#: model:ir.actions.act_window,name:crm_enterprise.crm_lead_action_dashboard
+msgid "Leads Analysis"
+msgstr "线索分析"
+
+#. module: crm_enterprise
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_activity_report__won_status__lost
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_lead__won_status__lost
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_activity_report_view_search
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Lost"
+msgstr "丢失"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Lost Reason"
+msgstr "失去原因"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Medium"
+msgstr "媒介"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "My Pipeline"
+msgstr "我的漏斗"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_view_cohort
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_graph
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Opportunities"
+msgstr "商机"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Opportunities Analysis"
+msgstr "商机分析"
+
+#. module: crm_enterprise
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_activity_report__won_status__pending
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_lead__won_status__pending
+msgid "Pending"
+msgstr "待定"
+
+#. module: crm_enterprise
+#: model:ir.actions.act_window,name:crm_enterprise.crm_opportunity_action_dashboard
+msgid "Pipeline Analysis"
+msgstr "漏斗分析"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Prorated Revenue"
+msgstr "按比例分摊收入"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Sales Team"
+msgstr "销售团队"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+msgid "Sales Teams"
+msgstr "销售团队"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Salesperson"
+msgstr "销售员"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Show only lead"
+msgstr "仅显示线索"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Show only opportunity"
+msgstr "仅显示商机"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Source"
+msgstr "来源"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Stage"
+msgstr "阶段"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_view_map
+msgid "Title"
+msgstr "标题"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "Win/Loss Ratio"
+msgstr "赢得/失去 的比率"
+
+#. module: crm_enterprise
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_activity_report__won_status__won
+#: model:ir.model.fields.selection,name:crm_enterprise.selection__crm_lead__won_status__won
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_search
+msgid "Won"
+msgstr "赢得"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_dashboard_view
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_opportunity_view_dashboard
+msgid "days"
+msgstr "天数"
+
+#. module: crm_enterprise
+#: model_terms:ir.ui.view,arch_db:crm_enterprise.crm_lead_view_graph
+msgid "leads"
+msgstr "线索"

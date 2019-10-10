@@ -1,0 +1,90 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* website_studio
+# 
+# Translators:
+# Martin Trigaux, 2019
+# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# KWOKYUK CHEUNG <cheungkwokyuk@gmail.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.4+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-12 11:30+0000\n"
+"PO-Revision-Date: 2019-08-26 09:39+0000\n"
+"Last-Translator: KWOKYUK CHEUNG <cheungkwokyuk@gmail.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: website_studio
+#. openerp-web
+#: code:addons/website_studio/static/src/xml/form_manager.xml:9
+#, python-format
+msgid "App icon"
+msgstr "App 图标"
+
+#. module: website_studio
+#. openerp-web
+#: code:addons/website_studio/static/src/js/form_manager.js:107
+#, python-format
+msgid "Error"
+msgstr "错误"
+
+#. module: website_studio
+#. openerp-web
+#: code:addons/website_studio/static/src/xml/form_manager.xml:5
+#, python-format
+msgid "Forms"
+msgstr "表单"
+
+#. module: website_studio
+#: model_terms:ir.ui.view,arch_db:website_studio.default_form_field_name
+msgid "Name"
+msgstr "名称"
+
+#. module: website_studio
+#: model_terms:ir.ui.view,arch_db:website_studio.default_form_field_name
+#: model_terms:ir.ui.view,arch_db:website_studio.default_form_page
+msgid "Send"
+msgstr "发送"
+
+#. module: website_studio
+#. openerp-web
+#: code:addons/website_studio/static/src/js/form_manager.js:104
+#, python-format
+msgid ""
+"Sorry, only users with the following access level are currently allowed to "
+"do that: 'Website/Editor and Designer'"
+msgstr "抱歉，目前只允许具有以下访问级别的用户作为“网站/编辑和设计师”"
+
+#. module: website_studio
+#. openerp-web
+#: code:addons/website_studio/static/src/xml/form_manager.xml:15
+#, python-format
+msgid "View form"
+msgstr "查看表单"
+
+#. module: website_studio
+#. openerp-web
+#: code:addons/website_studio/static/src/xml/submenu.xml:7
+#, python-format
+msgid "Website"
+msgstr "网站"
+
+#. module: website_studio
+#: model:ir.actions.client,name:website_studio.action_web_studio_form
+msgid "Website Studio Form Manager"
+msgstr "Website Studio 表单管理器"
+
+#. module: website_studio
+#. openerp-web
+#: code:addons/website_studio/static/src/xml/form_manager.xml:11
+#, python-format
+msgid "new form"
+msgstr "新表单"

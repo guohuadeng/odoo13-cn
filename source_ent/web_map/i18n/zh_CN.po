@@ -1,0 +1,170 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* web_map
+# 
+# Translators:
+# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# ChinaMaker <liuct@chinamaker.net>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# Manga Tsang <mts@odoo.com>, 2019
+# Martin Trigaux, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27 09:19+0000\n"
+"PO-Revision-Date: 2019-08-26 09:38+0000\n"
+"Last-Translator: Martin Trigaux, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: web_map
+#: model_terms:ir.ui.view,arch_db:web_map.res_config_settings_view_form
+msgid ""
+"<i class=\"fa fa-arrow-right\">\n"
+"                                    </i>\n"
+"                                    Get token"
+msgstr ""
+"<i class=\"fa fa-arrow-right\">\n"
+"                                    </i>\n"
+"                                    获取令牌"
+
+#. module: web_map
+#: model_terms:ir.ui.view,arch_db:web_map.res_config_settings_view_form
+msgid "<span class=\"o_form_label\">Map Routes</span>"
+msgstr ""
+
+#. module: web_map
+#: model:ir.model,name:web_map.model_ir_actions_act_window_view
+msgid "Action Window View"
+msgstr "动作窗口视图"
+
+#. module: web_map
+#: model:ir.model,name:web_map.model_base
+msgid "Base"
+msgstr "基础"
+
+#. module: web_map
+#: model:ir.model,name:web_map.model_res_config_settings
+msgid "Config Settings"
+msgstr "配置设置"
+
+#. module: web_map
+#: model:ir.model,name:web_map.model_res_partner
+msgid "Contact"
+msgstr "联系人"
+
+#. module: web_map
+#: model:ir.model.fields,field_description:web_map.field_res_partner__contact_address_complete
+#: model:ir.model.fields,field_description:web_map.field_res_users__contact_address_complete
+msgid "Contact Address Complete"
+msgstr "完成联系地址"
+
+#. module: web_map
+#: model:ir.model,name:web_map.model_ir_http
+msgid "HTTP Routing"
+msgstr "HTTP 路由"
+
+#. module: web_map
+#. openerp-web
+#: code:addons/web_map/static/src/js/map_view.js:0
+#, python-format
+msgid "Items"
+msgstr "项目"
+
+#. module: web_map
+#: model:ir.model.fields.selection,name:web_map.selection__ir_actions_act_window_view__view_mode__map
+#: model:ir.model.fields.selection,name:web_map.selection__ir_ui_view__type__map
+msgid "Map"
+msgstr "地图"
+
+#. module: web_map
+#: model_terms:ir.ui.view,arch_db:web_map.res_config_settings_view_form
+msgid "Map View"
+msgstr "地图视图"
+
+#. module: web_map
+#. openerp-web
+#: code:addons/web_map/static/src/js/map_model.js:0
+#, python-format
+msgid "MapBox servers unreachable"
+msgstr "地图盒子服务器无法访问"
+
+#. module: web_map
+#: model:ir.model.fields,help:web_map.field_res_config_settings__map_box_token
+msgid "Necessary for some functionalities in the map view"
+msgstr "对于地图视图中的某些功能是必需的"
+
+#. module: web_map
+#: model_terms:ir.ui.view,arch_db:web_map.res_config_settings_view_form
+msgid "Set a MapBox account to activate routes and style."
+msgstr "设置地图盒子帐户以激活路径和样式。"
+
+#. module: web_map
+#: code:addons/web_map/models/res_config_settings.py:0
+#, python-format
+msgid "The MapBox server is unreachable"
+msgstr "地图盒子服务器无法访问"
+
+#. module: web_map
+#: code:addons/web_map/models/res_config_settings.py:0
+#, python-format
+msgid "The token input is not valid"
+msgstr "令牌输入无效"
+
+#. module: web_map
+#. openerp-web
+#: code:addons/web_map/static/src/js/map_model.js:0
+#: code:addons/web_map/static/src/js/map_model.js:0
+#: code:addons/web_map/static/src/js/map_model.js:0
+#, python-format
+msgid ""
+"The view has switched to another provider but functionalities will be "
+"limited"
+msgstr "该视图已切换到另一个供应商，但功能将受到限制"
+
+#. module: web_map
+#: code:addons/web_map/models/res_config_settings.py:0
+#, python-format
+msgid "This referer is not authorized"
+msgstr "此引用者未获得授权"
+
+#. module: web_map
+#: model:ir.model.fields,field_description:web_map.field_res_config_settings__map_box_token
+msgid "Token Map Box"
+msgstr "令牌地图盒子"
+
+#. module: web_map
+#. openerp-web
+#: code:addons/web_map/static/src/js/map_model.js:0
+#, python-format
+msgid "Token invalid"
+msgstr "令牌无效"
+
+#. module: web_map
+#: model_terms:ir.ui.view,arch_db:web_map.res_config_settings_view_form
+msgid "Token:"
+msgstr "令牌："
+
+#. module: web_map
+#. openerp-web
+#: code:addons/web_map/static/src/js/map_model.js:0
+#, python-format
+msgid "Unauthorized connection"
+msgstr "未经授权的连接"
+
+#. module: web_map
+#: model:ir.model,name:web_map.model_ir_ui_view
+msgid "View"
+msgstr "视图"
+
+#. module: web_map
+#: model:ir.model.fields,field_description:web_map.field_ir_actions_act_window_view__view_mode
+#: model:ir.model.fields,field_description:web_map.field_ir_ui_view__type
+msgid "View Type"
+msgstr "视图类型"

@@ -1,0 +1,127 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# * crm_helpdesk
+# 
+# Translators:
+# Martin Trigaux, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# guohuadeng <guohuadeng@hotmail.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# Jeanphy <hzh0292@qq.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.1+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-24 11:16+0000\n"
+"PO-Revision-Date: 2019-08-26 09:35+0000\n"
+"Last-Translator: Jeanphy <hzh0292@qq.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: crm_helpdesk
+#: model_terms:ir.ui.view,arch_db:crm_helpdesk.crm_lead_convert2ticket_view_form
+msgid "Cancel"
+msgstr "取消日期"
+
+#. module: crm_helpdesk
+#: model:ir.actions.act_window,name:crm_helpdesk.crm_lead_convert2ticket_action
+#: model_terms:ir.ui.view,arch_db:crm_helpdesk.crm_lead_convert2ticket_view_form
+#: model_terms:ir.ui.view,arch_db:crm_helpdesk.crm_lead_view_form
+msgid "Convert to Ticket"
+msgstr "转换为服务单"
+
+#. module: crm_helpdesk
+#: model_terms:ir.ui.view,arch_db:crm_helpdesk.crm_lead_convert2ticket_view_form
+msgid "Create Ticket"
+msgstr "创建服务单"
+
+#. module: crm_helpdesk
+#: selection:crm.lead.convert2ticket,action:0
+msgid "Create a new customer"
+msgstr "创建客户"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__partner_id
+msgid "Customer"
+msgstr "客户"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: crm_helpdesk
+#: selection:crm.lead.convert2ticket,action:0
+msgid "Do not link to a customer"
+msgstr "不要链接到某个客户"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__id
+msgid "ID"
+msgstr "ID"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket____last_update
+msgid "Last Modified on"
+msgstr "最后更改日"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__write_date
+msgid "Last Updated on"
+msgstr "更新时间"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__lead_id
+msgid "Lead"
+msgstr "线索"
+
+#. module: crm_helpdesk
+#: model:ir.model,name:crm_helpdesk.model_crm_lead_convert2ticket
+msgid "Lead convert to Ticket"
+msgstr "线索转换为服务单"
+
+#. module: crm_helpdesk
+#: selection:crm.lead.convert2ticket,action:0
+msgid "Link to an existing customer"
+msgstr "链接到现有客户"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__action
+msgid "Related Customer"
+msgstr "相关客户"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__team_id
+msgid "Team"
+msgstr "团队"
+
+#. module: crm_helpdesk
+#: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__ticket_type_id
+msgid "Ticket Type"
+msgstr "入场券类型"
+
+#. module: crm_helpdesk
+#: code:addons/crm_helpdesk/wizard/crm_lead_convert2ticket.py:53
+#, python-format
+msgid "Ticket created"
+msgstr "工单已创建"

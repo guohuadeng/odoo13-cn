@@ -1,0 +1,209 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* hr_payroll_account_sepa
+# 
+# Translators:
+# Martin Trigaux, 2019
+# liAnGjiA <liangjia@qq.com>, 2019
+# guohuadeng <guohuadeng@hotmail.com>, 2019
+# keecome <7017511@qq.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-09-27 09:18+0000\n"
+"PO-Revision-Date: 2019-08-26 09:36+0000\n"
+"Last-Translator: inspur qiuguodong <qiuguodong@inspur.com>, 2019\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,help:hr_payroll_account_sepa.field_hr_payslip__state
+msgid ""
+"* When the payslip is created the status is 'Draft'\n"
+"                \n"
+"* If the payslip is under verification, the status is 'Waiting'.\n"
+"                \n"
+"* If the payslip is confirmed then status is set to 'Done'.\n"
+"                \n"
+"* When user cancel payslip the status is 'Rejected'."
+msgstr ""
+"* 当工资条创建时状态为“草稿“ \n"
+" \n"
+" * 如果工资条待审批时, 状态为“等待中“。\n"
+" \n"
+" * 如果工资条被确认后状态为 “已完成”。\n"
+" \n"
+" * 当用户取消工资条时状态为”取消“。"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_run_sepa_wizard__journal_id
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_sepa_wizard__journal_id
+msgid "Bank Journal"
+msgstr "银行日记账"
+
+#. module: hr_payroll_account_sepa
+#: model_terms:ir.ui.view,arch_db:hr_payroll_account_sepa.hr_payslip_run_sepa_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_account_sepa.hr_payslip_sepa_view_form
+msgid "Cancel"
+msgstr "取消日期"
+
+#. module: hr_payroll_account_sepa
+#: model_terms:ir.ui.view,arch_db:hr_payroll_account_sepa.hr_payslip_run_sepa_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_account_sepa.hr_payslip_sepa_view_form
+msgid "Confirm"
+msgstr "确认"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_run_sepa_wizard__create_uid
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_sepa_wizard__create_uid
+msgid "Created by"
+msgstr "创建者"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_run_sepa_wizard__create_date
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_sepa_wizard__create_date
+msgid "Created on"
+msgstr "创建时间"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,help:hr_payroll_account_sepa.field_hr_payslip__sepa_export_date
+#: model:ir.model.fields,help:hr_payroll_account_sepa.field_hr_payslip_run__sepa_export_date
+msgid "Creation date of the related export file."
+msgstr "导出文件的相关创建日期。"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_run_sepa_wizard__display_name
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_sepa_wizard__display_name
+msgid "Display Name"
+msgstr "显示名称"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,help:hr_payroll_account_sepa.field_hr_payslip__sepa_export
+msgid "Export file related to this payslip"
+msgstr ""
+
+#. module: hr_payroll_account_sepa
+#: model_terms:ir.ui.view,arch_db:hr_payroll_account_sepa.hr_payslip_view_form
+msgid "Exported File"
+msgstr "文件导出"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,help:hr_payroll_account_sepa.field_hr_payslip_run__sepa_export
+msgid "Exported SEPA .xml file"
+msgstr ""
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,help:hr_payroll_account_sepa.field_hr_payslip_run__sepa_export_filename
+msgid "Exported SEPA .xml file name"
+msgstr ""
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip__sepa_export_filename
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_run__sepa_export_filename
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_run_sepa_wizard__file_name
+msgid "File Name"
+msgstr "文件名称"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip__sepa_export_date
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_run__sepa_export_date
+msgid "Generation Date"
+msgstr "生成日期"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model,name:hr_payroll_account_sepa.model_hr_payslip_run_sepa_wizard
+msgid "HR Payslip Run SEPA Wizard"
+msgstr ""
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model,name:hr_payroll_account_sepa.model_hr_payslip_sepa_wizard
+msgid "HR Payslip SEPA Wizard"
+msgstr ""
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_run_sepa_wizard__id
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_sepa_wizard__id
+msgid "ID"
+msgstr "ID"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_run_sepa_wizard____last_update
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_sepa_wizard____last_update
+msgid "Last Modified on"
+msgstr "最后更改日"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_run_sepa_wizard__write_uid
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_sepa_wizard__write_uid
+msgid "Last Updated by"
+msgstr "最后更新者"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_run_sepa_wizard__write_date
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_sepa_wizard__write_date
+msgid "Last Updated on"
+msgstr "更新时间"
+
+#. module: hr_payroll_account_sepa
+#: model_terms:ir.ui.view,arch_db:hr_payroll_account_sepa.hr_payslip_run_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_account_sepa.hr_payslip_view_form
+msgid "Make Payment"
+msgstr "付款"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,help:hr_payroll_account_sepa.field_hr_payslip__sepa_export_filename
+msgid "Name of the export file generated for this payslip"
+msgstr ""
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields.selection,name:hr_payroll_account_sepa.selection__hr_payslip__state__paid
+#: model:ir.model.fields.selection,name:hr_payroll_account_sepa.selection__hr_payslip_run__state__paid
+msgid "Paid"
+msgstr "已支付"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model,name:hr_payroll_account_sepa.model_hr_payslip
+msgid "Pay Slip"
+msgstr "工资条"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model,name:hr_payroll_account_sepa.model_hr_payslip_run
+msgid "Payslip Batches"
+msgstr "工资条批处理"
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip__sepa_export
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_run__sepa_export
+msgid "SEPA File"
+msgstr ""
+
+#. module: hr_payroll_account_sepa
+#: model_terms:ir.ui.view,arch_db:hr_payroll_account_sepa.hr_payslip_run_sepa_view_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll_account_sepa.hr_payslip_sepa_view_form
+msgid "Select a bank journal."
+msgstr ""
+
+#. module: hr_payroll_account_sepa
+#: code:addons/hr_payroll_account_sepa/models/hr_payslip.py:0
+#, python-format
+msgid "Some employees (%s) don't have a bank account."
+msgstr ""
+
+#. module: hr_payroll_account_sepa
+#: code:addons/hr_payroll_account_sepa/models/hr_payslip.py:0
+#, python-format
+msgid "Some employees (%s) don't have a private address."
+msgstr ""
+
+#. module: hr_payroll_account_sepa
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip__state
+#: model:ir.model.fields,field_description:hr_payroll_account_sepa.field_hr_payslip_run__state
+msgid "Status"
+msgstr "省份"
