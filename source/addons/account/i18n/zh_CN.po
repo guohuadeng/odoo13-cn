@@ -184,7 +184,7 @@ msgstr "30天"
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term_advance
 msgid "30% Advance End of Following Month"
-msgstr "次月月底预付30%"
+msgstr "预付30%，余款下月底前付清"
 
 #. module: account
 #: model:account.payment.term,name:account.account_payment_term_advance_60days
