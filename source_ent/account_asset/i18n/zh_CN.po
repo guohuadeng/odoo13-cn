@@ -9,7 +9,7 @@
 # bower Guo <124358678@qq.com>, 2019
 # roye w <159820@qq.com>, 2019
 # Jerry Pan <panjianyu@inspur.com>, 2019
-# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
 # 黎伟杰 <674416404@qq.com>, 2019
 # ChinaMaker <liuct@chinamaker.net>, 2019
@@ -19,14 +19,15 @@
 # Felix Yuen <fyu@odoo.com>, 2019
 # Martin Trigaux, 2019
 # 演奏王 <wangwhai@qq.com>, 2019
+# 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Project-Id-Version: Odoo Server 13.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-23 11:38+0000\n"
+"POT-Creation-Date: 2019-12-05 09:36+0000\n"
 "PO-Revision-Date: 2019-08-26 09:34+0000\n"
-"Last-Translator: 演奏王 <wangwhai@qq.com>, 2019\n"
+"Last-Translator: 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -271,6 +272,7 @@ msgid "Analytic Tag"
 msgstr "分析标签"
 
 #. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_search
 msgid "Archived"
 msgstr "已归档"
@@ -359,6 +361,11 @@ msgstr "资产类别"
 #: model:ir.model.fields,field_description:account_asset.field_account_move__asset_value_change
 msgid "Asset Value Change"
 msgstr "资产价值变动"
+
+#. module: account_asset
+#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
+msgid "Asset Values"
+msgstr ""
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:0
@@ -470,7 +477,7 @@ msgstr "可创建资产"
 #: model_terms:ir.ui.view,arch_db:account_asset.asset_pause_form
 #: model_terms:ir.ui.view,arch_db:account_asset.asset_sell_form
 msgid "Cancel"
-msgstr "取消日期"
+msgstr "取消"
 
 #. module: account_asset
 #: code:addons/account_asset/report/account_assets_report.py:0
@@ -905,11 +912,6 @@ msgstr "汇票资产"
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
 msgid "Duration"
 msgstr "时长"
-
-#. module: account_asset
-#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_search
-msgid "Exception Activities"
-msgstr "例外活动"
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_move.py:0
@@ -1432,11 +1434,6 @@ msgid "Original Value"
 msgstr "原始价值"
 
 #. module: account_asset
-#: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
-msgid "Original Values"
-msgstr "原始价值"
-
-#. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__parent_id
 msgid "Parent"
 msgstr "上级"
@@ -1590,6 +1587,14 @@ msgid "Reversal Move"
 msgstr "反转移动"
 
 #. module: account_asset
+#: code:addons/account_asset/wizard/asset_modify.py:0
+#, python-format
+msgid ""
+"Reverse the depreciation entries posted in the future in order to modify the"
+" depreciation"
+msgstr ""
+
+#. module: account_asset
 #: model:ir.model.fields.selection,name:account_asset.selection__account_asset__state__open
 msgid "Running"
 msgstr "运行中"
@@ -1680,7 +1685,7 @@ msgstr "缺少某些必需的值"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__state
 msgid "Status"
-msgstr "省份"
+msgstr "状态"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset__activity_state
@@ -1901,6 +1906,12 @@ msgstr "不能删除状态为 %s 的文档。"
 msgid ""
 "You cannot pause an asset with posted depreciation lines in the future."
 msgstr "将来不能暂停具有已过帐折旧行的资产。"
+
+#. module: account_asset
+#: code:addons/account_asset/models/account_move.py:0
+#, python-format
+msgid "You cannot post a depreciation on an asset in this state: %s"
+msgstr ""
 
 #. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form

@@ -3,8 +3,7 @@
 # 	* industry_fsm
 # 
 # Translators:
-# Jeffery CHEN <jeffery9@gmail.com>, 2019
-# guohuadeng <guohuadeng@hotmail.com>, 2019
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # 李赋 <fu792659@163.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # 张宏奎 <zhanghongkui@inspur.com>, 2019
@@ -12,15 +11,16 @@
 # Felix Yuen <fyu@odoo.com>, 2019
 # Manga Tsang <mts@odoo.com>, 2019
 # Martin Trigaux, 2019
-# Sage <263737@qq.com>, 2019
+# r <263737@qq.com>, 2019
+# guohuadeng <guohuadeng@hotmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-07 07:20+0000\n"
+"POT-Creation-Date: 2019-12-05 09:37+0000\n"
 "PO-Revision-Date: 2019-08-26 09:36+0000\n"
-"Last-Translator: Sage <263737@qq.com>, 2019\n"
+"Last-Translator: guohuadeng <guohuadeng@hotmail.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,6 +47,13 @@ msgstr "# 工作日结束"
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__nbr
 msgid "# of Tasks"
 msgstr "#  任务"
+
+#. module: industry_fsm
+#. openerp-web
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm.js:0
+#, python-format
+msgid "<b>Click the save button</b> to save the time spent."
+msgstr ""
 
 #. module: industry_fsm
 #: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_form
@@ -78,6 +85,20 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_form
 #: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
 msgid "<span class=\"align-middle\">for this employee at the same time.</span>"
+msgstr ""
+
+#. module: industry_fsm
+#. openerp-web
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm.js:0
+#, python-format
+msgid "Add a product by clicking on it."
+msgstr ""
+
+#. module: industry_fsm
+#. openerp-web
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm.js:0
+#, python-format
+msgid "Add a task title. <br/><i>(e.g. Boiler replacement)</i>"
 msgstr ""
 
 #. module: industry_fsm
@@ -150,6 +171,13 @@ msgid "Click Create to start a new task"
 msgstr "点击创建启动新任务"
 
 #. module: industry_fsm
+#. openerp-web
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm.js:0
+#, python-format
+msgid "Click on create invoice."
+msgstr ""
+
+#. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__company_id
 #: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
 msgid "Company"
@@ -175,13 +203,6 @@ msgstr "创建发票"
 #: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_all_fsm
 msgid "Create a new task"
 msgstr "创建一个新任务"
-
-#. module: industry_fsm
-#. openerp-web
-#: code:addons/industry_fsm/static/src/js/tours/industry_fsm.js:0
-#, python-format
-msgid "Create and plan your first Field Service Task"
-msgstr " 创建并计划第一个现场服务任务 "
 
 #. module: industry_fsm
 #: model:ir.actions.server,name:industry_fsm.project_task_server_action_batch_invoice_fsm
@@ -281,9 +302,37 @@ msgid "Group By"
 msgstr "分组"
 
 #. module: industry_fsm
+#. openerp-web
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm.js:0
+#, python-format
+msgid ""
+"Here is the <b>Field Service app</b>. Click on the icon to start managing "
+"your onsite interventions."
+msgstr ""
+
+#. module: industry_fsm
+#. openerp-web
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm.js:0
+#, python-format
+msgid ""
+"Here is the view of the users who are on the field. Click CREATE to start "
+"your first task."
+msgstr ""
+
+#. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__id
 msgid "ID"
 msgstr "ID"
+
+#. module: industry_fsm
+#. openerp-web
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm.js:0
+#, python-format
+msgid ""
+"If everything looks good to you, mark the task as done. When doing so, your "
+"stock will automatically be updated and your task will move to te next "
+"stage."
+msgstr ""
 
 #. module: industry_fsm
 #: model:project.task,legend_normal:industry_fsm.planning_task_0
@@ -308,6 +357,13 @@ msgstr "进行中"
 #, python-format
 msgid "Invoice"
 msgstr "发票"
+
+#. module: industry_fsm
+#. openerp-web
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm.js:0
+#, python-format
+msgid "Invoice your Time and Material to your customer."
+msgstr ""
 
 #. module: industry_fsm
 #: code:addons/industry_fsm/models/project.py:0
@@ -554,6 +610,13 @@ msgid "Ready for Next Stage"
 msgstr "下一阶段就绪"
 
 #. module: industry_fsm
+#. openerp-web
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm.js:0
+#, python-format
+msgid "Record the material you used for the intervention."
+msgstr ""
+
+#. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__remaining_hours
 msgid "Remaining Hours"
 msgstr "剩余时数"
@@ -579,6 +642,11 @@ msgid "Sales Order"
 msgstr "销售订单"
 
 #. module: industry_fsm
+#: model:ir.model,name:industry_fsm.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "销售订单行"
+
+#. module: industry_fsm
 #: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
 msgid "Search planning"
 msgstr ""
@@ -588,6 +656,13 @@ msgstr ""
 msgid ""
 "Select a Service product with which you would like to bill your time spent "
 "on tasks."
+msgstr ""
+
+#. module: industry_fsm
+#. openerp-web
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm.js:0
+#, python-format
+msgid "Select or create a customer."
 msgstr ""
 
 #. module: industry_fsm
@@ -623,7 +698,7 @@ msgstr "开始日期"
 #. openerp-web
 #: code:addons/industry_fsm/static/src/js/tours/industry_fsm.js:0
 #, python-format
-msgid "Start to manage your Onsite Intervention with the Field Service app."
+msgid "Start recording your time."
 msgstr ""
 
 #. module: industry_fsm
@@ -636,6 +711,13 @@ msgstr "停止"
 #: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_form
 #: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
 msgid "Stop the Timer"
+msgstr ""
+
+#. module: industry_fsm
+#. openerp-web
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm.js:0
+#, python-format
+msgid "Stop the timer and save your timesheet."
 msgstr ""
 
 #. module: industry_fsm
@@ -782,6 +864,13 @@ msgstr ""
 #: model:product.template,uom_name:industry_fsm.fsm_time_product_product_template
 msgid "Units"
 msgstr "单位"
+
+#. module: industry_fsm
+#. openerp-web
+#: code:addons/industry_fsm/static/src/js/tours/industry_fsm.js:0
+#, python-format
+msgid "Use the breadcrumbs to <b>go back to your task</b>."
+msgstr ""
 
 #. module: industry_fsm
 #: model:res.groups,name:industry_fsm.group_fsm_user

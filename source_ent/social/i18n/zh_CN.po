@@ -7,25 +7,28 @@
 # SHOM <shanmuxin@yeah.net>, 2019
 # Ma XiaoXiao <junmaing@gmail.com>, 2019
 # bf2549c5415a9287249cba2b8a5823c7, 2019
-# guohuadeng <guohuadeng@hotmail.com>, 2019
 # keecome <7017511@qq.com>, 2019
 # ChinaMaker <liuct@chinamaker.net>, 2019
 # bower Guo <124358678@qq.com>, 2019
 # roye w <159820@qq.com>, 2019
+# inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # Jeanphy <hzh0292@qq.com>, 2019
 # 张宏奎 <zhanghongkui@inspur.com>, 2019
 # Manga Tsang <mts@odoo.com>, 2019
-# Jeffery CHEN <jeffery9@gmail.com>, 2019
-# inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # Martin Trigaux, 2019
+# guohuadeng <guohuadeng@hotmail.com>, 2019
+# 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
+# Shiping Lv <lvshiping@sina.com>, 2019
+# fausthuang, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Project-Id-Version: Odoo Server 13.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-30 09:48+0000\n"
+"POT-Creation-Date: 2019-12-05 09:38+0000\n"
 "PO-Revision-Date: 2019-09-23 14:02+0000\n"
-"Last-Translator: Martin Trigaux, 2019\n"
+"Last-Translator: fausthuang, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,9 +37,18 @@ msgstr ""
 "Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid ""
+"It appears there is an issue with the Social Media link, click here to link "
+"the account again"
+msgstr ""
+
+#. module: social
 #: model:ir.model.fields,field_description:social.field_social_media__accounts_count
 msgid "# Accounts"
-msgstr ""
+msgstr "# 科目"
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_view_kanban
@@ -203,7 +215,7 @@ msgstr ""
 #: code:addons/social/static/src/xml/social_templates.xml:0
 #, python-format
 msgid "Cancel"
-msgstr "取消日期"
+msgstr "取消"
 
 #. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_view_form
@@ -654,7 +666,7 @@ msgstr ""
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_account__name
 msgid "Medium Name"
-msgstr ""
+msgstr "媒介名称"
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_post__message
@@ -667,6 +679,12 @@ msgstr "消息"
 #: model:ir.model.fields,field_description:social.field_social_post__message_has_error
 msgid "Message Delivery error"
 msgstr "消息传递错误"
+
+#. module: social
+#: code:addons/social/models/social_post.py:0
+#, python-format
+msgid "Message posted"
+msgstr ""
 
 #. module: social
 #: model:ir.model.fields,field_description:social.field_social_media__message_ids
@@ -753,6 +771,13 @@ msgid "Number of Actions"
 msgstr "操作次数"
 
 #. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Number of Followers of your channel"
+msgstr ""
+
+#. module: social
 #: model:ir.model.fields,field_description:social.field_social_post__click_count
 msgid "Number of clicks"
 msgstr "点击数"
@@ -800,6 +825,24 @@ msgstr ""
 #. module: social
 #: model:ir.model.fields,help:social.field_social_account__stories
 msgid "Number of stories created from your posts (Shares, Re-tweets, ...)."
+msgstr ""
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid ""
+"Number of times people have engaged with your posts (likes, comments, "
+"shares,...)"
+msgstr ""
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid ""
+"Number of times people who have engaged with your channel have created "
+"stories on their friends' or followers' feed (Shares, Retweets...)"
 msgstr ""
 
 #. module: social
@@ -878,6 +921,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:social.social_post_view_search
 #: model_terms:ir.ui.view,arch_db:social.social_stream_post_view_search
 msgid "Post Message"
+msgstr ""
+
+#. module: social
+#: model_terms:ir.ui.view,arch_db:social.social_post_view_form
+msgid "Post Now"
 msgstr ""
 
 #. module: social
@@ -1070,7 +1118,7 @@ msgstr ""
 #. module: social
 #: model:ir.ui.menu,name:social.menu_social_global
 msgid "Social Marketing"
-msgstr ""
+msgstr "社交媒体营销"
 
 #. module: social
 #. openerp-web
@@ -1099,7 +1147,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:social.social_live_post_view_form
 #: model_terms:ir.ui.view,arch_db:social.social_post_view_form
 msgid "Social Post"
-msgstr ""
+msgstr "社会职务"
 
 #. module: social
 #: model:res.groups,name:social.group_social_user
@@ -1169,7 +1217,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:social.field_social_live_post__state
 #: model:ir.model.fields,field_description:social.field_social_post__state
 msgid "Status"
-msgstr "省份"
+msgstr "状态"
 
 #. module: social
 #: model:ir.model.fields,help:social.field_social_post__activity_state
@@ -1348,6 +1396,12 @@ msgid "Unread Messages Counter"
 msgstr "未读消息计数器"
 
 #. module: social
+#: code:addons/social/models/social_post.py:0
+#, python-format
+msgid "Uploaded file does not seem to be a valid image."
+msgstr ""
+
+#. module: social
 #: model:ir.model.fields,help:social.field_social_account__media_type
 #: model:ir.model.fields,help:social.field_social_media__media_type
 #: model:ir.model.fields,help:social.field_social_stream_post__media_type
@@ -1381,8 +1435,22 @@ msgid "Will attach images to your posts (if the social media supports it)."
 msgstr ""
 
 #. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Write a comment..."
+msgstr "写一个评论..."
+
+#. module: social
 #: model_terms:ir.ui.view,arch_db:social.social_post_view_form
 msgid "Write a message to see the preview."
+msgstr ""
+
+#. module: social
+#. openerp-web
+#: code:addons/social/static/src/xml/social_templates.xml:0
+#, python-format
+msgid "Write a reply..."
 msgstr ""
 
 #. module: social
@@ -1398,6 +1466,12 @@ msgstr ""
 #: code:addons/social/models/social_post.py:0
 #, python-format
 msgid "You are not allowed to do this operation."
+msgstr ""
+
+#. module: social
+#: code:addons/social/models/social_post.py:0
+#, python-format
+msgid "You can only move posts that are scheduled."
 msgstr ""
 
 #. module: social

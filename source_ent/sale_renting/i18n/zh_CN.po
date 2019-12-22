@@ -10,16 +10,16 @@
 # wangting <39181819@qq.com>, 2019
 # John An <johnxan@163.com>, 2019
 # Martin Trigaux, 2019
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # guohuadeng <guohuadeng@hotmail.com>, 2019
-# Jeffery CHEN <jeffery9@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-07 07:20+0000\n"
+"POT-Creation-Date: 2019-12-05 12:37+0000\n"
 "PO-Revision-Date: 2019-08-26 09:38+0000\n"
-"Last-Translator: Jeffery CHEN <jeffery9@gmail.com>, 2019\n"
+"Last-Translator: guohuadeng <guohuadeng@hotmail.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -40,7 +40,8 @@ msgid ""
 "(object.rental_status not in ('draft', 'sent') and 'Delivery or Return "
 "Receipt - %s' %(object.name)) or 'Order - %s' % (object.name)"
 msgstr ""
-"(object.rental_status not in ('draft', 'sent') and '借出/归还单 - %s' %(object.name)) or '租赁订单 - %s' % (object.name)"
+"(object.rental_status not in ('draft', 'sent') and '借出/归还单 - %s' "
+"%(object.name)) or '租赁订单 - %s' % (object.name)"
 
 #. module: sale_renting
 #: code:addons/sale_renting/wizard/rental_configurator.py:0
@@ -210,6 +211,8 @@ msgid "Companies"
 msgstr "公司"
 
 #. module: sale_renting
+#: model:ir.model.fields,field_description:sale_renting.field_rental_pricing__company_id
+#: model:ir.model.fields,field_description:sale_renting.field_rental_wizard__company_id
 #: model:ir.model.fields,field_description:sale_renting.field_sale_rental_report__company_id
 #: model:ir.model.fields,field_description:sale_renting.field_sale_rental_schedule__company_id
 #: model_terms:ir.ui.view,arch_db:sale_renting.rental_report_search_view
@@ -363,11 +366,6 @@ msgid "Delay Product"
 msgstr "逾期归还的产品"
 
 #. module: sale_renting
-#: model_terms:ir.ui.view,arch_db:sale_renting.rental_schedule_view_form
-msgid "Delivered"
-msgstr "已送货"
-
-#. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_rental_schedule__description
 #: model_terms:ir.ui.view,arch_db:sale_renting.report_rental_order_document
 msgid "Description"
@@ -432,7 +430,8 @@ msgstr "输入产品名称"
 msgid ""
 "Enter the requested dates and check the price.\n"
 " Then, click here to add the product."
-msgstr "输入要求的时期并检查价格.\n"
+msgstr ""
+"输入要求的时期并检查价格.\n"
 " 然后点此增加产品"
 
 #. module: sale_renting
@@ -487,6 +486,12 @@ msgstr "逾期一小时滞纳金"
 #: model:ir.model.fields,help:sale_renting.field_product_template__display_price
 msgid "First rental pricing of the product"
 msgstr "首次租赁价格"
+
+#. module: sale_renting
+#: code:addons/sale_renting/wizard/rental_configurator.py:0
+#, python-format
+msgid "Fixed rental price"
+msgstr ""
 
 #. module: sale_renting
 #. openerp-web
@@ -749,12 +754,13 @@ msgstr "已借出"
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_rental_order_wizard_line__qty_delivered
+#: model:ir.model.fields.selection,name:sale_renting.selection__sale_order__rental_status__return
 #: model_terms:ir.ui.view,arch_db:sale_renting.rental_order_form_view
+#: model_terms:ir.ui.view,arch_db:sale_renting.rental_schedule_view_form
 msgid "Picked-up"
 msgstr "已借出"
 
 #. module: sale_renting
-#: model:ir.model.fields.selection,name:sale_renting.selection__sale_order__rental_status__return
 #: model:ir.model.fields.selection,name:sale_renting.selection__sale_rental_schedule__rental_status__return
 #: model:ir.model.fields.selection,name:sale_renting.selection__sale_rental_schedule__report_line_status__pickedup
 #: model_terms:ir.ui.view,arch_db:sale_renting.report_rental_order_document
@@ -1270,26 +1276,21 @@ msgstr "没有计划中的借出或归还。"
 msgid ""
 "This is the default extra cost per day set on newly created products. You "
 "can change this value for existing products directly on the product itself."
-msgstr ""
-"这是新建租赁产品时，默认的每天附加价格。 "
-"对已存在产品，你可以直接在产品窗体直接更改金额。"
+msgstr "这是新建租赁产品时，默认的每天附加价格。 对已存在产品，你可以直接在产品窗体直接更改金额。"
 
 #. module: sale_renting
 #: model:ir.model.fields,help:sale_renting.field_res_config_settings__extra_hour
 msgid ""
 "This is the default extra cost per hour set on newly created products. You "
 "can change this value for existing products directly on the product itself."
-msgstr ""
-"这是新建租赁产品时，默认的每小时附加价格。 "
-"对已存在产品，你可以直接在产品窗体直接更改金额。"
+msgstr "这是新建租赁产品时，默认的每小时附加价格。 对已存在产品，你可以直接在产品窗体直接更改金额。"
 
 #. module: sale_renting
 #: model:ir.model.fields,help:sale_renting.field_rental_wizard__unit_price
 msgid ""
 "This price is based on the rental price rule that gives the cheapest price "
 "for requested duration."
-msgstr ""
-"此价格是基于租赁价格策略计算，在该要求租期内的最低价格。"
+msgstr "此价格是基于租赁价格策略计算，在该要求租期内的最低价格。"
 
 #. module: sale_renting
 #: model:ir.model.fields,help:sale_renting.field_res_config_settings__extra_product
