@@ -44,8 +44,8 @@ msgid ""
 "                              Buy now, get in 2 days"
 msgstr ""
 "30 天内可退款保证<br/>\n"
-"                              美国境内包邮<br/>\n"
-"                              现在购买，2 天内到货"
+"                              数字产品即买即发。<br/>\n"
+"                              一般商品全国包邮，2~7 天内到货"
 
 #. module: website_sale
 #: model:mail.template,body_html:website_sale.mail_template_sale_cart_recovery
@@ -1480,7 +1480,7 @@ msgstr "方法"
 #: code:addons/website_sale/static/src/js/website_sale.js:0
 #, python-format
 msgid "My Cart"
-msgstr "我的购物车"
+msgstr "购物车"
 
 #. module: website_sale
 #. openerp-web
@@ -2121,7 +2121,7 @@ msgstr "收入来自"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.s_products_recently_viewed
 msgid "Recently viewed Products"
-msgstr ""
+msgstr "最近浏览产品"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.view_sales_order_filter_ecommerce_abondand
