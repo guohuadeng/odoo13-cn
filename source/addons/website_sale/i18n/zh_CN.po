@@ -602,7 +602,7 @@ msgstr "允许最终用户选择此价格表"
 #: model:ir.model.fields,field_description:website_sale.field_product_product__alternative_product_ids
 #: model:ir.model.fields,field_description:website_sale.field_product_template__alternative_product_ids
 msgid "Alternative Products"
-msgstr "替代产品"
+msgstr "相似产品"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_crm_team__abandoned_carts_amount
@@ -2519,7 +2519,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.suggested_products_list
 msgid "Suggested Accessories:"
-msgstr "建议的附件:"
+msgstr "多数客户同时购买了以下产品:"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address_b2b

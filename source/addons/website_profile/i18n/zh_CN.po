@@ -36,7 +36,7 @@ msgstr ""
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.email_validation_banner
 msgid "&amp;times;"
-msgstr "&amp;次数;"
+msgstr "&amp;times;"
 
 #. module: website_profile
 #: model_terms:ir.ui.view,arch_db:website_profile.user_profile_header

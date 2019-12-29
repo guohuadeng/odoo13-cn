@@ -48,7 +48,7 @@ msgstr "#商机"
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunities
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_opportunity
 msgid "&amp;times;"
-msgstr "&amp;次数;"
+msgstr "&amp;times;"
 
 #. module: website_crm_partner_assign
 #: model_terms:ir.ui.view,arch_db:website_crm_partner_assign.portal_my_lead

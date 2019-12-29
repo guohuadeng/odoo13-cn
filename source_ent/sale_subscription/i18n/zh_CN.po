@@ -140,7 +140,7 @@ msgstr "&amp;nbsp;"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "&amp;times;"
-msgstr "&amp;次数;"
+msgstr "&amp;times;"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription

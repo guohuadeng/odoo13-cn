@@ -58,7 +58,7 @@ msgstr "%s 挑战证书"
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.page
 msgid "&amp;times;"
-msgstr "&amp;次数;"
+msgstr "&amp;times;"
 
 #. module: survey
 #: model:ir.actions.report,print_report_name:survey.certification_report

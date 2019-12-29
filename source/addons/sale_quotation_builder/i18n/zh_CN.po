@@ -33,7 +33,7 @@ msgstr ""
 #. module: sale_quotation_builder
 #: model_terms:ir.ui.view,arch_db:sale_quotation_builder.sale_order_portal_content_inherit_sale_quotation_builder
 msgid "&amp;times;"
-msgstr "&amp;次数;"
+msgstr "&amp;times;"
 
 #. module: sale_quotation_builder
 #: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template

@@ -87,7 +87,7 @@ msgstr "%s (id:%s)"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
 msgid "&amp;times;"
-msgstr "&amp;次数;"
+msgstr "&amp;times;"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.sitemap_index_xml

@@ -6604,7 +6604,7 @@ msgstr "更新产品数量"
 #: model_terms:ir.ui.view,arch_db:stock.product_template_form_view_procurement_button
 #, python-format
 msgid "Update Quantity"
-msgstr ""
+msgstr "更新库存"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_move__priority__2

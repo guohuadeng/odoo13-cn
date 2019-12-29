@@ -43,7 +43,7 @@ msgstr "%s (副本)"
 #. module: industry_fsm_report
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.portal_my_worksheet
 msgid "&amp;times;"
-msgstr "&amp;次数;"
+msgstr "&amp;times;"
 
 #. module: industry_fsm_report
 #: model:ir.actions.report,print_report_name:industry_fsm_report.task_custom_report

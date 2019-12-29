@@ -33,7 +33,7 @@ msgstr ""
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_shift_notification
 msgid "&amp;times;"
-msgstr "&amp;次数;"
+msgstr "&amp;times;"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_gantt
