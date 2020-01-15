@@ -8123,7 +8123,7 @@ msgstr ""
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
 msgid "<code>Warning</code>: Warning Exception to use with <code>raise</code>"
-msgstr "<code>警告</code>：使用<code>提高</code>时出现警告异常"
+msgstr "<code>Warning</code>：使用<code>raise</code>时出现警告异常"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_form
@@ -8148,33 +8148,33 @@ msgid ""
 "<code>log(message, level='info')</code>:logging function to record debug "
 "information in <code>ir.logging</code> table"
 msgstr ""
-"<code>日志 (message, level='info')：在 <code>ir.logging</code> 表中记录调试信息的日志记录功能"
+"<code>log (message, level='info')：在 <code>ir.logging</code> 表中记录调试信息的日志记录功能"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
 msgid ""
 "<code>model</code>: Odoo Model of the record on which the action is "
 "triggered; is a void recordset"
-msgstr "<code>模型</code>：触发操作的 Odoo 模型记录；是一个无效的记录集"
+msgstr "<code>model</code>：触发操作的 Odoo 模型记录；是一个无效的记录集"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
 msgid ""
 "<code>record</code>: record on which the action is triggered; may be be void"
-msgstr "<code>记录</code>：触发操作的记录；可能无效"
+msgstr "<code>record</code>：触发操作的记录；可能无效"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
 msgid ""
 "<code>records</code>: recordset of all records on which the action is "
 "triggered in multi mode; may be void"
-msgstr "<code>记录</code>：在多个模式下触发操作的所有记录的记录集；可能无效"
+msgstr "<code>records</code>：在多个模式下触发操作的所有记录的记录集；可能无效"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_form
 #: model_terms:ir.ui.view,arch_db:base.view_model_form
 msgid "<code>self</code> (the set of records to compute)"
-msgstr "<code>自己</code> (要计算的记录集)"
+msgstr "<code>self</code> (要计算的记录集)"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_form
@@ -8188,8 +8188,8 @@ msgid ""
 "<code>time</code>, <code>datetime</code>, <code>dateutil</code>, "
 "<code>timezone</code>: useful Python libraries"
 msgstr ""
-"<code>时间、</code><code>日期时间</code>、<code>dateutil</code>、<code>时区</code>：有用的 "
-"Python 库"
+"<code>time</code>、<code>datetime</code>、<code>dateutil</code>、"
+"<code>timezone</code>：有用的Python 库"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_res_company_kanban
