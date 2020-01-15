@@ -4,15 +4,13 @@
 # 
 # Translators:
 # zpq001 <zpq001@live.com>, 2019
-# 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
 # e2f_cn c5 <jarvisn@ecinnovations.com>, 2019
 # bower Guo <124358678@qq.com>, 2019
 # neter ji <jifuyi@qq.com>, 2019
 # fausthuang, 2019
-# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
 # 老窦 北京 <2662059195@qq.com>, 2019
-# guohuadeng <guohuadeng@hotmail.com>, 2019
 # 卫安琪 <weianqi1991@gmail.com>, 2019
 # roye w <159820@qq.com>, 2019
 # snow wang <147156565@qq.com>, 2019
@@ -26,16 +24,19 @@
 # 黎伟杰 <674416404@qq.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # Martin Trigaux, 2019
-# keecome <7017511@qq.com>, 2019
 # rejen he <251442037@qq.com>, 2019
+# guohuadeng <guohuadeng@hotmail.com>, 2019
+# keecome <7017511@qq.com>, 2019
+# 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
+# Felix Yang - Elico Corp <felix.yang@elico-corp.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-07 07:20+0000\n"
+"POT-Creation-Date: 2019-12-05 12:37+0000\n"
 "PO-Revision-Date: 2019-08-26 09:38+0000\n"
-"Last-Translator: rejen he <251442037@qq.com>, 2019\n"
+"Last-Translator: Felix Yang - Elico Corp <felix.yang@elico-corp.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -139,7 +140,7 @@ msgstr "&amp;nbsp;"
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "&amp;times;"
-msgstr "&amp;次数;"
+msgstr "&amp;times;"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
@@ -408,6 +409,8 @@ msgid ""
 "<span class=\"o_stat_text\">Customer</span>\n"
 "                                <span class=\"o_stat_text\">Preview</span>"
 msgstr ""
+"<span class=\"o_stat_text\">客户</span>\n"
+"                                <span class=\"o_stat_text\">预览</span>"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_kanban
@@ -933,6 +936,8 @@ msgid "Apply on"
 msgstr "应用于"
 
 #. module: sale_subscription
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_alert_view_form
+#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_search
 msgid "Archived"
 msgstr "已归档"
@@ -1018,7 +1023,7 @@ msgstr "绑定类型"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__binding_view_types
 msgid "Binding View Types"
-msgstr ""
+msgstr "绑定视图类型"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription__percentage_satisfaction
@@ -1032,7 +1037,7 @@ msgstr "计算最佳（'高分' ）评分数与评分总数之间的比率"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.wizard_form_view
 msgid "Cancel"
-msgstr "取消日期"
+msgstr "取消"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_line__product_uom_category_id
@@ -1417,6 +1422,15 @@ msgid "Discount (%)"
 msgstr "折扣 (%)"
 
 #. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_subscription.py:0
+#, python-format
+msgid ""
+"Discount computation failed because the upsell date is not between the next "
+"invoice date and the computed last invoice date. Defaulting to NO Discount "
+"policy."
+msgstr ""
+
+#. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__display_name
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__display_name
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_close_reason__display_name
@@ -1494,11 +1508,6 @@ msgid ""
 "Enter here the internal requirements for this stage. It will appear as a "
 "tooltip over the stage's name."
 msgstr ""
-
-#. module: sale_subscription
-#: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
-msgid "Exception Activities"
-msgstr "例外活动"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_report_search
@@ -1913,6 +1922,12 @@ msgid "Last Updated on"
 msgstr "更新时间"
 
 #. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_subscription.py:0
+#, python-format
+msgid "Last invoice date: "
+msgstr ""
+
+#. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
 msgid "Late Activities"
 msgstr "最近的活动"
@@ -2130,6 +2145,12 @@ msgstr "下一活动类型"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription
 msgid "Next Invoice:"
 msgstr ""
+
+#. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_subscription.py:0
+#, python-format
+msgid "Next invoice date: "
+msgstr "下一个发票日期:"
 
 #. module: sale_subscription
 #: model_terms:ir.actions.act_window,help:sale_subscription.product_template_action_subscription
@@ -2801,7 +2822,7 @@ msgstr ""
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.portal_my_subscriptions
 msgid "Status"
-msgstr "省份"
+msgstr "状态"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription__activity_state
@@ -3357,6 +3378,12 @@ msgid "Upsell"
 msgstr "超卖"
 
 #. module: sale_subscription
+#: code:addons/sale_subscription/models/sale_subscription.py:0
+#, python-format
+msgid "Upsell date: "
+msgstr ""
+
+#. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_order__subscription_management__upsell
 msgid "Upselling"
 msgstr "超卖"
@@ -3536,7 +3563,7 @@ msgstr "你还没有任何订阅"
 msgid ""
 "You must define a product for everything you sell or purchase,\n"
 "            whether it's a storable product, a consumable or a service."
-msgstr ""
+msgstr "你必须一个用来销售或采购的产品，不论它是可库存的产品，可消耗的产品或者服务产品。"
 
 #. module: sale_subscription
 #: code:addons/sale_subscription/models/sale_subscription.py:0

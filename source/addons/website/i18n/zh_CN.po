@@ -87,7 +87,7 @@ msgstr "%s (id:%s)"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
 msgid "&amp;times;"
-msgstr "&amp;次数;"
+msgstr "&amp;times;"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.sitemap_index_xml
@@ -5030,7 +5030,7 @@ msgstr "跟踪UTM链接的点击次数"
 #: code:addons/website/static/src/xml/track_page.xml:0
 #, python-format
 msgid "Track visitor"
-msgstr ""
+msgstr "访客跟踪"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form

@@ -36,7 +36,7 @@ msgid ""
 "                        Wishlist"
 msgstr ""
 "<i class=\"fa fa-heart\"/>\n"
-"                        心愿清单"
+"                        收藏夹"
 
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.product_wishlist
@@ -54,6 +54,8 @@ msgid ""
 "<span class=\"fa fa-heart\" role=\"img\" aria-label=\"Add to wishlist\"/> "
 "Add to wishlist"
 msgstr ""
+"<span class=\"fa fa-heart\" role=\"img\" aria-label=\"加入收藏\"/> "
+"加入收藏"
 
 #. module: website_sale_wishlist
 #: model:ir.model.fields,field_description:website_sale_wishlist.field_product_wishlist__active
@@ -68,12 +70,12 @@ msgstr "加到<span class=\"d-none d-md-inline\">购物车</span>"
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.product_wishlist
 msgid "Add product to my cart but keep it in my wishlist"
-msgstr "将产品加入购物车但仍保留在我的愿望清单中"
+msgstr "产品加入购物车后，仍保留在我的收藏夹中"
 
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.add_to_wishlist
 msgid "Add to Wishlist"
-msgstr "加入到愿望清单"
+msgstr "加入收藏"
 
 #. module: website_sale_wishlist
 #: model:ir.model,name:website_sale_wishlist.model_ir_autovacuum
@@ -133,7 +135,7 @@ msgstr "更新时间"
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.product_wishlist
 msgid "My Wishlist"
-msgstr "我的愿望清单"
+msgstr "我的收藏"
 
 #. module: website_sale_wishlist
 #: model:ir.model.fields,field_description:website_sale_wishlist.field_product_wishlist__partner_id
@@ -148,7 +150,7 @@ msgstr "价格"
 #. module: website_sale_wishlist
 #: model:ir.model.fields,help:website_sale_wishlist.field_product_wishlist__price
 msgid "Price of the product when it has been added in the wishlist"
-msgstr "添加到愿望清单时的产品价格"
+msgstr "添加到收藏时的产品价格"
 
 #. module: website_sale_wishlist
 #: model:ir.model.fields,field_description:website_sale_wishlist.field_product_wishlist__pricelist_id
@@ -184,7 +186,7 @@ msgstr "产品图片"
 #. module: website_sale_wishlist
 #: model_terms:ir.ui.view,arch_db:website_sale_wishlist.product_wishlist
 msgid "Shop Wishlist"
-msgstr "购买愿望清单"
+msgstr "店铺收藏清单"
 
 #. module: website_sale_wishlist
 #: model:ir.model,name:website_sale_wishlist.model_res_users
@@ -200,4 +202,4 @@ msgstr "网站"
 #: model:ir.model.fields,field_description:website_sale_wishlist.field_res_partner__wishlist_ids
 #: model:ir.model.fields,field_description:website_sale_wishlist.field_res_users__wishlist_ids
 msgid "Wishlist"
-msgstr "愿望清单"
+msgstr "收藏"

@@ -11,17 +11,18 @@
 # diaojiaolou <124412206@qq.com>, 2019
 # keecome <7017511@qq.com>, 2019
 # Martin Trigaux, 2019
-# Jeffery CHEN <jeffery9@gmail.com>, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
 # guohuadeng <guohuadeng@hotmail.com>, 2019
 # Emily Jia <eji@odoo.com>, 2019
 # snow wang <147156565@qq.com>, 2019
 # xu xiaohu <xu.xiaohu@gmail.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
-# Sage <263737@qq.com>, 2019
+# r <263737@qq.com>, 2019
 # Felix Yuen <fyu@odoo.com>, 2019
 # Mandy Choy <mnc@odoo.com>, 2019
 # ChinaMaker <liuct@chinamaker.net>, 2019
+# 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -29,7 +30,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-27 09:18+0000\n"
 "PO-Revision-Date: 2019-08-26 09:34+0000\n"
-"Last-Translator: ChinaMaker <liuct@chinamaker.net>, 2019\n"
+"Last-Translator: Jeffery CHEN Fan <jeffery9@gmail.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -358,7 +359,7 @@ msgstr "增加备注"
 #: model:ir.model.fields,field_description:account_reports.field_res_company__totals_below_sections
 #: model:ir.model.fields,field_description:account_reports.field_res_config_settings__totals_below_sections
 msgid "Add totals below sections"
-msgstr "部分下增加合计"
+msgstr "章节下增加合计"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_cash_flow_report.py:0
@@ -606,7 +607,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:account_reports.view_report_export_wizard
 #, python-format
 msgid "Cancel"
-msgstr "取消日期"
+msgstr "取消"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_cash0
@@ -2022,7 +2023,7 @@ msgstr "搜索账户"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__name
 msgid "Section Name"
-msgstr "部分名称"
+msgstr "章节名称"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__sequence
@@ -2384,7 +2385,7 @@ msgstr ""
 #: model:ir.model.fields,help:account_reports.field_res_config_settings__totals_below_sections
 msgid ""
 "When ticked, totals and subtotals appear below the sections of the report."
-msgstr "勾选后，总计和小计会显示在报表部分的下面。"
+msgstr "勾选后，总计和小计会显示在报表章节的下面。"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_extra_options

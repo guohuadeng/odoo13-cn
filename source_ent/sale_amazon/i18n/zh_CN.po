@@ -5,7 +5,7 @@
 # Translators:
 # Jeanphy <hzh0292@qq.com>, 2019
 # Martin Trigaux, 2019
-# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
 # waveyeung <waveyeung@qq.com>, 2019
 # Gary Wei <Gary.wei@elico-corp.com>, 2019
@@ -18,9 +18,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Project-Id-Version: Odoo Server 13.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-26 08:05+0000\n"
+"POT-Creation-Date: 2019-12-05 09:38+0000\n"
 "PO-Revision-Date: 2019-08-26 09:38+0000\n"
 "Last-Translator: John An <johnxan@163.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
@@ -354,6 +354,14 @@ msgstr ""
 #: model:amazon.marketplace,name:sale_amazon.marketplace_DE
 msgid "Germany"
 msgstr "德国"
+
+#. module: sale_amazon
+#: code:addons/sale_amazon/models/amazon_account.py:0
+#, python-format
+msgid ""
+"Gift message:\n"
+"%s"
+msgstr ""
 
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_account__id
@@ -822,15 +830,6 @@ msgstr ""
 #: code:addons/sale_amazon/models/amazon_account.py:0
 #, python-format
 msgid "[%s] Gift Wrapping Charges for %s"
-msgstr ""
-
-#. module: sale_amazon
-#: code:addons/sale_amazon/models/amazon_account.py:0
-#, python-format
-msgid ""
-"[%s] Gift Wrapping Charges for %s\n"
-"Gift message:\n"
-"%s"
 msgstr ""
 
 #. module: sale_amazon

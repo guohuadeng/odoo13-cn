@@ -351,7 +351,7 @@ msgstr "激活资产调试"
 #: code:addons/web/static/src/xml/debug.xml:0
 #, python-format
 msgid "Activate Tests Assets Debugging"
-msgstr ""
+msgstr "激活前端资源调试"
 
 #. module: web
 #. openerp-web
@@ -2985,7 +2985,7 @@ msgstr "红色"
 #: code:addons/web/static/src/xml/debug.xml:0
 #, python-format
 msgid "Regenerate Assets Bundles"
-msgstr "重新生成资产包"
+msgstr "重新生成资源包"
 
 #. module: web
 #. openerp-web

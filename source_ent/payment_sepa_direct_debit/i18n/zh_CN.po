@@ -13,6 +13,8 @@
 # xu xiaohu <xu.xiaohu@gmail.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # Felix Yuen <fyu@odoo.com>, 2019
+# guohuadeng <guohuadeng@hotmail.com>, 2019
+# Shiping Lv <lvshiping@sina.com>, 2019
 # 
 msgid ""
 msgstr ""
@@ -20,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:05+0000\n"
 "PO-Revision-Date: 2019-08-26 09:37+0000\n"
-"Last-Translator: Felix Yuen <fyu@odoo.com>, 2019\n"
+"Last-Translator: Shiping Lv <lvshiping@sina.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -272,7 +274,7 @@ msgstr "币种"
 #. module: payment_sepa_direct_debit
 #: model:ir.model.fields,help:payment_sepa_direct_debit.field_sdd_mandate__signed_on
 msgid "Date of the signature."
-msgstr ""
+msgstr "签名日期。"
 
 #. module: payment_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:payment_sepa_direct_debit.payment_sepa_direct_debit_mandate_form
@@ -400,7 +402,7 @@ msgstr ""
 #: code:addons/payment_sepa_direct_debit/static/src/js/payment_form.js:0
 #, python-format
 msgid "Please enter the SMS validation code."
-msgstr ""
+msgstr "请输入短信验证码。"
 
 #. module: payment_sepa_direct_debit
 #. openerp-web
@@ -408,7 +410,7 @@ msgstr ""
 #: code:addons/payment_sepa_direct_debit/static/src/js/payment_form.js:0
 #, python-format
 msgid "Please enter your signature."
-msgstr ""
+msgstr "请输入你的签名。"
 
 #. module: payment_sepa_direct_debit
 #: model:ir.model.fields,field_description:payment_sepa_direct_debit.field_payment_acquirer__provider
@@ -490,12 +492,12 @@ msgstr "签名已通过门户网站收到。"
 #. module: payment_sepa_direct_debit
 #: model:ir.model.fields,field_description:payment_sepa_direct_debit.field_sdd_mandate__signed_by
 msgid "Signed By"
-msgstr ""
+msgstr "签名者"
 
 #. module: payment_sepa_direct_debit
 #: model:ir.model.fields,field_description:payment_sepa_direct_debit.field_sdd_mandate__signed_on
 msgid "Signed On"
-msgstr ""
+msgstr "签名时间"
 
 #. module: payment_sepa_direct_debit
 #: model_terms:ir.ui.view,arch_db:payment_sepa_direct_debit.sdd_payment_mandate_form

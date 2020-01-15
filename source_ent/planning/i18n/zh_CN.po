@@ -13,16 +13,16 @@
 # John An <johnxan@163.com>, 2019
 # Felix Yuen <fyu@odoo.com>, 2019
 # Martin Trigaux, 2019
-# Jeffery CHEN <jeffery9@gmail.com>, 2019
 # 演奏王 <wangwhai@qq.com>, 2019
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-10-07 07:20+0000\n"
+"POT-Creation-Date: 2019-10-18 10:09+0000\n"
 "PO-Revision-Date: 2019-09-09 12:35+0000\n"
-"Last-Translator: 演奏王 <wangwhai@qq.com>, 2019\n"
+"Last-Translator: Jeffery CHEN Fan <jeffery9@gmail.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -33,7 +33,7 @@ msgstr ""
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_shift_notification
 msgid "&amp;times;"
-msgstr "&amp;次数;"
+msgstr "&amp;times;"
 
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_gantt
@@ -172,7 +172,7 @@ msgstr "<strong>开始日: </strong>"
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_gantt
 msgid "<strong>Stop Date: </strong>"
-msgstr ""
+msgstr "<strong>停止日期: </strong>"
 
 #. module: planning
 #: model:ir.model.constraint,message:planning.constraint_planning_recurrency_check_until_limit
@@ -318,6 +318,15 @@ msgstr "基础配置"
 #: code:addons/planning/static/src/xml/planning_gantt.xml:0
 #, python-format
 msgid "Copy previous week"
+msgstr ""
+
+#. module: planning
+#. openerp-web
+#: code:addons/planning/static/src/js/tours/planning.js:0
+#, python-format
+msgid ""
+"Create your first shift by clicking on Add. Alternatively, you can use the "
+"(+) on the Gantt view."
 msgstr ""
 
 #. module: planning
@@ -584,6 +593,13 @@ msgstr ""
 #: model:ir.model.fields,help:planning.field_res_company__planning_allow_self_unassign
 #: model:ir.model.fields,help:planning.field_res_config_settings__planning_allow_self_unassign
 msgid "Let your employees un-assign themselves from shifts when unavailable"
+msgstr ""
+
+#. module: planning
+#. openerp-web
+#: code:addons/planning/static/src/js/tours/planning.js:0
+#, python-format
+msgid "Let's start managing your employees' schedule!"
 msgstr ""
 
 #. module: planning
@@ -882,6 +898,15 @@ msgid "Save as a Template"
 msgstr ""
 
 #. module: planning
+#. openerp-web
+#: code:addons/planning/static/src/js/tours/planning.js:0
+#, python-format
+msgid ""
+"Save this shift as a template to reuse it, or make it recurrent. This will "
+"greatly ease your encoding process."
+msgstr ""
+
+#. module: planning
 #: model:ir.ui.menu,name:planning.planning_menu_schedule
 msgid "Schedule"
 msgstr "安排"
@@ -912,6 +937,20 @@ msgstr ""
 #: code:addons/planning/static/src/xml/planning_gantt.xml:0
 #, python-format
 msgid "Send schedule"
+msgstr ""
+
+#. module: planning
+#. openerp-web
+#: code:addons/planning/static/src/js/tours/planning.js:0
+#, python-format
+msgid "Send the schedule and mark the shifts as published. Congratulations!"
+msgstr ""
+
+#. module: planning
+#. openerp-web
+#: code:addons/planning/static/src/js/tours/planning.js:0
+#, python-format
+msgid "Send the schedule to your employees once it is ready."
 msgstr ""
 
 #. module: planning
@@ -1063,6 +1102,14 @@ msgstr "直到"
 #. module: planning
 #: model:ir.model.fields,help:planning.field_planning_recurrency__repeat_until
 msgid "Up to which date should the plannings be repeated"
+msgstr ""
+
+#. module: planning
+#. openerp-web
+#: code:addons/planning/static/src/js/tours/planning.js:0
+#: code:addons/planning/static/src/js/tours/planning.js:0
+#, python-format
+msgid "Use this menu to visualize and schedule shifts"
 msgstr ""
 
 #. module: planning
