@@ -11,6 +11,7 @@
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # Shiping Lv <lvshiping@sina.com>, 2019
+# Allen Xie <xfz@forisen.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -18,7 +19,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-07 07:21+0000\n"
 "PO-Revision-Date: 2019-09-23 14:03+0000\n"
-"Last-Translator: Shiping Lv <lvshiping@sina.com>, 2019\n"
+"Last-Translator: Allen Xie <xfz@forisen.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -29,13 +30,13 @@ msgstr ""
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 msgid "<span class=\"pl-2\">seconds</span>"
-msgstr ""
+msgstr "秒"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_marketing_campaign__social_post_ids
 #: model:ir.model.fields,field_description:social_push_notifications.field_utm_campaign__social_post_ids
 msgid "All related social media posts"
-msgstr ""
+msgstr "所有相关的社区媒体消息"
 
 #. module: social_push_notifications
 #. openerp-web
@@ -64,35 +65,35 @@ msgstr "延迟"
 #: code:addons/social_push_notifications/static/src/xml/social_push_notifications_templates.xml:0
 #, python-format
 msgid "Deny"
-msgstr ""
+msgstr "禁止"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_post__display_push_notification_attributes
 msgid "Display Push Notifications Attributes"
-msgstr ""
+msgstr "显示消息推送属性"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_post__display_push_notifications_preview
 msgid "Display Push Notifications Preview"
-msgstr ""
+msgstr "显示消息推送预览"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,help:social_push_notifications.field_social_post__visitor_domain
 msgid "Domain to send push notifications to visitors."
-msgstr ""
+msgstr "接收消息推送范围"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_enable_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_enable_push_notifications
 msgid "Enable Web Push Notifications"
-msgstr ""
+msgstr "激活网页消息推送"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 msgid ""
 "Enable push notifications and configure this website's notifications "
 "permission request"
-msgstr ""
+msgstr "激活消息推送并配置此网站消息请求权限"
 
 #. module: social_push_notifications
 #: code:addons/social_push_notifications/controllers/main.py:0
@@ -100,53 +101,53 @@ msgstr ""
 #, python-format
 msgid ""
 "Enable push notifications to be notified about new features and events."
-msgstr ""
+msgstr "激活推送新特性和事件"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_admin_key_file
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_admin_key_file
 #: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_admin_key_file
 msgid "Firebase Admin Key File"
-msgstr ""
+msgstr "Firebase 管理密钥文件"
 
 #. module: social_push_notifications
 #: code:addons/social_push_notifications/models/social_account.py:0
 #, python-format
 msgid "Firebase Admin Key File is missing from the configuration."
-msgstr ""
+msgstr "配置中缺少Firebase 管理密钥文件"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_project_id
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_project_id
 #: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_project_id
 msgid "Firebase Project ID"
-msgstr ""
+msgstr "Firebase 项目编号"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_push_certificate_key
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_push_certificate_key
 #: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_push_certificate_key
 msgid "Firebase Push Certificate Key"
-msgstr ""
+msgstr "Firebase 推送证书密钥"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_sender_id
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_sender_id
 #: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_sender_id
 msgid "Firebase Sender ID"
-msgstr ""
+msgstr "Firebase 发送方编号"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_web_api_key
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_web_api_key
 #: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_web_api_key
 msgid "Firebase Web API Key"
-msgstr ""
+msgstr "Firebase 网页接口密钥"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.push_notifications_preview
 msgid "Google Chrome ·"
-msgstr ""
+msgstr "谷歌浏览器"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
@@ -156,12 +157,12 @@ msgstr "图标"
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 msgid "Key File"
-msgstr ""
+msgstr "密钥文件"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_media__media_type
 msgid "Media Type"
-msgstr ""
+msgstr "媒体类型"
 
 #. module: social_push_notifications
 #: code:addons/social_push_notifications/models/social_live_post.py:0
@@ -175,7 +176,7 @@ msgstr "新消息"
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_account__notification_request_delay
 #: model:ir.model.fields,field_description:social_push_notifications.field_website__notification_request_delay
 msgid "Notification Request Delay (seconds)"
-msgstr ""
+msgstr "消息请求延迟(秒)"
 
 #. module: social_push_notifications
 #. openerp-web
@@ -185,21 +186,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:social_push_notifications.field_website__notification_request_icon
 #, python-format
 msgid "Notification Request Icon"
-msgstr ""
+msgstr "消息请求图标"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__notification_request_body
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_account__notification_request_body
 #: model:ir.model.fields,field_description:social_push_notifications.field_website__notification_request_body
 msgid "Notification Request Text"
-msgstr ""
+msgstr "消息请求内容"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__notification_request_title
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_account__notification_request_title
 #: model:ir.model.fields,field_description:social_push_notifications.field_website__notification_request_title
 msgid "Notification Request Title"
-msgstr ""
+msgstr "消息请求标题"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.utm_campaign_view_form
@@ -212,53 +213,53 @@ msgstr "通知"
 #: code:addons/social_push_notifications/static/src/js/push_preview.js:0
 #, python-format
 msgid "Notifications blocked"
-msgstr ""
+msgstr "消息阻塞"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_marketing_campaign__social_push_notifications_count
 #: model:ir.model.fields,field_description:social_push_notifications.field_utm_campaign__social_push_notifications_count
 msgid "Number Of Push Notifications"
-msgstr ""
+msgstr "推送消息数"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 msgid "Project ID"
-msgstr ""
+msgstr "项目编号"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_kanban
 msgid "Push"
-msgstr ""
+msgstr "推送"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 msgid "Push Certificate Key ID"
-msgstr ""
+msgstr "推送证书密钥编号"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_post__push_notification_image
 msgid "Push Icon Image"
-msgstr ""
+msgstr "推送图标图片"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.utm_campaign_view_form
 msgid "Push Notification"
-msgstr ""
+msgstr "消息推送"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_search
 msgid "Push Notification Disabled"
-msgstr ""
+msgstr "禁用消息推送"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_search
 msgid "Push Notification Enabled"
-msgstr ""
+msgstr "激活消息推送"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_post__push_notification_title
 msgid "Push Notification Title"
-msgstr ""
+msgstr "推送消息标题"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_marketing_campaign__social_push_notification_ids
@@ -273,43 +274,43 @@ msgstr "推送通知"
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_post__push_notifications_preview
 msgid "Push Notifications Preview"
-msgstr ""
+msgstr "消息推送预览"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_website_visitor__push_token
 msgid "Push Subscription"
-msgstr ""
+msgstr "订阅推送"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_post__push_notification_target_url
 msgid "Push Target URL"
-msgstr ""
+msgstr "推送目标网址"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_live_post__reached_visitor_ids
 msgid "Reached Visitors"
-msgstr ""
+msgstr "实际浏览者"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 msgid "Select a website to load push notifications settings."
-msgstr ""
+msgstr "选择一个网站加载消息推送配置"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_form
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_tree
 msgid "Send Push Notification"
-msgstr ""
+msgstr "发送消息推送"
 
 #. module: social_push_notifications
 #: model:ir.actions.server,name:social_push_notifications.social_send_push_notifications_action_server
 msgid "Send Push Notifications"
-msgstr ""
+msgstr "发送消息推送"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_post__use_visitor_timezone
 msgid "Send at Visitors' Timezone"
-msgstr ""
+msgstr "依浏览者时区配置发送"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
@@ -319,12 +320,12 @@ msgstr "发送者 ID"
 #. module: social_push_notifications
 #: model:ir.model,name:social_push_notifications.model_social_account
 msgid "Social Account"
-msgstr ""
+msgstr "社交帐户"
 
 #. module: social_push_notifications
 #: model:ir.model,name:social_push_notifications.model_social_live_post
 msgid "Social Live Post"
-msgstr ""
+msgstr "社区在线提交"
 
 #. module: social_push_notifications
 #: model:ir.model,name:social_push_notifications.model_social_media
@@ -340,30 +341,30 @@ msgstr "社会职务"
 #: code:addons/social_push_notifications/models/website_visitor.py:0
 #, python-format
 msgid "Some selected visitors do not allow push notifications."
-msgstr ""
+msgstr "选择的浏览者不允许消息推送"
 
 #. module: social_push_notifications
 #. openerp-web
 #: code:addons/social_push_notifications/static/src/js/push_preview.js:0
 #, python-format
 msgid "Test Notification"
-msgstr ""
+msgstr "测试提醒消息"
 
 #. module: social_push_notifications
 #: model:ir.model.constraint,message:social_push_notifications.constraint_social_account_website_unique
 msgid "There is already a configuration for this website."
-msgstr ""
+msgstr "此网站已配置完成"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,help:social_push_notifications.field_social_account__website_id
 msgid ""
 "This firebase configuration will only be used for the specified website"
-msgstr ""
+msgstr "此Firebase配置仅用于特定的网站"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,help:social_push_notifications.field_social_post__push_notification_image
 msgid "This icon will be displayed in the browser notification"
-msgstr ""
+msgstr "此图标将显示浏览器提醒上"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
@@ -378,26 +379,26 @@ msgstr "UTM 营销活动"
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 msgid "Use your own Firebase Account for this website's push notifications"
-msgstr ""
+msgstr "在此网站消息推送使用你自己的Firebase帐户"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_use_own_account
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_use_own_account
 #: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_use_own_account
 msgid "Use your own Firebase account"
-msgstr ""
+msgstr "使用你自己的Firebase 帐户"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,help:social_push_notifications.field_social_media__media_type
 msgid ""
 "Used to make comparisons when we need to restrict some features to a "
 "specific media ('facebook', 'twitter', ...)."
-msgstr ""
+msgstr "当需要为一个指定的媒体限制一些特性，可以使用比较"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_post__visitor_domain
 msgid "Visitor Domain"
-msgstr ""
+msgstr "访问者范围"
 
 #. module: social_push_notifications
 #: model:ir.ui.menu,name:social_push_notifications.social_visitor
@@ -409,22 +410,22 @@ msgstr "访问者"
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 #, python-format
 msgid "Want to discover new versions?"
-msgstr ""
+msgstr "想要发现新的版本"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 msgid "Web API Key"
-msgstr ""
+msgstr "网页接口密钥"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.social_post_view_form
 msgid "Web Notification Options"
-msgstr ""
+msgstr "网页消息选项"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 msgid "Web Push Notifications (Social app)"
-msgstr ""
+msgstr "网页消息推送(社交APP)"
 
 #. module: social_push_notifications
 #: model:ir.model,name:social_push_notifications.model_website
@@ -441,7 +442,7 @@ msgstr "网站访问者"
 #: code:addons/social_push_notifications/models/social_account.py:0
 #, python-format
 msgid "You can't delete a Push Notification account."
-msgstr ""
+msgstr "不能删除消息推送帐户"
 
 #. module: social_push_notifications
 #. openerp-web
@@ -450,11 +451,11 @@ msgstr ""
 msgid ""
 "Your browser notifications are blocked or you're not in an HTTPS "
 "environment."
-msgstr ""
+msgstr "你的浏览器消息推送被禁用或或不在HTTPS环境"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,help:social_push_notifications.field_social_post__use_visitor_timezone
 msgid ""
 "e.g: If you post at 15:00, visitors will receive the post at 15:00 their "
 "time."
-msgstr ""
+msgstr "例如：若你在15:00提交，浏览者在当地的15:00可接收到此消息"

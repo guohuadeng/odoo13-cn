@@ -17,6 +17,7 @@
 # Jeanphy <hzh0292@qq.com>, 2019
 # ChinaMaker <liuct@chinamaker.net>, 2019
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
+# as co02 <asco02@163.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -24,7 +25,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-23 11:38+0000\n"
 "PO-Revision-Date: 2019-08-26 09:34+0000\n"
-"Last-Translator: 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019\n"
+"Last-Translator: as co02 <asco02@163.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -95,7 +96,7 @@ msgstr "账户：在线日记账同步"
 #. module: account_online_sync
 #: model:ir.model.fields,field_description:account_online_sync.field_account_online_link_wizard__action
 msgid "Action"
-msgstr "动作"
+msgstr "操作"
 
 #. module: account_online_sync
 #: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_needaction
@@ -105,7 +106,7 @@ msgstr "需要采取行动"
 #. module: account_online_sync
 #: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__action_required
 msgid "Action Required"
-msgstr "所需动作"
+msgstr "所需操作"
 
 #. module: account_online_sync
 #: code:addons/account_online_sync/models/online_sync.py:0

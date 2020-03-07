@@ -1,5 +1,35 @@
 # odoo 13 中文版专业版翻译，广州尚鹏 https://www.Sunpop.cn
 ---------------------------------------
+## 更新过的模块列表
+### 2020-03-07前
+base
+portal
+sale_coupon
+account_payment
+payment
+sale_quotation_builder
+website
+website_crm_partner_assign
+website_form
+website_livechat
+website_profile
+website_sale
+website_sale_wishlist
+website_slides
+payment
+web
+website_sale_coupon
+website_sale_delivery
+hr
+maintenance
+
+
+helpdesk
+industry_fsm_report
+planning
+sale_subscription
+
+sale
 ## 概述
 odoo13 在功能、性能、界面都有极大的更新，在可预见的将来必然会蓬勃发展。有关 odoo13 的在功能、性能、界面上各种功能增强，请参阅 我们的odoo13专题 https://www.sunpop.cn/?s=odoo13
 广州尚鹏是 odoo 官方合作伙伴，亦可审核 Transifex 上的中文化翻译。
@@ -50,7 +80,7 @@ pip3 install transifex-client -i https://mirrors.ustc.edu.cn/pypi/web/simple
 cd odoo13-cn\source
 SET PATH=d:\odoo10\runtime\python;d:\odoo10\runtime\python\scripts;%PATH%
 tx pull -l zh_CN
-cd ..\source_ent
+cd odoo13-cn\source_ent
 tx pull -l zh_CN
 ```
 3. 查看下载的 po 文件并更改，在 ./source 目录下，即可看到相关的 odoo 翻译文件

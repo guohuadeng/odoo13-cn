@@ -5,11 +5,12 @@
 # Translators:
 # Jeanphy <hzh0292@qq.com>, 2019
 # Martin Trigaux, 2019
-# Jeffery CHEN <jeffery9@gmail.com>, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
 # guohuadeng <guohuadeng@hotmail.com>, 2019
 # neter ji <jifuyi@qq.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
+# Felix Yang/杨孟泽 <felixyangsh@aliyun.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -17,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:04+0000\n"
 "PO-Revision-Date: 2019-08-26 09:34+0000\n"
-"Last-Translator: inspur qiuguodong <qiuguodong@inspur.com>, 2019\n"
+"Last-Translator: Felix Yang/杨孟泽 <felixyangsh@aliyun.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -101,7 +102,7 @@ msgstr "税科目调整"
 #: model_terms:ir.ui.view,arch_db:account_taxcloud.account_position_taxcloud_inherit_from_view
 #: model_terms:ir.ui.view,arch_db:account_taxcloud.invoice_form_inherit
 msgid "Go to Settings."
-msgstr ""
+msgstr "到配置菜单"
 
 #. module: account_taxcloud
 #: model:ir.model.fields,field_description:account_taxcloud.field_product_tic_category__id
@@ -113,7 +114,7 @@ msgstr "ID"
 #: model:ir.model.fields,field_description:account_taxcloud.field_account_move__is_taxcloud_configured
 #: model:ir.model.fields,field_description:account_taxcloud.field_res_company__is_taxcloud_configured
 msgid "Is Taxcloud Configured"
-msgstr ""
+msgstr "税率云同步是否已设置"
 
 #. module: account_taxcloud
 #: model:ir.model,name:account_taxcloud.model_account_move
@@ -140,7 +141,7 @@ msgstr "更新时间"
 #: model_terms:ir.ui.view,arch_db:account_taxcloud.invoice_form_inherit
 msgid ""
 "Please enter your Taxcloud credentials to compute tax rates automatically."
-msgstr ""
+msgstr "请输入您的税率云同步凭证以自动计算税率。"
 
 #. module: account_taxcloud
 #: model:ir.model,name:account_taxcloud.model_product_category
@@ -228,7 +229,7 @@ msgstr "TaxCloud 类别"
 #. module: account_taxcloud
 #: model:ir.model.fields,help:account_taxcloud.field_account_move__is_taxcloud
 msgid "Technical field to determine whether to hide taxes in views or not."
-msgstr ""
+msgstr "技术字段决定是否在视图中隐藏税率"
 
 #. module: account_taxcloud
 #: model:ir.model,name:account_taxcloud.model_account_fiscal_position_template
@@ -242,7 +243,7 @@ msgstr "税科目调整模板"
 msgid ""
 "The source document on the refund is not valid and thus the refunded cart "
 "won't be logged on your taxcloud account"
-msgstr "有关退款的源文档无效，因此已退款的购物车将不会记录在您的 taxcloud 账户中"
+msgstr "有关退款的源单据无效，因此已退款的购物车将不会记录在您的 taxcloud 账户中"
 
 #. module: account_taxcloud
 #: code:addons/account_taxcloud/models/account_invoice.py:0
@@ -289,7 +290,7 @@ msgstr "使用TaxCloud API"
 #: model:ir.model.fields,help:account_taxcloud.field_res_company__is_taxcloud_configured
 msgid ""
 "Used to determine whether or not to warn the user to configure TaxCloud."
-msgstr ""
+msgstr "用于确定是否警告用户配置税率云同步。"
 
 #. module: account_taxcloud
 #: code:addons/account_taxcloud/models/product.py:0

@@ -4,8 +4,9 @@
 # 
 # Translators:
 # Martin Trigaux, 2019
-# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# Felix Yang/杨孟泽 <felixyangsh@aliyun.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-07 07:20+0000\n"
 "PO-Revision-Date: 2019-08-26 09:35+0000\n"
-"Last-Translator: inspur qiuguodong <qiuguodong@inspur.com>, 2019\n"
+"Last-Translator: Felix Yang/杨孟泽 <felixyangsh@aliyun.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -37,7 +38,7 @@ msgstr "信用票"
 #. module: helpdesk_account
 #: model:ir.model.fields,field_description:helpdesk_account.field_helpdesk_ticket__invoices_count
 msgid "Credit Notes Count"
-msgstr ""
+msgstr "贷方票据计数"
 
 #. module: helpdesk_account
 #: model:ir.model,name:helpdesk_account.model_helpdesk_ticket
@@ -49,12 +50,12 @@ msgstr "帮助中心工单"
 #: code:addons/helpdesk_account/wizard/account_move_reversal.py:0
 #, python-format
 msgid "Helpdesk Ticket #%s"
-msgstr ""
+msgstr "服务台票据号#%s"
 
 #. module: helpdesk_account
 #: model_terms:ir.ui.view,arch_db:helpdesk_account.view_account_move_reversal_inherit_helpdesk_account
 msgid "Invoice to Refund"
-msgstr ""
+msgstr "退款开票"
 
 #. module: helpdesk_account
 #: model:ir.model.fields,help:helpdesk_account.field_account_move_reversal__helpdesk_sale_order_id
@@ -62,7 +63,7 @@ msgid ""
 "Reference of the Sales Order to which this ticket refers. Setting this "
 "information aims at easing your After Sales process and only serves "
 "indicative purposes."
-msgstr ""
+msgstr "此票证引用的销售订单的引用。 设置此信息旨在简化您的售后服务流程，并且仅用于指示目的。"
 
 #. module: helpdesk_account
 #: model:ir.actions.act_window,name:helpdesk_account.helpdesk_ticket_action_refund

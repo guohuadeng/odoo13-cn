@@ -9,10 +9,8 @@
 # 李赋 <fu792659@163.com>, 2019
 # snow wang <147156565@qq.com>, 2019
 # xu xiaohu <xu.xiaohu@gmail.com>, 2019
-# 张宏奎 <zhanghongkui@inspur.com>, 2019
 # Martin Trigaux, 2019
 # niulin lnc. <admin@niulin.net>, 2019
-# liAnGjiA <liangjia@qq.com>, 2019
 # 老窦 北京 <2662059195@qq.com>, 2019
 # guohuadeng <guohuadeng@hotmail.com>, 2019
 # bower Guo <124358678@qq.com>, 2019
@@ -22,8 +20,11 @@
 # ChinaMaker <liuct@chinamaker.net>, 2019
 # Felix Yuen <fyu@odoo.com>, 2019
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
-# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # Shiping Lv <lvshiping@sina.com>, 2019
+# liAnGjiA <liangjia@qq.com>, 2020
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
+# 笔 陈 <cowboycb@qq.com>, 2020
+# as co02 <asco02@163.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -31,7 +32,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 12:35+0000\n"
 "PO-Revision-Date: 2019-08-26 09:35+0000\n"
-"Last-Translator: Shiping Lv <lvshiping@sina.com>, 2019\n"
+"Last-Translator: as co02 <asco02@163.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -56,7 +57,7 @@ msgstr "${object.display_name}"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.index
 msgid "% Customer Satisfaction"
-msgstr ""
+msgstr "客户满意度"
 
 #. module: helpdesk
 #: model_terms:digest.tip,tip_description:helpdesk.digest_tip_helpdesk_0
@@ -77,7 +78,7 @@ msgstr ""
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.tickets_followup
 msgid "&amp;times;"
-msgstr "&amp;times;"
+msgstr "&amp;次数;"
 
 #. module: helpdesk
 #: model:mail.template,body_html:helpdesk.rating_ticket_request_email_template
@@ -139,6 +140,62 @@ msgid ""
 "</div>\n"
 "        "
 msgstr ""
+"<div>\n"
+"    % set access_token = object.rating_get_access_token()\n"
+"    % set partner = object.rating_get_partner_id()\n"
+"    <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"width:100%; margin:0px auto;\">\n"
+"    <tbody>\n"
+"        <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
+"            尊敬的${partner.name}，您好！<br/>\n"
+"            请您花费宝贵的几分钟时间来帮助我们提升 \"<strong>${object.name}</strong>\"的服务水平。\n"
+"            % if object.rating_get_rated_partner_id().name:\n"
+"                assigned to <strong>${object.rating_get_rated_partner_id().name}</strong>.<br/>\n"
+"            % else:\n"
+"                .<br/>\n"
+"            % endif\n"
+"        </td></tr>\n"
+"        <tr><td style=\"text-align: center;\">\n"
+"            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" summary=\"o_mail_notification\" style=\"width:100%; margin: 32px 0px 32px 0px;\">\n"
+"                <tr><td style=\"font-size: 13px;\">\n"
+"                    <strong>请评价我们的服务</strong><br/>\n"
+"                    <span style=\"text-color: #888888\">（点击其中的一个微笑）</span>\n"
+"                </td></tr>\n"
+"                <tr><td style=\"font-size: 13px;\">\n"
+"                    <table style=\"width:100%;text-align:center;\">\n"
+"                        <tr>\n"
+"                            <td>\n"
+"                                <a href=\"/rating/${access_token}/10\">\n"
+"                                    <img alt=\"Satisfied\" src=\"/rating/static/src/img/rating_10.png\" title=\"Satisfied\"/>\n"
+"                                </a>\n"
+"                            </td>\n"
+"                            <td>\n"
+"                                <a href=\"/rating/${access_token}/5\">\n"
+"                                    <img alt=\"Not satisfied\" src=\"/rating/static/src/img/rating_5.png\" title=\"Not satisfied\"/>\n"
+"                                </a>\n"
+"                            </td>\n"
+"                            <td>\n"
+"                                <a href=\"/rating/${access_token}/1\">\n"
+"                                    <img alt=\"Highly Dissatisfied\" src=\"/rating/static/src/img/rating_1.png\" title=\"Highly Dissatisfied\"/>\n"
+"                                </a>\n"
+"                            </td>\n"
+"                        </tr>\n"
+"                    </table>\n"
+"                </td></tr>\n"
+"            </table>\n"
+"        </td></tr>\n"
+"        <tr><td valign=\"top\" style=\"font-size: 13px;\">\n"
+"            非常感谢您的反馈。您的反馈将帮助我们不断提升自身服务。\n"
+"            % if object.project_id.rating_status == 'stage':\n"
+"                <br/><span style=\"margin: 0px 0px 0px 0px; font-size: 12px; opacity: 0.5; color: #454748;\">由于您的任务已经进入到 <b>${object.stage_id.name}</b>阶段，客户回访将被发出。</span>\n"
+"            % endif\n"
+"            % if object.project_id.rating_status == 'periodic':\n"
+"                <br/><span style=\"margin: 0px 0px 0px 0px; font-size: 12px; opacity: 0.5; color: #454748;\">该客户回访会被发出<b>${object.project_id.rating_status_period}</b> 在任务进入<b>${object.stage_id.name}</b> 阶段。</span>\n"
+"            % endif\n"
+"        </td></tr>\n"
+"    </tbody>\n"
+"    </table>\n"
+"</div>\n"
+"           "
 
 #. module: helpdesk
 #: model:mail.template,body_html:helpdesk.solved_ticket_request_email_template
@@ -190,6 +247,19 @@ msgid ""
 "</div>\n"
 "        "
 msgstr ""
+"<?xml version=\"1.0\"?>\n"
+"<div>\n"
+" 亲爱的 ${object.sudo().partner_id.name or '女士/先生'},<br/><br/>\n"
+" 您的申请\n"
+" % if object.access_token:\n"
+" <a href=\"/helpdesk/ticket/${object.id}/${object.access_token}\">${object.name}</a>\n"
+" % endif\n"
+" 我们的 ${object.team_id.name or ''} 团队已收到并正在审核。\n"
+" 您的服务单编号为 ${object.id}.<br/><br/>\n"
+" 如需留言，请回复此EMail。<br/>\n"
+" 谢谢,<br/><br/>\n"
+" ${object.team_id.name or '帮助台'} 团队.\n"
+"</div>"
 
 #. module: helpdesk
 #. openerp-web
@@ -270,11 +340,14 @@ msgid ""
 "                    If the issue has been solved, you can close the request.\n"
 "                </small>"
 msgstr ""
+"<small>\n"
+"                    如果问题已经解决，您可以关闭工单。\n"
+"                </small>"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.tickets_followup
 msgid "<small><b>Close this ticket</b></small>"
-msgstr ""
+msgstr "<small><b>关闭工单</b></small>"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_kanban
@@ -404,7 +477,7 @@ msgstr "管理员"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "After Sales"
-msgstr ""
+msgstr "售后"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__alias_id
@@ -448,12 +521,12 @@ msgstr "全部工单"
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_team__allow_portal_ticket_closing
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Allow customers to close their tickets"
-msgstr ""
+msgstr "允许客户关闭他们的工单"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Allow product returns from tickets"
-msgstr ""
+msgstr "允许通过工单进行退货"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
@@ -465,7 +538,7 @@ msgstr "便于用户评价您的服务。激活此选项将在非折叠关闭阶
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_ticket__is_self_assigned
 msgid "Am I assigned"
-msgstr ""
+msgstr "我已分配"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_sla_view_form
@@ -492,7 +565,7 @@ msgstr "已归档"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.tickets_followup
 msgid "Are you sure you wish to proceed?"
-msgstr ""
+msgstr "您确定要继续吗?"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_form
@@ -672,12 +745,12 @@ msgstr "关闭日期"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.tickets_followup
 msgid "Close the ticket"
-msgstr ""
+msgstr "关闭工单"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.tickets_followup
 msgid "Close ticket"
-msgstr ""
+msgstr "关闭工单"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_tickets_view_search
@@ -687,7 +760,7 @@ msgstr "已关闭"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_sla_report_analysis_view_search
 msgid "Closed Ticket"
-msgstr ""
+msgstr "关闭工单"
 
 #. module: helpdesk
 #. openerp-web
@@ -706,12 +779,12 @@ msgstr "完成的服务单分析"
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_ticket__closed_by_partner
 msgid "Closed by Partner"
-msgstr ""
+msgstr "已由搭档关闭"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_stage__is_close
 msgid "Closing Stage"
-msgstr ""
+msgstr "关闭阶段"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_tag__color
@@ -741,7 +814,7 @@ msgstr "公司"
 #. module: helpdesk
 #: model:ir.ui.menu,name:helpdesk.helpdesk_menu_config
 msgid "Configuration"
-msgstr "基础配置"
+msgstr "配置"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
@@ -912,12 +985,12 @@ msgstr "仪表板"
 #. module: helpdesk
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_sla_status__reached_datetime
 msgid "Datetime at which the SLA stage was reached for the first time"
-msgstr ""
+msgstr "第一次达到约定阶段服务的日期时间"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_sla_report_analysis__sla_exceeded_days
 msgid "Day to reach SLA"
-msgstr ""
+msgstr "到达约定服务阶段日期"
 
 #. module: helpdesk
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_sla_report_analysis__sla_exceeded_days
@@ -1072,7 +1145,7 @@ msgstr "输入客户。即时随意地创建。"
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_sla_status__exceeded_days
 msgid "Excedeed Working Days"
-msgstr ""
+msgstr "超出工作日期的天数"
 
 #. module: helpdesk
 #: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla_report_analysis__sla_status__failed
@@ -1093,7 +1166,7 @@ msgstr ""
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_sla_report_analysis_view_search
 msgid "Failed Ticket"
-msgstr ""
+msgstr "作废的工单"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_search_analysis
@@ -1921,7 +1994,7 @@ msgstr "点评"
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__use_rating
 msgid "Ratings on tickets"
-msgstr ""
+msgstr "工单评分"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_sla_view_form
@@ -2036,7 +2109,7 @@ msgstr "还原"
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__use_product_returns
 msgid "Returns"
-msgstr ""
+msgstr "退货"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_sla_report_analysis__sla_id
@@ -2168,7 +2241,7 @@ msgstr "<span class=\"nolabel\"> (在内容中)</span>搜索"
 #: code:addons/helpdesk/controllers/portal.py:0
 #, python-format
 msgid "Search ID"
-msgstr ""
+msgstr "搜索 ID"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_sla_view_search
@@ -2235,7 +2308,7 @@ msgstr "发送邮件到"
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__sequence
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_ticket_type__sequence
 msgid "Sequence"
-msgstr "单号规则"
+msgstr "序号"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form

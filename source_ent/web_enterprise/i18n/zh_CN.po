@@ -5,12 +5,12 @@
 # Translators:
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
-# Cécile Collart <cco@odoo.com>, 2019
 # ChinaMaker <liuct@chinamaker.net>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # John An <johnxan@163.com>, 2019
 # Martin Trigaux, 2019
 # wangting <39181819@qq.com>, 2019
+# as co02 <asco02@163.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-07 07:21+0000\n"
 "PO-Revision-Date: 2019-08-26 09:38+0000\n"
-"Last-Translator: wangting <39181819@qq.com>, 2019\n"
+"Last-Translator: as co02 <asco02@163.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -47,7 +47,7 @@ msgstr ""
 msgid ""
 "- Contact your sales representative to help you to unlink your previous "
 "database"
-msgstr ""
+msgstr "- 请联系您的销售代表帮助您解绑以前的数据库"
 
 #. module: web_enterprise
 #. openerp-web
@@ -68,7 +68,7 @@ msgstr "1个月"
 #: code:addons/web_enterprise/static/src/xml/base_mobile.xml:0
 #, python-format
 msgid "Action"
-msgstr "动作"
+msgstr "操作"
 
 #. module: web_enterprise
 #. openerp-web
@@ -139,7 +139,7 @@ msgstr "数据库到期："
 #: code:addons/web_enterprise/static/src/xml/base.xml:0
 #, python-format
 msgid "Error reason:"
-msgstr ""
+msgstr "错误原因："
 
 #. module: web_enterprise
 #. openerp-web
@@ -147,7 +147,7 @@ msgstr ""
 #: code:addons/web_enterprise/static/src/xml/base_mobile.xml:0
 #, python-format
 msgid "Filters..."
-msgstr ""
+msgstr "筛选器..."
 
 #. module: web_enterprise
 #: model:ir.model,name:web_enterprise.model_ir_http
@@ -159,7 +159,7 @@ msgstr "HTTP 路由"
 #: code:addons/web_enterprise/static/src/xml/base.xml:0
 #, python-format
 msgid "Log in as an administrator to correct the issue."
-msgstr "请登录为管理员以解决此问题。"
+msgstr "以管理员身份登陆以解决此问题。"
 
 #. module: web_enterprise
 #. openerp-web
@@ -187,21 +187,21 @@ msgstr "没有结果"
 #: code:addons/web_enterprise/static/src/xml/base.xml:0
 #, python-format
 msgid "Odoo"
-msgstr "Odoo"
+msgstr "系统"
 
 #. module: web_enterprise
 #. openerp-web
 #: code:addons/web_enterprise/static/src/xml/base.xml:0
 #, python-format
 msgid "Odoo Help"
-msgstr "Odoo 帮助"
+msgstr "系统帮助"
 
 #. module: web_enterprise
 #. openerp-web
 #: code:addons/web_enterprise/static/src/xml/base.xml:0
 #, python-format
 msgid "Odoo Support"
-msgstr "Odoo 支持"
+msgstr "系统支持"
 
 #. module: web_enterprise
 #. openerp-web
@@ -272,14 +272,14 @@ msgstr "搜索..."
 #: code:addons/web_enterprise/static/src/xml/base_mobile.xml:0
 #, python-format
 msgid "See result"
-msgstr ""
+msgstr "查看结果"
 
 #. module: web_enterprise
 #. openerp-web
 #: code:addons/web_enterprise/static/src/xml/base.xml:0
 #, python-format
 msgid "Sending the instructions by email ..."
-msgstr ""
+msgstr "通过电子邮件发送说明..."
 
 #. module: web_enterprise
 #. openerp-web
@@ -340,14 +340,14 @@ msgstr "此演示数据库将过期在"
 #: code:addons/web_enterprise/static/src/xml/base.xml:0
 #, python-format
 msgid "To unlink it you can either:"
-msgstr ""
+msgstr "要取消链接，您可以："
 
 #. module: web_enterprise
 #. openerp-web
 #: code:addons/web_enterprise/static/src/xml/base.xml:0
 #, python-format
 msgid "Toggle home menu"
-msgstr "切换家菜单"
+msgstr "切换到主菜单"
 
 #. module: web_enterprise
 #. openerp-web

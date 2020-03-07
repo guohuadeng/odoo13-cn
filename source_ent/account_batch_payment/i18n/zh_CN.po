@@ -4,8 +4,7 @@
 # 
 # Translators:
 # Jeanphy <hzh0292@qq.com>, 2019
-# Jeffery CHEN <jeffery9@gmail.com>, 2019
-# liAnGjiA <liangjia@qq.com>, 2019
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # e2f_cn c5 <jarvisn@ecinnovations.com>, 2019
 # guohuadeng <guohuadeng@hotmail.com>, 2019
 # 演奏王 <wangwhai@qq.com>, 2019
@@ -14,6 +13,7 @@
 # John An <johnxan@163.com>, 2019
 # Martin Trigaux, 2019
 # ChinaMaker <liuct@chinamaker.net>, 2019
+# liAnGjiA <liangjia@qq.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -21,7 +21,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-23 11:38+0000\n"
 "PO-Revision-Date: 2019-08-26 09:34+0000\n"
-"Last-Translator: ChinaMaker <liuct@chinamaker.net>, 2019\n"
+"Last-Translator: liAnGjiA <liangjia@qq.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -275,7 +275,7 @@ msgstr "ID"
 #: code:addons/account_batch_payment/models/account_batch_payment.py:0
 #, python-format
 msgid "Id: %s"
-msgstr ""
+msgstr "Id: %s"
 
 #. module: account_batch_payment
 #: model:ir.model.fields.selection,name:account_batch_payment.selection__account_batch_payment__batch_type__inbound

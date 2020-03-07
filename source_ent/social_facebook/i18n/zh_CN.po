@@ -9,6 +9,7 @@
 # bf2549c5415a9287249cba2b8a5823c7, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # Shiping Lv <lvshiping@sina.com>, 2019
+# Allen Xie <xfz@forisen.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -16,7 +17,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-01 12:16+0000\n"
 "PO-Revision-Date: 2019-09-23 14:02+0000\n"
-"Last-Translator: Shiping Lv <lvshiping@sina.com>, 2019\n"
+"Last-Translator: Allen Xie <xfz@forisen.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -155,7 +156,7 @@ msgstr "喜爱"
 #. module: social_facebook
 #: model:ir.model.fields,field_description:social_facebook.field_social_media__media_type
 msgid "Media Type"
-msgstr ""
+msgstr "媒体类型"
 
 #. module: social_facebook
 #: model:social.stream.type,name:social_facebook.stream_type_page_mentions
@@ -194,12 +195,12 @@ msgstr ""
 #. module: social_facebook
 #: model:ir.model,name:social_facebook.model_social_account
 msgid "Social Account"
-msgstr ""
+msgstr "社区帐户"
 
 #. module: social_facebook
 #: model:ir.model,name:social_facebook.model_social_live_post
 msgid "Social Live Post"
-msgstr ""
+msgstr "社区在线提交"
 
 #. module: social_facebook
 #: model:ir.model,name:social_facebook.model_social_media
@@ -236,7 +237,7 @@ msgstr ""
 msgid ""
 "Used to make comparisons when we need to restrict some features to a "
 "specific media ('facebook', 'twitter', ...)."
-msgstr ""
+msgstr "当需要为一个指定的媒体限制一些特性，可以使用比较"
 
 #. module: social_facebook
 #: model:ir.model.fields,field_description:social_facebook.field_social_stream_post__facebook_user_likes

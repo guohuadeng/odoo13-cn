@@ -12,8 +12,9 @@
 # Felix Yuen <fyu@odoo.com>, 2019
 # keecome <7017511@qq.com>, 2019
 # Martin Trigaux, 2019
-# Jeffery CHEN <jeffery9@gmail.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
+# as co02 <asco02@163.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -21,7 +22,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-10-07 07:20+0000\n"
 "PO-Revision-Date: 2019-09-13 11:47+0000\n"
-"Last-Translator: inspur qiuguodong <qiuguodong@inspur.com>, 2019\n"
+"Last-Translator: as co02 <asco02@163.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -215,7 +216,7 @@ msgstr "后置操作"
 #. module: account_followup
 #: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form
 msgid "Actions"
-msgstr "动作"
+msgstr "操作"
 
 #. module: account_followup
 #: model_terms:ir.ui.view,arch_db:account_followup.template_followup_report
@@ -397,7 +398,7 @@ msgstr "第一个提醒EMail"
 #. module: account_followup
 #: model:ir.model.fields,field_description:account_followup.field_account_followup_followup_line__name
 msgid "Follow-Up Action"
-msgstr "催款动作"
+msgstr "催款操作"
 
 #. module: account_followup
 #: model:ir.model,name:account_followup.model_account_followup_followup_line
@@ -501,13 +502,13 @@ msgstr "ID"
 #. module: account_followup
 #: model_terms:ir.ui.view,arch_db:account_followup.followup_search_template
 msgid "In Need of Action"
-msgstr "需要动作"
+msgstr "需要操作"
 
 #. module: account_followup
 #: model:ir.model.fields.selection,name:account_followup.selection__res_partner__followup_status__in_need_of_action
 #: model_terms:ir.ui.view,arch_db:account_followup.customer_statements_search_view
 msgid "In need of action"
-msgstr "需要动作"
+msgstr "需要操作"
 
 #. module: account_followup
 #: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form
@@ -590,7 +591,7 @@ msgstr "下一个提醒日期设置为%s"
 #. module: account_followup
 #: model:ir.model.fields.selection,name:account_followup.selection__res_partner__followup_status__no_action_needed
 msgid "No action needed"
-msgstr "无需动作"
+msgstr "无需操作"
 
 #. module: account_followup
 #: model_terms:ir.actions.act_window,help:account_followup.action_view_list_customer_statements
@@ -624,7 +625,7 @@ msgstr "系统将会在下一个提醒日期提醒你关注一下这个催款"
 msgid ""
 "Optionally you can assign a user to this field, which will make him "
 "responsible for the action."
-msgstr "你可以随意指定一个用户到这个字段，将使他负责这个动作"
+msgstr "你可以随意指定一个用户到这个字段，将使他负责这个操作"
 
 #. module: account_followup
 #: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form
@@ -768,7 +769,7 @@ msgstr "通过短信发送"
 #: code:addons/account_followup/models/account_followup_report.py:0
 #, python-format
 msgid "Source Document"
-msgstr "源文档"
+msgstr "源单据"
 
 #. module: account_followup
 #. openerp-web
@@ -781,7 +782,7 @@ msgstr "开始呼叫"
 #: model:ir.model.fields,help:account_followup.field_res_partner__payment_next_action_date
 #: model:ir.model.fields,help:account_followup.field_res_users__payment_next_action_date
 msgid "The date before which no action should be taken."
-msgstr "没有采取动作之前的日期"
+msgstr "没有采取操作之前的日期"
 
 #. module: account_followup
 #. openerp-web
@@ -957,7 +958,7 @@ msgstr "你的短信描述无效，使用正确的图例或%%如果你想使用�
 #. module: account_followup
 #: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form
 msgid "days overdue, do the following actions:"
-msgstr "天过期，做下列动作："
+msgstr "天过期，做下列操作："
 
 #. module: account_followup
 #: model_terms:ir.ui.view,arch_db:account_followup.view_account_followup_followup_line_form

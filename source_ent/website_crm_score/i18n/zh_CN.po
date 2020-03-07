@@ -4,10 +4,7 @@
 # 
 # Translators:
 # Martin Trigaux, 2019
-# Jeffery CHEN <jeffery9@gmail.com>, 2019
 # niulin lnc. <admin@niulin.net>, 2019
-# liAnGjiA <liangjia@qq.com>, 2019
-# v2exerer <9010446@qq.com>, 2019
 # zpq001 <zpq001@live.com>, 2019
 # guohuadeng <guohuadeng@hotmail.com>, 2019
 # keecome <7017511@qq.com>, 2019
@@ -17,14 +14,16 @@
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # Jeanphy <hzh0292@qq.com>, 2019
 # ChinaMaker <liuct@chinamaker.net>, 2019
+# liAnGjiA <liangjia@qq.com>, 2020
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Project-Id-Version: Odoo Server 13.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-09 11:59+0000\n"
+"POT-Creation-Date: 2019-12-05 12:37+0000\n"
 "PO-Revision-Date: 2019-08-26 09:39+0000\n"
-"Last-Translator: ChinaMaker <liuct@chinamaker.net>, 2019\n"
+"Last-Translator: Jeffery CHEN Fan <jeffery9@gmail.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -38,6 +37,8 @@ msgid ""
 "<i class=\"fa fa-fw fa-tags\" aria-label=\"Number of leads\" title=\"Number "
 "of leads\" role=\"img\"/>"
 msgstr ""
+"<i class=\"fa fa-fw fa-tags\" aria-label=\"Number of leads\" title=\"Number "
+"of leads\" role=\"img\"/>"
 
 #. module: website_crm_score
 #: model:ir.model.fields,field_description:website_crm_score.field_team_user__message_needaction
@@ -57,6 +58,7 @@ msgstr "存档"
 
 #. module: website_crm_score
 #: model_terms:ir.ui.view,arch_db:website_crm_score.team_user_view_search
+#: model_terms:ir.ui.view,arch_db:website_crm_score.view_crm_score_form
 #: model_terms:ir.ui.view,arch_db:website_crm_score.website_crm_score_view_search
 msgid "Archived"
 msgstr "已归档"
