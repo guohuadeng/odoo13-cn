@@ -376,7 +376,7 @@ msgstr ""
 "备注:\n"
 "-----\n"
 "\n"
-"* 税科目情况增加 '内税' 和 '外税'，用来处理POS使用时可能会碰到的一些问题。 [1] 正常情况下您不会用到这些。\n"
+"* 税科目情况增加 '含税' 和 '不含税'，用来处理POS使用时可能会碰到的一些问题。 [1] 正常情况下您不会用到这些。\n"
 "\n"
 "[1] 访问 https://github.com/odoo/odoo/pull/6470 查看更多细节。"
 
@@ -8442,7 +8442,7 @@ msgstr "<strong>EMail地址：</strong>"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.report_irmodeloverview
 msgid "<strong>Group</strong>"
-msgstr "<strong>组</strong>"
+msgstr "<strong>群组</strong>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.report_irmodeloverview
@@ -15200,7 +15200,7 @@ msgstr "设置与部分用户分享信息的访问权，需设置群组"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_country_group_form
 msgid "Group name"
-msgstr "组名"
+msgstr "群组名"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__number_group
@@ -24391,7 +24391,7 @@ msgstr "塞舌尔"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups__share
 msgid "Share Group"
-msgstr "共享用户组"
+msgstr "共享群组"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_partner__partner_share
