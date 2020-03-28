@@ -312,7 +312,7 @@ msgstr "预测供应商账单"
 #. module: account_accountant
 #: model:ir.ui.menu,name:account_accountant.menu_product_product_categories
 msgid "Product Categories"
-msgstr "产品类别"
+msgstr "品类"
 
 #. module: account_accountant
 #. openerp-web

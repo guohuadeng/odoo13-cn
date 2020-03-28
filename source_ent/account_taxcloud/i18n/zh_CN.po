@@ -146,7 +146,7 @@ msgstr "请输入您的税率云同步凭证以自动计算税率。"
 #. module: account_taxcloud
 #: model:ir.model,name:account_taxcloud.model_product_category
 msgid "Product Category"
-msgstr "产品类别"
+msgstr "品类"
 
 #. module: account_taxcloud
 #: model_terms:ir.ui.view,arch_db:account_taxcloud.account_taxcloud_tic_category_search

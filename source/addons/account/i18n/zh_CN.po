@@ -2551,7 +2551,7 @@ msgstr "按 产品"
 #. module: account
 #: model:ir.filters,name:account.filter_invoice_product_category
 msgid "By Product Category"
-msgstr "按 产品类别"
+msgstr "按 品类"
 
 #. module: account
 #: model:ir.filters,name:account.filter_invoice_report_salespersons
@@ -6386,7 +6386,7 @@ msgstr "保持打开"
 #: model:ir.model.fields,help:account.field_product_template__property_account_income_id
 msgid ""
 "Keep this field empty to use the default value from the product category."
-msgstr "保持这个字段为空，使用来自产品类别的默认值。"
+msgstr "保持这个字段为空，使用来自品类的默认值。"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_product_product__property_account_expense_id
@@ -6395,7 +6395,7 @@ msgid ""
 "Keep this field empty to use the default value from the product category. If"
 " anglo-saxon accounting with automated valuation method is configured, the "
 "expense account on the product category will be used."
-msgstr "保持此字段为空，以使用产品类别的默认值。如果配置有自动估价方法的盎格鲁-撒克逊会计，则将使用产品类别上的费用帐户。"
+msgstr "保持此字段为空，以使用品类的默认值。如果配置有自动估价方法的盎格鲁-撒克逊会计，则将使用品类上的费用帐户。"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_digest_digest__kpi_account_total_revenue_value
@@ -8413,7 +8413,7 @@ msgstr "产品"
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__product_categ_id
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_report_search
 msgid "Product Category"
-msgstr "产品类别"
+msgstr "品类"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__quantity

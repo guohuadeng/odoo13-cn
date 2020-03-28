@@ -272,7 +272,7 @@ msgstr ""
 #. module: account_intrastat
 #: model:ir.model,name:account_intrastat.model_product_category
 msgid "Product Category"
-msgstr "产品类别"
+msgstr "品类"
 
 #. module: account_intrastat
 #: model:ir.model,name:account_intrastat.model_product_template
