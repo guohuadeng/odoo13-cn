@@ -898,7 +898,7 @@ msgstr "产品模板"
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_rental_pricing__product_variant_ids
 msgid "Product Variants"
-msgstr "产品变体"
+msgstr "单品Sku"
 
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.res_config_settings_view_form

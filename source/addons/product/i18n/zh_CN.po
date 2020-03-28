@@ -51,7 +51,7 @@ msgstr "产品类别"
 #: model:ir.model.fields,field_description:product.field_product_product__product_variant_count
 #: model:ir.model.fields,field_description:product.field_product_template__product_variant_count
 msgid "# Product Variants"
-msgstr "# 产品变体"
+msgstr "# 单品Sku"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__product_count
@@ -655,7 +655,7 @@ msgstr "新建产品"
 #: model_terms:ir.actions.act_window,help:product.product_normal_action_sell
 #: model_terms:ir.actions.act_window,help:product.product_variant_action
 msgid "Create a new product variant"
-msgstr "创建新产品变体"
+msgstr "创建新单品Sku"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__create_uid
@@ -1181,7 +1181,7 @@ msgstr "关注者"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__is_product_variant
 msgid "Is Product Variant"
-msgstr "是产品变体"
+msgstr "是单品Sku"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__has_configurable_attributes
@@ -1192,7 +1192,7 @@ msgstr "可配置产品"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template__is_product_variant
 msgid "Is a product variant"
-msgstr "是产品变体"
+msgstr "是单品Sku"
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__res_config_settings__product_weight_in_lbs__0
@@ -1320,7 +1320,7 @@ msgstr "管理产品包装"
 #. module: product
 #: model:res.groups,name:product.group_product_variant
 msgid "Manage Product Variants"
-msgstr "管理产品变体"
+msgstr "管理单品Sku"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
@@ -1846,12 +1846,12 @@ msgstr "产品类型"
 #: model:ir.model.fields.selection,name:product.selection__product_pricelist_item__applied_on__0_product_variant
 #: model_terms:ir.ui.view,arch_db:product.product_normal_form_view
 msgid "Product Variant"
-msgstr "产品变体"
+msgstr "单品Sku"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_attribute_value_action
 msgid "Product Variant Values"
-msgstr "产品变体值"
+msgstr "单品Sku值"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_normal_action
@@ -1860,7 +1860,7 @@ msgstr "产品变体值"
 #: model_terms:ir.ui.view,arch_db:product.product_product_tree_view
 #: model_terms:ir.ui.view,arch_db:product.product_product_view_activity
 msgid "Product Variants"
-msgstr "产品变体"
+msgstr "单品Sku"
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:0
