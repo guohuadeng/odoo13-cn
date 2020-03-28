@@ -778,7 +778,7 @@ msgstr "添加章节"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Add several variants to an order from a grid"
-msgstr "从网格向订单添加多个变体"
+msgstr "从网格向订单添加多个单品Sku"
 
 #. module: sale
 #: model:res.groups,name:sale.group_delivery_invoice_address
@@ -3353,7 +3353,7 @@ msgstr "可在每个包装中多个单位销售产品"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Sell variants of a product using attributes (size, color, etc.)"
-msgstr "使用属性(大小、颜色等)销售产品的变体"
+msgstr "使用属性(大小、颜色等)销售产品的单品Sku"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
@@ -4104,7 +4104,7 @@ msgstr "验证订单"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Variant Grid Entry"
-msgstr "变体网格输入"
+msgstr "单品Sku表格输入"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.mail_notification_paynow_online

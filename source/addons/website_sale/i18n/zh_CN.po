@@ -2295,7 +2295,7 @@ msgstr "以多种货币销售"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
 msgid "Sell variants of a product using attributes (size, color, etc.)"
-msgstr "使用属性(大小、颜色等)销售产品的变体"
+msgstr "使用属性(大小、颜色等)销售产品的单品Sku"
 
 #. module: website_sale
 #: model:ir.actions.server,name:website_sale.ir_actions_server_sale_cart_recovery_email

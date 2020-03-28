@@ -520,7 +520,7 @@ msgstr "拆解单用于将成品分解为其组件。"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line__bom_product_template_attribute_value_ids
 msgid "Apply on Variants"
-msgstr "应用于变体"
+msgstr "应用于单品Sku"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_change_production_qty_wizard

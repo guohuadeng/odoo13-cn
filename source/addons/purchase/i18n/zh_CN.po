@@ -2115,7 +2115,7 @@ msgstr "表示货币数量的工具字段"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Variant Grid Entry"
-msgstr "变体网格输入"
+msgstr "单品Sku表格输入"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__partner_id

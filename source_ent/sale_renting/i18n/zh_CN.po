@@ -1209,8 +1209,8 @@ msgid ""
 "Select Variants of the Product for which this rule applies.\n"
 " Leave empty if this rule applies for any variant of this template."
 msgstr ""
-"选择适用此规则的产品的变体。\n"
-"如果此规则适用于此模板的任何变体，则保持为空。"
+"选择适用此规则的产品的单品Sku。\n"
+"如果此规则适用于此模板的任何单品Sku，则保持为空。"
 
 #. module: sale_renting
 #: model:ir.model.fields,help:sale_renting.field_rental_pricing__product_template_id
