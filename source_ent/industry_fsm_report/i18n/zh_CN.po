@@ -382,7 +382,7 @@ msgstr "打印"
 #. module: industry_fsm_report
 #: model:ir.model,name:industry_fsm_report.model_product_template
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: industry_fsm_report
 #: model:ir.model,name:industry_fsm_report.model_project_project

@@ -203,7 +203,7 @@ msgstr "产品图片"
 #. module: sale_product_configurator
 #: model:ir.model,name:sale_product_configurator.model_product_template
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: sale_product_configurator
 #: model:ir.model.fields,field_description:sale_product_configurator.field_sale_product_configurator__quantity

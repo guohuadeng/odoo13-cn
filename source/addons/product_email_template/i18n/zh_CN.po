@@ -52,7 +52,7 @@ msgstr "产品 EMail 模板"
 #. module: product_email_template
 #: model:ir.model,name:product_email_template.model_product_template
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: product_email_template
 #: model_terms:ir.ui.view,arch_db:product_email_template.product_template_form_view

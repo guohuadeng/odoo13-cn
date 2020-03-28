@@ -39,7 +39,7 @@ msgstr ""
 #. module: sale_product_matrix
 #: model:ir.model.fields,field_description:sale_product_matrix.field_sale_order__grid_product_tmpl_id
 msgid "Grid Product Tmpl"
-msgstr "产品模板网格"
+msgstr "产品网格"
 
 #. module: sale_product_matrix
 #: model:ir.model.fields,field_description:sale_product_matrix.field_sale_order__grid_update
@@ -76,7 +76,7 @@ msgstr "产品配置器"
 #. module: sale_product_matrix
 #: model:ir.model,name:sale_product_matrix.model_product_template
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: sale_product_matrix
 #: model:ir.model,name:sale_product_matrix.model_sale_order

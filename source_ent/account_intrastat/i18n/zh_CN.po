@@ -277,7 +277,7 @@ msgstr "品类"
 #. module: account_intrastat
 #: model:ir.model,name:account_intrastat.model_product_template
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: account_intrastat
 #: code:addons/account_intrastat/models/account_intrastat_report.py:0

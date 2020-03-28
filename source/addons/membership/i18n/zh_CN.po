@@ -596,7 +596,7 @@ msgstr "未决金额"
 #. module: membership
 #: model:ir.model,name:membership.model_product_template
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: membership
 #: model:ir.model.fields,field_description:membership.field_report_membership__quantity
