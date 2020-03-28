@@ -101,6 +101,10 @@ msgid ""
 "        - Never: Variants are never created for the attribute.\n"
 "        Note: the variants creation mode cannot be changed once the attribute is used on at least one product."
 msgstr ""
+"- 即时: 只要为产品创建了规格，所有规格的单品Sku都会马上创建。\n"
+"        - 动态: 只有当该规格被加入销售订单时，该单品Sku才会自动创建.\n"
+"        - 从不: 即使设定了规格，相关单品Sku也不会创建。\n"
+"        注意: 一旦有相关单品Sku已被创建，则此Sku创建模式将不可改变。"
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_5
@@ -2545,7 +2549,7 @@ msgstr "变体"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__create_variant
 msgid "Variants Creation Mode"
-msgstr ""
+msgstr "Sku创建模式"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__name
