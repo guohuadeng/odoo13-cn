@@ -18,7 +18,7 @@ msgstr ""
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "\" category."
-msgstr "\" 类别."
+msgstr "\" 电商品类."
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.option_collapse_categories_recursive
@@ -847,7 +847,7 @@ msgstr "价格:从低到高"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_template_form_view
 msgid "Categories"
-msgstr "类别"
+msgstr "电商品类"
 
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.product_public_category_action
@@ -1092,7 +1092,7 @@ msgstr "默认排序"
 #. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.product_public_category_action
 msgid "Define a new category"
-msgstr "定义一个新类别"
+msgstr "定义一个新的电商品类"
 
 #. module: website_sale
 #: model:ir.model.fields.selection,name:website_sale.selection__res_config_settings__sale_delivery_settings__internal
@@ -1257,7 +1257,7 @@ msgstr "为你的新产品输入一个名称"
 #: code:addons/website_sale/models/product.py:0
 #, python-format
 msgid "Error ! You cannot create recursive categories."
-msgstr "错误！您不能创建循环类别。"
+msgstr "错误！您不能创建循环的电商品类。"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.extra_info_option
@@ -1876,7 +1876,7 @@ msgstr "PDT身份令牌"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__parent_id
 msgid "Parent Category"
-msgstr "上级类别"
+msgstr "上级品类"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__parent_path
@@ -2069,7 +2069,7 @@ msgstr "产品价格"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.product_public_category_tree_view
 msgid "Product Public Categories"
-msgstr "产品公开类别"
+msgstr "产品电商品类"
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_style
@@ -3111,7 +3111,7 @@ msgstr "电子商务"
 #: model:ir.actions.act_window,name:website_sale.product_public_category_action
 #: model:ir.ui.menu,name:website_sale.menu_catalog_categories
 msgid "eCommerce Categories"
-msgstr "电子商务类别"
+msgstr "电商品类"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_digest_digest__kpi_website_sale_total
