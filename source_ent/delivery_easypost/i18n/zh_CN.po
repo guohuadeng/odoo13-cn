@@ -44,8 +44,8 @@ msgid ""
 "                <b>You can add new carrier accounts on the right side of the same page.</b>\n"
 "                <br/>"
 msgstr ""
-"<b>创建帐户后，转到仪表板，单击用户名旁边的箭头，以配置您的承运人帐户. </b>\n"
-"                <b>您可以在同一页面的右侧添加新的运营商帐户.</b>\n"
+"<b>创建账户后，转到仪表板，单击用户名旁边的箭头，以配置您的承运人账户. </b>\n"
+"                <b>您可以在同一页面的右侧添加新的运营商账户.</b>\n"
 "                <br/>"
 
 #. module: delivery_easypost
@@ -421,8 +421,8 @@ msgid ""
 "You have no carrier linked to your Easypost Account.                Please "
 "connect to Easypost, link your account to carriers and then retry."
 msgstr ""
-"‎您‎‎没有链接到‎‎您‎‎的 Easypost 帐户的‎‎承运人‎‎。‎             ‎请连接到 Easypost, "
-"将‎‎您‎‎的帐户‎‎链接到‎‎运营商, 然后重试。‎"
+"‎您‎‎没有链接到‎‎您‎‎的 Easypost 账户的‎‎承运人‎‎。‎             ‎请连接到 Easypost, "
+"将‎‎您‎‎的账户‎‎链接到‎‎运营商, 然后重试。‎"
 
 #. module: delivery_easypost
 #: model:ir.model.fields.selection,name:delivery_easypost.selection__delivery_carrier__easypost_label_file_type__zpl

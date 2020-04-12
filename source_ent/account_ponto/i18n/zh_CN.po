@@ -91,7 +91,7 @@ msgstr "供应商类型"
 #. module: account_ponto
 #: model:ir.model,name:account_ponto.model_account_online_provider
 msgid "Provider for online account synchronization"
-msgstr "在线帐户同步的供应商"
+msgstr "在线账户同步的供应商"
 
 #. module: account_ponto
 #: code:addons/account_ponto/models/ponto.py:0

@@ -1095,7 +1095,7 @@ msgstr "设置"
 #: model:ir.model.fields,field_description:social.field_social_stream__account_id
 #: model_terms:ir.ui.view,arch_db:social.social_account_view_form
 msgid "Social Account"
-msgstr "社区帐户"
+msgstr "社区账户"
 
 #. module: social
 #: model:ir.actions.act_window,name:social.action_social_account

@@ -122,7 +122,7 @@ msgid ""
 "            Journals:"
 msgstr ""
 "<span class=\"fa fa-book\"/>\n"
-"            日记帐:"
+"            日记账:"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
@@ -1194,7 +1194,7 @@ msgstr "脚注"
 #. module: account_reports
 #: model:ir.model.fields.selection,name:account_reports.selection__account_financial_html_report_line__special_date_changer__strict_range
 msgid "Force given dates for all accounts and account types"
-msgstr "所有帐户和帐户类型强制指定的日期"
+msgstr "所有账户和账户类型强制指定的日期"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__formulas
@@ -1454,7 +1454,7 @@ msgstr "含税账表项目"
 #: code:addons/account_reports/models/account_consolidated_journals.py:0
 #, python-format
 msgid "Journal Name (Code)"
-msgstr "帐名称(代码)"
+msgstr "账名称(代码)"
 
 #. module: account_reports
 #: model:ir.actions.act_window,name:account_reports.action_account_print_journal_menu
@@ -2315,7 +2315,7 @@ msgstr "使用给定日期"
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
 #, python-format
 msgid "Validated Payments not Linked with a Bank Statement Line"
-msgstr "已验证的付款未与银行对帐单行关联"
+msgstr "已验证的付款未与银行对账单行关联"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_activity.py:0

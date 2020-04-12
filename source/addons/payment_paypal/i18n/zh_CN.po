@@ -37,7 +37,7 @@ msgstr ""
 #: code:addons/payment_paypal/models/payment.py:0
 #, python-format
 msgid "Add your Paypal account to Odoo"
-msgstr "将您的Paypal帐户添加到Odoo"
+msgstr "将您的Paypal账户添加到Odoo"
 
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_acquirer__paypal_email_account
@@ -66,7 +66,7 @@ msgstr ""
 "你好，\n"
 "                <br/><br/>\n"
 "               您已通过PayPal收到付款。<br/>\n"
-"                请按照PayPal提供的说明创建您的帐户。<br/>\n"
+"                请按照PayPal提供的说明创建您的账户。<br/>\n"
 "                然后，帮助我们在Odoo中完成您的Paypal凭证。<br/><br/>"
 
 #. module: payment_paypal
@@ -77,7 +77,7 @@ msgstr "如何设置您的Paypal账户？"
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_acquirer__paypal_seller_account
 msgid "Merchant Account ID"
-msgstr "商家帐户ID"
+msgstr "商家账户ID"
 
 #. module: payment_paypal
 #: model:ir.model.fields,field_description:payment_paypal.field_payment_acquirer__paypal_pdt_token

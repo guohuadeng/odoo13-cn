@@ -1687,7 +1687,7 @@ msgstr ""
 #: code:addons/website_slides/static/src/xml/slide_quiz.xml:0
 #, python-format
 msgid "Don't have an account ?"
-msgstr "没有帐户"
+msgstr "没有账户"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__completed
@@ -2894,7 +2894,7 @@ msgstr "请 <a href=\"/web/login?redirect=%s\">登录</a> 投票这一课"
 msgid ""
 "Please <a href=\"/web/signup?redirect=%s\">create an account</a> to join "
 "this course"
-msgstr "请 <a href=\"/web/signup?redirect=%s\">建帐户</a> 加入此课程"
+msgstr "请 <a href=\"/web/signup?redirect=%s\">建账户</a> 加入此课程"
 
 #. module: website_slides
 #. openerp-web
@@ -2903,7 +2903,7 @@ msgstr "请 <a href=\"/web/signup?redirect=%s\">建帐户</a> 加入此课程"
 msgid ""
 "Please <a href=\"/web/signup?redirect=%s\">create an account</a> to vote "
 "this lesson"
-msgstr "请 <a href=\"/web/signup?redirect=%s\">创建帐户</a> 投票这一课"
+msgstr "请 <a href=\"/web/signup?redirect=%s\">创建账户</a> 投票这一课"
 
 #. module: website_slides
 #: code:addons/website_slides/models/slide_slide.py:0
@@ -3671,7 +3671,7 @@ msgstr "此幻灯片的估计完成时间"
 msgid ""
 "The following recipients have no user account: %s. You should create user "
 "accounts for them or allow external sign up in configuration."
-msgstr "以下收件人没有用户帐户：。 您应该为它们创建用户帐户或允许在配置中进行外部注册。"
+msgstr "以下收件人没有用户账户：。 您应该为它们创建用户账户或允许在配置中进行外部注册。"
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__website_url

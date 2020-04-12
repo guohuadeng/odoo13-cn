@@ -63,7 +63,7 @@ msgstr "银行账户"
 #: code:addons/payment_transfer/models/payment.py:0
 #, python-format
 msgid "Bank Accounts"
-msgstr "银行帐户"
+msgstr "银行账户"
 
 #. module: payment_transfer
 #: model:ir.model.fields.selection,name:payment_transfer.selection__payment_acquirer__provider__transfer

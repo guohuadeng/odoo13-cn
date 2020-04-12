@@ -79,7 +79,7 @@ msgstr ""
 #: code:addons/account_consolidation/models/consolidation_period.py:0
 #, python-format
 msgid "%s Consolidated Accounting"
-msgstr "%s合并帐"
+msgstr "%s合并账"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/report/trial_balance.py:0

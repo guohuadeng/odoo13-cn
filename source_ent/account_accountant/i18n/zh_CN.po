@@ -273,7 +273,7 @@ msgstr "分录附件"
 msgid ""
 "No users can edit journal entries related to a tax prior and inclusive of "
 "this date."
-msgstr "没有用户可以编辑与此日期之前和之前相关的税收相关的日记帐分录。"
+msgstr "没有用户可以编辑与此日期之前和之前相关的税收相关的日记账分录。"
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_account_change_lock_date__fiscalyear_lock_date

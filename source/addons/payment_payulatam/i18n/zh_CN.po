@@ -34,7 +34,7 @@ msgstr "PayU Latam API 钥匙"
 #. module: payment_payulatam
 #: model:ir.model.fields,field_description:payment_payulatam.field_payment_acquirer__payulatam_account_id
 msgid "PayU Latam Account ID"
-msgstr "PayU Latam 帐户 ID"
+msgstr "PayU Latam 账户 ID"
 
 #. module: payment_payulatam
 #: model:ir.model.fields,field_description:payment_payulatam.field_payment_acquirer__payulatam_merchant_id

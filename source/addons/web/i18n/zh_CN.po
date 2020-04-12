@@ -2303,7 +2303,7 @@ msgstr "多行文字"
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "My Odoo.com account"
-msgstr "Odoo.com帐户"
+msgstr "Odoo.com账户"
 
 #. module: web
 #. openerp-web

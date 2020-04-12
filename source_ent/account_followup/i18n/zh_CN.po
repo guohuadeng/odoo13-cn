@@ -309,7 +309,7 @@ msgstr "客户编号："
 #. module: account_followup
 #: model:ir.actions.client,name:account_followup.action_account_followup
 msgid "Customers Statement"
-msgstr "客户对帐单"
+msgstr "客户对账单"
 
 #. module: account_followup
 #: code:addons/account_followup/models/account_followup_report.py:0

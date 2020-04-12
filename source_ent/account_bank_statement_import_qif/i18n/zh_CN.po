@@ -29,7 +29,7 @@ msgid ""
 "Accounting journal related to the bank statement you're importing. It has to"
 " be manually chosen for statement formats which doesn't allow automatic "
 "journal detection (QIF for example)."
-msgstr "与您要导入的银行对帐单相关的会计科目。对于不允许自动日志检测 (例如，QIF) 的语句格式，必须手动选择。"
+msgstr "与您要导入的银行对账单相关的会计科目。对于不允许自动日志检测 (例如，QIF) 的语句格式，必须手动选择。"
 
 #. module: account_bank_statement_import_qif
 #: model:ir.model.fields,help:account_bank_statement_import_qif.field_account_bank_statement_import__qif_date_format

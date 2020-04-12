@@ -191,7 +191,7 @@ msgstr "附件数量"
 #. module: account_sepa_direct_debit
 #: model:ir.model,name:account_sepa_direct_debit.model_res_partner_bank
 msgid "Bank Accounts"
-msgstr "银行帐户"
+msgstr "银行账户"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_account_batch_payment__sdd_batch_booking
@@ -497,7 +497,7 @@ msgstr "日记账分录"
 #: model:ir.model.fields,help:account_sepa_direct_debit.field_sdd_mandate__payment_journal_id
 msgid ""
 "Journal to use to receive SEPA Direct Debit payments from this mandate."
-msgstr "用于从此授权中获得SEPA直接借记付款的日记帐"
+msgstr "用于从此授权中获得SEPA直接借记付款的日记账"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate____last_update
@@ -578,7 +578,7 @@ msgid ""
 "the number of payments that have been generated and posted thanks to this "
 "mandate and still needs their XML file to be generated and sent to the bank "
 "to debit the customer's account."
-msgstr "该授权已收集的直接借记付款的数额，即由于该授权已生成并过账的付款数额，并且仍然需要生成XML文件并将其发送到银行以从客户的帐户中扣款。"
+msgstr "该授权已收集的直接借记付款的数额，即由于该授权已生成并过账的付款数额，并且仍然需要生成XML文件并将其发送到银行以从客户的账户中扣款。"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__message_has_error_counter
@@ -972,7 +972,7 @@ msgid ""
 "Unable to post payment '%s' due to no usable mandate being available at date"
 " %s for partner '%s'. Please create one before encoding a SEPA Direct Debit "
 "payment."
-msgstr "由于合作伙伴'%s'的日期%s没有可用的授权，因此无法过帐付款'%s'。请在编码SEPA直接付款之前创建一个。"
+msgstr "由于合作伙伴'%s'的日期%s没有可用的授权，因此无法过账付款'%s'。请在编码SEPA直接付款之前创建一个。"
 
 #. module: account_sepa_direct_debit
 #: model:ir.model.fields,field_description:account_sepa_direct_debit.field_sdd_mandate__message_unread

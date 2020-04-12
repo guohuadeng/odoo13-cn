@@ -629,7 +629,7 @@ msgstr "已确认的销售订单需要一个确认日期。"
 #: code:addons/sale/models/sale.py:0
 #, python-format
 msgid "A journal must be specified of the acquirer %s."
-msgstr "日记帐必须指定一个收单明细 %s."
+msgstr "日记账必须指定一个收单明细 %s."
 
 #. module: sale
 #: code:addons/sale/models/sale.py:0
@@ -715,7 +715,7 @@ msgid ""
 msgstr ""
 "根据产品配置，交货数量可以通过机制自动计算：\n"
 " - 手动：在线手动输入数量\n"
-" - 费用分析：数量是来自过帐费用的数量总和\n"
+" - 费用分析：数量是来自过账费用的数量总和\n"
 " - 时间表：数量是与此销售线相关联的任务记录的时数\n"
 " - 库存变动：数量来自已确认的选择\n"
 
@@ -727,7 +727,7 @@ msgstr "账户号码"
 #. module: sale
 #: model:ir.model,name:sale.model_account_reconciliation_widget
 msgid "Account Reconciliation widget"
-msgstr "帐户调节小部件"
+msgstr "账户调节小部件"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_advance_payment_inv__deposit_account_id
@@ -2003,7 +2003,7 @@ msgstr "过期了"
 #: model:ir.model.fields,help:sale.field_sale_order_line__is_expense
 msgid ""
 "Is true if the sales order line comes from an expense or a vendor bills"
-msgstr "此销售订单来源于报销单或供应商帐单"
+msgstr "此销售订单来源于报销单或供应商账单"
 
 #. module: sale
 #: code:addons/sale/models/sale.py:0
@@ -2146,7 +2146,7 @@ msgid ""
 "Timesheets on contract: Invoice based on the tracked hours on the related timesheet.\n"
 "Create a task and track hours: Create a task on the sales order validation and track the work hours."
 msgstr ""
-"手动设置订单数量：基于手动输入数量的发票，不创建分析帐户。\n"
+"手动设置订单数量：基于手动输入数量的发票，不创建分析账户。\n"
 "时间表：在合同的基础上对相关发票跟踪小时时间表。\n"
 "创建任务和跟踪时间：在销售订单验证上创建任务并跟踪工作时间。"
 
@@ -2177,7 +2177,7 @@ msgstr "媒介"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_payment_acquirer_onboarding_wizard__paypal_seller_account
 msgid "Merchant Account ID"
-msgstr "商家帐户ID"
+msgstr "商家账户ID"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__message_has_error
@@ -2662,7 +2662,7 @@ msgstr "Paypal 用户类型"
 #: code:addons/sale/models/sale.py:0
 #, python-format
 msgid "Please define an accounting sales journal for the company %s (%s)."
-msgstr "请为公司%s（%s）定义会计销售日记帐。"
+msgstr "请为公司%s（%s）定义会计销售日记账。"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__access_url
@@ -3704,7 +3704,7 @@ msgid ""
 "This mode is advised if you issue the final invoice at the order and not after the delivery."
 msgstr ""
 "当付款收单方确认交易时，发票自动生成并在客户门户中可用。\n"
-"发票标记为已付款，付款已在付款获取方配置中定义的付款日记帐中注册。\n"
+"发票标记为已付款，付款已在付款获取方配置中定义的付款日记账中注册。\n"
 "如果您在订单处而不是在交货后发出最终发票，则建议使用此模式。"
 
 #. module: sale
@@ -3789,7 +3789,7 @@ msgstr "现在你的账户没有订单"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.portal_my_quotations
 msgid "There are currently no quotations for your account."
-msgstr "目前，您的帐户没有报价。"
+msgstr "目前，您的账户没有报价。"
 
 #. module: sale
 #: code:addons/sale/models/sale.py:0 code:addons/sale/models/sale.py:0
@@ -4292,7 +4292,7 @@ msgstr "天数"
 #: code:addons/sale/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "matching the communication of the bank statement line"
-msgstr "匹配银行对帐单行的通信"
+msgstr "匹配银行对账单行的通信"
 
 #. module: sale
 #: code:addons/sale/models/sale.py:0

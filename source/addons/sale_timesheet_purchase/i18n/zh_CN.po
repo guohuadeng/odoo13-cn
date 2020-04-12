@@ -34,4 +34,4 @@ msgstr "采购订单"
 #: code:addons/sale_timesheet_purchase/models/project_overview.py:29
 #, python-format
 msgid "Vendor Bills"
-msgstr "供应商帐单"
+msgstr "供应商账单"

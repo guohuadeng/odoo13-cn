@@ -1191,7 +1191,7 @@ msgstr "已归档"
 #. module: website
 #: model:ir.model.fields,help:website.field_res_config_settings__specific_user_account
 msgid "Are newly created user accounts website specific"
-msgstr "新建的用户帐户是否符合网站"
+msgstr "新建的用户账户是否符合网站"
 
 #. module: website
 #. openerp-web
@@ -2343,7 +2343,7 @@ msgstr "页脚"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 msgid "Force your user to create an account per website"
-msgstr "强制你的用户为每个网站创建一个帐户"
+msgstr "强制你的用户为每个网站创建一个账户"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -2764,7 +2764,7 @@ msgstr "图标"
 #. module: website
 #: model:ir.model.fields,help:website.field_website__specific_user_account
 msgid "If True, new accounts will be associated to the current website"
-msgstr "如果为正确的，新帐户将与当前网站相关联"
+msgstr "如果为正确的，新账户将与当前网站相关联"
 
 #. module: website
 #: model:ir.model.fields,help:website.field_res_config_settings__social_default_image
@@ -5790,7 +5790,7 @@ msgstr "您没有发布/取消发布的权限"
 #: code:addons/website/static/src/xml/website.backend.xml:0
 #, python-format
 msgid "You do not seem to have access to this Analytics Account."
-msgstr "你好像对此分析帐户没有访问权限。"
+msgstr "你好像对此分析账户没有访问权限。"
 
 #. module: website
 #. openerp-web

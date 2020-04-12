@@ -46,12 +46,12 @@ msgstr "<strong>哎呀</strong> 我们做不到"
 #. module: account_online_sync
 #: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
 msgid "<strong>Success!</strong> Your account has been succesfully refreshed."
-msgstr "<strong>成功!</strong> 您的帐户已被成功刷新。"
+msgstr "<strong>成功!</strong> 您的账户已被成功刷新。"
 
 #. module: account_online_sync
 #: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
 msgid "<strong>Success!</strong> Your account has been succesfully updated."
-msgstr "<strong>成功! </strong>您的帐户已被成功更新。 "
+msgstr "<strong>成功! </strong>您的账户已被成功更新。 "
 
 #. module: account_online_sync
 #: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
@@ -145,7 +145,7 @@ msgstr "余额"
 #. module: account_online_sync
 #: model_terms:ir.ui.view,arch_db:account_online_sync.online_provider_account_form_view
 msgid "Bank Accounts"
-msgstr "银行帐户"
+msgstr "银行账户"
 
 #. module: account_online_sync
 #: model:ir.model,name:account_online_sync.model_account_bank_statement
@@ -295,7 +295,7 @@ msgstr "用于调试用途的第三方服务器中的银行机构ID"
 #. module: account_online_sync
 #: model:ir.model.fields,help:account_online_sync.field_account_online_provider__provider_account_identifier
 msgid "ID used to identify provider account in third party server"
-msgstr "ID用于标识第三方服务器中的提供商帐户"
+msgstr "ID用于标识第三方服务器中的提供商账户"
 
 #. module: account_online_sync
 #: model:ir.model.fields,help:account_online_sync.field_account_online_provider__message_needaction
@@ -545,7 +545,7 @@ msgstr "供应商"
 #. module: account_online_sync
 #: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__provider_account_identifier
 msgid "Provider Account Identifier"
-msgstr "提供商帐户标识符"
+msgstr "提供商账户标识符"
 
 #. module: account_online_sync
 #: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__provider_identifier
@@ -560,7 +560,7 @@ msgstr "供应商类型"
 #. module: account_online_sync
 #: model:ir.model,name:account_online_sync.model_account_online_provider
 msgid "Provider for online account synchronization"
-msgstr "在线帐户同步的供应商"
+msgstr "在线账户同步的供应商"
 
 #. module: account_online_sync
 #: model:ir.model.fields,field_description:account_online_sync.field_account_online_provider__message_has_sms_error
@@ -675,7 +675,7 @@ msgstr "交易"
 #. module: account_online_sync
 #: model:ir.model.fields,help:account_online_sync.field_account_online_provider__action_required
 msgid "True if user needs to take action by updating account"
-msgstr "如果用户需要通过更新帐户采取操作，则为true"
+msgstr "如果用户需要通过更新账户采取操作，则为true"
 
 #. module: account_online_sync
 #: code:addons/account_online_sync/models/online_sync.py:0
@@ -745,7 +745,7 @@ msgstr "添加"
 #: model:ir.model.fields,help:account_online_sync.field_account_online_journal__balance
 #: model:ir.model.fields,help:account_online_sync.field_account_online_link_wizard__balance
 msgid "balance of the account sent by the third party provider"
-msgstr "由第三方提供商发送的帐户余额"
+msgstr "由第三方提供商发送的账户余额"
 
 #. module: account_online_sync
 #: model_terms:ir.ui.view,arch_db:account_online_sync.view_account_online_wizard_form
@@ -765,7 +765,7 @@ msgstr "编辑"
 #. module: account_online_sync
 #: model:ir.model.fields,help:account_online_sync.field_account_online_journal__online_identifier
 msgid "id use to identify account in provider system"
-msgstr "id用于识别提供商系统中的帐户"
+msgstr "id用于识别提供商系统中的账户"
 
 #. module: account_online_sync
 #: model:ir.model.fields,help:account_online_sync.field_account_online_journal__provider_name

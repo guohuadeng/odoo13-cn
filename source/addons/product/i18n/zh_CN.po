@@ -2581,7 +2581,7 @@ msgstr "供应商"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Vendor Bills"
-msgstr "供应商帐单"
+msgstr "供应商账单"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
@@ -2742,7 +2742,7 @@ msgstr "不可在同一规格中创建2个相同的规格值。"
 msgid ""
 "You cannot define the decimal precision of 'Account' as greater than the "
 "rounding factor of the company's main currency"
-msgstr "您不能将“帐户”的小数精度定义为大于公司主要货币的舍入因子"
+msgstr "您不能将“账户”的小数精度定义为大于公司主要货币的舍入因子"
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0

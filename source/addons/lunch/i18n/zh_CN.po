@@ -1224,7 +1224,7 @@ msgstr "我的账号"
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.lunch_cashmove_report_menu_form
 msgid "My Account History"
-msgstr "我的帐户历史"
+msgstr "我的账户历史"
 
 #. module: lunch
 #: model_terms:ir.ui.view,arch_db:lunch.lunch_cashmove_report_view_search
@@ -1928,7 +1928,7 @@ msgstr "你应该至少订购一个%s"
 #: code:addons/lunch/static/src/xml/lunch_kanban.xml:0
 #, python-format
 msgid "Your Account"
-msgstr "您的帐号"
+msgstr "您的账号"
 
 #. module: lunch
 #. openerp-web

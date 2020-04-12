@@ -53,7 +53,7 @@ msgid ""
 "Number of the check corresponding to this payment. If your pre-printed check"
 " are not already numbered, you can manage the numbering in the journal "
 "configuration page."
-msgstr "如果你的预先印制的支票即将付款，但还没有被编号，请前去帐户配置页面进行管理。"
+msgstr "如果你的预先印制的支票即将付款，但还没有被编号，请前去账户配置页面进行管理。"
 
 #. module: hr_expense_check
 #: model:ir.model.fields,field_description:hr_expense_check.field_hr_expense_sheet_register_payment_wizard__payment_method_code_2

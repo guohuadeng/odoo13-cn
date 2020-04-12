@@ -650,7 +650,7 @@ msgstr ""
 msgid ""
 "You don't have an IAP account registered for this service.<br>Please go to "
 "<a href=%s target=\"new\">iap.odoo.com</a> to claim your free credits."
-msgstr "您没有为此服务注册的IAP帐户。<br>请访问<a href=%s target=\"new\">iap.odoo.com</a>以获得免费信用。"
+msgstr "您没有为此服务注册的IAP账户。<br>请访问<a href=%s target=\"new\">iap.odoo.com</a>以获得免费信用。"
 
 #. module: snailmail
 #: code:addons/snailmail/models/snailmail_letter.py:0
@@ -658,7 +658,7 @@ msgstr "您没有为此服务注册的IAP帐户。<br>请访问<a href=%s target
 msgid ""
 "You don't have enough credits to perform this operation.<br>Please go to "
 "your <a href=%s target=\"new\">iap account</a>."
-msgstr "您没有足够的积分来执行此操作.<br>请转到您的<a href=%s target=\"new\">iap帐户</a>。"
+msgstr "您没有足够的积分来执行此操作.<br>请转到您的<a href=%s target=\"new\">iap账户</a>。"
 
 #. module: snailmail
 #: model_terms:ir.ui.view,arch_db:snailmail.snailmail_letter_missing_required_fields

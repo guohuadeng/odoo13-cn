@@ -522,7 +522,7 @@ msgstr "分拣"
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0
 #, python-format
 msgid "Please configure Stock Expense Account for product: %s."
-msgstr "请配置产品: %s的库存费用帐户。"
+msgstr "请配置产品: %s的库存费用账户。"
 
 #. module: stock_landed_costs
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:0

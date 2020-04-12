@@ -208,7 +208,7 @@ msgstr ""
 "                    <div>\n"
 "                        尊敬的 ${object.user_id.name or ''},<br/> <br/>\n"
 "                        您已经获得了${object.user_id.company_id.name}的门户。<br/>\n"
-"                        您的登录帐户数据是:\n"
+"                        您的登录账户数据是:\n"
 "                        <ul>\n"
 "                            <li>Username: ${object.user_id.login or ''}</li>\n"
 "                            <li>Portal: <a href=\"${'portal_url' in ctx and ctx['portal_url'] or ''}\">${'portal_url' in ctx and ctx['portal_url'] or ''}</a></li>\n"
@@ -332,7 +332,7 @@ msgstr "取消"
 msgid ""
 "Changing VAT number is not allowed once document(s) have been issued for "
 "your account. Please contact us directly for this operation."
-msgstr "一旦您的帐户开具发票，不可更改增值税号码。如需要此操作，请直接与我们联系。"
+msgstr "一旦您的账户开具发票，不可更改增值税号码。如需要此操作，请直接与我们联系。"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
