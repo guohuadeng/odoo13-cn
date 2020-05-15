@@ -7,7 +7,6 @@
 # niulin lnc. <admin@niulin.net>, 2019
 # zpq001 <zpq001@live.com>, 2019
 # guohuadeng <guohuadeng@hotmail.com>, 2019
-# keecome <7017511@qq.com>, 2019
 # bower Guo <124358678@qq.com>, 2019
 # roye w <159820@qq.com>, 2019
 # snow wang <147156565@qq.com>, 2019
@@ -44,12 +43,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_crm_score.field_team_user__message_needaction
 #: model:ir.model.fields,field_description:website_crm_score.field_website_crm_score__message_needaction
 msgid "Action Needed"
-msgstr "需要采取行动"
+msgstr "需要行动"
 
 #. module: website_crm_score
 #: model:ir.model.fields,field_description:website_crm_score.field_website_crm_score__active
 msgid "Active"
-msgstr "有效"
+msgstr "启用"
 
 #. module: website_crm_score
 #: model:ir.model.fields.selection,name:website_crm_score.selection__website_crm_score__rule_type__active
@@ -173,7 +172,7 @@ msgstr "显示名称"
 #: model:ir.model.fields,field_description:website_crm_score.field_team_user__team_user_domain
 #: model:ir.model.fields,field_description:website_crm_score.field_website_crm_score__domain
 msgid "Domain"
-msgstr "网域"
+msgstr "域名"
 
 #. module: website_crm_score
 #: model:ir.model.fields,field_description:website_crm_score.field_website_crm_score__event_based
@@ -334,7 +333,7 @@ msgstr "名称"
 #: model:ir.model.fields,field_description:website_crm_score.field_team_user__message_needaction_counter
 #: model:ir.model.fields,field_description:website_crm_score.field_website_crm_score__message_needaction_counter
 msgid "Number of Actions"
-msgstr "操作次数"
+msgstr "动作个数"
 
 #. module: website_crm_score
 #: model:ir.model.fields,field_description:website_crm_score.field_team_user__message_has_error_counter
@@ -472,10 +471,10 @@ msgid ""
 "Actions are done in sql and bypass the access rights and orm mechanism (create `score`, write `active`, unlink `crm_lead`)"
 msgstr ""
 "评分将为此线索添加分数“值”。\n"
-" 归档将设置为激活 = 假（针对已归档线索）\n"
+" 归档将设置为启用 = 假（针对已归档线索）\n"
 "删除将明确删除线索\n"
 "\n"
-"在 SQL 中完成操作并绕过访问权限和 ORM 机制（创建“分数”、写“激活”、取消链接“crm_lead”）"
+"在 SQL 中完成操作并绕过访问权限和 ORM 机制（创建“分数”、写“启用”、取消链接“crm_lead”）"
 
 #. module: website_crm_score
 #: model_terms:ir.ui.view,arch_db:website_crm_score.website_crm_score_view_search

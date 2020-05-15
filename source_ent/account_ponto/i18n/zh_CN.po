@@ -7,6 +7,7 @@
 # liAnGjiA <liangjia@qq.com>, 2019
 # neter ji <jifuyi@qq.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
+# arron shaw <arronnjxj@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-12-05 09:37+0000\n"
 "PO-Revision-Date: 2019-08-26 09:34+0000\n"
-"Last-Translator: inspur qiuguodong <qiuguodong@inspur.com>, 2019\n"
+"Last-Translator: arron shaw <arronnjxj@gmail.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -30,6 +31,8 @@ msgid ""
 "process on "
 "https://docs.google.com/document/d/1apzAtCgZl5mfEz5-Z8iETqd6WXGbV0R2KuAvEL87rBI"
 msgstr ""
+"强烈建议不要使用令牌连接PONTO，请遵循以下链接的指引：\n"
+"https://docs.google.com/document/d/1apzAtCgZl5mfEz5-Z8iETqd6WXGbV0R2KuAvEL87rBI"
 
 #. module: account_ponto
 #: code:addons/account_ponto/models/ponto.py:0
@@ -47,7 +50,7 @@ msgstr "在线同步期间发生错误"
 #: code:addons/account_ponto/models/ponto.py:0
 #, python-format
 msgid "Fetching transactions took too much time."
-msgstr ""
+msgstr "获取事务超时"
 
 #. module: account_ponto
 #: model:ir.model,name:account_ponto.model_account_online_journal
@@ -58,20 +61,20 @@ msgstr "在线会计账簿接口"
 #: code:addons/account_ponto/models/ponto.py:0
 #, python-format
 msgid "Invalid access keys"
-msgstr ""
+msgstr "无效访问钥"
 
 #. module: account_ponto
 #: code:addons/account_ponto/models/ponto.py:0
 #, python-format
 msgid "Link your Ponto account"
-msgstr ""
+msgstr "链接您的Ponto账户"
 
 #. module: account_ponto
 #: code:addons/account_ponto/models/ponto.py:0
 #: model:ir.model.fields.selection,name:account_ponto.selection__account_online_provider__provider_type__ponto
 #, python-format
 msgid "Ponto"
-msgstr ""
+msgstr "Ponto（网络银行工具）"
 
 #. module: account_ponto
 #: model:ir.model.fields,field_description:account_ponto.field_account_online_journal__ponto_last_synchronization_identifier
@@ -81,7 +84,7 @@ msgstr ""
 #. module: account_ponto
 #: model:ir.model.fields,field_description:account_ponto.field_account_online_provider__ponto_token
 msgid "Ponto Token"
-msgstr ""
+msgstr "Ponto 令牌"
 
 #. module: account_ponto
 #: model:ir.model.fields,field_description:account_ponto.field_account_online_provider__provider_type

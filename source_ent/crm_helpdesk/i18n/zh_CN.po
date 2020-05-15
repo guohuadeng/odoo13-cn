@@ -1,6 +1,6 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# * crm_helpdesk
+# 	* crm_helpdesk
 # 
 # Translators:
 # Martin Trigaux, 2019
@@ -12,9 +12,9 @@
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.1+e\n"
+"Project-Id-Version: Odoo Server 13.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-12-24 11:16+0000\n"
+"POT-Creation-Date: 2020-01-29 15:22+0000\n"
 "PO-Revision-Date: 2019-08-26 09:35+0000\n"
 "Last-Translator: 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
@@ -42,11 +42,6 @@ msgid "Create Ticket"
 msgstr "创建服务单"
 
 #. module: crm_helpdesk
-#: selection:crm.lead.convert2ticket,action:0
-msgid "Create a new customer"
-msgstr "创建客户"
-
-#. module: crm_helpdesk
 #: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__create_uid
 msgid "Created by"
 msgstr "创建者"
@@ -65,11 +60,6 @@ msgstr "客户"
 #: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__display_name
 msgid "Display Name"
 msgstr "显示名称"
-
-#. module: crm_helpdesk
-#: selection:crm.lead.convert2ticket,action:0
-msgid "Do not link to a customer"
-msgstr "不要链接到某个客户"
 
 #. module: crm_helpdesk
 #: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__id
@@ -102,11 +92,6 @@ msgid "Lead convert to Ticket"
 msgstr "线索转换为服务单"
 
 #. module: crm_helpdesk
-#: selection:crm.lead.convert2ticket,action:0
-msgid "Link to an existing customer"
-msgstr "链接到现有客户"
-
-#. module: crm_helpdesk
 #: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__action
 msgid "Related Customer"
 msgstr "相关客户"
@@ -122,7 +107,7 @@ msgid "Ticket Type"
 msgstr "入场券类型"
 
 #. module: crm_helpdesk
-#: code:addons/crm_helpdesk/wizard/crm_lead_convert2ticket.py:53
+#: code:addons/crm_helpdesk/wizard/crm_lead_convert2ticket.py:0
 #, python-format
 msgid "Ticket created"
 msgstr "工单已创建"

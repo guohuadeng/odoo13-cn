@@ -6,7 +6,6 @@
 # liAnGjiA <liangjia@qq.com>, 2019
 # guohuadeng <guohuadeng@hotmail.com>, 2019
 # keecome <7017511@qq.com>, 2019
-# 黎伟杰 <674416404@qq.com>, 2019
 # snow wang <147156565@qq.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # John An <johnxan@163.com>, 2019
@@ -32,14 +31,7 @@ msgstr ""
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_shift_notification
 msgid "&amp;times;"
-msgstr "&amp;次数;"
-
-#. module: planning
-#: model_terms:ir.ui.view,arch_db:planning.planning_view_gantt
-msgid ""
-"<br/>\n"
-"                                    <span>Some changes were made since this shift was published</span>"
-msgstr ""
+msgstr "&amp;times;"
 
 #. module: planning
 #: model:mail.template,body_html:planning.email_template_planning_planning
@@ -1016,6 +1008,11 @@ msgid "Slot"
 msgstr ""
 
 #. module: planning
+#: model_terms:ir.ui.view,arch_db:planning.planning_view_gantt
+msgid "Some changes were made since this shift was published."
+msgstr ""
+
+#. module: planning
 #: model:ir.model.fields,field_description:planning.field_planning_planning__start_datetime
 #: model:ir.model.fields,field_description:planning.field_planning_send__start_datetime
 #: model:ir.model.fields,field_description:planning.field_planning_slot__start_datetime
@@ -1168,6 +1165,11 @@ msgstr ""
 #. module: planning
 #: model_terms:ir.ui.view,arch_db:planning.planning_view_form
 msgid "other shift(s)"
+msgstr ""
+
+#. module: planning
+#: model_terms:ir.ui.view,arch_db:planning.planning_view_gantt
+msgid "other shift(s) in conflict."
 msgstr ""
 
 #. module: planning

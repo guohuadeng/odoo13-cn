@@ -22,8 +22,8 @@
 # Mandy Choy <mnc@odoo.com>, 2019
 # ChinaMaker <liuct@chinamaker.net>, 2019
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
-# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # as co02 <asco02@163.com>, 2020
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -31,7 +31,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-27 09:18+0000\n"
 "PO-Revision-Date: 2019-08-26 09:34+0000\n"
-"Last-Translator: as co02 <asco02@163.com>, 2020\n"
+"Last-Translator: Jeffery CHEN Fan <jeffery9@gmail.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -581,7 +581,7 @@ msgstr "银行对账报告"
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_bank_view0
 msgid "Bank and Cash Accounts"
-msgstr "银行和现金"
+msgstr "银行和现金科目"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_general_ledger.py:0
@@ -1227,7 +1227,7 @@ msgstr "来自:"
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_reports_export_wizard_format__fun_to_call
 msgid "Function to Call"
-msgstr ""
+msgstr "调用的函数"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_general_ledger.py:0
@@ -1297,7 +1297,7 @@ msgstr "Groupby应该是一个来自account . move.line的字段"
 #: code:addons/account_reports/models/account_financial_report.py:0
 #, python-format
 msgid "Groupby should be a journal item field"
-msgstr "Groupby应该是一个日记账的字段"
+msgstr "Groupby应该是一个日记账项的字段"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__hide_if_empty
@@ -1448,7 +1448,7 @@ msgstr "日记账项 (%s)"
 #. module: account_reports
 #: model:ir.actions.server,name:account_reports.action_journal_items
 msgid "Journal Items by tax"
-msgstr "含税账表项目"
+msgstr "含税日记账项"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_consolidated_journals.py:0
@@ -1665,7 +1665,7 @@ msgstr "无单位"
 msgid ""
 "Note you can set through the customer statement about a receivable journal "
 "item"
-msgstr "注意你可以通过关于应收日记账明细的客户对账单来设置"
+msgstr "注意你可以通过关于应收日记账项的客户对账单来设置"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
@@ -1700,7 +1700,7 @@ msgstr "过时"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_extra_options
 msgid "Only Show Unreconciled Entries"
-msgstr "只显示未核销的项"
+msgstr "只显示未对账的项"
 
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_account_financial_year_op
@@ -1825,7 +1825,7 @@ msgstr "效能"
 #: code:addons/account_reports/models/res_config_settings.py:0
 #, python-format
 msgid "Periodic Tax Return"
-msgstr ""
+msgstr "定期退税"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_year_op__account_tax_periodicity
@@ -1921,7 +1921,7 @@ msgstr "应收"
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
 #, python-format
 msgid "Receivable tax amount"
-msgstr ""
+msgstr "应收税金总额"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_debtors0
@@ -1934,7 +1934,7 @@ msgstr "应收"
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_aged_receivable_report
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_partner_ledger_report
 msgid "Reconcile"
-msgstr "核销"
+msgstr "对账"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.account_reports_journal_dashboard_kanban_view
@@ -2036,7 +2036,7 @@ msgstr "序号"
 msgid ""
 "Set to True to automatically filter out journal items that have the boolean "
 "field 'tax_exigible' set to False"
-msgstr "设置为True，自动筛选出具有布尔字段'tax_exigible'的日记账项目为False。"
+msgstr "设置为True，自动筛选出具有布尔字段'tax_exigible'的日记账项为False。"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_st_cash_forecast0
@@ -2100,7 +2100,7 @@ msgstr "税"
 #: code:addons/account_reports/models/res_config_settings.py:0
 #, python-format
 msgid "TAX Report"
-msgstr ""
+msgstr "税金报告"
 
 #. module: account_reports
 #. openerp-web
@@ -2158,7 +2158,7 @@ msgstr ""
 #. module: account_reports
 #: model:ir.model.fields.selection,name:account_reports.selection__mail_activity_type__category__tax_report
 msgid "Tax report"
-msgstr ""
+msgstr "税金报告"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_report_footnote__text
@@ -2293,13 +2293,13 @@ msgstr "展开"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_extra_options
 msgid "Unreconciled"
-msgstr "未核销"
+msgstr "未对账"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_bank_reconciliation_report.py:0
 #, python-format
 msgid "Unreconciled Bank Statement Lines"
-msgstr "未核销的明细行"
+msgstr "未对账的明细行"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_extra_options_generic_tax_report
@@ -2498,4 +2498,4 @@ msgstr "未过账日记账分录"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_general_ledger_report
 msgid "⇒ journal items"
-msgstr "⇒ 凭证条目"
+msgstr "⇒ 日记账项"

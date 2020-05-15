@@ -4,13 +4,13 @@
 # 
 # Translators:
 # Martin Trigaux, 2019
-# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
+# guohuadeng <guohuadeng@hotmail.com>, 2019
 # diaojiaolou <124412206@qq.com>, 2019
 # snow wang <147156565@qq.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
-# guohuadeng <guohuadeng@hotmail.com>, 2020
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -18,7 +18,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:05+0000\n"
 "PO-Revision-Date: 2019-08-26 09:38+0000\n"
-"Last-Translator: guohuadeng <guohuadeng@hotmail.com>, 2020\n"
+"Last-Translator: Jeffery CHEN Fan <jeffery9@gmail.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -126,6 +126,13 @@ msgid "Done Transfers"
 msgstr "已完成的调拨"
 
 #. module: stock_enterprise
+#. openerp-web
+#: code:addons/stock_enterprise/static/src/js/report_grid_controller.js:0
+#, python-format
+msgid "Error: Only grouping by product is supported."
+msgstr ""
+
+#. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__scheduled_date
 msgid "Expected Date"
 msgstr "预计日期"
@@ -198,7 +205,7 @@ msgstr "产品"
 #. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__categ_id
 msgid "Product Category"
-msgstr "品类"
+msgstr "产品类别"
 
 #. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__product_qty
@@ -250,7 +257,7 @@ msgstr "库存概览"
 #. module: stock_enterprise
 #: model:ir.model,name:stock_enterprise.model_report_stock_quantity
 msgid "Stock Quantity Report"
-msgstr ""
+msgstr "库存数量报告"
 
 #. module: stock_enterprise
 #: model:ir.model,name:stock_enterprise.model_stock_report
@@ -274,7 +281,7 @@ msgstr "收货所需的时间(天)。通过比较收货单的创建日期与其�
 #. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__date_done
 msgid "Transfer Date"
-msgstr "转移日期"
+msgstr "调拔日期"
 
 #. module: stock_enterprise
 #: model:ir.model.fields,field_description:stock_enterprise.field_stock_report__picking_id

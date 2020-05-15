@@ -4,16 +4,16 @@
 # 
 # Translators:
 # Martin Trigaux, 2019
-# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # Felix Yuen <fyu@odoo.com>, 2019
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Project-Id-Version: Odoo Server 13.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-26 08:05+0000\n"
+"POT-Creation-Date: 2020-04-27 09:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:35+0000\n"
 "Last-Translator: Felix Yuen <fyu@odoo.com>, 2019\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
@@ -31,11 +31,6 @@ msgid ""
 msgstr "一组适用于符合所有条件附件的状态动作集合"
 
 #. module: documents_sign
-#: model:ir.model,name:documents_sign.model_ir_attachment
-msgid "Attachment"
-msgstr "附件"
-
-#. module: documents_sign
 #: model:ir.model.fields,field_description:documents_sign.field_documents_workflow_rule__create_model
 msgid "Create"
 msgstr "创建"
@@ -50,16 +45,6 @@ msgstr "创造签字需求"
 #: model:documents.workflow.rule,name:documents_sign.documents_sign_rule_sign_request_finance
 msgid "Create signature template(s)"
 msgstr "创造（多个）签名模板"
-
-#. module: documents_sign
-#: model:ir.model.fields,field_description:documents_sign.field_sign_request__documents_tag_ids
-msgid "Document Tags"
-msgstr "文档标记"
-
-#. module: documents_sign
-#: model:ir.model.fields,field_description:documents_sign.field_sign_request__folder_id
-msgid "Document Workspace"
-msgstr "文档工作区"
 
 #. module: documents_sign
 #: model:ir.model.fields,field_description:documents_sign.field_documents_workflow_rule__has_business_option

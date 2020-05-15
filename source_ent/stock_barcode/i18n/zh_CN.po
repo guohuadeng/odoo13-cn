@@ -14,8 +14,8 @@
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # John An <johnxan@163.com>, 2019
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
-# Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
 # as co02 <asco02@163.com>, 2020
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -23,7 +23,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-08-26 08:05+0000\n"
 "PO-Revision-Date: 2019-08-26 09:38+0000\n"
-"Last-Translator: as co02 <asco02@163.com>, 2020\n"
+"Last-Translator: Jeffery CHEN Fan <jeffery9@gmail.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -325,7 +325,7 @@ msgstr "没有内部作业类型。 请在仓库设置中配置一个。"
 #: code:addons/stock_barcode/controllers/main.py:0
 #, python-format
 msgid "No picking corresponding to barcode %(barcode)s"
-msgstr "没有分拣单和这个条码%(barcode)s一致"
+msgstr "没有拣货单和这个条码%(barcode)s一致"
 
 #. module: stock_barcode
 #: code:addons/stock_barcode/controllers/main.py:0
@@ -364,19 +364,19 @@ msgstr "作业"
 #: model:ir.actions.act_window,name:stock_barcode.stock_picking_action_form
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_barcode_lot__picking_id
 msgid "Picking"
-msgstr "分拣"
+msgstr "拣货"
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/js/forms/picking_barcode_handler.js:0
 #, python-format
 msgid "Picking %s"
-msgstr "分拣%s"
+msgstr "拣货%s"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_picking_barcode
 msgid "Picking Details"
-msgstr "分拣明细"
+msgstr "拣货明细"
 
 #. module: stock_barcode
 #: model:ir.model,name:stock_barcode.model_stock_picking_type
@@ -624,14 +624,14 @@ msgstr "扫描的序列号已被使用。"
 #: code:addons/stock_barcode/static/src/js/client_action/picking_client_action.js:0
 #, python-format
 msgid "The transfer has been cancelled"
-msgstr "转移已被取消"
+msgstr "调拨已被取消"
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/js/client_action/picking_client_action.js:0
 #, python-format
 msgid "The transfer has been validated"
-msgstr "转移已确认"
+msgstr "调拔已确认"
 
 #. module: stock_barcode
 #. openerp-web
@@ -660,14 +660,14 @@ msgstr "这个包裹已被扫描。"
 #: code:addons/stock_barcode/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "This picking is already cancelled"
-msgstr "分拣已被取消"
+msgstr "拣货已被取消"
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "This picking is already done"
-msgstr "分拣已完成"
+msgstr "拣货已完成"
 
 #. module: stock_barcode
 #: model_terms:ir.ui.view,arch_db:stock_barcode.stock_inventory_barcode2

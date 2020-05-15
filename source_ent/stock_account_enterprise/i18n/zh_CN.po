@@ -3,7 +3,7 @@
 # 	* stock_account_enterprise
 # 
 # Translators:
-# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # Allen Xie <xfz@forisen.com>, 2019
 # 
 msgid ""

@@ -7,7 +7,6 @@
 # 苏州远鼎 <tiexinliu@126.com>, 2019
 # Siyuan Gu <siyuancn@hotmail.com>, 2019
 # 湘子 南 <1360857908@qq.com>, 2019
-# Martin Trigaux, 2019
 # fausthuang, 2019
 # bf2549c5415a9287249cba2b8a5823c7, 2019
 # guohuadeng <guohuadeng@hotmail.com>, 2019
@@ -26,16 +25,18 @@
 # Jeanphy <hzh0292@qq.com>, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
-# Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
 # as co02 <asco02@163.com>, 2020
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
+# Martin Trigaux, 2020
+# 敬雲 林 <chingyun@yuanchih-consult.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-05 12:36+0000\n"
+"POT-Creation-Date: 2020-04-27 09:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:35+0000\n"
-"Last-Translator: as co02 <asco02@163.com>, 2020\n"
+"Last-Translator: 敬雲 林 <chingyun@yuanchih-consult.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -92,13 +93,13 @@ msgstr ", 过期"
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_finance_fiscal_year_2017
-msgid "2018"
-msgstr "2018"
+msgid "2019"
+msgstr "2019"
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_finance_fiscal_year_2018
-msgid "2019"
-msgstr "2019"
+msgid "2020"
+msgstr ""
 
 #. module: documents
 #: code:addons/documents/controllers/main.py:0
@@ -158,8 +159,8 @@ msgstr "<b>Mb</b>"
 #, python-format
 msgid ""
 "<b>Use tags</b> to easily filter documents. Tags are defined according to "
-"the folder."
-msgstr "‎<b>使用‎‎标签</b>‎‎方便地‎‎筛选‎‎文档‎‎。‎‎标记‎‎是根据文件夹定义的。"
+"the workspace."
+msgstr ""
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.public_page_layout
@@ -403,7 +404,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:documents.field_documents_document__message_needaction
 #: model:ir.model.fields,field_description:documents.field_documents_share__message_needaction
 msgid "Action Needed"
-msgstr "需要采取行动"
+msgstr "需要行动"
 
 #. module: documents
 #. openerp-web
@@ -418,7 +419,7 @@ msgstr "操作"
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__active
 msgid "Active"
-msgstr "有效"
+msgstr "启用"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__activity_ids
@@ -557,6 +558,11 @@ msgid "Ask For Validation"
 msgstr ""
 
 #. module: documents
+#: model:documents.facet,name:documents.documents_marketing_assets
+msgid "Assets"
+msgstr "资产"
+
+#. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.document_view_search
 msgid "Attached To"
 msgstr "附加于"
@@ -594,6 +600,13 @@ msgstr ""
 #, python-format
 msgid "Attachments Kanban"
 msgstr "附件看板"
+
+#. module: documents
+#: model_terms:documents.folder,description:documents.documents_finance_folder
+msgid ""
+"Automate your inbox using scanned documents or emails sent to <strong>inbox-"
+"financial</strong> email alias."
+msgstr ""
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__available_rule_ids
@@ -641,6 +654,11 @@ msgstr "取消"
 #: code:addons/documents/static/src/xml/documents_progress_bar.xml:0
 #, python-format
 msgid "Cancel Upload"
+msgstr ""
+
+#. module: documents
+#: model_terms:documents.folder,description:documents.documents_internal_folder
+msgid "Categorize, share and keep track of all your internal documents."
 msgstr ""
 
 #. module: documents
@@ -882,6 +900,7 @@ msgstr "文档列表"
 #: code:addons/documents/models/folder.py:0
 #: code:addons/documents/models/res_partner.py:0
 #: code:addons/documents/static/src/xml/documents_inspector.xml:0
+#: model:documents.facet,name:documents.documents_finance_documents
 #: model:ir.actions.act_window,name:documents.document_action
 #: model:ir.model.fields,field_description:documents.field_documents_folder__document_ids
 #: model:ir.model.fields,field_description:documents.field_res_users__document_count
@@ -1084,11 +1103,16 @@ msgstr "财务"
 #. module: documents
 #: model:documents.tag,name:documents.documents_finance_documents_financial
 msgid "Financial"
-msgstr ""
+msgstr "财务"
 
 #. module: documents
 #: model:documents.tag,name:documents.documents_finance_documents_fiscal
 msgid "Fiscal"
+msgstr ""
+
+#. module: documents
+#: model:documents.facet,name:documents.documents_finance_fiscal_year
+msgid "Fiscal years"
 msgstr ""
 
 #. module: documents
@@ -1235,6 +1259,11 @@ msgstr "关注者"
 #, python-format
 msgid "It will be sent to the followers of this document"
 msgstr "‎它将被发送到本文档的追随者‎"
+
+#. module: documents
+#: model:documents.facet,name:documents.documents_internal_knowledge
+msgid "Knowledge"
+msgstr "知识"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document____last_update
@@ -1394,12 +1423,12 @@ msgstr "月"
 #. module: documents
 #: model:documents.workflow.rule,name:documents.documents_rule_finance_mti
 msgid "Move To Inbox"
-msgstr ""
+msgstr "移动到收件箱"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_workflow_rule__folder_id
 msgid "Move to Workspace"
-msgstr ""
+msgstr "移动到工作区"
 
 #. module: documents
 #. openerp-web
@@ -1479,7 +1508,7 @@ msgstr "备注"
 #: model:ir.model.fields,field_description:documents.field_documents_document__message_needaction_counter
 #: model:ir.model.fields,field_description:documents.field_documents_share__message_needaction_counter
 msgid "Number of Actions"
-msgstr "操作次数"
+msgstr "动作个数"
 
 #. module: documents
 #: model:ir.model.fields,field_description:documents.field_documents_document__message_has_error_counter
@@ -1775,9 +1804,23 @@ msgstr ""
 
 #. module: documents
 #. openerp-web
+#: code:addons/documents/static/src/js/tours/documents.js:0
+#, python-format
+msgid "Select a record."
+msgstr ""
+
+#. module: documents
+#. openerp-web
 #: code:addons/documents/static/src/js/documents_inspector.js:0
 #, python-format
 msgid "Select tags"
+msgstr "选择标签"
+
+#. module: documents
+#. openerp-web
+#: code:addons/documents/static/src/js/tours/documents.js:0
+#, python-format
+msgid "Select the Internal workspace."
 msgstr ""
 
 #. module: documents
@@ -1790,7 +1833,7 @@ msgstr "序号"
 
 #. module: documents
 #: model:documents.workflow.rule,name:documents.documents_rule_finance_2018contracts
-msgid "Set As 2019 Contracts"
+msgid "Set As 2020 Contracts"
 msgstr ""
 
 #. module: documents
@@ -1832,7 +1875,7 @@ msgstr "‎共享链接‎"
 #: code:addons/documents/models/share.py:0
 #, python-format
 msgid "Share domain"
-msgstr ""
+msgstr "分享域"
 
 #. module: documents
 #: code:addons/documents/controllers/main.py:0
@@ -1856,7 +1899,7 @@ msgstr ""
 #: code:addons/documents/static/src/xml/documents_kanban.xml:0
 #, python-format
 msgid "Share this domain"
-msgstr ""
+msgstr "分享此域"
 
 #. module: documents
 #. openerp-web
@@ -1905,6 +1948,8 @@ msgid "Split"
 msgstr "拆分"
 
 #. module: documents
+#: model:documents.facet,name:documents.documents_finance_status
+#: model:documents.facet,name:documents.documents_internal_status
 #: model:ir.model.fields,field_description:documents.field_documents_share__state
 msgid "Status"
 msgstr "状态"
@@ -1974,6 +2019,11 @@ msgid "Tags"
 msgstr "标签"
 
 #. module: documents
+#: model:documents.facet,name:documents.documents_internal_template
+msgid "Templates"
+msgstr "模板"
+
+#. module: documents
 #: model:documents.tag,name:documents.documents_internal_template_text
 msgid "Text"
 msgstr "文本"
@@ -2036,9 +2086,9 @@ msgstr ""
 #: code:addons/documents/static/src/js/tours/documents.js:0
 #, python-format
 msgid ""
-"This icons gets you to the <b>discussion board</b>, to chat with followers "
-"of this document"
-msgstr "此图标可使‎‎您‎‎进入‎ <b> ‎讨论‎‎板‎ </b> , 与此文档的‎‎追随者‎‎聊天"
+"This icon gets you to the <b>discussion board</b>, to chat with followers of"
+" this document"
+msgstr ""
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.not_available
@@ -2185,9 +2235,9 @@ msgstr ""
 #: code:addons/documents/static/src/js/tours/documents.js:0
 #, python-format
 msgid ""
-"Use <b>folders</b> to organize documents by departments, or group of "
+"Use <b>workspaces</b> to organize documents by departments, or group of "
 "interests"
-msgstr "‎使用‎ <b> ‎文件夹‎ </b> 按‎‎部门或利益集团组织‎‎文档‎"
+msgstr ""
 
 #. module: documents
 #: model:res.groups,name:documents.group_documents_user
@@ -2252,9 +2302,9 @@ msgstr "周"
 #: code:addons/documents/static/src/js/tours/documents.js:0
 #, python-format
 msgid ""
-"When you <b>upload documents</b>, they appear in the selected folder and "
+"When you <b>upload documents</b>, they appear in the selected workspace and "
 "tags."
-msgstr "‎当‎‎你‎ <b> 上传‎‎文档‎ </b> ‎, 它们将出现在选定的文件夹和‎‎标记‎‎中。‎"
+msgstr ""
 
 #. module: documents
 #: model:ir.actions.act_window,name:documents.workflow_rule_action

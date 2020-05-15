@@ -8,7 +8,6 @@
 # bower Guo <124358678@qq.com>, 2019
 # roye w <159820@qq.com>, 2019
 # Jerry Pan <panjianyu@inspur.com>, 2019
-# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
 # 黎伟杰 <674416404@qq.com>, 2019
 # ChinaMaker <liuct@chinamaker.net>, 2019
@@ -21,14 +20,15 @@
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
 # Felix Yang/杨孟泽 <felixyangsh@aliyun.com>, 2020
 # as co02 <asco02@163.com>, 2020
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 13.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-05 09:36+0000\n"
+"POT-Creation-Date: 2020-02-05 11:38+0000\n"
 "PO-Revision-Date: 2019-08-26 09:34+0000\n"
-"Last-Translator: as co02 <asco02@163.com>, 2020\n"
+"Last-Translator: Jeffery CHEN Fan <jeffery9@gmail.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -73,13 +73,13 @@ msgstr "（按比例输入）"
 #: code:addons/account_asset/models/account_asset.py:0
 #, python-format
 msgid "A deferred expense has been created for this move:"
-msgstr "已为此移动创建延迟费用："
+msgstr "已为此凭证创建延迟费用："
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:0
 #, python-format
 msgid "A deferred revenue has been created for this move:"
-msgstr "已为此移动创建递延收入："
+msgstr "已为此凭证创建递延收入："
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:0
@@ -215,12 +215,12 @@ msgstr "操作"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__message_needaction
 msgid "Action Needed"
-msgstr "需要采取行动"
+msgstr "需要行动"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__active
 msgid "Active"
-msgstr "有效"
+msgstr "启用"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__activity_ids
@@ -260,7 +260,7 @@ msgstr "资产是获得价值的结果时，它有父项"
 #: code:addons/account_asset/models/account_asset.py:0
 #, python-format
 msgid "An asset has been created for this move:"
-msgstr "已为此移动创建资产："
+msgstr "已为此凭证创建资产："
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__account_analytic_id
@@ -377,7 +377,7 @@ msgstr "资产创建"
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_move_line__asset_id
 msgid "Asset created from this Journal Item"
-msgstr "根据此日志项目创建的资产"
+msgstr "根据此日记账项创建的资产"
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:0
@@ -1360,7 +1360,7 @@ msgstr "数字资产"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__message_needaction_counter
 msgid "Number of Actions"
-msgstr "操作次数"
+msgstr "动作个数"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__method_number
@@ -1422,7 +1422,7 @@ msgstr "搁置"
 #, python-format
 msgid ""
 "One of the selected Journal Items already has a depreciation associated"
-msgstr "所选日记帐物料之一已关联折旧"
+msgstr "所选日记账项之一已关联折旧"
 
 #. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.line_caret_options
@@ -1585,7 +1585,7 @@ msgstr "收入识别"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_move__reversal_move_id
 msgid "Reversal Move"
-msgstr "反转移动"
+msgstr "反向凭证"
 
 #. module: account_asset
 #: code:addons/account_asset/wizard/asset_modify.py:0
@@ -1773,7 +1773,7 @@ msgstr "有多行可能与此资产相关"
 msgid ""
 "This is a technical field set to true when this move is the result of the "
 "changing of value of an asset"
-msgstr "当移动是资产价值变化的结果时，这是一个设置为true的技术领域"
+msgstr "当凭证是资产价值变化的结果时，这是一个设置为true的技术领域"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_move__asset_manually_modified
@@ -1915,6 +1915,13 @@ msgid "You cannot post a depreciation on an asset in this state: %s"
 msgstr "您不能将此状态%s的资产折旧进行记账。"
 
 #. module: account_asset
+#: code:addons/account_asset/models/account_move.py:0
+#, python-format
+msgid ""
+"You cannot reset to draft an entry having a posted deferred revenue/expense"
+msgstr ""
+
+#. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
 msgid "e.g. Annual Subscription"
 msgstr "例如，年度订阅"
@@ -1938,4 +1945,4 @@ msgstr "选定的相关购买"
 #: code:addons/account_asset/models/account_asset.py:0
 #, python-format
 msgid "this move"
-msgstr "这一举动"
+msgstr "此凭证"

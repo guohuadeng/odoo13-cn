@@ -1,6 +1,10 @@
 # odoo 13 中文版专业版翻译，广州尚鹏 https://www.Sunpop.cn
 ---------------------------------------
-## 更新过的模块列表
+## 更新过的模块 Log
+### 2020-04-12
+陆续更新产品，财务相关，从底层到业务层规范了用语
+base, product, account
+
 ### 2020-03-07前
 base
 portal
@@ -28,21 +32,25 @@ helpdesk
 industry_fsm_report
 planning
 sale_subscription
-
 sale
 ## 概述
-odoo13 在功能、性能、界面都有极大的更新，在可预见的将来必然会蓬勃发展。有关 odoo13 的在功能、性能、界面上各种功能增强，请参阅 我们的odoo13专题 https://www.sunpop.cn/?s=odoo13
+odoo13 在功能、性能、界面都有极大的更新，在可预见的将来必然会蓬勃发展。有关 odoo13 的在功能、性能、界面上各种功能增强，
+请参阅 我们的odoo13专题， https://www.sunpop.cn/?s=odoo13
 广州尚鹏是 odoo 官方合作伙伴，亦可审核 Transifex 上的中文化翻译。
 为推动 odoo 中文化的发展，同时为保证自有商业客户的正常使用，建立此开源代码仓库repo进行 odoo13 中文化翻译。
+相关文章，https://www.sunpop.cn/odoo13_chinese_translate_transifex_profession/
 
 ## 增加 odoo13 企业版翻译
 /source_ent
 
 ## 翻译规范
-我们使用 odoo 对标 SAP 系统，故翻译上主要也参考 SAP。其次参考 MRPII 规范。在ref目录有相关文档。
-1. SAP 术语
-2. MRPII 术语
-3. 行业标准术语
+新调整，更多参考天猫淘宝。
+企业内部使用 odoo 对标 SAP 系统，第二规范主要参考 SAP。
+第三规范参考 MRPII 规范。在ref目录有相关文档。
+1. 天猫淘宝用语
+2. SAP 术语
+3. MRPII 术语
+4. 行业标准术语
 
 ## 如何贡献 odoo13 翻译
 odoo13 官方翻译主要通过 transifex.com ，由于 transifex 上的使用方便和审核效率问题，我们同时也建立了这个仓库，力争更快更精确的实现 odoo13 中文化。

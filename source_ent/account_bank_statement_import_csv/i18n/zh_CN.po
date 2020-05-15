@@ -43,6 +43,18 @@ msgid "Journal"
 msgstr "日记账"
 
 #. module: account_bank_statement_import_csv
+#: code:addons/account_bank_statement_import_csv/wizard/account_bank_statement_import_csv.py:0
+#, python-format
+msgid "Mixing CSV files with other file types is not allowed."
+msgstr ""
+
+#. module: account_bank_statement_import_csv
+#: code:addons/account_bank_statement_import_csv/wizard/account_bank_statement_import_csv.py:0
+#, python-format
+msgid "Only one CSV file can be selected."
+msgstr ""
+
+#. module: account_bank_statement_import_csv
 #. openerp-web
 #: code:addons/account_bank_statement_import_csv/static/src/js/import_bank_stmt.js:0
 #, python-format

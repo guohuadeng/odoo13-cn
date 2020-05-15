@@ -132,7 +132,7 @@ msgstr "控制日期"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
 msgid "Creates a new serial/lot number"
-msgstr ""
+msgstr "创建新序列号/批次号码"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_mrp_workorder__current_quality_check_id
@@ -312,7 +312,7 @@ msgstr "父级质量检查"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__routing_id
 msgid "Parent Routing"
-msgstr "父级工艺路线"
+msgstr "父级工艺"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
@@ -568,7 +568,7 @@ msgid ""
 "The routing contains all the Work Centers used and for how long. This will "
 "create work orders afterwards which alters the execution of the "
 "manufacturing order."
-msgstr "工艺路线包含所有使用的工作中心以及使用时间。 这将在之后创建制造订单，并且会改变制造订单的执行。"
+msgstr "工艺包含所有使用的工作中心以及使用时间。 这将在之后创建制造订单，并且会改变制造订单的执行。"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_res_config_settings__group_mrp_wo_tablet_timer
@@ -667,7 +667,7 @@ msgstr ""
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_mrp_workorder_line
 msgid "Workorder move line"
-msgstr ""
+msgstr "工单移动明细行"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__worksheet

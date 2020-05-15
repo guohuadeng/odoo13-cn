@@ -5,7 +5,7 @@
 # Translators:
 # e2f <projects@e2f.com>, 2019
 # Martin Trigaux, 2019
-# Jeffery CHEN <jeffery9@gmail.com>, 2019
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
 # Wei "oldrev" Li <liwei@sandwych.com>, 2019
 # v2exerer <9010446@qq.com>, 2019

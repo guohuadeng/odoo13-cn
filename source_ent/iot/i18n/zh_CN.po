@@ -4,9 +4,9 @@
 # 
 # Translators:
 # e2f <projects@e2f.com>, 2019
-# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
 # niulin lnc. <admin@niulin.net>, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
+# guohuadeng <guohuadeng@hotmail.com>, 2019
 # ChinaMaker <liuct@chinamaker.net>, 2019
 # snow wang <147156565@qq.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
@@ -17,15 +17,15 @@
 # fausthuang, 2019
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
 # as co02 <asco02@163.com>, 2020
-# guohuadeng <guohuadeng@hotmail.com>, 2020
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Project-Id-Version: Odoo Server 13.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-09-23 11:38+0000\n"
+"POT-Creation-Date: 2020-04-27 09:32+0000\n"
 "PO-Revision-Date: 2019-08-26 09:36+0000\n"
-"Last-Translator: guohuadeng <guohuadeng@hotmail.com>, 2020\n"
+"Last-Translator: Jeffery CHEN Fan <jeffery9@gmail.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -310,6 +310,11 @@ msgstr "完成"
 #, python-format
 msgid "Firefox only : Click on Confirm Security Exception"
 msgstr "仅火狐：在确认安全异常上点击"
+
+#. module: iot
+#: model:ir.model.fields.selection,name:iot.selection__iot_device__type__fiscal_data_module
+msgid "Fiscal Data Module"
+msgstr ""
 
 #. module: iot
 #. openerp-web
@@ -685,7 +690,7 @@ msgstr "物联网盒子的HDMI输出端设备将显示Url."
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_keyboard_layout__variant
 msgid "Variant"
-msgstr "单品Sku"
+msgstr "产品变体"
 
 #. module: iot
 #: model:ir.model.fields,help:iot.field_ir_actions_report__device_id

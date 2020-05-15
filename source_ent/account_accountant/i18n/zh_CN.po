@@ -3,20 +3,20 @@
 # 	* account_accountant
 # 
 # Translators:
-# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
+# Jeanphy <hzh0292@qq.com>, 2019
 # liAnGjiA <liangjia@qq.com>, 2019
+# guohuadeng <guohuadeng@hotmail.com>, 2019
 # 演奏王 <wangwhai@qq.com>, 2019
 # keecome <7017511@qq.com>, 2019
+# ChinaMaker <liuct@chinamaker.net>, 2019
 # neter ji <jifuyi@qq.com>, 2019
 # inspur qiuguodong <qiuguodong@inspur.com>, 2019
 # 黎伟杰 <674416404@qq.com>, 2019
-# Jeanphy <hzh0292@qq.com>, 2019
-# ChinaMaker <liuct@chinamaker.net>, 2019
 # Felix Yuen <fyu@odoo.com>, 2019
 # Martin Trigaux, 2019
 # 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
 # Felix Yang/杨孟泽 <felixyangsh@aliyun.com>, 2020
-# guohuadeng <guohuadeng@hotmail.com>, 2020
+# Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
 # 
 msgid ""
 msgstr ""
@@ -24,7 +24,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2019-09-23 11:38+0000\n"
 "PO-Revision-Date: 2019-08-26 09:34+0000\n"
-"Last-Translator: guohuadeng <guohuadeng@hotmail.com>, 2020\n"
+"Last-Translator: Jeffery CHEN Fan <jeffery9@gmail.com>, 2020\n"
 "Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -206,7 +206,7 @@ msgstr "日记账分录"
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_account_move_line
 msgid "Journal Item"
-msgstr "日记账明细"
+msgstr "日记账项"
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_digest_digest__kpi_account_bank_cash_value
@@ -265,7 +265,7 @@ msgstr "锁定会计期间"
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_account_move_line__move_attachment_ids
 msgid "Move Attachment"
-msgstr "分录附件"
+msgstr "凭证附件"
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_account_change_lock_date__tax_lock_date
@@ -312,7 +312,7 @@ msgstr "预测供应商账单"
 #. module: account_accountant
 #: model:ir.ui.menu,name:account_accountant.menu_product_product_categories
 msgid "Product Categories"
-msgstr "品类"
+msgstr "产品类别"
 
 #. module: account_accountant
 #. openerp-web
