@@ -106,7 +106,7 @@ msgstr "%d 积分被需要用于创建一个新的提问。"
 #: code:addons/website_forum/models/forum.py:0
 #, python-format
 msgid "%d karma required to delete or reactivate a post."
-msgstr "%d 积分被需要用于删除或者重新激活一个帖子。"
+msgstr "%d 积分被需要用于删除或者重新启用一个帖子。"
 
 #. module: website_forum
 #: code:addons/website_forum/models/forum.py:0
@@ -854,7 +854,7 @@ msgstr "出现在"
 #: model_terms:ir.ui.view,arch_db:website_forum.view_forum_post_form
 #: model_terms:ir.ui.view,arch_db:website_forum.view_forum_post_search
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_index
@@ -2996,7 +2996,7 @@ msgstr "这个公式中使用相关性搜索。变量'投票'表示为一个帖�
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.header
 msgid "This forum has been archived."
-msgstr "这个论坛已经归档了。"
+msgstr "这个论坛已经停用了。"
 
 #. module: website_forum
 #. openerp-web

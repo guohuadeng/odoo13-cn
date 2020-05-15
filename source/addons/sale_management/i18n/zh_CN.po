@@ -92,7 +92,7 @@ msgstr "所有销售"
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_search
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: sale_management
 #: model:ir.ui.menu,name:sale_management.menu_product_attribute_action
@@ -105,7 +105,7 @@ msgstr "属性"
 msgid ""
 "Before archiving \"%s\" please select another default template in the "
 "settings."
-msgstr "在归档“%s”之前，请在设置中选择另一个默认模板。"
+msgstr "在停用“%s”之前，请在设置中选择另一个默认模板。"
 
 #. module: sale_management
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_option__product_uom_category_id

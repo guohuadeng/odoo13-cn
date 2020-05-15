@@ -45,7 +45,7 @@ msgstr ""
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_pricelist_item__applied_on__2_product_category
 msgid " Product Category"
-msgstr "产品类别"
+msgstr "品类"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__product_variant_count
@@ -101,9 +101,9 @@ msgid ""
 "        - Never: Variants are never created for the attribute.\n"
 "        Note: the variants creation mode cannot be changed once the attribute is used on at least one product."
 msgstr ""
-"- 即时: 只要为产品创建了规格，所有规格的产品变体都会马上创建。\n"
-"        - 动态: 只有当该规格被加入销售订单时，该产品变体才会自动创建.\n"
-"        - 从不: 即使设定了规格，相关产品变体也不会创建。\n"
+"- 即时: 只要为产品创建了属性，所有属性的产品变体都会马上创建。\n"
+"        - 动态: 只有当该属性被加入销售订单时，该产品变体才会自动创建.\n"
+"        - 从不: 即使设定了属性，相关产品变体也不会创建。\n"
 "        注意: 一旦有相关产品变体已被创建，则此变体创建模式将不可改变。"
 
 #. module: product
@@ -235,7 +235,7 @@ msgid ""
 "A price is a set of sales prices or rules to compute the price of sales order lines based on products, product categories, dates and ordered quantities.\n"
 "                This is the perfect tool to handle several pricings, seasonal discounts, etc."
 msgstr ""
-"价格是一组销售价格或规则，用于根据产品、产品类别、日期和订购数量计算销售订单行的价格。\n"
+"价格是一组销售价格或规则，用于根据产品、品类、日期和订购数量计算销售订单行的价格。\n"
 "这是处理几个价格、季节性折扣等的完美工具。"
 
 #. module: product
@@ -349,7 +349,7 @@ msgstr "应用于"
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__sequence
@@ -573,7 +573,7 @@ msgstr "计算价格"
 #: model:product.product,name:product.product_product_11b
 #: model:product.template,name:product.product_product_11b_product_template
 msgid "Conference Chair (CONFIG)"
-msgstr "会议室椅子(可配置规格)"
+msgstr "会议室椅子(可配置属性)"
 
 #. module: product
 #: model:product.product,description_sale:product.consu_delivery_02
@@ -734,7 +734,7 @@ msgstr "客户单号"
 #: model:product.product,name:product.product_product_4d
 #: model:product.template,name:product.product_product_4b_product_template
 msgid "Customizable Desk (CONFIG)"
-msgstr "可配置的桌子(多规格)"
+msgstr "可配置的桌子(多属性)"
 
 #. module: product
 #: model:product.product,uom_name:product.expense_hotel
@@ -880,7 +880,7 @@ msgstr "动态"
 #. module: product
 #: model:ir.model.constraint,message:product.constraint_product_template_attribute_value_attribute_value_unique
 msgid "Each value should be defined only once per attribute per product."
-msgstr "每个产品的每个规格只能定义一次。"
+msgstr "每个产品的每个属性只能定义一次。"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__date_end
@@ -1327,7 +1327,7 @@ msgstr "主要附件"
 msgid ""
 "Make this attribute value not compatible with other values of the product or"
 " some attribute values of optional and accessory products."
-msgstr "设置此规格值，不可用于与指定产品的某规格值。或者不可用于指定推荐产品的某规格值。"
+msgstr "设置此属性值，不可用于与指定产品的某属性值。或者不可用于指定推荐产品的某属性值。"
 
 #. module: product
 #: model:res.groups,name:product.group_stock_packaging
@@ -1492,7 +1492,7 @@ msgstr "办公台灯"
 msgid ""
 "On the product %s you cannot associate the value %s with the attribute %s "
 "because they do not match."
-msgstr "在此产品 %s 你不可使用规格值 %s ，在相关规格 %s 上，他们有互斥排除关系."
+msgstr "在此产品 %s 你不可使用属性值 %s ，在相关属性 %s 上，他们有互斥排除关系."
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
@@ -1500,7 +1500,7 @@ msgstr "在此产品 %s 你不可使用规格值 %s ，在相关规格 %s 上，
 msgid ""
 "On the product %s you cannot transform the attribute %s into the attribute "
 "%s."
-msgstr "在此产品 %s 你不可将规格 %s 转换成 另一规格 %s"
+msgstr "在此产品 %s 你不可将属性 %s 转换成 另一属性 %s"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
@@ -1762,7 +1762,7 @@ msgstr "产品条码 (PDF)"
 #: model_terms:ir.ui.view,arch_db:product.product_category_list_view
 #: model_terms:ir.ui.view,arch_db:product.product_category_search_view
 msgid "Product Categories"
-msgstr "产品类别"
+msgstr "品类"
 
 #. module: product
 #: model:ir.model,name:product.model_product_category
@@ -1773,7 +1773,7 @@ msgstr "产品类别"
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Product Category"
-msgstr "产品类别"
+msgstr "品类"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings__module_sale_product_configurator
@@ -2101,7 +2101,7 @@ msgstr "给客户显示公开的价格和折扣"
 msgid ""
 "Specify a product category if this rule only applies to products belonging "
 "to this category or its children categories. Keep empty otherwise."
-msgstr "指定一个产品类别 ，规则只被应用在与这个类别以及它的下级类一致的产品上。其它情况留空"
+msgstr "指定一个品类 ，规则只被应用在与这个类别以及它的下级类一致的产品上。其它情况留空"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist_item__product_id
@@ -2199,14 +2199,14 @@ msgstr "技术字段。用于在价格表搜索，未存储在数据库中。"
 #: code:addons/product/models/product_attribute.py:0
 #, python-format
 msgid "The attribute %s must have at least one value for the product %s."
-msgstr "规格 %s 必须包含至少1个规格值，用于产品 %s"
+msgstr "属性 %s 必须包含至少1个属性值，用于产品 %s"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute_value__attribute_id
 msgid ""
 "The attribute cannot be changed once the value is used on at least one "
 "product."
-msgstr "规格将不可变更，一旦其被用于某个产品，"
+msgstr "属性将不可变更，一旦其被用于某个产品，"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_form_view
@@ -2283,7 +2283,7 @@ msgstr "销售价格由产品模板管理。点击“可变配置”按钮来设
 #: code:addons/product/models/product_attribute.py:0
 #, python-format
 msgid "The value %s is not defined for the attribute %s on the product %s."
-msgstr "规格值 %s 未被定义，请检查规格 %s 的相关产品 %s"
+msgstr "属性值 %s 未被定义，请检查属性 %s 的相关产品 %s"
 
 #. module: product
 #: code:addons/product/models/product_template.py:0
@@ -2694,7 +2694,7 @@ msgid ""
 "You cannot change the Variants Creation Mode of the attribute %s because it is used on the following products:\n"
 "%s"
 msgstr ""
-"不可变更变体创建模式，此规格 %s 已被用于以下产品:\n"
+"不可变更变体创建模式，此属性 %s 已被用于以下产品:\n"
 "%s"
 
 #. module: product
@@ -2704,20 +2704,20 @@ msgid ""
 "You cannot change the attribute of the value %s because it is used on the "
 "following products:%s"
 msgstr ""
-"不可变更规格值，此规格值 %s 已被用于以下产品:\n"
+"不可变更属性值，此属性值 %s 已被用于以下产品:\n"
 "%s"
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
 #, python-format
 msgid "You cannot change the product of the value %s set on product %s."
-msgstr "不可变更该规格值 %s 的产品，该值已被用于产品 %s"
+msgstr "不可变更该属性值 %s 的产品，该值已被用于产品 %s"
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
 #, python-format
 msgid "You cannot change the value of the value %s set on product %s."
-msgstr "不可变更该规格值 %s ，该值已被用于产品 %s"
+msgstr "不可变更该属性值 %s ，该值已被用于产品 %s"
 
 #. module: product
 #: code:addons/product/models/product.py:0
@@ -2729,7 +2729,7 @@ msgstr "不能创建递归的类别"
 #: model:ir.model.constraint,message:product.constraint_product_attribute_value_value_company_uniq
 msgid ""
 "You cannot create two values with the same name for the same attribute."
-msgstr "不可在同一规格中创建2个相同的规格值。"
+msgstr "不可在同一属性中创建2个相同的属性值。"
 
 #. module: product
 #: code:addons/product/models/decimal_precision.py:0
@@ -2746,7 +2746,7 @@ msgid ""
 "You cannot delete the attribute %s because it is used on the following products:\n"
 "%s"
 msgstr ""
-"不能删除规格 %s ，因为该规格已被用于以下产品:\n"
+"不能删除属性 %s ，因为该属性已被用于以下产品:\n"
 "%s"
 
 #. module: product
@@ -2756,7 +2756,7 @@ msgid ""
 "You cannot delete the value %s because it is used on the following products:\n"
 "%s"
 msgstr ""
-"不能删除规格值 %s ，因为该规格值已被用于以下产品:\n"
+"不能删除属性值 %s ，因为该属性值已被用于以下产品:\n"
 "%s"
 
 #. module: product
@@ -2764,7 +2764,7 @@ msgstr ""
 #, python-format
 msgid ""
 "You cannot move the attribute %s from the product %s to the product %s."
-msgstr "不能将规格 %s 从产品 %s 调整至产品 %s"
+msgstr "不能将属性 %s 从产品 %s 调整至产品 %s"
 
 #. module: product
 #: code:addons/product/models/product_attribute.py:0
@@ -2773,7 +2773,7 @@ msgstr "不能将规格 %s 从产品 %s 调整至产品 %s"
 msgid ""
 "You cannot update related variants from the values. Please update related "
 "values from the variants."
-msgstr "不能直接在产品变体中更新规格值。请在规格管理中进行相关更新。"
+msgstr "不能直接在产品变体中更新属性值。请在属性管理中进行相关更新。"
 
 #. module: product
 #: model_terms:ir.actions.act_window,help:product.product_normal_action
@@ -2815,7 +2815,7 @@ msgstr ""
 msgid ""
 "You must define at least one product category in order to be able to create "
 "products."
-msgstr "您必须定义至少一个产品类别才能创建产品。"
+msgstr "您必须定义至少一个品类才能创建产品。"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view

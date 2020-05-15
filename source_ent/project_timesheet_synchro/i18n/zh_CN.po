@@ -701,7 +701,7 @@ msgstr "您可以在新窗口下尝试执行这个程序"
 msgid ""
 "You should have received an email with a link to activate your account. Once"
 " it is activated, you'll be able to"
-msgstr "您会收到带有链接的EMail，以便激活您的账户。如果已经激活，即可使用。"
+msgstr "您会收到带有链接的EMail，以便启用您的账户。如果已经启用，即可使用。"
 
 #. module: project_timesheet_synchro
 #. openerp-web

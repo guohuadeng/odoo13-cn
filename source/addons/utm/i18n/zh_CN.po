@@ -46,7 +46,7 @@ msgstr "允许我们筛选的相关活动"
 #. module: utm
 #: model_terms:ir.ui.view,arch_db:utm.utm_medium_view_search
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: utm
 #: model:ir.model.fields,field_description:utm.field_utm_mixin__campaign_id

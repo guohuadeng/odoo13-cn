@@ -52,7 +52,7 @@ msgstr "账户自动转账 ：执行转账"
 #. module: account_auto_transfer
 #: model_terms:ir.ui.view,arch_db:account_auto_transfer.view_transfer_model_form
 msgid "Activate"
-msgstr "激活"
+msgstr "启用"
 
 #. module: account_auto_transfer
 #: model:ir.model.fields,field_description:account_auto_transfer.field_account_transfer_model_line__analytic_account_ids

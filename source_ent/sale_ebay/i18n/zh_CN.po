@@ -100,7 +100,7 @@ msgstr "<span class=\"o_form_label\">eBay 选项</span>"
 #. module: sale_ebay
 #: model_terms:ir.ui.view,arch_db:sale_ebay.res_config_settings_view_form
 msgid "Activate Other Currencies"
-msgstr "激活其他货币"
+msgstr "启用其他货币"
 
 #. module: sale_ebay
 #: model_terms:ir.ui.view,arch_db:sale_ebay.res_config_settings_view_form
@@ -113,7 +113,7 @@ msgstr ""
 msgid ""
 "All the quantities must be greater than 0 or you need to enable the Out Of "
 "Stock option."
-msgstr "所有的数量必须大于0或激活缺货选项"
+msgstr "所有的数量必须大于0或启用缺货选项"
 
 #. module: sale_ebay
 #: model:ir.model.fields,field_description:sale_ebay.field_product_product__ebay_best_offer

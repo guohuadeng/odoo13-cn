@@ -175,7 +175,7 @@ msgstr "分析"
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_worksheet_template_view_form
 #: model_terms:ir.ui.view,arch_db:industry_fsm_report.project_worksheet_template_view_search
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: industry_fsm_report
 #: model:ir.ui.menu,name:industry_fsm_report.project_task_menu_planning_by_project_fsm

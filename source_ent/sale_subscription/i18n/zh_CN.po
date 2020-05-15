@@ -940,7 +940,7 @@ msgstr "应用于"
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_form
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_template_view_search
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__activity_user
@@ -1065,7 +1065,7 @@ msgstr "子操作"
 msgid ""
 "Child server actions that will be executed. Note that the last return "
 "returned action value will be used as global return value."
-msgstr "子服务器将被被激活。注意最后返回动作的值将做用做全局变量。"
+msgstr "子服务器将被被启用。注意最后返回动作的值将做用做全局变量。"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.subscription

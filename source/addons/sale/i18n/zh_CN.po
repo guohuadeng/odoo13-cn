@@ -858,7 +858,7 @@ msgstr "分析明细行"
 msgid ""
 "Apply manual discounts on sales order lines or display discounts computed "
 "from pricelists (option to activate in the pricelist configuration)."
-msgstr "对销售订单明细行进行手动折扣或显示从价格表计算的折扣 (在价格表配置中激活的选项)。"
+msgstr "对销售订单明细行进行手动折扣或显示从价格表计算的折扣 (在价格表配置中启用的选项)。"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
@@ -1626,7 +1626,9 @@ msgid ""
 "Fiscal positions are used to adapt taxes and accounts for particular "
 "customers or sales orders/invoices.The default value comes from the "
 "customer."
-msgstr ""
+msgstr "财政状况是用来调整税收和特殊账户的。 "
+"客户或销售订单/发票。默认值来自"
+"客户”。"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__message_follower_ids
@@ -1785,7 +1787,7 @@ msgstr "如果我们在服务器存储你的支付信息,订阅支付将自动�
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__pricelist_id
 msgid "If you change the pricelist, only newly added lines will be affected."
-msgstr ""
+msgstr "如果更改价格表，则只会影响新添加的行。"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -2151,7 +2153,7 @@ msgstr "毛利"
 #. module: sale
 #: model:ir.actions.server,name:sale.model_sale_order_action_quotation_sent
 msgid "Mark Quotation as Sent"
-msgstr ""
+msgstr "发送的报价"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.account_invoice_form
@@ -2419,7 +2421,7 @@ msgstr "仅整数位有效"
 #: code:addons/sale/models/sale.py:0
 #, python-format
 msgid "Only draft orders can be marked as sent directly."
-msgstr ""
+msgstr "只有草稿订单可以标记为直接发送"
 
 #. module: sale
 #: model:ir.model.constraint,message:sale.constraint_product_attribute_custom_value_sol_custom_value_unique
@@ -2751,14 +2753,14 @@ msgstr "产品属性自定义值"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Product Catalog"
-msgstr "产品类别"
+msgstr "品类"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_report_all_channels_sales__categ_id
 #: model:ir.model.fields,field_description:sale.field_sale_report__categ_id
 #: model_terms:ir.ui.view,arch_db:sale.view_order_product_search
 msgid "Product Category"
-msgstr "产品类别"
+msgstr "品类"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_report_all_channels_sales__product_qty
@@ -3092,7 +3094,7 @@ msgstr "销售付款获得在线向导"
 #. module: sale
 #: model:utm.source,name:sale.utm_source_sale_order_0
 msgid "Sale Promotion 1"
-msgstr ""
+msgstr "推销 1"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -3699,7 +3701,9 @@ msgid ""
 "The following products cannot be restricted to the company %s because they have already been used in quotations or sales orders in another company:\n"
 "%s\n"
 "You can archive these products and recreate them with your company restriction instead, or leave them as shared product."
-msgstr ""
+msgstr "下列产品不限于本公司%s，因为它们已在其他公司的报价或销售订单中使用:\n"
+"%s\n"
+"你可以将这些产品存档，然后根据公司的限制重新创建它们，或者将它们作为共享产品保留。"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_res_config_settings__automatic_invoice
@@ -3731,13 +3735,14 @@ msgstr "订单未处于需要客户签名的状态。"
 msgid ""
 "The order was not confirmed despite response from the acquirer (%s): order "
 "total is %r but acquirer replied with %r."
-msgstr ""
+msgstr "尽管来自收购人(%s)的回应:订单"
+"全部是%r，但是收购者用%r回答。"
 
 #. module: sale
 #: code:addons/sale/models/sale.py:0
 #, python-format
 msgid "The ordered quantity has been updated."
-msgstr ""
+msgstr "订单数量已更新"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__reference
@@ -4252,7 +4257,7 @@ msgstr "你的订单已签订。"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
 msgid "Your order is not in a state to be rejected."
-msgstr "矮油,您的订单不在被拒绝的状态。"
+msgstr "您的订单不在被拒绝的状态。"
 
 #. module: sale
 #: code:addons/sale/models/sale.py:0

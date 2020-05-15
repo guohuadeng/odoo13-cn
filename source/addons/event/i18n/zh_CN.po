@@ -667,7 +667,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_form
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_form

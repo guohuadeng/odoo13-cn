@@ -398,7 +398,8 @@ msgstr ""
 msgid ""
 "<i class=\"fa fa-arrow-right\"/>\n"
 "                                            Enable billing on your Google Project"
-msgstr ""
+msgstr "<i class=\"fa fa-arrow-right\"/>\n"
+"                                            在您的谷歌项目上启用计费"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -561,7 +562,7 @@ msgstr "<i class=\"fa fa-fw fa-pencil\"/>风格"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-fw fa-picture-o\"/> Background"
-msgstr ""
+msgstr "<i class=\"fa fa-fw fa-picture-o\"/> 背景板"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -948,7 +949,7 @@ msgstr "如果最后一次连接时间超过8小时，则会考虑重新访问�
 #. module: website
 #: model:ir.model.constraint,message:website.constraint_website_visitor_partner_uniq
 msgid "A partner is linked to only one visitor."
-msgstr ""
+msgstr "一个伙伴仅与一个访问者链接"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_features
@@ -1190,7 +1191,7 @@ msgstr "Arch 文件名"
 #: model_terms:ir.ui.view,arch_db:website.view_rewrite_search
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_search
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: website
 #: model:ir.model.fields,help:website.field_res_config_settings__specific_user_account
@@ -1408,7 +1409,7 @@ msgstr "更改图标"
 #: code:addons/website/static/src/js/widgets/theme.js:0
 #, python-format
 msgid "Changing this color will regenerate the default theme color scheme"
-msgstr ""
+msgstr "更改此颜色将重新生成默认主题颜色方案"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page__field_parent
@@ -2905,7 +2906,7 @@ msgstr "已安装的应用程序"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
 msgid "Installed Localizations / Account Charts"
-msgstr ""
+msgstr "安装了本地化/帐户图表"
 
 #. module: website
 #: model:ir.model.fields,help:website.field_website__theme_id
@@ -3109,7 +3110,7 @@ msgstr "上月"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_visitor_view_kanban
 msgid "Last Page"
-msgstr ""
+msgstr "最后一页"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__write_uid
@@ -3134,7 +3135,7 @@ msgstr "更新时间"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_visitor__last_visited_page_id
 msgid "Last Visited Page"
-msgstr ""
+msgstr "上次访问的页面"
 
 #. module: website
 #. openerp-web
@@ -4049,7 +4050,7 @@ msgstr "首要的"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.external_snippets
 msgid "Products Recently Viewed"
-msgstr ""
+msgstr "最近查看的产品"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.external_snippets
@@ -4815,7 +4816,7 @@ msgstr "目前没有可用的数据。"
 #: code:addons/website/models/website_visitor.py:0
 #, python-format
 msgid "There is no email linked this visitor."
-msgstr ""
+msgstr "没有链接此访问者的电子邮件"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -5008,12 +5009,12 @@ msgstr "网站顶级菜单 %s"
 #. module: website
 #: model:ir.model.fields,help:website.field_website_visitor__page_count
 msgid "Total number of tracked page visited"
-msgstr ""
+msgstr "已跟踪的页面访问总数"
 
 #. module: website
 #: model:ir.model.fields,help:website.field_website_visitor__visitor_page_count
 msgid "Total number of visits on tracked pages"
-msgstr ""
+msgstr "跟踪页面的总访问次数"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_ir_ui_view__track
@@ -5140,7 +5141,7 @@ msgstr "UA-XXXXXXXX-Y"
 #: model:ir.model.fields,field_description:website.field_website_rewrite__url_from
 #: model_terms:ir.ui.view,arch_db:website.view_website_rewrite_form
 msgid "URL from"
-msgstr ""
+msgstr "URL从"
 
 #. module: website
 #: model:ir.model.fields,help:website.field_res_config_settings__cdn_filters
@@ -5151,7 +5152,7 @@ msgstr "网址匹配这些筛选将被使用CDN基本网址重写"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_rewrite__url_to
 msgid "URL to"
-msgstr ""
+msgstr "URL到"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -5440,7 +5441,7 @@ msgstr "访问"
 #: model_terms:ir.actions.act_window,help:website.website_visitor_view_action
 msgid ""
 "Wait for visitors to come to your website to see the pages they viewed."
-msgstr ""
+msgstr "等待访问者来到你的网站,看看他们看到的页面"
 
 #. module: website
 #: model_terms:ir.actions.act_window,help:website.website_visitors_action

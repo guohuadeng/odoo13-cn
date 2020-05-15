@@ -192,7 +192,7 @@ msgstr "审批人"
 #. module: approvals
 #: model_terms:ir.ui.view,arch_db:approvals.approval_category_view_form
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: approvals
 #: model_terms:ir.ui.view,arch_db:approvals.approval_request_view_form

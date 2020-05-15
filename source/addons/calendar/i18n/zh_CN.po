@@ -376,7 +376,7 @@ msgstr "用户不能重复创建相同的联系人。"
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_form
 #: model_terms:ir.ui.view,arch_db:calendar.view_calendar_event_search
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_ir_attachment

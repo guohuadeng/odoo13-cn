@@ -424,7 +424,7 @@ msgstr "用于生效后的头 "
 #. module: sale_coupon
 #: model_terms:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: sale_coupon
 #: code:addons/sale_coupon/models/sale_coupon.py:0

@@ -86,14 +86,14 @@ msgstr "用于发送推送通知给访客的域。"
 #: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_enable_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_enable_push_notifications
 msgid "Enable Web Push Notifications"
-msgstr "激活网页消息推送"
+msgstr "启用网页消息推送"
 
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 msgid ""
 "Enable push notifications and configure this website's notifications "
 "permission request"
-msgstr "激活消息推送并配置此网站消息请求权限"
+msgstr "启用消息推送并配置此网站消息请求权限"
 
 #. module: social_push_notifications
 #: code:addons/social_push_notifications/controllers/main.py:0
@@ -101,7 +101,7 @@ msgstr "激活消息推送并配置此网站消息请求权限"
 #, python-format
 msgid ""
 "Enable push notifications to be notified about new features and events."
-msgstr "激活推送新特性和事件"
+msgstr "启用推送新特性和事件"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_admin_key_file
@@ -254,7 +254,7 @@ msgstr "禁用消息推送"
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.website_visitor_view_search
 msgid "Push Notification Enabled"
-msgstr "激活消息推送"
+msgstr "启用消息推送"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_post__push_notification_title

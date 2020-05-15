@@ -92,7 +92,7 @@ msgstr "美国"
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_salesteams_search
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_attachment_count

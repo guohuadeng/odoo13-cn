@@ -131,7 +131,7 @@ msgstr " FSM项目费用必须按任务费率计算。 "
 #. module: industry_fsm
 #: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__date_assign

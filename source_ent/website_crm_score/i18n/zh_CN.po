@@ -60,7 +60,7 @@ msgstr "存档"
 #: model_terms:ir.ui.view,arch_db:website_crm_score.view_crm_score_form
 #: model_terms:ir.ui.view,arch_db:website_crm_score.website_crm_score_view_search
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: website_crm_score
 #: model_terms:ir.ui.view,arch_db:website_crm_score.sales_team_form_view_assign
@@ -471,7 +471,7 @@ msgid ""
 "Actions are done in sql and bypass the access rights and orm mechanism (create `score`, write `active`, unlink `crm_lead`)"
 msgstr ""
 "评分将为此线索添加分数“值”。\n"
-" 归档将设置为启用 = 假（针对已归档线索）\n"
+" 停用将设置为启用 = 假（针对已停用线索）\n"
 "删除将明确删除线索\n"
 "\n"
 "在 SQL 中完成操作并绕过访问权限和 ORM 机制（创建“分数”、写“启用”、取消链接“crm_lead”）"

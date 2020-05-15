@@ -1391,14 +1391,14 @@ msgstr "会计税科目映射"
 msgid ""
 "Accrual Adjusting Entries ({percent}%% recognized) have been created for "
 "this invoice on {date}"
-msgstr ""
+msgstr "在{日期}为该发票创建了应计调整分录({percent}%% recognized)
 
 #. module: account
 #: code:addons/account/wizard/account_accrual_accounting.py:0
 #: code:addons/account/wizard/account_accrual_accounting.py:0
 #, python-format
 msgid "Accrual Adjusting Entry (%s%% recognized) for invoice: %s"
-msgstr ""
+msgstr "发票: %s应计调整分录(%s%% recognized)
 
 #. module: account
 #: code:addons/account/wizard/account_accrual_accounting.py:0
@@ -1434,7 +1434,7 @@ msgstr "操作"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 msgid "Activate Other Currencies"
-msgstr "激活其他货币"
+msgstr "启用其他货币"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_account_tag__active
@@ -2095,7 +2095,7 @@ msgstr "四月"
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_form
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_search
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_account_type__internal_group__asset
@@ -2570,7 +2570,7 @@ msgstr "按 产品"
 #. module: account
 #: model:ir.filters,name:account.filter_invoice_product_category
 msgid "By Product Category"
-msgstr "按 产品类别"
+msgstr "按 品类"
 
 #. module: account
 #: model:ir.filters,name:account.filter_invoice_report_salespersons
@@ -6413,7 +6413,7 @@ msgstr "保持打开"
 #: model:ir.model.fields,help:account.field_product_template__property_account_income_id
 msgid ""
 "Keep this field empty to use the default value from the product category."
-msgstr "保持这个字段为空，使用来自产品类别的默认值。"
+msgstr "保持这个字段为空，使用来自品类的默认值。"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_product_product__property_account_expense_id
@@ -6422,7 +6422,7 @@ msgid ""
 "Keep this field empty to use the default value from the product category. If"
 " anglo-saxon accounting with automated valuation method is configured, the "
 "expense account on the product category will be used."
-msgstr "保持此字段为空，以使用产品类别的默认值。如果配置有自动估价方法的盎格鲁-撒克逊会计，则将使用产品类别上的费用帐户。"
+msgstr "保持此字段为空，以使用品类的默认值。如果配置有自动估价方法的盎格鲁-撒克逊会计，则将使用品类上的费用帐户。"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_digest_digest__kpi_account_total_revenue_value
@@ -7236,7 +7236,7 @@ msgstr "没有提供附件"
 #: code:addons/account/models/account_bank_statement.py:0
 #, python-format
 msgid "No default debit and credit account defined on journal %s (ids: %s)."
-msgstr ""
+msgstr "没有在日记帐上定义的默认借记和贷记帐户 %s (ids: %s)."
 
 #. module: account
 #: code:addons/account/models/account_reconcile_model.py:0
@@ -8392,7 +8392,7 @@ msgstr "请在发票和付款匹配期间创建日记账分录"
 #: code:addons/account/static/src/xml/account_reconciliation.xml:0
 #, python-format
 msgid "Presets config"
-msgstr ""
+msgstr "预设配置"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
@@ -8450,7 +8450,7 @@ msgstr "产品"
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__product_categ_id
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_report_search
 msgid "Product Category"
-msgstr "产品类别"
+msgstr "品类"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__quantity
@@ -12183,7 +12183,7 @@ msgstr "您可以为每种参考类型选择不同的模型。默认值是Odoo�
 msgid ""
 "You can not delete payment terms as other records still reference it. "
 "However, you can archive it."
-msgstr "你不能删除支付条款，因为其他记录仍然引用它。但是，你可以归档它。"
+msgstr "你不能删除支付条款，因为其他记录仍然引用它。但是，你可以停用它。"
 
 #. module: account
 #: code:addons/account/models/account_fiscal_year.py:0
@@ -12380,7 +12380,7 @@ msgstr ""
 msgid ""
 "You cannot edit the following fields due to restrict mode being activated on"
 " the journal: %s."
-msgstr "由于在凭证上激活了限制模式，您无法编辑以下字段:%s。"
+msgstr "由于在凭证上启用了限制模式，您无法编辑以下字段:%s。"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
@@ -12547,7 +12547,7 @@ msgstr "您无法验证总金额为负的发票。 您应该创建一个退款�
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "You don't have the access rights to post an invoice."
-msgstr ""
+msgstr "您没有发布发票的访问权限"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form

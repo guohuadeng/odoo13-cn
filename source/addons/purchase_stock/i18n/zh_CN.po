@@ -54,7 +54,9 @@ msgid ""
 "According to product configuration, the recieved quantity can be automatically computed by mechanism :\n"
 "  - Manual: the quantity is set manually on the line\n"
 "  - Stock Moves: the quantity comes from confirmed pickings\n"
-msgstr ""
+msgstr "根据产品配置，接收数量可按机构自动计算:\n"
+"-手动:数量在\n线上手动设置"
+"-库存变动:数量来自已确认的采购数量"
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_stock_rule__action
@@ -102,7 +104,7 @@ msgid ""
 "Depending on the modules installed, this will allow you to define the route "
 "of the product: whether it will be bought, manufactured, replenished on "
 "order, etc."
-msgstr ""
+msgstr "根据安装的模块，这将允许您定义产品的路线:是否购买、制造、订购时补充，等等。"
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__default_location_dest_id_usage
@@ -338,7 +340,7 @@ msgstr "技术字段用于显示代发货地址"
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order_line__propagate_date_minimum_delta
 msgid "The change must be higher than this value to be propagated"
-msgstr ""
+msgstr "要传播的更改必须大于此值"
 
 #. module: purchase_stock
 #: code:addons/purchase_stock/models/purchase.py:0
@@ -351,7 +353,7 @@ msgstr "您的采购订单上的数量表明少于账单。 你应该要求退�
 #. module: purchase_stock
 #: model:ir.model.fields,help:purchase_stock.field_purchase_order_line__propagate_date
 msgid "The rescheduling is propagated to the next move."
-msgstr ""
+msgstr "重新调度被传播到下一个移动。"
 
 #. module: purchase_stock
 #: code:addons/purchase_stock/models/stock_rule.py:0
@@ -360,7 +362,8 @@ msgid ""
 "There is no matching vendor price to generate the purchase order for product"
 " %s (no vendor defined, minimum quantity not reached, dates not valid, ...)."
 " Go on the product form and complete the list of vendors."
-msgstr ""
+msgstr "没有匹配的供应商价格来生成产品%s的采购订单(没有供应商定义，未达到最低数量，日期无效，…)。"
+"查看产品表单并填写供应商列表。"
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_purchase
@@ -371,7 +374,7 @@ msgid ""
 "on-demand flow. The requested delivery address will be the customer delivery"
 " address and not your warehouse."
 msgstr ""
-"这增加一个直销路线来应用于产品，以请求您的供应商交付给您的客户。 一旦销售订单被确认，要直销的产品将会产生报价的采购申请。这是按需流量。 "
+"这增加一个直销路线来应用于产品，以请求您的供应商交付给您的客户。 一旦销售订单被确认，要直销的产品将会产生报价的采购计划单。这是按需流量。 "
 "请求的送货地址将是客户送货地址，而不是您的仓库。"
 
 #. module: purchase_stock

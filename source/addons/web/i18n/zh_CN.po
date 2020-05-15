@@ -345,14 +345,14 @@ msgstr "动作窗口视图"
 #: code:addons/web/static/src/xml/debug.xml:0
 #, python-format
 msgid "Activate Assets Debugging"
-msgstr "激活资产调试"
+msgstr "启用资产调试"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/debug.xml:0
 #, python-format
 msgid "Activate Tests Assets Debugging"
-msgstr "激活测试资产调试"
+msgstr "启用测试资产调试"
 
 #. module: web
 #. openerp-web
@@ -605,7 +605,7 @@ msgstr "存档"
 #: code:addons/web/static/src/xml/kanban.xml:0
 #, python-format
 msgid "Archive All"
-msgstr "归档全部"
+msgstr "停用全部"
 
 #. module: web
 #. openerp-web
@@ -613,14 +613,14 @@ msgstr "归档全部"
 #, python-format
 msgid ""
 "Are you sure that you want to archive all the records from this column?"
-msgstr "您确定要归档此列中的所有记录吗？"
+msgstr "您确定要停用此列中的所有记录吗？"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/list/list_controller.js:0
 #, python-format
 msgid "Are you sure that you want to archive all the selected records?"
-msgstr "您确定要归档所有选定的记录吗？"
+msgstr "您确定要停用所有选定的记录吗？"
 
 #. module: web
 #. openerp-web
@@ -3928,14 +3928,14 @@ msgstr "在这个系统上找不到Wkhtmltopdf。报告将以HTML显示。"
 #: code:addons/web/static/src/js/views/list/list_controller.js:0
 #, python-format
 msgid "Unarchive"
-msgstr "取消归档"
+msgstr "启用"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/kanban.xml:0
 #, python-format
 msgid "Unarchive All"
-msgstr "取消归档所有"
+msgstr "启用所有"
 
 #. module: web
 #. openerp-web

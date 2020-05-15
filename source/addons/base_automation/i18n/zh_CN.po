@@ -98,7 +98,7 @@ msgstr "应用于"
 #. module: base_automation
 #: model_terms:ir.ui.view,arch_db:base_automation.view_base_automation_search
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: base_automation
 #: model:ir.model.fields,field_description:base_automation.field_base_automation_lead_test__is_assigned_to_admin
@@ -232,7 +232,7 @@ msgstr "子操作"
 msgid ""
 "Child server actions that will be executed. Note that the last return "
 "returned action value will be used as global return value."
-msgstr "子服务器将被被激活。注意最后返回动作的值将做用做全局变量。"
+msgstr "子服务器将被被启用。注意最后返回动作的值将做用做全局变量。"
 
 #. module: base_automation
 #: model:ir.model.fields.selection,name:base_automation.selection__base_automation_lead_test__state__done

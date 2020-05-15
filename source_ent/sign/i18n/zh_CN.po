@@ -354,7 +354,7 @@ msgstr "存档"
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_form
 #: model_terms:ir.ui.view,arch_db:sign.sign_template_view_search
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: sign
 #: model:ir.model.fields,help:sign.field_sign_request__start_sign
@@ -2302,7 +2302,7 @@ msgstr "错误的密码"
 msgid ""
 "You can't delete a template for which signature requests exist but you can "
 "archive it instead."
-msgstr "您不能删除签名申请存在的模板，但您可以将其归档。"
+msgstr "您不能删除签名申请存在的模板，但您可以将其停用。"
 
 #. module: sign
 #: model_terms:ir.ui.view,arch_db:sign.doc_sign

@@ -532,7 +532,7 @@ msgstr "允许通过工单进行退货"
 msgid ""
 "Allow your customers to easily rate your services. Activate this option will"
 " add a default email template on non folded closing stages"
-msgstr "便于用户评价您的服务。激活此选项将在非折叠关闭阶段添加默认EMail模板。"
+msgstr "便于用户评价您的服务。启用此选项将在非折叠关闭阶段添加默认EMail模板。"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_ticket__is_self_assigned
@@ -559,7 +559,7 @@ msgstr "存档"
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_search_analysis_closed
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_tickets_view_search
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.tickets_followup
@@ -2216,12 +2216,12 @@ msgstr "销售员"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Save this page and refresh to activate the feature"
-msgstr "保存此页面并刷新以激活该功能"
+msgstr "保存此页面并刷新以启用该功能"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Save this page and refresh to activate the feature."
-msgstr "保存此页面并刷新以激活该功能"
+msgstr "保存此页面并刷新以启用该功能"
 
 #. module: helpdesk
 #. openerp-web
@@ -2624,7 +2624,7 @@ msgstr "您的账户当前没有工单。"
 #: code:addons/helpdesk/static/src/xml/helpdesk_team_templates.xml:0
 #, python-format
 msgid "This dashboard will activate once you have created your first ticket."
-msgstr "创建了你的第一张工单之后将激活该仪表板。"
+msgstr "创建了你的第一张工单之后将启用该仪表板。"
 
 #. module: helpdesk
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_ticket__assign_hours

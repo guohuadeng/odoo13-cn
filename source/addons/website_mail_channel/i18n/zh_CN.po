@@ -115,7 +115,7 @@ msgstr "<i class=\"fa fa-envelope-o\"/> 发送邮件"
 #: model_terms:ir.ui.view,arch_db:website_mail_channel.mail_channels
 #: model_terms:ir.ui.view,arch_db:website_mail_channel.subscribe
 msgid "<i class=\"fa fa-file-o\"/> archives"
-msgstr "<i class=\"fa fa-file-o\"/> 归档"
+msgstr "<i class=\"fa fa-file-o\"/> 停用"
 
 #. module: website_mail_channel
 #: model_terms:ir.ui.view,arch_db:website_mail_channel.mail_channels
@@ -474,7 +474,7 @@ msgstr "一个人的力量有限，团队的力量无坚不摧"
 #. module: website_mail_channel
 #: model_terms:ir.ui.view,arch_db:website_mail_channel.group_messages
 msgid "Archives"
-msgstr "归档"
+msgstr "停用"
 
 #. module: website_mail_channel
 #: model_terms:ir.ui.view,arch_db:website_mail_channel.group_message

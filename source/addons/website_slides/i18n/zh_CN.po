@@ -931,7 +931,7 @@ msgstr "存档幻灯片"
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_search
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: website_slides
 #. openerp-web

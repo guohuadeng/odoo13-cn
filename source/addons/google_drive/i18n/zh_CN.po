@@ -97,7 +97,7 @@ msgstr "添加一个新的模板"
 #. module: google_drive
 #: model_terms:ir.ui.view,arch_db:google_drive.google_drive_config_view_search
 msgid "Archived"
-msgstr "已归档"
+msgstr "已停用"
 
 #. module: google_drive
 #: code:addons/google_drive/models/google_drive.py:0

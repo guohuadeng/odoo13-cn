@@ -51,4 +51,4 @@ msgstr "通过任务重新调整在工单上花费的时间。"
 #. module: helpdesk_sale_timesheet
 #: model:ir.model.fields,field_description:helpdesk_sale_timesheet.field_helpdesk_ticket__use_helpdesk_sale_timesheet
 msgid "Reinvoicing Timesheet activated on Team"
-msgstr "在团队中激活了重新启动工时表"
+msgstr "在团队中启用了重新启动工时表"

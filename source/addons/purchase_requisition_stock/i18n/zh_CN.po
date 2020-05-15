@@ -45,12 +45,12 @@ msgstr "采购订单"
 #. module: purchase_requisition_stock
 #: model:ir.model,name:purchase_requisition_stock.model_purchase_requisition
 msgid "Purchase Requisition"
-msgstr "采购申请"
+msgstr "采购计划单"
 
 #. module: purchase_requisition_stock
 #: model:ir.model,name:purchase_requisition_stock.model_purchase_requisition_line
 msgid "Purchase Requisition Line"
-msgstr "采购申请明细"
+msgstr "采购计划单明细"
 
 #. module: purchase_requisition_stock
 #: model:ir.model.fields,field_description:purchase_requisition_stock.field_stock_move__requisition_line_ids

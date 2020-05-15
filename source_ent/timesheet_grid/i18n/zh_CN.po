@@ -364,12 +364,12 @@ msgstr ""
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.res_config_settings_view_form
 msgid "Activate a periodical email reminder for timesheet managers"
-msgstr "为时间表管理员激活定期EMail提醒"
+msgstr "为时间表管理员启用定期EMail提醒"
 
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.res_config_settings_view_form
 msgid "Activate a periodical email reminder for timesheet users"
-msgstr "为时间表用户激活定期EMail提醒"
+msgstr "为时间表用户启用定期EMail提醒"
 
 #. module: timesheet_grid
 #: model_terms:ir.ui.view,arch_db:timesheet_grid.timesheet_view_form

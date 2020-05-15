@@ -311,7 +311,7 @@ msgstr "应用"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_archive_groups
 msgid "Archives"
-msgstr "归档"
+msgstr "停用"
 
 #. module: portal
 #. openerp-web

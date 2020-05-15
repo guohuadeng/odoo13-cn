@@ -172,7 +172,7 @@ msgstr "操作的标题"
 #: code:addons/web_studio/static/src/xml/action_editor.xml:0
 #, python-format
 msgid "Activate View"
-msgstr "激活视图"
+msgstr "启用视图"
 
 #. module: web_studio
 #. openerp-web
@@ -2909,7 +2909,7 @@ msgstr "想获得更多的乐趣吗？快 <b>去创建更多视图</b>吧."
 #: code:addons/web_studio/static/src/js/tours/web_studio.js:0
 #, python-format
 msgid "Want to customize the background? Let’s activate <b>Odoo Studio</b>."
-msgstr "想自定义背景吗? 让我们激活<b>Odoo Studio</b>吧."
+msgstr "想自定义背景吗? 让我们启用<b>Odoo Studio</b>吧."
 
 #. module: web_studio
 #. openerp-web
