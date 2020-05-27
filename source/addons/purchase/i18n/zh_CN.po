@@ -388,7 +388,7 @@ msgstr "添加章节"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Add several variants to the purchase order from a grid"
-msgstr "向来自网格的购买订单添加几个变体"
+msgstr "在购买订单中用网格方式添加几个单品Sku"
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_purchase_manager

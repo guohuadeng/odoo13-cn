@@ -104,7 +104,7 @@ msgstr ""
 "- 即时: 只要为产品创建了属性，所有属性的单品Sku都会马上创建。\n"
 "        - 动态: 只有当该属性被加入销售订单时，该单品Sku才会自动创建.\n"
 "        - 从不: 即使设定了属性，相关单品Sku也不会创建。\n"
-"        注意: 一旦有相关单品Sku已被创建，则此变体创建模式将不可改变。"
+"        注意: 一旦有相关单品Sku已被创建，则此属性创建模式将不可改变。"
 
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_5
@@ -141,10 +141,10 @@ msgid ""
 "                                        </span>"
 msgstr ""
 "<span attrs=\"{'invisible': [('pricelist_item_count', '=', 1)]}\">\n"
-"                                          累加单价\n"
+"                                          阶梯价格\n"
 "                                        </span>\n"
 "                                        <span attrs=\"{'invisible': [('pricelist_item_count', '!=', 1)]}\">\n"
-"                                          累加单价\n"
+"                                          阶梯价格\n"
 "                                        </span>"
 
 #. module: product
@@ -212,7 +212,7 @@ msgid ""
 "                        to the loss of their possible customizations."
 msgstr ""
 "<strong>警告</strong>：添加或删除属性将删除\n"
-"并重新创建现有变体，\n"
+"并重新创建现有单品Sku，\n"
 "并导致其可能的自定义的丢失。"
 
 #. module: product
@@ -594,7 +594,7 @@ msgstr "配置"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Configure Variants"
-msgstr "配置变体"
+msgstr "配置属性以生成单品Sku"
 
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_template__type__consu
@@ -915,7 +915,7 @@ msgid ""
 "Extra price for the variant with this attribute value on sale price. eg. 200"
 " price extra, 1000 + 200 = 1200."
 msgstr ""
-"累加单价: 单品Sku的销售价格随着累加单价进行变化,如:原销售单价是1000,累加单价是200,则该变体售价是1200 = 1000 + 200."
+"累加单价: 单品Sku的销售价格随着累加单价进行变化,如:原销售单价是1000,累加单价是200,则该单品Sku售价是1200 = 1000 + 200."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__fixed_price
@@ -1068,7 +1068,7 @@ msgstr "如果勾选此项， 某些消息将会产生传递错误。"
 #: model:ir.model.fields,help:product.field_product_supplierinfo__product_id
 msgid ""
 "If not set, the vendor price will apply to all variants of this product."
-msgstr "如果没有设置，供应商的价格将适用于所有产品的变体。"
+msgstr "如果没有设置，供应商的价格将适用于所有产品的单品Sku。"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_pricelist__active
@@ -2003,7 +2003,7 @@ msgstr "相关的产品"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__ptav_product_variant_ids
 msgid "Related Variants"
-msgstr "相关变体"
+msgstr "相关单品Sku"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__activity_user_id
@@ -2250,7 +2250,7 @@ msgid ""
 "sales order. To do so, open the form view of attributes and change the mode "
 "of *Create Variants*."
 msgstr ""
-"要生成的变体数量太多。 您不应为每个组合生成变体，也不应根据销售订单生成变量。 为此，请打开属性的表单视图并更改* Create Variants "
+"要生成的单品Sku数量太多。 您不应为每个组合生成单品Sku，也不应根据销售订单生成单品Sku。 为此，请打开属性的表单视图并更改* 创建单品Sku "
 "*的模式。"
 
 #. module: product
@@ -2494,64 +2494,64 @@ msgstr "值"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_view_search
 msgid "Variant"
-msgstr "变体"
+msgstr "属性"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__product_variant_count
 msgid "Variant Count"
-msgstr "变体计数"
+msgstr "单品Sku计数"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__image_variant_1920
 msgid "Variant Image"
-msgstr "变体图像"
+msgstr "单品Sku图像"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__image_variant_1024
 msgid "Variant Image 1024"
-msgstr "变体图片1024"
+msgstr "单品Sku图片1024"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__image_variant_128
 msgid "Variant Image 128"
-msgstr "变体图片128"
+msgstr "单品Sku图片128"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__image_variant_256
 msgid "Variant Image 256"
-msgstr "变体图片256"
+msgstr "单品Skul图片256"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__image_variant_512
 msgid "Variant Image 512"
-msgstr "变体图片512"
+msgstr "单品Skul图片512"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Variant Information"
-msgstr "变体信息"
+msgstr "单品Sku信息"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__price_extra
 msgid "Variant Price Extra"
-msgstr "变体价格额外"
+msgstr "单品Sku累加价格"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__variant_seller_ids
 #: model:ir.model.fields,field_description:product.field_product_template__variant_seller_ids
 msgid "Variant Seller"
-msgstr "变种卖家"
+msgstr "单品Sku卖家"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.attribute_tree_view
 msgid "Variant Values"
-msgstr "变体值"
+msgstr "属性值"
 
 #. module: product
 #: code:addons/product/models/product_pricelist.py:0
 #, python-format
 msgid "Variant: %s"
-msgstr "变体: %s"
+msgstr "单品Sku: %s"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_res_config_settings__group_product_variant
@@ -2559,12 +2559,12 @@ msgstr "变体: %s"
 #: model_terms:ir.ui.view,arch_db:product.product_template_kanban_view
 #: model_terms:ir.ui.view,arch_db:product.product_template_only_form_view
 msgid "Variants"
-msgstr "变体"
+msgstr "单品Sku"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__create_variant
 msgid "Variants Creation Mode"
-msgstr "变体创建模式"
+msgstr "单品Sku创建模式"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__name
@@ -2694,7 +2694,7 @@ msgid ""
 "You cannot change the Variants Creation Mode of the attribute %s because it is used on the following products:\n"
 "%s"
 msgstr ""
-"不可变更变体创建模式，此属性 %s 已被用于以下产品:\n"
+"不可变更单品Sku创建模式，此属性 %s 已被用于以下产品:\n"
 "%s"
 
 #. module: product

@@ -9366,7 +9366,7 @@ msgstr "在群发邮件中添加UTM的销售订单信息"
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_product_matrix
 msgid "Add variants to Sales Order through a grid entry."
-msgstr "在销售订单中为变体增加表格输入"
+msgstr "在销售订单中为单品Sku增加表格输入"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.contact
