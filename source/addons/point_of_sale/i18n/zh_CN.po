@@ -1165,7 +1165,7 @@ msgstr "新增PoS配置"
 #. module: point_of_sale
 #: model_terms:ir.actions.act_window,help:point_of_sale.product_product_action
 msgid "Create a new product variant"
-msgstr "创建新产品变体"
+msgstr "创建新单品Sku"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_closing_balance_confirm_wizard__create_uid
@@ -3454,7 +3454,7 @@ msgstr "产品数量"
 #: model:ir.model,name:point_of_sale.model_product_template
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order__product_tmpl_id
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_uom_uom
@@ -3475,7 +3475,7 @@ msgstr "产品计量单位 类别"
 #: model:ir.actions.act_window,name:point_of_sale.product_product_action
 #: model:ir.ui.menu,name:point_of_sale.pos_config_menu_action_product_product
 msgid "Product Variants"
-msgstr "产品变体"
+msgstr "单品Sku"
 
 #. module: point_of_sale
 #. openerp-web

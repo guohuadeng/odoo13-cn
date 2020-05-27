@@ -655,7 +655,7 @@ msgstr "新建产品"
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.product_product_action
 msgid "Create a new product variant"
-msgstr "创建新产品变体"
+msgstr "创建新单品Sku"
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.purchase_form_action
@@ -893,7 +893,7 @@ msgstr "如果安装，产品的变种将被添加到购买订单，通过"
 #: code:addons/purchase/models/product.py:0
 #, python-format
 msgid "Import Template for Products"
-msgstr "导入模板-产品模板"
+msgstr "导入模板-产品"
 
 #. module: purchase
 #: code:addons/purchase/models/purchase.py:0
@@ -1321,7 +1321,7 @@ msgstr "品类"
 #: model:ir.model,name:purchase.model_product_template
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__product_tmpl_id
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__product_type
@@ -1332,7 +1332,7 @@ msgstr "产品类型"
 #: model:ir.actions.act_window,name:purchase.product_product_action
 #: model:ir.ui.menu,name:purchase.product_product_menu
 msgid "Product Variants"
-msgstr "产品变体"
+msgstr "单品Sku"
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.product_normal_action_puchased
@@ -2116,7 +2116,7 @@ msgstr "表示货币数量的工具字段"
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.res_config_settings_view_form_purchase
 msgid "Variant Grid Entry"
-msgstr "产品变体表格输入"
+msgstr "单品Sku表格输入"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union__partner_id

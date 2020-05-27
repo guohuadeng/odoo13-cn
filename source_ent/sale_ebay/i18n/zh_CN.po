@@ -44,8 +44,8 @@ msgid ""
 " You need to have at least 2 variations selected for a multi-variations listing.\n"
 " Or if you try to delete a variation, you cannot do it by unselecting it. Setting the quantity to 0 is the safest method to make a variation unavailable."
 msgstr ""
-"你必须至少选择2个产品变体。对于多产品变体清单.否则如果你尝试删除一个产品变体，你将不能选择它。\n"
-"设置数量为0，是使一个产品变体无效的安全方法。"
+"你必须至少选择2个单品Sku。对于多单品Sku清单.否则如果你尝试删除一个单品Sku，你将不能选择它。\n"
+"设置数量为0，是使一个单品Sku无效的安全方法。"
 
 #. module: sale_ebay
 #: model:ir.model.fields.selection,name:sale_ebay.selection__product_template__ebay_listing_duration__days_10
@@ -330,7 +330,7 @@ msgid ""
 " No Variant Set To Be Listed On eBay."
 msgstr ""
 "遇到问题.\n"
-" eBay 上的产品没有设置产品变体."
+" eBay 上的产品没有设置单品Sku."
 
 #. module: sale_ebay
 #: code:addons/sale_ebay/models/product.py:0
@@ -394,7 +394,7 @@ msgid ""
 "Impossible to revise a listing into a multi-variations listing.\n"
 " Create a new listing."
 msgstr ""
-"不能把一个产品修改成多产品变体产品.\n"
+"不能把一个产品修改成多单品Sku产品.\n"
 " 创建一个新产品."
 
 #. module: sale_ebay
@@ -553,12 +553,12 @@ msgstr "产品"
 #. module: sale_ebay
 #: model_terms:ir.ui.view,arch_db:sale_ebay.res_config_settings_view_form
 msgid "Product Categories"
-msgstr "产品类别"
+msgstr "品类"
 
 #. module: sale_ebay
 #: model:ir.model,name:sale_ebay.model_product_template
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: sale_ebay
 #: code:addons/sale_ebay/models/sale_order.py:0
@@ -806,7 +806,7 @@ msgstr ""
 #. module: sale_ebay
 #: model_terms:ir.ui.view,arch_db:sale_ebay.product_template_sale_ebay_form_view
 msgid "Variants"
-msgstr "产品变体"
+msgstr "单品Sku"
 
 #. module: sale_ebay
 #: model:ir.model.fields,field_description:sale_ebay.field_res_config_settings__ebay_zip_code
@@ -888,7 +888,7 @@ msgstr "eBay 用户 ID"
 #. module: sale_ebay
 #: model:ir.model.fields,field_description:sale_ebay.field_product_product__ebay_variant_url
 msgid "eBay Variant URL"
-msgstr "eBay 产品变体网址"
+msgstr "eBay 单品Sku网址"
 
 #. module: sale_ebay
 #: model:ir.model.fields,field_description:sale_ebay.field_res_config_settings__ebay_site

@@ -77,7 +77,7 @@ msgstr "产品"
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_product_template
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_production

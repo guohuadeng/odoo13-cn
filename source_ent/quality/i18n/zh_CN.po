@@ -708,7 +708,7 @@ msgstr "产品"
 #: model:ir.model.fields,field_description:quality.field_quality_alert__product_id
 #: model:ir.model.fields,field_description:quality.field_quality_point__product_id
 msgid "Product Variant"
-msgstr "产品变体"
+msgstr "单品Sku"
 
 #. module: quality
 #: model:ir.model,name:quality.model_quality_alert

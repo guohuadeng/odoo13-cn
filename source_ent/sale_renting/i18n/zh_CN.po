@@ -876,7 +876,7 @@ msgstr "费用产品"
 #: model_terms:ir.ui.view,arch_db:sale_renting.rental_report_search_view
 #: model_terms:ir.ui.view,arch_db:sale_renting.rental_schedule_view_search
 msgid "Product Category"
-msgstr "产品类别"
+msgstr "品类"
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_sale_rental_schedule__product_name
@@ -888,17 +888,17 @@ msgstr "产品编码"
 #: model:ir.model.fields,field_description:sale_renting.field_sale_rental_report__product_tmpl_id
 #: model:ir.model.fields,field_description:sale_renting.field_sale_rental_schedule__product_tmpl_id
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_rental_pricing__product_template_id
 msgid "Product Templates"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: sale_renting
 #: model:ir.model.fields,field_description:sale_renting.field_rental_pricing__product_variant_ids
 msgid "Product Variants"
-msgstr "产品变体"
+msgstr "单品Sku"
 
 #. module: sale_renting
 #: model_terms:ir.ui.view,arch_db:sale_renting.res_config_settings_view_form
@@ -1209,8 +1209,8 @@ msgid ""
 "Select Variants of the Product for which this rule applies.\n"
 " Leave empty if this rule applies for any variant of this template."
 msgstr ""
-"选择适用此规则的产品模板的产品变体。\n"
-"如果此规则适用于此模板的任何产品变体，则保持为空。"
+"选择适用此规则的产品的单品Sku。\n"
+"如果此规则适用于此模板的任何单品Sku，则保持为空。"
 
 #. module: sale_renting
 #: model:ir.model.fields,help:sale_renting.field_rental_pricing__product_template_id

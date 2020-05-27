@@ -115,7 +115,7 @@ msgstr "产品"
 #. module: website_sale_stock
 #: model:ir.model,name:website_sale_stock.model_product_template
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: website_sale_stock
 #: model:ir.model,name:website_sale_stock.model_sale_order

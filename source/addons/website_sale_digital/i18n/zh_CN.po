@@ -72,7 +72,7 @@ msgstr "产品"
 #. module: website_sale_digital
 #: model:ir.model,name:website_sale_digital.model_product_template
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: website_sale_digital
 #: model:product.template,uom_name:website_sale_digital.product_1

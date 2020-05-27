@@ -233,7 +233,7 @@ msgid ""
 "them, link them to Odoo and use them to collaborate with your employees."
 msgstr ""
 "链接到您存放任何odoo数据记录的谷歌网盘. 如果你有特定的文档需要你的合作者填写, 比如： "
-"使用电子表格来控制你的产品模板的质量或者检查每个外国订单的发货清单, ...这将非常便于管理, 把他们链接到Odoo并且和你的员工一起使用它们."
+"使用电子表格来控制你的产品的质量或者检查每个外国订单的发货清单, ...这将非常便于管理, 把他们链接到Odoo并且和你的员工一起使用它们."
 
 #. module: google_drive
 #: model:ir.model.fields,field_description:google_drive.field_google_drive_config__model_id

@@ -751,7 +751,7 @@ msgstr "产品"
 #. module: sale_timesheet
 #: model:ir.model,name:sale_timesheet.model_product_template
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: sale_timesheet
 #: model:ir.filters,name:sale_timesheet.ir_filter_project_profitability_report_manager_and_product
@@ -1100,7 +1100,7 @@ msgstr "产品%s不应该有一个全局项目，因为它将生成一个项目�
 msgid ""
 "The product %s should not have a project nor a project template since it "
 "will not generate project."
-msgstr "产品模板%s不应该有项目或项目模板，因为它不会生成项目。"
+msgstr "产品%s不应该有项目或项目模板，因为它不会生成项目。"
 
 #. module: sale_timesheet
 #: code:addons/sale_timesheet/models/product.py:0
@@ -1108,7 +1108,7 @@ msgstr "产品模板%s不应该有项目或项目模板，因为它不会生成�
 msgid ""
 "The product %s should not have a project template since it will generate a "
 "task in a global project."
-msgstr "产品模板%s不应具有项目模板，因为它将在全局项目中生成任务。"
+msgstr "产品%s不应具有项目模板，因为它将在全局项目中生成任务。"
 
 #. module: sale_timesheet
 #: code:addons/sale_timesheet/wizard/project_create_sale_order.py:0

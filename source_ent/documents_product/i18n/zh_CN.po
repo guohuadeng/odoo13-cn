@@ -117,7 +117,7 @@ msgstr "产品标签"
 #. module: documents_product
 #: model:ir.model,name:documents_product.model_product_template
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: documents_product
 #: model:ir.model.fields,field_description:documents_product.field_res_company__product_folder
@@ -127,7 +127,7 @@ msgstr "产品工作区"
 #. module: documents_product
 #: model:ir.model.fields.selection,name:documents_product.selection__documents_workflow_rule__create_model__product_template
 msgid "Product template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: documents_product
 #: model:documents.folder,name:documents_product.documents_product_folder

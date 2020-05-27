@@ -1971,7 +1971,7 @@ msgstr "链接使用字段"
 #: code:addons/sale_subscription/static/src/js/tours/sale_subscription.js:0
 #, python-format
 msgid "Link your product to a subscription template in this tab"
-msgstr "将产品模板链接到此页卡中的订阅模板"
+msgstr "将产品链接到此页卡中的订阅模板"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_alert__sms_mass_keep_log
@@ -2323,7 +2323,7 @@ msgstr "产品"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__categ_id
 msgid "Product Category"
-msgstr "产品类别"
+msgstr "品类"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_template__product_count
@@ -2334,13 +2334,13 @@ msgstr "产品数量"
 #: model:ir.model,name:sale_subscription.model_product_template
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_report__product_tmpl_id
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_product_product__subscription_template_id
 #: model:ir.model.fields,help:sale_subscription.field_product_template__subscription_template_id
 msgid "Product will be included in a selected template"
-msgstr "产品模板将包含在选定的模板中。"
+msgstr "产品将包含在选定的模板中。"
 
 #. module: sale_subscription
 #: model:ir.actions.act_window,name:sale_subscription.product_template_action_subscription
@@ -2664,7 +2664,7 @@ msgstr "查看订阅"
 msgid ""
 "Select your newly created template. Every sale of this product will generate"
 " a new subscription!"
-msgstr "选择新建的模板每次销售此产品模板都将生成新的订阅！"
+msgstr "选择新建的模板每次销售此产品都将生成新的订阅！"
 
 #. module: sale_subscription
 #: model:ir.model.fields.selection,name:sale_subscription.selection__sale_subscription_template__payment_mode__validate_send
@@ -3049,7 +3049,7 @@ msgid ""
 "                apps. To do so, set a subscription template on your subscription products."
 msgstr ""
 "订阅可以从销售或电子商务中的销售订单自动生成\n"
-" 应用。为此，请在订阅产品模板上设置订阅模板。"
+" 应用。为此，请在订阅产品上设置订阅模板。"
 
 #. module: sale_subscription
 #: model_terms:ir.ui.view,arch_db:sale_subscription.sale_subscription_view_search
@@ -3583,7 +3583,7 @@ msgstr "你必须首先选择一个订阅的客户 %s!"
 #: model_terms:ir.actions.act_window,help:sale_subscription.product_template_action_subscription
 msgid ""
 "You will find here all the products related to this subscription template."
-msgstr "您将在此处找到所有与订阅模版相关的产品模板。"
+msgstr "您将在此处找到所有与订阅模版相关的产品。"
 
 #. module: sale_subscription
 #: model_terms:ir.actions.act_window,help:sale_subscription.sale_subscription_action_pending

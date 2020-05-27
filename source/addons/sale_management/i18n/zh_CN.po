@@ -600,7 +600,7 @@ msgstr ""
 #: code:addons/sale_management/models/sale_order_template.py:0
 #, python-format
 msgid "Your template cannot contain products from multiple companies."
-msgstr "您的模板不能包含多家公司的产品模板。"
+msgstr "您的模板不能包含多家公司的产品。"
 
 #. module: sale_management
 #: code:addons/sale_management/models/sale_order_template.py:0
@@ -609,8 +609,8 @@ msgid ""
 "Your template contains products from company %s whereas your template belongs to company %s. \n"
 " Please change the company of your template or remove the products from other companies."
 msgstr ""
-"你的报价单包含来自公司%s的产品模板，而你的报价单属于公司%s。\n"
-"请更改报价单公司或从其他公司删除产品模板。"
+"你的报价单包含来自公司%s的产品，而你的报价单属于公司%s。\n"
+"请更改报价单公司或从其他公司删除产品。"
 
 #. module: sale_management
 #: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form

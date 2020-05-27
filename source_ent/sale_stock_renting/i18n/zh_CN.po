@@ -183,7 +183,7 @@ msgstr "产品"
 #. module: sale_stock_renting
 #: model:ir.model,name:sale_stock_renting.model_product_template
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: sale_stock_renting
 #: model:ir.model.fields,field_description:sale_stock_renting.field_rental_wizard__product_uom_id

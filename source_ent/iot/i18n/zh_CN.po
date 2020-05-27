@@ -690,7 +690,7 @@ msgstr "物联网盒子的HDMI输出端设备将显示Url."
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_keyboard_layout__variant
 msgid "Variant"
-msgstr "产品变体"
+msgstr "单品Sku"
 
 #. module: iot
 #: model:ir.model.fields,help:iot.field_ir_actions_report__device_id

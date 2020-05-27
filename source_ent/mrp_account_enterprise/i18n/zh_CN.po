@@ -178,12 +178,12 @@ msgstr "产品"
 #. module: mrp_account_enterprise
 #: model:ir.model,name:mrp_account_enterprise.model_product_template
 msgid "Product Template"
-msgstr "产品模板"
+msgstr "产品"
 
 #. module: mrp_account_enterprise
 #: model:ir.model,name:mrp_account_enterprise.model_report_mrp_account_enterprise_product_template_cost_structure
 msgid "Product Template Cost Structure Report"
-msgstr "产品模板模块成本结构报表"
+msgstr "产品模块成本结构报表"
 
 #. module: mrp_account_enterprise
 #: model_terms:ir.ui.view,arch_db:mrp_account_enterprise.mrp_cost_structure

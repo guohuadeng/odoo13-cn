@@ -118,7 +118,7 @@ msgstr "显示名称"
 #. module: pos_loyalty
 #: model:ir.model.fields,help:pos_loyalty.field_loyalty_rule__rule_type
 msgid "Does this rule affects products, or a category of products ?"
-msgstr "这个规则影响产品，还是产品类别"
+msgstr "这个规则影响产品，还是品类"
 
 #. module: pos_loyalty
 #: model:ir.model.fields.selection,name:pos_loyalty.selection__loyalty_reward__reward_type__gift
