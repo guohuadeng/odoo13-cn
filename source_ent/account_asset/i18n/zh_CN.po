@@ -55,7 +55,7 @@ msgstr "• 总增加"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__depreciation_entries_count
 msgid "# Posted Depreciation Entries"
-msgstr "# 已过帐的折旧分录"
+msgstr "# 已过账的折旧分录"
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_move.py:0
@@ -140,30 +140,30 @@ msgstr "科目类型用于信息目的，用于生成符合各国财税规范的
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset__account_depreciation_id
 msgid "Account used in the depreciation entries, to decrease the asset value."
-msgstr "在折旧条目中使用的帐户，以减少资产价值。"
+msgstr "在折旧条目中使用的账户，以减少资产价值。"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset__account_depreciation_expense_id
 msgid ""
 "Account used in the periodical entries, to record a part of the asset as "
 "expense."
-msgstr "在定期项目中使用的帐户，将资产的一部分记录为费用。"
+msgstr "在定期项目中使用的账户，将资产的一部分记录为费用。"
 
 #. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
 msgid "Account used to recognize the expense"
-msgstr "确认用于支出的帐户"
+msgstr "确认用于支出的账户"
 
 #. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
 msgid "Account used to recognize the revenue"
-msgstr "确认用于支出的帐户"
+msgstr "确认用于支出的账户"
 
 #. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_expense_form
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_revenue_form
 msgid "Account used to record the deferred income"
-msgstr "用于记录递延收入的帐户"
+msgstr "用于记录递延收入的账户"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset__account_asset_id
@@ -174,26 +174,26 @@ msgstr "会计用于记录资产采购的原始价格"
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_sell__gain_account_id
 msgid "Account used to write the journal item in case of gain"
-msgstr "用于在收益情况下写入日记帐项目的帐户"
+msgstr "用于在收益情况下写入日记账项目的账户"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_res_company__gain_account_id
 msgid ""
 "Account used to write the journal item in case of gain while selling an "
 "asset"
-msgstr "用于在出售资产时获利时写入日记帐项目的帐户"
+msgstr "用于在出售资产时获利时写入日记账项目的账户"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset_sell__loss_account_id
 msgid "Account used to write the journal item in case of loss"
-msgstr "用于在损失情况下写入日记帐项目的帐户"
+msgstr "用于在损失情况下写入日记账项目的账户"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_res_company__loss_account_id
 msgid ""
 "Account used to write the journal item in case of loss while selling an "
 "asset"
-msgstr "用于在出售资产时发生损失时写入日记帐项目的帐户"
+msgstr "用于在出售资产时发生损失时写入日记账项目的账户"
 
 #. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
@@ -242,14 +242,14 @@ msgstr "活动状态"
 #: code:addons/account_asset/models/account_move.py:0
 #, python-format
 msgid "All the lines should be from the same account"
-msgstr "所有行应来自同一帐户"
+msgstr "所有行应来自同一账户"
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:0
 #: code:addons/account_asset/models/account_move.py:0
 #, python-format
 msgid "All the lines should be posted"
-msgstr "所有行都应过帐"
+msgstr "所有行都应过账"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset__parent_id
@@ -843,7 +843,7 @@ msgstr "折旧修改"
 #: code:addons/account_asset/models/account_move.py:0
 #, python-format
 msgid "Depreciation entry %s posted (%s)"
-msgstr "已过帐的折旧条目 %s 张贴（%s）"
+msgstr "已过账的折旧条目 %s 张贴（%s）"
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_move.py:0
@@ -854,7 +854,7 @@ msgstr "折旧条目 %s 已冲销 （%s）"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__display_account_asset_id
 msgid "Display Account Asset"
-msgstr "显示帐户资产"
+msgstr "显示账户资产"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__display_model_choice
@@ -1012,7 +1012,7 @@ msgstr "收益"
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_sell__gain_account_id
 #: model:ir.model.fields,field_description:account_asset.field_res_company__gain_account_id
 msgid "Gain Account"
-msgstr "收益帐户"
+msgstr "收益账户"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset_sell__gain_or_loss
@@ -1080,7 +1080,7 @@ msgstr "如果勾选此项， 某些消息将会产生传递错误。"
 msgid ""
 "If this is selected, an asset will be created automatically when Journal "
 "Items on this account are posted."
-msgstr "如果选择此选项，则过帐该帐户的日记帐项目时将自动创建资产。"
+msgstr "如果选择此选项，则过账该账户的日记账项目时将自动创建资产。"
 
 #. module: account_asset
 #: code:addons/account_asset/report/account_assets_report.py:0
@@ -1093,7 +1093,7 @@ msgstr "以百分比表示。<br>对于线性方法，折旧率是每年计算�
 #. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.asset_modify_form
 msgid "Increase Accounts"
-msgstr "增加帐户"
+msgstr "增加账户"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset__prorata
@@ -1155,7 +1155,7 @@ msgstr "日记账项"
 #, python-format
 msgid ""
 "Journal Items of {account} should have a label in order to generate an asset"
-msgstr "{account} 的日记帐项目应具有标签才能生成资产"
+msgstr "{account} 的日记账项目应具有标签才能生成资产"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset____last_update
@@ -1332,7 +1332,7 @@ msgstr "否"
 #: code:addons/account_asset/report/account_assets_report.py:0
 #, python-format
 msgid "No asset account"
-msgstr "无资产帐户"
+msgstr "无资产账户"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_asset_modify__salvage_value
@@ -1390,7 +1390,7 @@ msgstr "为增加资产价值而制作的资产数量"
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset__total_depreciation_entries_count
 msgid "Number of depreciation entries (posted or not)"
-msgstr "折旧分录的数量（是否过帐）"
+msgstr "折旧分录的数量（是否过账）"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__message_has_error_counter
@@ -1472,7 +1472,7 @@ msgstr "周期长度"
 #. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_asset_form
 msgid "Posted Entries"
-msgstr "已过帐的条目"
+msgstr "已过账的条目"
 
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__prorata_date
@@ -1713,7 +1713,7 @@ msgstr "所有增值项的可贬值价值、残值和账面价值之和"
 msgid ""
 "Technical field specifying if the account can generate asset depending on "
 "it's type. It is used in the account form view."
-msgstr "指定帐户是否可以根据其类型生成资产的技术字段。它在帐户窗体视图中使用。"
+msgstr "指定账户是否可以根据其类型生成资产的技术字段。它在账户窗体视图中使用。"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_asset_modify__gain_value
@@ -1750,7 +1750,7 @@ msgstr "子项是该资产的价值收益"
 msgid ""
 "The disposal invoice is needed in order to generate the closing journal "
 "entry."
-msgstr "需要处理发票才能生成期末日记帐分录。"
+msgstr "需要处理发票才能生成期末日记账分录。"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset__method_number
@@ -1828,7 +1828,7 @@ msgstr "作为资产进行周转"
 #. module: account_asset
 #: model:ir.model.fields,field_description:account_asset.field_account_asset__user_type_id
 msgid "Type of the account"
-msgstr "帐户类型"
+msgstr "账户类型"
 
 #. module: account_asset
 #: model:ir.model.fields,help:account_asset.field_account_asset__activity_exception_decoration
@@ -1877,9 +1877,9 @@ msgid ""
 "You can manually close an asset when the depreciation is over. If the last line of depreciation is posted, the asset automatically goes in that status."
 msgstr ""
 "创建资产时，状态为\"草稿\"。\n"
-"如果确认资产，状态将进入\"正在运行\"，折旧行可以在会计中过帐。\n"
+"如果确认资产，状态将进入\"正在运行\"，折旧行可以在会计中过账。\n"
 "当您要暂停资产折旧一段时间时，可以手动设置\"保持\"状态。\n"
-"折旧结束后，您可以手动关闭资产。如果过帐最后一行折旧，则资产将自动进入该状态。"
+"折旧结束后，您可以手动关闭资产。如果过账最后一行折旧，则资产将自动进入该状态。"
 
 #. module: account_asset
 #: model:ir.model.fields.selection,name:account_asset.selection__account_asset__method_period__12
@@ -1893,7 +1893,7 @@ msgstr "年"
 msgid ""
 "You cannot create an asset from lines containing credit and debit on the "
 "account or with a null amount"
-msgstr "您不能从帐户上包含贷方和借方的行或具有空金额的行创建资产"
+msgstr "您不能从账户上包含贷方和借方的行或具有空金额的行创建资产"
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_asset.py:0
@@ -1906,7 +1906,7 @@ msgstr "不能删除状态为 %s 的文档。"
 #, python-format
 msgid ""
 "You cannot pause an asset with posted depreciation lines in the future."
-msgstr "将来不能暂停具有已过帐折旧行的资产。"
+msgstr "将来不能暂停具有已过账折旧行的资产。"
 
 #. module: account_asset
 #: code:addons/account_asset/models/account_move.py:0

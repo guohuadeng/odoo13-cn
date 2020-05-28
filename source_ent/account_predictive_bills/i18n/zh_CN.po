@@ -38,7 +38,7 @@ msgstr "从名字预测"
 #. module: account_predictive_bills
 #: model:ir.model.fields,field_description:account_predictive_bills.field_account_move_line__predict_override_default_account
 msgid "Predict Override Default Account"
-msgstr "预测覆盖默认帐户"
+msgstr "预测覆盖默认账户"
 
 #. module: account_predictive_bills
 #: model:ir.model.fields,help:account_predictive_bills.field_account_move_line__predict_from_name

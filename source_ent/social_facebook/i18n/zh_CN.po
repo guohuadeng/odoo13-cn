@@ -195,7 +195,7 @@ msgstr ""
 #. module: social_facebook
 #: model:ir.model,name:social_facebook.model_social_account
 msgid "Social Account"
-msgstr "社区帐户"
+msgstr "社区账户"
 
 #. module: social_facebook
 #: model:ir.model,name:social_facebook.model_social_live_post

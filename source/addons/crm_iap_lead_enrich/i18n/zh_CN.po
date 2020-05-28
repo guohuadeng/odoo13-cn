@@ -114,7 +114,7 @@ msgstr "IAP 丰富线索 API"
 #. module: crm_iap_lead_enrich
 #: model_terms:ir.ui.view,arch_db:crm_iap_lead_enrich.mail_message_lead_enrich_no_credit
 msgid "IAP account"
-msgstr "IAP帐户"
+msgstr "IAP账户"
 
 #. module: crm_iap_lead_enrich
 #: model:ir.model.fields,field_description:crm_iap_lead_enrich.field_iap_enrich_api__id

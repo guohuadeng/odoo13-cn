@@ -67,7 +67,7 @@ msgstr "供应商类型"
 #. module: account_plaid
 #: model:ir.model,name:account_plaid.model_account_online_provider
 msgid "Provider for online account synchronization"
-msgstr "在线帐户同步的供应商"
+msgstr "在线账户同步的供应商"
 
 #. module: account_plaid
 #: code:addons/account_plaid/models/plaid.py:0

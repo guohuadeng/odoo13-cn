@@ -188,14 +188,14 @@ msgstr "模版用户"
 msgid ""
 "The password of the user account on the LDAP server that is used to query "
 "the directory."
-msgstr "LDAP 服务器上的用户帐号密码，用于查询该目录服务。"
+msgstr "LDAP 服务器上的用户账号密码，用于查询该目录服务。"
 
 #. module: auth_ldap
 #: model:ir.model.fields,help:auth_ldap.field_res_company_ldap__ldap_binddn
 msgid ""
 "The user account on the LDAP server that is used to query the directory. "
 "Leave empty to connect anonymously."
-msgstr "用于查询 LDAP 服务器目录的用户帐号。如果要匿名连接请保持为空。"
+msgstr "用于查询 LDAP 服务器目录的用户账号。如果要匿名连接请保持为空。"
 
 #. module: auth_ldap
 #: model:ir.model.fields,field_description:auth_ldap.field_res_company_ldap__ldap_tls

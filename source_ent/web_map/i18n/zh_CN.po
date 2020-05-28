@@ -103,7 +103,7 @@ msgstr "对于地图视图中的某些功能是必需的"
 #. module: web_map
 #: model_terms:ir.ui.view,arch_db:web_map.res_config_settings_view_form
 msgid "Set a MapBox account to activate routes and style."
-msgstr "设置地图盒子帐户以启用路径和样式。"
+msgstr "设置地图盒子账户以启用路径和样式。"
 
 #. module: web_map
 #: code:addons/web_map/models/res_config_settings.py:0

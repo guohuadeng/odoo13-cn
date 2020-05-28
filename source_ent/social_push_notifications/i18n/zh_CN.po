@@ -320,7 +320,7 @@ msgstr "发送者 ID"
 #. module: social_push_notifications
 #: model:ir.model,name:social_push_notifications.model_social_account
 msgid "Social Account"
-msgstr "社交帐户"
+msgstr "社交账户"
 
 #. module: social_push_notifications
 #: model:ir.model,name:social_push_notifications.model_social_live_post
@@ -379,14 +379,14 @@ msgstr "UTM 营销活动"
 #. module: social_push_notifications
 #: model_terms:ir.ui.view,arch_db:social_push_notifications.res_config_settings_view_form
 msgid "Use your own Firebase Account for this website's push notifications"
-msgstr "在此网站消息推送使用你自己的Firebase帐户"
+msgstr "在此网站消息推送使用你自己的Firebase账户"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,field_description:social_push_notifications.field_res_config_settings__firebase_use_own_account
 #: model:ir.model.fields,field_description:social_push_notifications.field_social_account__firebase_use_own_account
 #: model:ir.model.fields,field_description:social_push_notifications.field_website__firebase_use_own_account
 msgid "Use your own Firebase account"
-msgstr "使用你自己的Firebase 帐户"
+msgstr "使用你自己的Firebase 账户"
 
 #. module: social_push_notifications
 #: model:ir.model.fields,help:social_push_notifications.field_social_media__media_type
@@ -442,7 +442,7 @@ msgstr "网站访问者"
 #: code:addons/social_push_notifications/models/social_account.py:0
 #, python-format
 msgid "You can't delete a Push Notification account."
-msgstr "不能删除消息推送帐户"
+msgstr "不能删除消息推送账户"
 
 #. module: social_push_notifications
 #. openerp-web

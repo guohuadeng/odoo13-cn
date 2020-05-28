@@ -63,7 +63,7 @@ msgstr ""
 #. module: account_invoice_extract
 #: model:mail.template,subject:account_invoice_extract.account_invoice_extract_no_credit
 msgid "Account Invoice Extract Notification"
-msgstr "帐户发票提取通知"
+msgstr "账户发票提取通知"
 
 #. module: account_invoice_extract
 #: code:addons/account_invoice_extract/models/account_invoice.py:0
@@ -351,7 +351,7 @@ msgstr "等待验证"
 #: code:addons/account_invoice_extract/models/account_invoice.py:0
 #, python-format
 msgid "Warning: there is already a vendor bill with this reference (%s)"
-msgstr "警告：已存在具有此引用 (%s)的供应商帐单"
+msgstr "警告：已存在具有此引用 (%s)的供应商账单"
 
 #. module: account_invoice_extract
 #: model:ir.model.fields,field_description:account_invoice_extract.field_account_invoice_extract_words__word_box_angle

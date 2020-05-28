@@ -72,7 +72,7 @@ msgstr ""
 #: code:addons/website_sale_slides/static/src/xml/website_sale_slides_quiz.xml:0
 #, python-format
 msgid "Don't have an account ?"
-msgstr "没有帐户"
+msgstr "没有账户"
 
 #. module: website_sale_slides
 #: model:ir.model.fields,field_description:website_sale_slides.field_slide_channel__enroll

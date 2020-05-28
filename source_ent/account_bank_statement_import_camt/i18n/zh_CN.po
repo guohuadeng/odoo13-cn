@@ -120,7 +120,7 @@ msgstr "ARP借方"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Account Balancing"
-msgstr "帐户余额"
+msgstr "账户余额"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -132,19 +132,19 @@ msgstr "结账"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Account Management"
-msgstr "帐户管理"
+msgstr "账户管理"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Account Opening"
-msgstr "帐户"
+msgstr "账户"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Account Transfer"
-msgstr "转帐帐户"
+msgstr "转账账户"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
@@ -550,7 +550,7 @@ msgstr "跨境信用卡付款"
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0
 #, python-format
 msgid "Cross-Border Credit Transfer"
-msgstr "跨境信用转帐"
+msgstr "跨境信用转账"
 
 #. module: account_bank_statement_import_camt
 #: code:addons/account_bank_statement_import_camt/wizard/account_bank_statement_import_camt.py:0

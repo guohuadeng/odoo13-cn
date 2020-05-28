@@ -35,12 +35,12 @@ msgstr "<span> 到 </span>"
 #. module: account_auto_transfer
 #: model:ir.model,name:account_auto_transfer.model_account_transfer_model
 msgid "Account Transfer Model"
-msgstr "帐户转账模型"
+msgstr "账户转账模型"
 
 #. module: account_auto_transfer
 #: model:ir.model,name:account_auto_transfer.model_account_transfer_model_line
 msgid "Account Transfer Model Line"
-msgstr "帐户转账模型行"
+msgstr "账户转账模型行"
 
 #. module: account_auto_transfer
 #: model:ir.actions.server,name:account_auto_transfer.ir_cron_auto_transfer_ir_actions_server
@@ -68,7 +68,7 @@ msgstr "自动传输"
 #: code:addons/account_auto_transfer/models/transfer_model.py:0
 #, python-format
 msgid "Automatic Transfer (%s%% from account %s)"
-msgstr "自动传输(%s%% 从帐户 %s)"
+msgstr "自动传输(%s%% 从账户 %s)"
 
 #. module: account_auto_transfer
 #: code:addons/account_auto_transfer/models/transfer_model.py:0
@@ -80,13 +80,13 @@ msgstr "自动传输 (-%s%%)"
 #: code:addons/account_auto_transfer/models/transfer_model.py:0
 #, python-format
 msgid "Automatic Transfer (entries with analytic account(s): %s)"
-msgstr "自动转账（带有分析帐户的条目(s): %s)"
+msgstr "自动转账（带有分析账户的条目(s): %s)"
 
 #. module: account_auto_transfer
 #: code:addons/account_auto_transfer/models/transfer_model.py:0
 #, python-format
 msgid "Automatic Transfer (from account %s with analytic account(s): %s)"
-msgstr "自动转账（从账户 %s 与分析帐户：%s）"
+msgstr "自动转账（从账户 %s 与分析账户：%s）"
 
 #. module: account_auto_transfer
 #: code:addons/account_auto_transfer/models/transfer_model.py:0
@@ -135,7 +135,7 @@ msgstr "目标账户"
 #. module: account_auto_transfer
 #: model:ir.model.fields,field_description:account_auto_transfer.field_account_transfer_model__line_ids
 msgid "Destination Accounts"
-msgstr "目标帐户"
+msgstr "目标账户"
 
 #. module: account_auto_transfer
 #: model:ir.model.fields,field_description:account_auto_transfer.field_account_transfer_model__journal_id
@@ -236,7 +236,7 @@ msgstr "名称"
 #. module: account_auto_transfer
 #: model:ir.model.constraint,message:account_auto_transfer.constraint_account_transfer_model_line_unique_account_by_transfer_model
 msgid "Only one account occurrence by transfer model"
-msgstr "按转移模型只出现一个帐户"
+msgstr "按转移模型只出现一个账户"
 
 #. module: account_auto_transfer
 #: model:ir.model.fields,field_description:account_auto_transfer.field_account_transfer_model__account_ids
@@ -269,7 +269,7 @@ msgstr "百分比为只读"
 msgid ""
 "Percentage of the sum of lines from the origin accounts will be transferred "
 "to the destination account"
-msgstr "来自源帐户的行总和的百分比将转移到目标帐户"
+msgstr "来自源账户的行总和的百分比将转移到目标账户"
 
 #. module: account_auto_transfer
 #: model_terms:ir.ui.view,arch_db:account_auto_transfer.view_transfer_model_form
@@ -306,7 +306,7 @@ msgstr "截止日期"
 msgid ""
 "The sum of all lines from the origin accounts having this analytic account "
 "will be automatically transferred to the destination account"
-msgstr "具有此分析帐户的源帐户的所有行的总和将自动转移到目标帐户"
+msgstr "具有此分析账户的源账户的所有行的总和将自动转移到目标账户"
 
 #. module: account_auto_transfer
 #: code:addons/account_auto_transfer/models/transfer_model.py:0

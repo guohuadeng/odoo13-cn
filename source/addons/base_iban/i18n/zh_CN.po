@@ -32,7 +32,7 @@ msgstr "账户不兼容 IBAN."
 #. module: base_iban
 #: model:ir.model,name:base_iban.model_res_partner_bank
 msgid "Bank Accounts"
-msgstr "银行帐户"
+msgstr "银行账户"
 
 #. module: base_iban
 #: code:addons/base_iban/models/res_partner_bank.py:0

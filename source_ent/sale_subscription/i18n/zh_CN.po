@@ -627,7 +627,7 @@ msgstr ""
 "        <td align=\"center\" style=\"min-width: 590px;\">\n"
 "            <table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" width=\"590\" style=\"min-width: 590px; background-color: white; padding: 0px 8px 0px 8px; border-collapse:separate;\">\n"
 "                <tr><td valign=\"middle\">\n"
-"                    <span style=\"font-size: 10px;\">您的帐户</span><br/>\n"
+"                    <span style=\"font-size: 10px;\">您的账户</span><br/>\n"
 "                    <span style=\"font-size: 20px; font-weight: bold;\">\n"
 "                        ${object.name}\n"
 "                    </span>\n"
@@ -649,10 +649,10 @@ msgstr ""
 "                        尊敬的 ${object.name},<br/><br/>\n"
 "                        您的账户已创建成功!<br/>\n"
 "                        您的登陆账号是： <strong>${object.email}</strong><br/>\n"
-"                        若要访问您的帐户，可以使用以下链接:\n"
+"                        若要访问您的账户，可以使用以下链接:\n"
 "                        <div style=\"margin: 16px 0px 16px 0px;\">\n"
 "                            <a href=\"/web/login?${ctx['auth_login']}\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
-"                                跳转至我的帐户\n"
+"                                跳转至我的账户\n"
 "                            </a>\n"
 "                        </div>\n"
 "                        谢谢,<br/><br/>\n"
@@ -1685,7 +1685,7 @@ msgstr "如果勾选此项， 某些消息将会产生传递错误。"
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_template__user_closable
 msgid ""
 "If checked, the user will be able to close his account from the frontend"
-msgstr "如果勾选此项,用户将能够从前端关闭他的帐户"
+msgstr "如果勾选此项,用户将能够从前端关闭他的账户"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription__payment_token_id
@@ -1725,7 +1725,7 @@ msgstr "如果设置了，在确认带有这个产品的订单的时候会创建
 msgid ""
 "If set, subscriptions with this template will invoice in this journal; "
 "otherwise the sales journal with the lowest sequence is used."
-msgstr "如果订阅这模板集，将发票做在这个分类帐；否则销售分类帐最低的序列被使用。"
+msgstr "如果订阅这模板集，将发票做在这个分类账；否则销售分类账最低的序列被使用。"
 
 #. module: sale_subscription
 #: model:ir.model.fields,help:sale_subscription.field_sale_subscription_template__auto_close_limit

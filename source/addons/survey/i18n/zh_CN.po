@@ -2689,7 +2689,7 @@ msgstr "以下电子邮箱已收到邀请"
 msgid ""
 "The following recipients have no user account: %s. You should create user "
 "accounts for them or allow external signup in configuration."
-msgstr "以下收件人没有用户帐户： %s 您应该为它们创建用户帐户或允许在配置中进行外部注册。"
+msgstr "以下收件人没有用户账户： %s 您应该为它们创建用户账户或允许在配置中进行外部注册。"
 
 #. module: survey
 #: model:survey.label,value:survey.survey_feedback_p2_q2_row1
@@ -2824,7 +2824,7 @@ msgstr ""
 msgid ""
 "This survey does not allow external people to participate. You should create"
 " user accounts or update survey access mode accordingly."
-msgstr "此调查不允许外部人员参与。 您应该创建用户帐户或更新调查访问模式。"
+msgstr "此调查不允许外部人员参与。 您应该创建用户账户或更新调查访问模式。"
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_expired

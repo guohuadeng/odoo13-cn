@@ -1051,7 +1051,7 @@ msgstr "员工工资银行账户"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_bank_account_id
 msgid "Employee's Bank Account Number"
-msgstr "员工的银行帐号"
+msgstr "员工的银行账号"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_res_users__employee_country_id

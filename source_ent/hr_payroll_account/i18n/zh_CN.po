@@ -96,7 +96,7 @@ msgstr "这些工资单的一些合同没有结构类型。"
 #: code:addons/hr_payroll_account/models/hr_payroll_account.py:0
 #, python-format
 msgid "One of the payroll structures has no account journal defined on it."
-msgstr "其中一个工资结构没有定义日记帐。"
+msgstr "其中一个工资结构没有定义日记账。"
 
 #. module: hr_payroll_account
 #: model:ir.model,name:hr_payroll_account.model_hr_payslip

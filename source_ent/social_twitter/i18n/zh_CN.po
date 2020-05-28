@@ -185,7 +185,7 @@ msgstr ""
 #. module: social_twitter
 #: model:ir.model,name:social_twitter.model_social_account
 msgid "Social Account"
-msgstr "社区帐户"
+msgstr "社区账户"
 
 #. module: social_twitter
 #: model:ir.model,name:social_twitter.model_social_live_post

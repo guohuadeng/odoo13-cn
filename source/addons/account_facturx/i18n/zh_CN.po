@@ -30,7 +30,7 @@ msgstr "日记账分录"
 #: code:addons/account_facturx/models/account_move.py:0
 #, python-format
 msgid "No information about the journal or the type of invoice is passed"
-msgstr "未传递有关日记帐或发票类型的信息。"
+msgstr "未传递有关日记账或发票类型的信息。"
 
 #. module: account_facturx
 #: model:ir.model,name:account_facturx.model_ir_actions_report

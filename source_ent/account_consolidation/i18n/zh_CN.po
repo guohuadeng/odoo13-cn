@@ -80,7 +80,7 @@ msgstr "%s (%s 货币转换方法)"
 #: code:addons/account_consolidation/models/consolidation_period.py:0
 #, python-format
 msgid "%s Consolidated Accounting"
-msgstr "%s合并帐"
+msgstr "%s合并账"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/report/trial_balance.py:0
@@ -854,7 +854,7 @@ msgstr "权益"
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_company_period__exclude_journal_ids
 msgid "Exclude Journals"
-msgstr "排除日记帐"
+msgstr "排除日记账"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/report/trial_balance.py:0
@@ -1001,7 +1001,7 @@ msgstr "日记账标签"
 #. module: account_consolidation
 #: model:ir.model.fields,field_description:account_consolidation.field_consolidation_group__line_ids
 msgid "Journal lines"
-msgstr "日记帐行"
+msgstr "日记账行"
 
 #. module: account_consolidation
 #: model:ir.actions.act_window,name:account_consolidation.consolidation_journal_action
@@ -1430,7 +1430,7 @@ msgstr "用于合并的汇率（基本上此汇率将乘以所有的合计"
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_journal_form
 msgid "This journal has been automatically generated on"
-msgstr "此日记帐已自动生成于"
+msgstr "此日记账已自动生成于"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/report/builder/abstract.py:0
@@ -1522,7 +1522,7 @@ msgid ""
 "When setting a period on a consolidation journal, the selected consolidation"
 " chart for the journal cannot be different from the one of the chosen "
 "period."
-msgstr "在合并日记帐上设置期间时，该日记帐所选的合并图表不能与所选期间不同。"
+msgstr "在合并日记账上设置期间时，该日记账所选的合并图表不能与所选期间不同。"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/report/trial_balance.py:0

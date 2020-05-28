@@ -237,7 +237,7 @@ msgstr "源销售订单"
 #. module: inter_company_rules
 #: model:ir.model.fields.selection,name:inter_company_rules.selection__res_company__rule_type__invoice_and_refund
 msgid "Synchronize invoices/bills"
-msgstr "同步发票/帐单"
+msgstr "同步发票/账单"
 
 #. module: inter_company_rules
 #: model:ir.model.fields.selection,name:inter_company_rules.selection__res_company__rule_type__so_and_po

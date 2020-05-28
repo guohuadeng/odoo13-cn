@@ -188,7 +188,7 @@ msgstr "ID"
 msgid ""
 "In order to print multiple checks at once, they must belong to the same bank"
 " journal."
-msgstr "为了一次打印多张支票，它们必须是相同的银行帐户。"
+msgstr "为了一次打印多张支票，它们必须是相同的银行账户。"
 
 #. module: account_check_printing
 #: model:ir.model,name:account_check_printing.model_account_journal

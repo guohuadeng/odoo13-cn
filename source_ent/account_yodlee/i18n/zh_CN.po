@@ -47,7 +47,7 @@ msgid ""
 "completed because the site reports that your account is already registered."
 "  Please log in to the site to confirm and then complete the site addition "
 "process with the correct login information."
-msgstr "帐户已注册 (436) : 您的自动注册无法完成，因为网站显示您的帐户已注册。请登录网站进行确认，然后使用正确的登录信息完成网站添加过程。"
+msgstr "账户已注册 (436) : 您的自动注册无法完成，因为网站显示您的账户已注册。请登录网站进行确认，然后使用正确的登录信息完成网站添加过程。"
 
 #. module: account_yodlee
 #: code:addons/account_yodlee/models/yodlee.py:0
@@ -69,7 +69,7 @@ msgid ""
 "Account Not Found(408): We're sorry, we couldn't find any accounts for you "
 "at the site. Please log in at the site and confirm that your account is set "
 "up, then try again."
-msgstr "找不到帐户 (408) : 很抱歉，我们在网站上找不到您的任何帐户。请在该网站登录，并确认您的帐户已设置，然后重试。"
+msgstr "找不到账户 (408) : 很抱歉，我们在网站上找不到您的任何账户。请在该网站登录，并确认您的账户已设置，然后重试。"
 
 #. module: account_yodlee
 #: code:addons/account_yodlee/models/yodlee.py:0
@@ -79,7 +79,7 @@ msgid ""
 "information because it appears one or more of your related accounts have "
 "been closed.  Please deactivate or delete the relevant account and try "
 "again."
-msgstr "帐户已关闭 (422) :我们无法更新您的帐户信息，因为它显示您的一个或多个相关帐户已关闭。请停用或删除相关帐户，然后重试。"
+msgstr "账户已关闭 (422) :我们无法更新您的账户信息，因为它显示您的一个或多个相关账户已关闭。请停用或删除相关账户，然后重试。"
 
 #. module: account_yodlee
 #: code:addons/account_yodlee/models/yodlee.py:0
@@ -87,7 +87,7 @@ msgstr "帐户已关闭 (422) :我们无法更新您的帐户信息，因为它�
 msgid ""
 "Account Type Not Supported(417):The type of account we found is not "
 "currently supported.  Please remove this site and add as a  manual account."
-msgstr "不支持帐户类型 (417): 我们发现当前的帐户类型目前不支持。请移除此站点，并添加为手动帐户。"
+msgstr "不支持账户类型 (417): 我们发现当前的账户类型目前不支持。请移除此站点，并添加为手动账户。"
 
 #. module: account_yodlee
 #: model:ir.model.fields,help:account_yodlee.field_account_online_journal__yodlee_account_status
@@ -324,7 +324,7 @@ msgstr ""
 msgid ""
 "Problem Updating Account (517): We are sorry, there was a technical problem "
 "updating your account. Please try again."
-msgstr "‎问题更新帐户 (517): ‎‎很抱歉, 更新‎‎您‎‎的帐户时出现技术问题。请重试。‎"
+msgstr "‎问题更新账户 (517): ‎‎很抱歉, 更新‎‎您‎‎的账户时出现技术问题。请重试。‎"
 
 #. module: account_yodlee
 #: code:addons/account_yodlee/models/yodlee.py:0
@@ -444,7 +444,7 @@ msgstr "供应商类型"
 #. module: account_yodlee
 #: model:ir.model,name:account_yodlee.model_account_online_provider
 msgid "Provider for online account synchronization"
-msgstr "在线帐户同步的供应商"
+msgstr "在线账户同步的供应商"
 
 #. module: account_yodlee
 #: code:addons/account_yodlee/models/yodlee.py:0

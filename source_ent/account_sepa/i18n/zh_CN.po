@@ -265,14 +265,14 @@ msgstr "付款金额 '%s' 太高了. 最大限制是 %s."
 #, python-format
 msgid ""
 "The creditor bank account %s used in payment %s is not identified by a BIC"
-msgstr "用于付款 %s 的债权人银行帐户 %s 未经BIC鉴定"
+msgstr "用于付款 %s 的债权人银行账户 %s 未经BIC鉴定"
 
 #. module: account_sepa
 #: code:addons/account_sepa/models/account_batch_payment.py:0
 #, python-format
 msgid ""
 "The creditor bank account %s used in payment %s is not identified by an IBAN"
-msgstr "用于付款 %s 的债权人银行帐户 %s 未经IBAN鉴定"
+msgstr "用于付款 %s 的债权人银行账户 %s 未经IBAN鉴定"
 
 #. module: account_sepa
 #: code:addons/account_sepa/models/account_batch_payment.py:0
@@ -281,7 +281,7 @@ msgid ""
 "The following payments have no recipient bank account set: %s. \n"
 "\n"
 msgstr ""
-"以下付款没有设置收款人银行帐户： %s. \n"
+"以下付款没有设置收款人银行账户： %s. \n"
 "\n"
 
 #. module: account_sepa
@@ -336,7 +336,7 @@ msgstr "这个银行账号没有银行认证码 '%s'"
 msgid ""
 "There is no Bank Identifier Code recorded for bank account '%s' of journal "
 "'%s'"
-msgstr "银行帐号没有银行认证码记录 '%s' 日记账的 '%s'"
+msgstr "银行账号没有银行认证码记录 '%s' 日记账的 '%s'"
 
 #. module: account_sepa
 #: code:addons/account_sepa/models/account_journal.py:0
@@ -362,4 +362,4 @@ msgstr "公司名称"
 #: code:addons/account_sepa/models/account_batch_payment.py:0
 #, python-format
 msgid "Your bank account is not labelled in EUR"
-msgstr "您的银行帐户中未标示欧元"
+msgstr "您的银行账户中未标示欧元"

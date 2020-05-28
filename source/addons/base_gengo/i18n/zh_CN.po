@@ -41,7 +41,7 @@ msgid ""
 "Account</span>"
 msgstr ""
 "<span "
-"class=\"o_form_label\">注意：如果翻译状态是“处理中”，则表示翻译在上传到系统之前必须通过批准。你应该直接使用你的Gengo帐户完成在这个操作</span>"
+"class=\"o_form_label\">注意：如果翻译状态是“处理中”，则表示翻译在上传到系统之前必须通过批准。你应该直接使用你的Gengo账户完成在这个操作</span>"
 
 #. module: base_gengo
 #: model_terms:ir.ui.view,arch_db:base_gengo.res_config_settings_view_form

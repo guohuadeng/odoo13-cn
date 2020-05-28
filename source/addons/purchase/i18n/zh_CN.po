@@ -1937,7 +1937,7 @@ msgid ""
 "This account is used in automated inventory valuation to record the price "
 "difference between a purchase order and its related vendor bill when "
 "validating this vendor bill."
-msgstr "此帐户用于自动库存评估，以在验证此供应商帐单时记录采购订单与其相关供应商帐单之间的价格差异。"
+msgstr "此账户用于自动库存评估，以在验证此供应商账单时记录采购订单与其相关供应商账单之间的价格差异。"
 
 #. module: purchase
 #: model:ir.model.fields,help:purchase.field_product_category__property_account_creditor_price_difference_categ
@@ -1971,13 +1971,13 @@ msgstr "本条备注被添加到采购订单"
 #: code:addons/purchase/models/account_invoice.py:0
 #, python-format
 msgid "This vendor bill has been created from: %s"
-msgstr "该供应商帐单已经从：%s创建"
+msgstr "该供应商账单已经从：%s创建"
 
 #. module: purchase
 #: code:addons/purchase/models/account_invoice.py:0
 #, python-format
 msgid "This vendor bill has been modified from: %s"
-msgstr "此供应商帐单已从%s修改"
+msgstr "此供应商账单已从%s修改"
 
 #. module: purchase
 #: model_terms:ir.actions.act_window,help:purchase.act_res_partner_2_purchase_order
@@ -2141,7 +2141,7 @@ msgstr "供应商账单"
 #: model_terms:ir.ui.view,arch_db:purchase.res_partner_view_purchase_account_buttons
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_bill_union_filter
 msgid "Vendor Bills"
-msgstr "供应商帐单"
+msgstr "供应商账单"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.view_purchase_order_search
