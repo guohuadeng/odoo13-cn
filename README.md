@@ -1,6 +1,10 @@
 # odoo 13 中文版专业版翻译，广州尚鹏 https://www.Sunpop.cn
 ---------------------------------------
 ## 更新过的模块 Log
+### 2020-05-28
+大量更新修正，并入transifex
+https://www.sunpop.cn/odoo13-chinese-translate-fix-bug/
+
 ### 2020-04-12
 陆续更新产品，财务相关，从底层到业务层规范了用语
 base, product, account
