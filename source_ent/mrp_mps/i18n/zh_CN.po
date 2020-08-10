@@ -520,7 +520,7 @@ msgstr "安排的日期"
 #. module: mrp_mps
 #: model:ir.model.fields,field_description:mrp_mps.field_mrp_production_schedule__sequence
 msgid "Sequence"
-msgstr "单号规则"
+msgstr "排序"
 
 #. module: mrp_mps
 #. openerp-web

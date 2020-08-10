@@ -312,7 +312,7 @@ msgstr "父级质量检查"
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_quality_point__routing_id
 msgid "Parent Routing"
-msgstr "父级工艺"
+msgstr "父级工艺路线"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet
@@ -478,12 +478,12 @@ msgstr "结果"
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.view_routing_steps_search
 msgid "Routing"
-msgstr "工艺"
+msgstr "工艺路线"
 
 #. module: mrp_workorder
 #: model:ir.model,name:mrp_workorder.model_mrp_routing
 msgid "Routings"
-msgstr "工艺"
+msgstr "工艺路线"
 
 #. module: mrp_workorder
 #: model_terms:ir.ui.view,arch_db:mrp_workorder.mrp_workorder_view_form_tablet_menu
@@ -568,7 +568,7 @@ msgid ""
 "The routing contains all the Work Centers used and for how long. This will "
 "create work orders afterwards which alters the execution of the "
 "manufacturing order."
-msgstr "工艺包含所有使用的工作中心以及使用时间。 这将在之后创建制造订单，并且会改变制造订单的执行。"
+msgstr "工艺路线包含所有使用的工作中心以及使用时间。 这将在之后创建制造订单，并且会改变制造订单的执行。"
 
 #. module: mrp_workorder
 #: model:ir.model.fields,field_description:mrp_workorder.field_res_config_settings__group_mrp_wo_tablet_timer

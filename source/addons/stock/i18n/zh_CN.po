@@ -4934,7 +4934,7 @@ msgstr "重订货最小数量"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
 msgid "Reordering Rule"
-msgstr "重订货规则"
+msgstr "安全库存订货规则"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_orderpoint_form
@@ -4945,12 +4945,12 @@ msgstr "重订货规则"
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_form
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_tree
 msgid "Reordering Rules"
-msgstr "订货规则"
+msgstr "安全库存订货规则"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
 msgid "Reordering Rules Search"
-msgstr "订货规则搜索"
+msgstr "安全库存订货规则搜索"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_product_replenish
@@ -6097,7 +6097,7 @@ msgstr "建立此移库动作的相应规则"
 msgid ""
 "The stock will be reserved for operations waiting for availability and the "
 "reordering rules will be triggered."
-msgstr "库存会保留给待料的事务，同时会触发相应重订货规则。"
+msgstr "库存会保留给待料的事务，同时会触发相应的安全库存订货规则。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__propagate_warehouse_id
@@ -7307,7 +7307,7 @@ msgstr "在仓库%s中仍然有正在进行的提取类型%s的操作"
 msgid ""
 "You still have some active reordering rules on this product. Please archive "
 "or delete them first."
-msgstr "您对此产品仍然有一些启用的重新排序规则。 请先停用或删除它们。"
+msgstr "您对此产品仍然有一些启用的安全库存订货规则。 请先停用或删除它们。"
 
 #. module: stock
 #: code:addons/stock/models/stock_location.py:0

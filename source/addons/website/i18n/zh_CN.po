@@ -4443,7 +4443,7 @@ msgstr "分离的链接"
 #: model:ir.model.fields,field_description:website.field_website_page__priority
 #: model:ir.model.fields,field_description:website.field_website_rewrite__sequence
 msgid "Sequence"
-msgstr "单号规则"
+msgstr "排序"
 
 #. module: website
 #: model:ir.model,name:website.model_ir_actions_server

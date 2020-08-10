@@ -52,7 +52,7 @@ msgstr "确认天数"
 #: model:ir.model.fields.selection,name:sale_enterprise.selection__sale_report__invoice_status__invoiced
 #: model_terms:ir.ui.view,arch_db:sale_enterprise.view_order_product_search_inherit
 msgid "Fully Invoiced"
-msgstr "已开具全额发票"
+msgstr "已全额开票"
 
 #. module: sale_enterprise
 #: model:ir.model.fields,field_description:sale_enterprise.field_sale_report__invoice_status
@@ -62,7 +62,7 @@ msgstr "发票状态"
 #. module: sale_enterprise
 #: model:ir.model.fields.selection,name:sale_enterprise.selection__sale_report__invoice_status__no
 msgid "Nothing to Invoice"
-msgstr "没有要开票的"
+msgstr "无需开票"
 
 #. module: sale_enterprise
 #: model_terms:ir.ui.view,arch_db:sale_enterprise.sale_report_view_dashboard

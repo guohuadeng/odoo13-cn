@@ -2455,7 +2455,7 @@ msgstr "在购物车被遗弃时发送一个恢复邮件"
 #: model:ir.model.fields,field_description:website_sale.field_product_image__sequence
 #: model:ir.model.fields,field_description:website_sale.field_product_public_category__sequence
 msgid "Sequence"
-msgstr "单号规则"
+msgstr "排序"
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.services

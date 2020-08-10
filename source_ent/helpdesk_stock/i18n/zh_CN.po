@@ -30,7 +30,7 @@ msgstr "客户"
 #. module: helpdesk_stock
 #: model_terms:ir.ui.view,arch_db:helpdesk_stock.view_stock_return_picking_form_inherit_helpdesk_stock
 msgid "Delivery to Return"
-msgstr ""
+msgstr "反向操作的调拨单"
 
 #. module: helpdesk_stock
 #: model:ir.model.fields,help:helpdesk_stock.field_helpdesk_ticket__tracking
@@ -50,7 +50,7 @@ msgstr "批次/序列号码"
 #. module: helpdesk_stock
 #: model:ir.model.fields,help:helpdesk_stock.field_helpdesk_ticket__lot_id
 msgid "Lot/Serial number concerned by the ticket"
-msgstr ""
+msgstr "工单对应的批次/序列号"
 
 #. module: helpdesk_stock
 #: model:ir.model.fields,field_description:helpdesk_stock.field_helpdesk_ticket__product_id
@@ -60,7 +60,7 @@ msgstr "产品"
 #. module: helpdesk_stock
 #: model:ir.model.fields,help:helpdesk_stock.field_helpdesk_ticket__product_id
 msgid "Product concerned by the ticket"
-msgstr ""
+msgstr "用于工单核算的产品"
 
 #. module: helpdesk_stock
 #: model:ir.model.fields,help:helpdesk_stock.field_stock_return_picking__sale_order_id
@@ -80,12 +80,12 @@ msgstr "退货"
 #: model:ir.model.fields,field_description:helpdesk_stock.field_helpdesk_ticket__picking_ids
 #, python-format
 msgid "Return Orders"
-msgstr ""
+msgstr "销售退货单"
 
 #. module: helpdesk_stock
 #: model:ir.model.fields,field_description:helpdesk_stock.field_helpdesk_ticket__pickings_count
 msgid "Return Orders Count"
-msgstr ""
+msgstr "退货汇总"
 
 #. module: helpdesk_stock
 #: model:ir.model,name:helpdesk_stock.model_stock_return_picking
@@ -105,7 +105,7 @@ msgstr "销售订单"
 #. module: helpdesk_stock
 #: model:ir.model.fields,field_description:helpdesk_stock.field_stock_return_picking__ticket_id
 msgid "Ticket"
-msgstr "门票"
+msgstr "工单"
 
 #. module: helpdesk_stock
 #: model:ir.model.fields,field_description:helpdesk_stock.field_helpdesk_ticket__tracking

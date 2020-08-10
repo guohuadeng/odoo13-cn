@@ -17831,7 +17831,7 @@ msgstr "管理联系标签，以更好地分类他们的跟踪和分析的目的
 #: model:ir.module.module,summary:base.module_mrp_plm
 msgid ""
 "Manage engineering change orders on products, bills of material and routings"
-msgstr "管理产品，物料清单和工艺的工程变更单"
+msgstr "管理产品，物料清单和工艺路线的工程变更单"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_account_accountant
@@ -22878,7 +22878,7 @@ msgstr "采购订单, 入库单, 库存Vendor 发票"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_requisition_stock
 msgid "Purchase Requisition Stock"
-msgstr "采购申请库存关联"
+msgstr "采购计划库存关联"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_purchase_stock
@@ -26486,7 +26486,7 @@ msgstr "运输"
 #: model:ir.model.fields.selection,name:base.selection__ir_ui_view__type__tree
 #: model_terms:ir.ui.view,arch_db:base.view_view_search
 msgid "Tree"
-msgstr "树形"
+msgstr "列表"
 
 #. module: base
 #: model:res.country,name:base.tt

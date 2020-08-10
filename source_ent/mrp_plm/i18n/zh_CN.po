@@ -122,7 +122,7 @@ msgstr "<span>新建</span>"
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
 msgid "<span>Routing</span><br/>"
-msgstr "<span>工艺</span><br/>"
+msgstr "<span>工艺路线</span><br/>"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_type_dashboard_view_kanban
@@ -423,7 +423,7 @@ msgstr ""
 #: code:addons/mrp_plm/models/mrp_eco.py:0
 #, python-format
 msgid "BoM and Routing"
-msgstr "物料清单以及工艺"
+msgstr "物料清单以及工艺路线"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_kanban
@@ -682,7 +682,7 @@ msgstr "ECO 复位"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__routing_change_ids
 msgid "ECO Routing Changes"
-msgstr "ECO 工艺变更"
+msgstr "ECO 工艺路线变更"
 
 #. module: mrp_plm
 #: model:ir.model,name:mrp_plm.model_mrp_eco_stage
@@ -772,12 +772,12 @@ msgstr "Eco BOM"
 #: code:addons/mrp_plm/models/mrp_eco.py:0
 #, python-format
 msgid "Eco Routing"
-msgstr "Eco 工艺"
+msgstr "Eco 工艺路线"
 
 #. module: mrp_plm
 #: model:ir.model,name:mrp_plm.model_mrp_eco_routing_change
 msgid "Eco Routing changes"
-msgstr "ECO 工艺变更"
+msgstr "ECO 工艺路线变更"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_kanban
@@ -1149,7 +1149,7 @@ msgstr "新的产品计量单位"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__new_routing_id
 msgid "New Routing"
-msgstr "新工艺"
+msgstr "新工艺路线"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_routing_change__new_time_cycle_manual
@@ -1322,7 +1322,7 @@ msgstr "前一个产品计量单位"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_routing__previous_routing_id
 msgid "Previous Routing"
-msgstr "前工艺"
+msgstr "前工艺路线"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_bom_change__old_product_qty
@@ -1455,28 +1455,28 @@ msgstr "角色"
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_search
 #, python-format
 msgid "Routing"
-msgstr "工艺"
+msgstr "工艺路线"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
 msgid "Routing Changes"
-msgstr "工艺变更"
+msgstr "工艺路线变更"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__new_routing_revision
 msgid "Routing Revision"
-msgstr "工艺修订版"
+msgstr "工艺路线修订版"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_kanban
 msgid "Routing:"
-msgstr "工艺:"
+msgstr "工艺路线:"
 
 #. module: mrp_plm
 #: model:ir.model,name:mrp_plm.model_mrp_routing
 #: model:ir.ui.menu,name:mrp_plm.menu_mrp_plm_routings
 msgid "Routings"
-msgstr "工艺"
+msgstr "工艺路线"
 
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco__message_has_sms_error
@@ -1736,7 +1736,7 @@ msgstr "更新文档"
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_eco_view_form
 msgid "Update Routing"
-msgstr "更新工艺"
+msgstr "更新工艺路线"
 
 #. module: mrp_plm
 #: model:res.groups,name:mrp_plm.group_plm_user
