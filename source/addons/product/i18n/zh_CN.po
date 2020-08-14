@@ -1709,13 +1709,6 @@ msgid "Print"
 msgstr "打印"
 
 #. module: product
-#: model:ir.model,name:product.model_product_product
-#: model:ir.model.fields,field_description:product.field_product_packaging__product_id
-#: model:ir.model.fields,field_description:product.field_product_pricelist_item__product_tmpl_id
-#: model:ir.model.fields,field_description:product.field_product_product__product_variant_id
-#: model:ir.model.fields,field_description:product.field_product_template__product_variant_id
-#: model:ir.model.fields.selection,name:product.selection__product_pricelist_item__applied_on__1_product
-#: model_terms:ir.ui.view,arch_db:product.product_kanban_view
 #: model_terms:ir.ui.view,arch_db:product.product_pricelist_item_view_search
 #: model_terms:ir.ui.view,arch_db:product.product_search_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_supplierinfo_form_view
@@ -1727,6 +1720,16 @@ msgstr "打印"
 #: model_terms:ir.ui.view,arch_db:product.product_template_tree_view
 msgid "Product"
 msgstr "产品"
+
+#. module: product
+#: model:ir.model,name:product.model_product_product
+#: model:ir.model.fields,field_description:product.field_product_packaging__product_id
+#: model:ir.model.fields,field_description:product.field_product_product__product_variant_id
+#: model:ir.model.fields,field_description:product.field_product_template__product_variant_id
+#: model:ir.model.fields.selection,name:product.selection__product_pricelist_item__applied_on__1_product
+#: model_terms:ir.ui.view,arch_db:product.product_kanban_view
+msgid "Product"
+msgstr "单品Sku"
 
 #. module: product
 #: model:ir.model,name:product.model_product_attribute
