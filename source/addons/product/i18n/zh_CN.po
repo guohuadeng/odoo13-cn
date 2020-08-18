@@ -915,7 +915,7 @@ msgid ""
 "Extra price for the variant with this attribute value on sale price. eg. 200"
 " price extra, 1000 + 200 = 1200."
 msgstr ""
-"累加单价: 单品Sku的销售价格随着累加单价进行变化,如:原销售单价是1000,累加单价是200,则该单品Sku售价是1200 = 1000 + 200."
+"阶梯促销价: 单品Sku的销售价格随着阶梯促销价进行变化,如:原销售单价是1000,阶梯促销价是200,则该单品Sku售价是1200 = 1000 + 200."
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_item__fixed_price
@@ -2484,7 +2484,7 @@ msgstr "值"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_template_attribute_value__price_extra
 msgid "Value Price Extra"
-msgstr "累加单价"
+msgstr "阶梯促销价"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute__value_ids

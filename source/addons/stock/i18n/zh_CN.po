@@ -1810,7 +1810,7 @@ msgid ""
 "Depending on the modules installed, this will allow you to define the route "
 "of the product: whether it will be bought, manufactured, replenished on "
 "order, etc."
-msgstr "根据所安装的模块，这将允许您定义路由。
+msgstr "根据所安装的模块，这将允许您定义路由。"
 "产品:是否会购买，制造，补充"
 "订单，等。"
 
@@ -2055,8 +2055,8 @@ msgstr "Easypost 接口"
 msgid ""
 "Editing quantities in an Inventory Adjustment location is forbidden,those "
 "locations are used as counterpart when correcting the quantities."
-msgstr "禁止在存货调整地点编辑数量，其中
-"修正数量时，地点作为对照。"
+msgstr "禁止在盘点区位编辑数量，此区位的初始数量是用于"
+"做盘盈盘亏时的参照数量。"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
@@ -6642,7 +6642,7 @@ msgid ""
 "Use this assistant to replenish your stock.\n"
 "                Depending on your product configuration, launching a replenishment may trigger a request for quotation,\n"
 "                a manufacturing order or a transfer."
-msgstr "用这个助手补充你的存货，根据您的产品配置，启动补货可能会触发一个报价请求，\n
+msgstr "用这个助手补充你的存货，根据您的产品配置，启动补货可能会触发一个报价请求，\n"
 "制造订单或转让。"
 
 #. module: stock
