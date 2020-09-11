@@ -1096,7 +1096,7 @@ msgstr "此时禁止更改此记录的公司，您应该将其停用并创建一
 #: code:addons/stock/models/stock_picking.py:0
 #, python-format
 msgid "Changing the operation type of this record is forbidden at this point."
-msgstr "此时禁止更改此记录的调拨类型。"
+msgstr "此时禁止更改此记录的作业类型。"
 
 #. module: stock
 #: code:addons/stock/models/stock_move_line.py:0
@@ -1395,7 +1395,7 @@ msgstr "创建新库存调整"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.stock_picking_type_action
 msgid "Create a new operation type"
-msgstr "作业新调拨类型"
+msgstr "作业新作业类型"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_package_view
@@ -2592,7 +2592,7 @@ msgid ""
 "If this is checked, you will be able to choose the Lots/Serial Numbers. You "
 "can also decide to not put lots in this operation type.  This means it will "
 "create stock with no lot or not put a restriction on the lot taken. "
-msgstr "如果选中此项，您将可以选择批次/序列号。 您也可以决定不要在这种调拨类型中投入很多。 这意味着它将创造出没有多少的库存，或者不会限制措施。"
+msgstr "如果选中此项，您将可以选择批次/序列号。 您也可以决定不要在这种作业类型中投入很多。 这意味着它将创造出没有多少的库存，或者不会限制措施。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__backorder_id
@@ -3771,12 +3771,12 @@ msgstr "只有库存经理可以验证库存调整。"
 #: model_terms:ir.ui.view,arch_db:stock.view_pickingtype_filter
 #, python-format
 msgid "Operation Type"
-msgstr "调拨类型"
+msgstr "作业类型"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__return_picking_type_id
 msgid "Operation Type for Returns"
-msgstr "退回的调拨类型"
+msgstr "退回的作业类型"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
@@ -3784,7 +3784,7 @@ msgstr "退回的调拨类型"
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_tree
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse
 msgid "Operation Types"
-msgstr "调拨类型"
+msgstr "作业类型"
 
 #. module: stock
 #: code:addons/stock/models/stock_quant.py:0
@@ -3795,12 +3795,12 @@ msgstr "不支持该操作"
 #. module: stock
 #: model:ir.actions.report,name:stock.action_report_picking_type_label
 msgid "Operation type (PDF)"
-msgstr "调拨类型（PDF)"
+msgstr "作业类型（PDF)"
 
 #. module: stock
 #: model:ir.actions.report,name:stock.label_picking_type
 msgid "Operation type (ZPL)"
-msgstr "调拨类型(ZPL)"
+msgstr "作业类型(ZPL)"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__move_line_ids
@@ -3815,7 +3815,7 @@ msgstr "作业"
 #: model:ir.actions.act_window,name:stock.action_picking_type_list
 #: model:ir.ui.menu,name:stock.menu_pickingtype
 msgid "Operations Types"
-msgstr "调拨类型"
+msgstr ""
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__move_line_ids_without_package
@@ -5993,7 +5993,7 @@ msgid ""
 "                operation a specific type which will alter its views accordingly.\n"
 "                On the operation type you could e.g. specify if packing is needed by default,\n"
 "                if it should show the customer."
-msgstr "调拨类型系统允许您为每个库存分配一个特定的类型，该类型将相应地改变其视图。在调拨类型上，您可以指定是否需要包装，是否应该向客户显示等作业。"
+msgstr "作业类型系统允许您为每个库存分配一个特定的类型，该类型将相应地改变其视图。在作业类型上，您可以指定是否需要包装，是否应该向客户显示等作业。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_quant__package_id
@@ -6148,7 +6148,7 @@ msgid ""
 "this operation type. It is possible however to change it or that the routes "
 "put another location. If it is empty, it will check for the supplier "
 "location on the partner. "
-msgstr "这是使用此调拨类型手动创建拣货时的默认目标位置。 但是可以改变它或者路线放置另一个位置。 如果它是空的，它将检查合作伙伴上的客户位置。"
+msgstr "这是使用此作业类型手动创建拣货时的默认目标位置。 但是可以改变它或者路线放置另一个位置。 如果它是空的，它将检查合作伙伴上的客户位置。"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_production_lot_form
@@ -6473,7 +6473,7 @@ msgstr "类型"
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__code
 #: model_terms:ir.ui.view,arch_db:stock.view_pickingtype_filter
 msgid "Type of Operation"
-msgstr "调拨方向"
+msgstr "调拨方向类型"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__activity_exception_decoration
@@ -6995,7 +6995,7 @@ msgid ""
 "You are not allowed to create a lot or serial number with this operation "
 "type. To change this, go on the operation type and tick the box \"Create New"
 " Lots/Serial Numbers\"."
-msgstr "在此调拨类型下不能创建批次或者序列号。要更改此设置，请在相应的调拨类型下勾选“创建新的批次 / 序列号” 选项。"
+msgstr "在此作业类型下不能创建批次或者序列号。要更改此设置，请在相应的作业类型下勾选“创建新的批次 / 序列号” 选项。"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_package_destination_form_view
