@@ -300,7 +300,7 @@ msgstr "件"
 #. module: uom
 #: model:ir.model.fields,field_description:uom.field_uom_uom__name
 msgid "Unit of Measure"
-msgstr "单位"
+msgstr "单位名称"
 
 #. module: uom
 #: model:ir.model.fields,field_description:uom.field_uom_category__name
@@ -338,7 +338,7 @@ msgid ""
 "            <i>'Time'</i>, you will have the following units of measure:\n"
 "            Hours, Days."
 msgstr ""
-"属于相同类别的测量单位可以在彼此之间转换。\n"
+"属于相同类别的计量单位可以在彼此之间转换。\n"
 "例如，在类别<i>'Time'</i>中，\n"
 "您将有以下计量单位：小时，天。"
 
@@ -438,6 +438,11 @@ msgstr "千米"
 #: model:uom.uom,name:uom.product_uom_lb
 msgid "lbs"
 msgstr "磅"
+
+#. module: uom
+#: model:uom.uom,name:uom.product_uom_meter
+msgid "m"
+msgstr "米"
 
 #. module: uom
 #: model:uom.uom,name:uom.product_uom_mile

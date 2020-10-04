@@ -942,7 +942,7 @@ msgstr "公司"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_bom_filter
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
 msgid "Component"
-msgstr "组件"
+msgstr "组件Sku"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_production_filter
@@ -968,7 +968,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_product_produce_wizard
 msgid "Components"
-msgstr "组件"
+msgstr "组件Sku"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__location_src_id
@@ -2952,7 +2952,7 @@ msgstr "产品"
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line__product_uom_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__product_uom_id
 msgid "Product Unit of Measure"
-msgstr "产品计量单位"
+msgstr "计量单位"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__product_id

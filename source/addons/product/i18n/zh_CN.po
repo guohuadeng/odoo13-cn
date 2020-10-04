@@ -759,7 +759,7 @@ msgstr "默认 %(currency)s 价目表"
 #: model:ir.model.fields,help:product.field_product_product__uom_id
 #: model:ir.model.fields,help:product.field_product_template__uom_id
 msgid "Default unit of measure used for all stock operations."
-msgstr "所有库存商品的缺省单位。"
+msgstr "所有库存商品的标准单位。"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__uom_po_id
@@ -1955,7 +1955,7 @@ msgstr "采购说明"
 #: model:ir.model.fields,field_description:product.field_product_product__uom_po_id
 #: model:ir.model.fields,field_description:product.field_product_template__uom_po_id
 msgid "Purchase Unit of Measure"
-msgstr "采购计量单位"
+msgstr "采购标准单位"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__min_qty
@@ -2372,10 +2372,14 @@ msgid "Type of the exception activity on record."
 msgstr "记录的例外活动类型。"
 
 #. module: product
-#: model:ir.model.fields,field_description:product.field_product_packaging__product_uom_id
 #: model:ir.model.fields,field_description:product.field_product_product__uom_id
-#: model:ir.model.fields,field_description:product.field_product_supplierinfo__product_uom
 #: model:ir.model.fields,field_description:product.field_product_template__uom_id
+msgid "Unit of Measure"
+msgstr "标准单位"
+
+#. module: product
+#: model:ir.model.fields,field_description:product.field_product_packaging__product_uom_id
+#: model:ir.model.fields,field_description:product.field_product_supplierinfo__product_uom
 msgid "Unit of Measure"
 msgstr "计量单位"
 

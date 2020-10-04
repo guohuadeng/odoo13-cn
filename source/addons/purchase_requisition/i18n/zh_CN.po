@@ -136,7 +136,7 @@ msgstr "计划类型"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.res_config_settings_view_form
 msgid "Agreement Types"
-msgstr "采购计划单类型"
+msgstr "采购类型"
 
 #. module: purchase_requisition
 #: model:ir.model.fields,field_description:purchase_requisition.field_purchase_requisition_line__account_analytic_id
@@ -573,7 +573,7 @@ msgstr "采购计划单"
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_type_form
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_type_tree
 msgid "Purchase Agreement Types"
-msgstr "采购计划单类型"
+msgstr "采购类型"
 
 #. module: purchase_requisition
 #: model:ir.actions.act_window,name:purchase_requisition.action_purchase_requisition
@@ -623,7 +623,7 @@ msgstr "采购计划单明细"
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_requisition_type
 msgid "Purchase Requisition Type"
-msgstr "采购计划单类型"
+msgstr "采购类型"
 
 #. module: purchase_requisition
 #: model:ir.actions.act_window,name:purchase_requisition.act_res_partner_2_purchase_order
