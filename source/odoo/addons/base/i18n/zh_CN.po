@@ -14443,7 +14443,7 @@ msgstr "芬兰"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_lang__week_start
 msgid "First Day of Week"
-msgstr "每周五天"
+msgstr "每周第一天"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_mx_reports_closing

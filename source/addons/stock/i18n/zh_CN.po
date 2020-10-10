@@ -1557,9 +1557,9 @@ msgid ""
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
 msgstr ""
 "当前产品数量。 \n"
-"对单一库存位置来说，包括了此位置或其任何子位置所存储的产品。 \n"
+"对单一库存区位来说，包括了此位置或其任何子位置所存储的产品。 \n"
 "对单一库存来说，包括了此仓位置置或其任何子位置所存储的产品。  \n"
-"另外，这包括了所有'内部'类型的任何库存位置所存储的产品。"
+"另外，这包括了所有'内部'类型的任何库存区位所存储的产品。"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_location_search
@@ -1768,7 +1768,7 @@ msgstr "送货地址"
 #: model:stock.picking.type,name:stock.picking_type_out
 #, python-format
 msgid "Delivery Orders"
-msgstr "交货单"
+msgstr "出库单"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__group_stock_tracking_lot
@@ -2237,9 +2237,9 @@ msgid ""
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
 msgstr ""
 "预测数量(计算为手上数量 - 出库 + 入库) \n"
-"对于单一库存位置来说，这包括了存储在此位置及其子位置的货物。\n"
-"对于单一库存来说，这包括了存储在此库存的库存位置及其子位置的货物。\n"
-"否则，这包括存储在任何“内部”类型的任何库存位置的货物。"
+"对于单一库存区位来说，这包括了存储在此位置及其子位置的货物。\n"
+"对于单一库存来说，这包括了存储在此库存的库存区位及其子位置的货物。\n"
+"否则，这包括存储在任何“内部”类型的任何库存区位的货物。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_product__free_qty
@@ -2249,9 +2249,9 @@ msgid ""
 "In a context with a single Warehouse, this includes goods stored in the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods stored in any Stock Location with 'internal' type."
 msgstr "预测数量(以一手数量计算-预留数量)\n"
-"在具有单一库存位置的上下文中，这包括存储在此位置的货物，或其任何子位置。\n"
-"在具有单个仓库的上下文中，这包括存储在该仓库的库存位置的货物，或者它的任何子仓库。\n"
-"否则，这包括存储在‘内部’类型的任何库存位置的货物。"
+"在具有单一库存区位的上下文中，这包括存储在此位置的货物，或其任何子位置。\n"
+"在具有单个仓库的上下文中，这包括存储在该仓库的库存区位的货物，或者它的任何子仓库。\n"
+"否则，这包括存储在‘内部’类型的任何库存区位的货物。"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__report_stock_quantity__state__out
@@ -2677,7 +2677,7 @@ msgstr "送货日期"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__reception_steps
 msgid "Incoming Shipments"
-msgstr "入库"
+msgstr "入库作业模式"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_inventory_line__difference_qty
@@ -2703,7 +2703,7 @@ msgstr "进货"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__wh_input_stock_loc_id
 msgid "Input Location"
-msgstr "进货位置"
+msgstr "入库区位"
 
 #. module: stock
 #: code:addons/stock/models/stock_scrap.py:0
@@ -2842,12 +2842,12 @@ msgstr "盘点明细行"
 #: model:ir.model.fields,field_description:stock.field_product_product__property_stock_inventory
 #: model:ir.model.fields,field_description:stock.field_product_template__property_stock_inventory
 msgid "Inventory Location"
-msgstr "库存位置"
+msgstr "库存区位"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_location
 msgid "Inventory Locations"
-msgstr "库存位置"
+msgstr "库存区位"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_location__usage__inventory
@@ -3176,7 +3176,7 @@ msgstr "位置名称"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__lot_stock_id
 msgid "Location Stock"
-msgstr "库存位置"
+msgstr "库存区位"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location__usage
@@ -3346,7 +3346,7 @@ msgstr "管理批次/序列号"
 #. module: stock
 #: model:res.groups,name:stock.group_stock_multi_locations
 msgid "Manage Multiple Stock Locations"
-msgstr "管理多个库存位置"
+msgstr "管理多个库存区位"
 
 #. module: stock
 #: model:res.groups,name:stock.group_stock_multi_warehouses
@@ -3907,7 +3907,7 @@ msgstr "发出"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__delivery_steps
 msgid "Outgoing Shipments"
-msgstr "出向运输"
+msgstr "出库作业模式"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:0
@@ -3918,7 +3918,7 @@ msgstr "出货"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__wh_output_stock_loc_id
 msgid "Output Location"
-msgstr "出货位置"
+msgstr "出库区位"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_overprocessed_transfer__overprocessed_product_name
@@ -4083,7 +4083,7 @@ msgstr "包装"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__wh_pack_stock_loc_id
 msgid "Packing Location"
-msgstr "打包位置"
+msgstr "打包区位"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:0
@@ -4601,7 +4601,7 @@ msgstr "质量管理"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__wh_qc_stock_loc_id
 msgid "Quality Control Location"
-msgstr "质量管理位置"
+msgstr "质检区位"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location__quant_ids
@@ -4699,9 +4699,9 @@ msgid ""
 "Otherwise, this includes goods arriving to any Stock Location with 'internal' type."
 msgstr ""
 "计划出货产品的数量。\n"
-"在单个库存位置的情况下，这包括离开该位置或其任何子位置的货品。\n"
-"在单个库存的情况下，这包括离开库存的库存位置或其任何子位置的货物。\n"
-"否则，这包括任何离开“内部”类型库存位置的货物。"
+"在单个库存区位的情况下，这包括离开该位置或其任何子位置的货品。\n"
+"在单个库存的情况下，这包括离开库存的库存区位或其任何子位置的货物。\n"
+"否则，这包括任何离开“内部”类型库存区位的货物。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_product__outgoing_qty
@@ -4797,7 +4797,7 @@ msgstr "收货路线"
 #: model:stock.picking.type,name:stock.picking_type_in
 #, python-format
 msgid "Receipts"
-msgstr "入库"
+msgstr "入库单"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
@@ -5433,7 +5433,7 @@ msgstr "货架(Y)"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse
 msgid "Shipments"
-msgstr "运输"
+msgstr "库存操作"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -5638,12 +5638,12 @@ msgstr "库存盘点明细行"
 #: model_terms:ir.ui.view,arch_db:stock.view_location_form
 #: model_terms:ir.ui.view,arch_db:stock.view_location_tree2
 msgid "Stock Location"
-msgstr "库存位置"
+msgstr "库存区位"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_location_search
 msgid "Stock Locations"
-msgstr "库存位置"
+msgstr "库存区位"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_move
@@ -6267,7 +6267,7 @@ msgstr "该位置将被使用以替换默认值，同样，库存移动的源位
 msgid ""
 "This stock location will be used, instead of the default one, as the source "
 "location for stock moves generated when you do an inventory."
-msgstr "此库存位置将被使用以替换默认的，当你做盘点时，同样的作为根据制造单生成的库存移动之源位置。"
+msgstr "此库存区位将被使用以替换默认的，当你做盘点时，同样的作为根据制造单生成的库存移动之源位置。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_product_product__responsible_id
@@ -6799,7 +6799,7 @@ msgstr "传导的仓库"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse
 msgid "Warehouse view location"
-msgstr "仓库视图位置"
+msgstr "仓库视图区位"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:0

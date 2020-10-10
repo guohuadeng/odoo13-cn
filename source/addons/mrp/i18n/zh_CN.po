@@ -2114,7 +2114,7 @@ msgstr "制造(1 步)"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__manufacture_mto_pull_id
 msgid "Manufacture MTO Rule"
-msgstr ""
+msgstr "制造的MTO规则"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__manufacture_pull_id
@@ -2170,7 +2170,7 @@ msgstr "制造提前期(日)"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__manu_type_id
 msgid "Manufacturing Operation Type"
-msgstr "生产操作类型"
+msgstr "制造操作类型"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_change_production_qty__mo_id
@@ -2692,32 +2692,32 @@ msgstr "捡取组件制造，然后储存产品 (3 步)"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__pbm_mto_pull_id
 msgid "Picking Before Manufacturing MTO Rule"
-msgstr "在制造（按订单补货）MTO规则之前拣货"
+msgstr "制造前领料的规则(MTO按订单补货)"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__pbm_type_id
 msgid "Picking Before Manufacturing Operation Type"
-msgstr "在制造作业类型前拣货"
+msgstr "制造前领料的作业类型"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__pbm_route_id
 msgid "Picking Before Manufacturing Route"
-msgstr "在制造路线前拣货"
+msgstr "制造前领料的高级路线"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_picking_type
 msgid "Picking Type"
-msgstr "拣货类型"
+msgstr "作业类型"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__picking_ids
 msgid "Picking associated to this manufacturing order"
-msgstr "与此制造订单相关的拣货"
+msgstr "与此制造订单相关的作业"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__pbm_loc_id
 msgid "Picking before Manufacturing Location"
-msgstr "在制造位置前拣货"
+msgstr "制造前领料的区位"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -3643,12 +3643,12 @@ msgstr ""
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__sam_type_id
 msgid "Stock After Manufacturing Operation Type"
-msgstr "制造运营类型后的库存"
+msgstr "制造完工后的作业类型"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__sam_rule_id
 msgid "Stock After Manufacturing Rule"
-msgstr "制造规则后的库存"
+msgstr "制造完工后的库存规则"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_move
@@ -3673,7 +3673,7 @@ msgstr "库存规则"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_warehouse__sam_loc_id
 msgid "Stock after Manufacturing Location"
-msgstr "制造地点后的库存"
+msgstr "完工产成品的存放区位"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_report_stock_report_stock_rule
