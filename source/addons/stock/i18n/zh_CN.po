@@ -2842,7 +2842,7 @@ msgstr "盘点明细行"
 #: model:ir.model.fields,field_description:stock.field_product_product__property_stock_inventory
 #: model:ir.model.fields,field_description:stock.field_product_template__property_stock_inventory
 msgid "Inventory Location"
-msgstr "库存区位"
+msgstr "盘点区位"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_location

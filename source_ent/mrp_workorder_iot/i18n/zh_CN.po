@@ -213,7 +213,7 @@ msgstr "验证"
 #. module: mrp_workorder_iot
 #: model:ir.model,name:mrp_workorder_iot.model_mrp_workcenter
 msgid "Work Center"
-msgstr "工作中心"
+msgstr "生产单位"
 
 #. module: mrp_workorder_iot
 #: model:ir.model,name:mrp_workorder_iot.model_mrp_workorder
@@ -223,4 +223,4 @@ msgstr "工单"
 #. module: mrp_workorder_iot
 #: model:ir.model.fields,field_description:mrp_workorder_iot.field_iot_trigger__workcenter_id
 msgid "Workcenter"
-msgstr "工作中心"
+msgstr "生产单位"

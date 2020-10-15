@@ -1792,12 +1792,12 @@ msgstr "网上沟通记录"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_routing_change__workcenter_id
 msgid "Work Center"
-msgstr "工作中心"
+msgstr "生产单位"
 
 #. module: mrp_plm
 #: model:ir.ui.menu,name:mrp_plm.menu_mrp_plm_workcenters
 msgid "Work Centers"
-msgstr "工作中心"
+msgstr "生产单位"
 
 #. module: mrp_plm
 #: code:addons/mrp_plm/models/mrp_eco.py:0
