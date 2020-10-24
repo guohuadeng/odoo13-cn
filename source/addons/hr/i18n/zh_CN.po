@@ -2577,7 +2577,7 @@ msgstr "未读消息计数器"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_public__user_id
 #: model:ir.model.fields,field_description:hr.field_resource_resource__user_id
 msgid "User"
-msgstr "用户"
+msgstr "绑定的系统用户"
 
 #. module: hr
 #: code:addons/hr/models/hr_plan.py:0

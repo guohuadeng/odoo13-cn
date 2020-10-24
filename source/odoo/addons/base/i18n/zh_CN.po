@@ -2045,7 +2045,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"允许外包服务。该模块允许销售提供的服务\n"
+"允许委外服务。该模块允许销售提供的服务\n"
 "并自动生成给供应商的采购订单。\n"
 "    "
 
@@ -23819,7 +23819,7 @@ msgstr "销售订阅仪表板"
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_purchase
 msgid "Sale based on service outsourcing."
-msgstr "基于服务外包的销售。"
+msgstr "基于服务委外的销售。"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_enterprise
