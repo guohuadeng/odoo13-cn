@@ -887,7 +887,7 @@ msgstr "变更待生产数量"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Check availability"
-msgstr "检查可用性"
+msgstr "库存预留"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document__checksum
@@ -3251,7 +3251,7 @@ msgstr "重新安排，如果高于"
 #: model_terms:ir.ui.view,arch_db:mrp.view_stock_move_lots
 #: model_terms:ir.ui.view,arch_db:mrp.view_stock_move_raw_tree
 msgid "Reserved"
-msgstr "已保留"
+msgstr "已预留"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__resource_id
@@ -3768,7 +3768,7 @@ msgstr "技术领域来检查何时可以发布"
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__unreserve_visible
 msgid "Technical field to check when we can unreserve"
-msgstr "技术领域来检查何时可以保留"
+msgstr "技术字段，是否显示取消预留"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_workorder__production_availability
@@ -4302,7 +4302,7 @@ msgstr "未读消息计数器"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Unreserve"
-msgstr "取消保留"
+msgstr "取消预留"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
