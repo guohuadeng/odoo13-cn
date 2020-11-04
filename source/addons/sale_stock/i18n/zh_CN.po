@@ -553,7 +553,7 @@ msgstr "一次运送所有产品"
 #. module: sale_stock
 #: model:ir.model.fields.selection,name:sale_stock.selection__res_config_settings__default_picking_policy__direct
 msgid "Ship products as soon as available, with back orders"
-msgstr "尽快运送产品，并退回订单"
+msgstr "有货就发，数量不足时生成欠单"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__picking_policy
