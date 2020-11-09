@@ -479,12 +479,12 @@ msgstr "<strong>订单:</strong>"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
 msgid "<strong>Package Type:</strong>"
-msgstr "<strong>包裹包类型:</strong>"
+msgstr "<strong>装箱类型:</strong>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Package</strong>"
-msgstr "<strong>包裹</strong>"
+msgstr "<strong>箱码</strong>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
@@ -872,7 +872,7 @@ msgstr "可用的产品"
 #: model:ir.model.fields,field_description:stock.field_stock_move__backorder_id
 #: model:ir.model.fields,field_description:stock.field_stock_picking__backorder_id
 msgid "Back Order of"
-msgstr "欠单"
+msgstr "上次作业"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__backorder_ids
@@ -1400,7 +1400,7 @@ msgstr "作业新作业类型"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_package_view
 msgid "Create a new package"
-msgstr "创建新包裹"
+msgstr "创建新包裹(箱码)"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.product_template_action_product
@@ -1773,7 +1773,7 @@ msgstr "出库单"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__group_stock_tracking_lot
 msgid "Delivery Packages"
-msgstr "交货包裹"
+msgstr "交货箱码"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__delivery_route_id
@@ -2011,7 +2011,7 @@ msgstr "用于在出库单上显示的批次 / 序列号"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.package_level_tree_view_picking
 msgid "Display package content"
-msgstr "显示包裹内容"
+msgstr "显示装箱内容"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__qty_done
@@ -2399,12 +2399,12 @@ msgstr "有移动行"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__move_line_exist
 msgid "Has Pack Operations"
-msgstr "有包裹作业"
+msgstr "有装箱作业"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__has_packages
 msgid "Has Packages"
-msgstr "有包裹"
+msgstr "有装箱"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__has_scrap_move
@@ -2903,7 +2903,7 @@ msgstr "关注者"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_package_level__is_fresh_package
 msgid "Is Fresh Package"
-msgstr "是新鲜包裹"
+msgstr "是新箱码"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__is_locked
@@ -3356,7 +3356,7 @@ msgstr "管理多个仓库"
 #. module: stock
 #: model:res.groups,name:stock.group_tracking_lot
 msgid "Manage Packages"
-msgstr "管理包裹"
+msgstr "管理装箱箱码"
 
 #. module: stock
 #: model:res.groups,name:stock.group_adv_location
@@ -3469,7 +3469,7 @@ msgstr "移动详情"
 #: model:ir.model.fields,field_description:stock.field_stock_picking__picking_type_entire_packs
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__show_entire_packs
 msgid "Move Entire Packages"
-msgstr "移动整个包裹"
+msgstr "移动整个装箱"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__move_line_ids
@@ -3820,7 +3820,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__move_line_ids_without_package
 msgid "Operations without package"
-msgstr "无包裹作业"
+msgstr "无装箱作业"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__partner_id
@@ -3969,12 +3969,12 @@ msgstr "PRINT"
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_line__package_id
 #, python-format
 msgid "Pack"
-msgstr "包裹"
+msgstr "箱码"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__pack_type_id
 msgid "Pack Type"
-msgstr "包裹类型"
+msgstr "箱规"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__delivery_steps__pick_pack_ship
@@ -3993,66 +3993,66 @@ msgstr "包装产品， 发送到待出货区，再送货（3步发货)"
 #: model_terms:ir.ui.view,arch_db:stock.view_quant_package_form
 #: model_terms:ir.ui.view,arch_db:stock.view_quant_package_tree
 msgid "Package"
-msgstr "包裹"
+msgstr "箱码"
 
 #. module: stock
 #: model:ir.actions.report,name:stock.action_report_quant_package_barcode_small
 msgid "Package Barcode (PDF)"
-msgstr "包裹条码 (PDF)"
+msgstr "箱码条码 (PDF)"
 
 #. module: stock
 #: model:ir.actions.report,name:stock.label_package_template
 msgid "Package Barcode (ZPL)"
-msgstr "包裹条码 (ZPL)"
+msgstr "箱码条码 (ZPL)"
 
 #. module: stock
 #: model:ir.actions.report,name:stock.action_report_quant_package_barcode
 msgid "Package Barcode with Content"
-msgstr "有内容物的包裹条码"
+msgstr "有物资的箱码"
 
 #. module: stock
 #: code:addons/stock/models/stock_package_level.py:0
 #, python-format
 msgid "Package Content"
-msgstr "包裹内容"
+msgstr "装箱内容"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__package_level_id
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__package_level_id
 #: model:ir.model.fields,field_description:stock.field_stock_picking__package_level_ids
 msgid "Package Level"
-msgstr "包裹层级"
+msgstr "装箱层级"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__package_level_ids_details
 msgid "Package Level Ids Details"
-msgstr "包裹层级ids 详情"
+msgstr "装箱层级ids 详情"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.quant_package_search_view
 msgid "Package Name"
-msgstr "包裹名称"
+msgstr "箱码"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_quant_package__name
 #: model_terms:ir.ui.view,arch_db:stock.view_quant_package_form
 msgid "Package Reference"
-msgstr "包裹参考"
+msgstr "箱码"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_quant_package_form
 msgid "Package Transfers"
-msgstr "包裹调拨"
+msgstr "装箱调拨"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_quant_package__packaging_id
 msgid "Package Type"
-msgstr "包裹类型"
+msgstr "箱规"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_package_barcode_small
 msgid "Package Type:"
-msgstr "包裹类型："
+msgstr "箱规："
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_package_view
@@ -4061,7 +4061,7 @@ msgstr "包裹类型："
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "Packages"
-msgstr "包裹"
+msgstr "包裹(箱码)"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_package_view
@@ -4072,13 +4072,13 @@ msgid ""
 " A package can also be unpacked, allowing the disposal of its former content"
 " as single units again."
 msgstr ""
-"包裹通常是由包装作业员在调拨时创建的，并且能够包含多个不同产品。你可以把包裹里面的东西拿出之放在别处并再次重用此包裹，或者把此包裹打包在更大的包裹中。一个包裹可以被拆解，让包裹之前的内容作为单一的单位弃置。"
+"包裹(箱码)通常是由包装作业员在调拨时创建的，并且能够包含多个不同产品。你可以把包裹里面的东西拿出之放在别处并再次重用此，或者把此包裹打包在更大的包裹中。一个包裹可以被拆解，让包裹之前的内容作为单一的单位弃置。"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.quant_package_search_view
 #: model_terms:ir.ui.view,arch_db:stock.stock_inventory_line_search
 msgid "Packaging"
-msgstr "包装"
+msgstr "包裹(箱码)"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__wh_pack_stock_loc_id
@@ -4540,12 +4540,12 @@ msgstr "推"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Put in Pack"
-msgstr "放入包裹"
+msgstr "装箱"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Put your products in packs (e.g. parcels, boxes) and track them"
-msgstr "把你的产品放入包装（例如包裹，包装盒）并追溯它们"
+msgstr "把你的产品放入包裹（例如集装箱，包装盒）并追溯它们"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_putaway_rule
@@ -4895,7 +4895,7 @@ msgstr "登记产品接收"
 #: model_terms:ir.ui.view,arch_db:stock.view_move_kandan
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Register lots, packs, location"
-msgstr "登记批次，包裹，位置"
+msgstr "登记批次，包裹(箱码)，位置"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -5566,12 +5566,12 @@ msgstr "源位置："
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__package_id
 #: model_terms:ir.ui.view,arch_db:stock.view_move_line_form
 msgid "Source Package"
-msgstr "源包裹"
+msgstr "源箱码"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.message_body
 msgid "Source Package :"
-msgstr "源包裹："
+msgstr "源箱码："
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_inventory__product_ids
@@ -5684,7 +5684,7 @@ msgstr "库存作业"
 #. module: stock
 #: model:ir.model,name:stock.model_stock_package_destination
 msgid "Stock Package Destination"
-msgstr "包裹目的地"
+msgstr "包裹(箱码)目的地"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_package_level
@@ -5998,7 +5998,7 @@ msgstr "作业类型系统允许您为每个库存分配一个特定的类型，
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_quant__package_id
 msgid "The package containing this quant"
-msgstr "该包裹包含此数量"
+msgstr "该箱码包含此数量"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_location__location_id
@@ -6562,7 +6562,7 @@ msgstr "计量单位"
 #: code:addons/stock/models/stock_quant.py:0
 #, python-format
 msgid "Unknown Pack"
-msgstr "未知包裹"
+msgstr "未知箱码"
 
 #. module: stock
 #: code:addons/stock/models/stock_picking.py:0

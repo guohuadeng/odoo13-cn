@@ -1516,7 +1516,7 @@ msgstr "其他价格表"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_packaging__name
 msgid "Package Type"
-msgstr "包裹类型"
+msgstr "箱规"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_packaging_form_view
