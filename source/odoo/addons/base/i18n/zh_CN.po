@@ -9547,7 +9547,7 @@ msgstr "管理"
 #: model:ir.model.fields,help:base.field_res_country_state__name
 msgid ""
 "Administrative divisions of a country. E.g. Fed. State, Departement, Canton"
-msgstr "一个国家的行政区划. E.g. 省/州, 部, 区"
+msgstr "一个国家的行政区划. E.g. 省/直辖市, 部, 区"
 
 #. module: base
 #: code:addons/base/models/ir_model.py:0 code:addons/base/models/ir_model.py:0
@@ -14073,12 +14073,12 @@ msgstr "传真"
 #: model:ir.model.fields,field_description:base.field_res_bank__state
 #: model:ir.model.fields,field_description:base.field_res_company__state_id
 msgid "Fed. State"
-msgstr "省/州"
+msgstr "省/直辖市"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_country_state
 msgid "Fed. States"
-msgstr "省/州"
+msgstr "省/直辖市"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery_fedex
@@ -24825,17 +24825,17 @@ msgstr "开始配置"
 #: model_terms:ir.ui.view,arch_db:base.view_partner_short_form
 #: model_terms:ir.ui.view,arch_db:base.view_res_bank_form
 msgid "State"
-msgstr "省/ 州"
+msgstr "省/直辖市"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country_state__code
 msgid "State Code"
-msgstr "省/ 州代码"
+msgstr "省/直辖市代码"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country_state__name
 msgid "State Name"
-msgstr "省/ 州名称"
+msgstr "省/直辖市名称"
 
 #. module: base
 #: model:res.country,name:base.ps
@@ -24850,7 +24850,7 @@ msgstr "公司状态"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country__state_ids
 msgid "States"
-msgstr "省/ 州"
+msgstr "省/直辖市"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_language_install__state
@@ -27849,7 +27849,7 @@ msgstr "你可以从你的电脑上传一个文件或者复制/粘贴一个 Inte
 msgid ""
 "You can manage the different federal states you are working on from here. "
 "Each state is attached to one country."
-msgstr "你可以管理不同的省/州，每一个省/州都关联到一个国家。"
+msgstr "你可以管理不同的省/直辖市，每一个省/直辖市都关联到一个国家。"
 
 #. module: base
 #: code:addons/base/models/res_partner.py:0
