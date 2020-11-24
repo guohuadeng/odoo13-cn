@@ -23246,7 +23246,7 @@ msgstr "检测到循环。"
 #: model:ir.model.fields.selection,name:base.selection__ir_server_object_lines__evaluation_type__reference
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "Reference"
-msgstr "参考"
+msgstr "编码"
 
 #. module: base
 #: code:addons/base/models/ir_qweb_fields.py:0
