@@ -2886,7 +2886,7 @@ msgstr "产生残留产物(A + B -&gt; C + D)"
 #: model_terms:ir.ui.view,arch_db:mrp.production_message
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_product_produce_wizard
 msgid "Produced"
-msgstr "生产"
+msgstr "报工数量"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_byproduct__operation_id
