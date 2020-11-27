@@ -292,7 +292,7 @@ msgstr "<strong>有效性类别: </strong>"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
 msgid "<strong>Finished Product:</strong><br/>"
-msgstr "<strong>完工产品:</strong><br/>"
+msgstr "<strong>产成品:</strong><br/>"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_workcenter_productivity_loss_kanban
@@ -1477,7 +1477,7 @@ msgstr "完工移动"
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__finished_move_line_ids
 #: model_terms:ir.ui.view,arch_db:mrp.view_finisehd_move_line
 msgid "Finished Product"
-msgstr "完工产品"
+msgstr "产成品"
 
 #. module: mrp
 #: model:ir.actions.report,name:mrp.action_report_finished_product
@@ -1487,17 +1487,17 @@ msgstr "产品标签已完成(PDF)"
 #. module: mrp
 #: model:ir.actions.report,name:mrp.label_manufacture_template
 msgid "Finished Product Label (ZPL)"
-msgstr "完工产品标签（英文缩写ZPL）"
+msgstr "产成品标签（英文缩写ZPL）"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_line__finished_workorder_id
 msgid "Finished Product for Workorder"
-msgstr "工单的完工产品"
+msgstr "工单的产成品"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce_line__finished_product_produce_id
 msgid "Finished Product in Produce wizard"
-msgstr "生产向导的完工产品"
+msgstr "生产向导的产成品"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce__move_finished_ids
@@ -1505,12 +1505,12 @@ msgstr "生产向导的完工产品"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
 msgid "Finished Products"
-msgstr "完工产品"
+msgstr "产成品"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__location_dest_id
 msgid "Finished Products Location"
-msgstr "完工产品位置"
+msgstr "产成品位置"
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_abstract_workorder__consumption__flexible
@@ -2810,13 +2810,13 @@ msgstr "缴库"
 #: code:addons/mrp/models/stock_warehouse.py:0
 #, python-format
 msgid "Post-Production"
-msgstr "生产后"
+msgstr "产成品区"
 
 #. module: mrp
 #: code:addons/mrp/models/stock_warehouse.py:0
 #, python-format
 msgid "Pre-Production"
-msgstr "生产前"
+msgstr "在制品材料区"
 
 #. module: mrp
 #. openerp-web
@@ -3461,7 +3461,7 @@ msgstr "在制造前顺序拣货"
 #: code:addons/mrp/models/stock_warehouse.py:0
 #, python-format
 msgid "Sequence production"
-msgstr "顺序生产"
+msgstr "生产单编码规则"
 
 #. module: mrp
 #: code:addons/mrp/models/stock_warehouse.py:0
@@ -4878,7 +4878,7 @@ msgstr "需在“绩效”类别中定义至少一个未启用的生产力损失
 #: code:addons/mrp/models/mrp_abstract_workorder.py:0
 #, python-format
 msgid "You need to provide a lot for the finished product."
-msgstr "需为完工产品提供批号."
+msgstr "需为产成品提供批号."
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_abstract_workorder.py:0
