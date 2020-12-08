@@ -24997,12 +24997,12 @@ msgstr "在线开发工具"
 #. module: base
 #: model:ir.module.module,summary:base.module_mrp_subcontracting
 msgid "Subcontract Productions"
-msgstr "委外生产"
+msgstr "委外制造"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_subcontracting_account
 msgid "Subcontracting Management with Stock Valuation"
-msgstr "委外生产中的库存估值"
+msgstr "委外制造中的库存估值"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.edit_menu_access
