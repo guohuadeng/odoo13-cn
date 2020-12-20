@@ -2486,7 +2486,7 @@ msgstr "订单号码"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__order_id
 #: model:ir.model.fields,field_description:sale.field_sale_report__name
 msgid "Order Reference"
-msgstr "订单关联"
+msgstr "销售订单编号"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__state

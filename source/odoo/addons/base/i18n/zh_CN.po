@@ -24316,7 +24316,7 @@ msgstr "序列大小 "
 #: model_terms:ir.ui.view,arch_db:base.sequence_view_tree
 #: model_terms:ir.ui.view,arch_db:base.view_sequence_search
 msgid "Sequences"
-msgstr "顺序号"
+msgstr "顺序号编码规则"
 
 #. module: base
 #: model:ir.ui.menu,name:base.next_id_5

@@ -2261,7 +2261,7 @@ msgstr "若长时间未响应，请按下F5重新加载应用"
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "Measures"
-msgstr "测量"
+msgstr "统计值"
 
 #. module: web
 #. openerp-web
