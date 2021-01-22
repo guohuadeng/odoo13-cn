@@ -11877,7 +11877,7 @@ msgstr "库克群岛"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__copied
 msgid "Copied"
-msgstr "已复制"
+msgstr "可复制"
 
 #. module: base
 #: model:res.country,name:base.cr
@@ -16118,7 +16118,7 @@ msgstr "未启用的用户"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__index
 msgid "Indexed"
-msgstr "已索引"
+msgstr "建立索引"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_attachment__index_content
@@ -19105,7 +19105,7 @@ msgstr "对象名"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__relation
 msgid "Object Relation"
-msgstr "对象关系"
+msgstr "关联模型"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.report_irmodeloverview
