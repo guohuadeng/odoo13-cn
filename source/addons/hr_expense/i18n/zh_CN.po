@@ -304,7 +304,7 @@ msgstr "可重置"
 #: model:ir.model.fields,field_description:hr_expense.field_product_product__can_be_expensed
 #: model:ir.model.fields,field_description:hr_expense.field_product_template__can_be_expensed
 msgid "Can be Expensed"
-msgstr "报销"
+msgstr "费用与报销"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_refuse_wizard_view_form
@@ -482,7 +482,7 @@ msgstr "员工"
 #. module: hr_expense
 #: model:ir.model.fields.selection,name:hr_expense.selection__hr_expense__payment_mode__own_account
 msgid "Employee (to reimburse)"
-msgstr "报销"
+msgstr "员工个人账户"
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_approved_expense
