@@ -312,7 +312,7 @@ msgstr "休假详情"
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_resource__resource_type__material
 msgid "Material"
-msgstr "物料"
+msgstr "生产单位"
 
 #. module: resource
 #: model:ir.model.fields.selection,name:resource.selection__resource_calendar_attendance__dayofweek__0

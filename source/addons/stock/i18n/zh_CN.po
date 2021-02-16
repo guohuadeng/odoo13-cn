@@ -1621,7 +1621,7 @@ msgstr "移库动作确认或者取消的日期。"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__date_done
 msgid "Date of Transfer"
-msgstr "调拨日期"
+msgstr "生效日期"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse_orderpoint__lead_type__net
