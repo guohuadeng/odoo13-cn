@@ -1014,7 +1014,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:mrp.production_message
 #: model_terms:ir.ui.view,arch_db:mrp.view_stock_move_raw_tree
 msgid "Consumed"
-msgstr "已消耗"
+msgstr "实际消耗"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__consume_line_ids
@@ -4276,7 +4276,7 @@ msgstr "解锁"
 msgid ""
 "Unlock the manufacturing order to correct what has been consumed or "
 "produced."
-msgstr "解锁生产单以纠正已消耗或生产的产品。"
+msgstr "解锁生产单以纠正实际消耗或生产的产品。"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view

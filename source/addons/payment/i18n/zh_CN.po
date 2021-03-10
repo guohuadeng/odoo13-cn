@@ -252,12 +252,12 @@ msgstr "收单方账号"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_token__acquirer_ref
 msgid "Acquirer Ref."
-msgstr "收单方参照"
+msgstr "收单方单号"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__acquirer_reference
 msgid "Acquirer Reference"
-msgstr "收单方参考"
+msgstr "收单方单号"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_icon__acquirer_ids
@@ -1742,7 +1742,7 @@ msgstr "%s的%s交易%s已取消."
 msgid ""
 "The transaction %s with %s for %s has been confirmed. The related payment is"
 " posted: %s"
-msgstr "%s的%s交易%s已确认。相关付款已过账：%s"
+msgstr "%s的%s交易%s已确认。相关收款（即客户付款）已过账：%s"
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:0
