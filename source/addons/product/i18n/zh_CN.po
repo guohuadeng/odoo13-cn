@@ -1176,7 +1176,7 @@ msgstr "内部备注"
 #: model:ir.model.fields,field_description:product.field_product_product__default_code
 #: model:ir.model.fields,field_description:product.field_product_template__default_code
 msgid "Internal Reference"
-msgstr "内部参考"
+msgstr "产品编码"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__barcode
