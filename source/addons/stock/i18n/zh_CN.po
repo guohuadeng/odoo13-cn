@@ -517,7 +517,7 @@ msgstr "<strong>数量</strong>"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Scheduled Date:</strong>"
-msgstr "<strong>安排的日期 </strong>"
+msgstr "<strong>计划日期: </strong>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_delivery_document
@@ -1601,7 +1601,7 @@ msgstr "DHL 连接器"
 #: model_terms:ir.ui.view,arch_db:stock.stock_report_view_search
 #: model_terms:ir.ui.view,arch_db:stock.view_move_search
 msgid "Date"
-msgstr "日期"
+msgstr "生效日期"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_move_tree
@@ -3495,7 +3495,7 @@ msgstr "移动明细行"
 msgid ""
 "Move date: scheduled date until move is done, then date of actual move "
 "processing"
-msgstr "移动日期: 安排的日期直到移动完成的日期，这日期是移动实际处理完成的日期."
+msgstr "生效日期: 计划日期直到移动完成的日期，这日期是移动实际处理完成的日期."
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__origin_returned_move_id
@@ -5187,7 +5187,7 @@ msgstr "短信发送错误"
 #: model_terms:ir.ui.view,arch_db:stock.view_move_search
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Scheduled Date"
-msgstr "安排的日期"
+msgstr "计划日期"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__date_expected

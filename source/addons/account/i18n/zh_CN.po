@@ -10054,7 +10054,7 @@ msgstr "不含税"
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 #: model_terms:ir.ui.view,arch_db:account.view_move_line_tree_grouped
 msgid "Tax Grids"
-msgstr "税金网"
+msgstr "税标签"
 
 #. module: account
 #: model:ir.model,name:account.model_account_tax_group

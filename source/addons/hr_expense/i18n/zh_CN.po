@@ -99,7 +99,7 @@ msgstr "<p>选择费用，然后向您的经理提交它们</p>"
 msgid ""
 "<p>The accountant receive approved expense reports.</p><p>He can post "
 "journal entries in one click if taxes and accounts are right.</p>"
-msgstr "<p>会计会获得已核准的费用报告。如果税收和账户都是正确的</p><p>，他只需点击一下就可以发布日记账条目。</p>"
+msgstr "<p>会计会获得已核准的费用报销单。如果税收和账户都是正确的</p><p>，他只需点击一下就可以发布日记账条目。</p>"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
@@ -510,7 +510,7 @@ msgstr "错误"
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_view_search
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 msgid "Expense"
-msgstr "费用"
+msgstr "费用报销"
 
 #. module: hr_expense
 #: model:mail.activity.type,name:hr_expense.mail_act_expense_approval
@@ -566,12 +566,12 @@ msgstr "费用报表"
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_hr_expense_sheet__state
 msgid "Expense Report State"
-msgstr "费用报告状态"
+msgstr "费用报销单状态"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__name
 msgid "Expense Report Summary"
-msgstr "费用报告摘要"
+msgstr "费用报销单摘要"
 
 #. module: hr_expense
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_report
@@ -579,28 +579,28 @@ msgstr "费用报告摘要"
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_form
 #: model_terms:ir.ui.view,arch_db:hr_expense.view_hr_expense_sheet_tree
 msgid "Expense Reports"
-msgstr "费用报告"
+msgstr "费用报销单"
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_department_filtered
 msgid "Expense Reports Analysis"
-msgstr "费用报告分析"
+msgstr "费用报销单分析"
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all_to_pay
 msgid "Expense Reports To Pay"
-msgstr "待支付的费用报告"
+msgstr "待支付的费用报销单"
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all_to_post
 msgid "Expense Reports To Post"
-msgstr "待过账的费用报告"
+msgstr "待过账的费用报销单"
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_all_to_approve
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_department_to_approve
 msgid "Expense Reports to Approve"
-msgstr "待批准的费用报告"
+msgstr "待批准的费用报销单"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_refuse_wizard_view_form
@@ -610,17 +610,17 @@ msgstr "费用拒绝理由"
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_approved
 msgid "Expense report approved"
-msgstr "费用报告已批准"
+msgstr "费用报销单已批准"
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_paid
 msgid "Expense report paid"
-msgstr "费用报告已支付"
+msgstr "费用报销单已支付"
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_refused
 msgid "Expense report refused"
-msgstr "费用报告被拒绝"
+msgstr "费用报销单被拒绝"
 
 #. module: hr_expense
 #: model:ir.model.fields,help:hr_expense.field_account_move_line__expense_id
@@ -653,12 +653,12 @@ msgstr "费用分析"
 #: model:ir.actions.report,name:hr_expense.action_report_hr_expense_sheet
 #: model_terms:ir.ui.view,arch_db:hr_expense.report_expense_sheet
 msgid "Expenses Report"
-msgstr "费用报告"
+msgstr "费用报销单"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_department__expense_sheets_to_approve_count
 msgid "Expenses Reports to Approve"
-msgstr "待批准的费用报告"
+msgstr "待批准的费用报销单"
 
 #. module: hr_expense
 #: model_terms:ir.ui.view,arch_db:hr_expense.hr_expense_sheet_view_search
@@ -939,7 +939,7 @@ msgstr "消息"
 #: model:ir.actions.act_window,name:hr_expense.action_hr_expense_sheet_my_all
 #: model:ir.ui.menu,name:hr_expense.menu_hr_expense_sheet_my_reports
 msgid "My Expense Reports"
-msgstr "我的费用报告"
+msgstr "我的费用报销单"
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_actions_my_unsubmitted
@@ -969,7 +969,7 @@ msgstr "名称"
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid "New Expense Report"
-msgstr "新的费用报告"
+msgstr "新的费用报销单"
 
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense__activity_date_deadline
@@ -1024,7 +1024,7 @@ msgstr "找不到%s日记账的贷方科目，　请配置一下"
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_hr_expense_sheet_all_to_approve
 msgid "No expense reports to approve"
-msgstr "没有待批准的费用报告"
+msgstr "没有待批准的费用报销单"
 
 #. module: hr_expense
 #: model_terms:ir.actions.act_window,help:hr_expense.action_unsubmitted_expense
@@ -1098,7 +1098,7 @@ msgstr "当你生成了你的费用申请，发送给你的经理，他会验证
 msgid ""
 "Once your <b>Expense report</b> is ready, you can submit it to your manager "
 "and wait for the approval from your manager."
-msgstr "一旦您的 <b>费用报告</b> 准备好了, 你可以把它提交给你的经理，等待经理的批准。"
+msgstr "一旦您的 <b>费用报销单</b> 准备好了, 你可以把它提交给你的经理，等待经理的批准。"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
@@ -1688,13 +1688,13 @@ msgstr "网上沟通记录"
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid "You are not authorized to edit the reference of this expense report."
-msgstr "你无权编辑这份费用报告的参考资料。"
+msgstr "你无权编辑这份费用报销单的参考资料。"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
 #, python-format
 msgid "You are not authorized to edit this expense report."
-msgstr "你无权编辑这份费用报告。"
+msgstr "你无权编辑这份费用报销单。"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
@@ -1711,7 +1711,7 @@ msgstr "您现在可以通过以下链接将其提交给经理。"
 #: code:addons/hr_expense/wizard/hr_expense_sheet_register_payment.py:0
 #, python-format
 msgid "You can only apply this action from an expense report."
-msgstr "您只能从费用报告中应用此操作。"
+msgstr "您只能从费用报销单中应用此操作。"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0
