@@ -19032,7 +19032,7 @@ msgstr "应用数量"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_cron__numbercall
 msgid "Number of Calls"
-msgstr "电话数量"
+msgstr "最大调用次数"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users__companies_count
