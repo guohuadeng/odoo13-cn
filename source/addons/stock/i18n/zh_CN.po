@@ -2425,7 +2425,7 @@ msgstr "有多属性单品Sku"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location__posz
 msgid "Height (Z)"
-msgstr "高度(Z)"
+msgstr "架层(Z)"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_receipt_picking_move
