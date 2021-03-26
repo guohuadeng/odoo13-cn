@@ -4377,7 +4377,7 @@ msgstr ""
 msgid ""
 "The payment input will behave similarily to bank payment input, and will be "
 "prefilled with the exact due amount."
-msgstr "该支付输入与银行支付输入类似，将通过准确到期金额预填充。"
+msgstr "该支付输入与银行支付输入类似，将通过准确待办金额预填充。"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_payment_method__cash_journal_id

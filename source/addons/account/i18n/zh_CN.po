@@ -480,7 +480,7 @@ msgstr ""
 msgid ""
 "<span class=\"o_form_label\">All selected journal entries will be validated "
 "and posted. You won't be able to modify them afterwards.</span>"
-msgstr "<span class=\"o_form_label\">所有选定的会计分录都将被确认和审核，之后您将无法修改.</span>"
+msgstr "<span class=\"o_form_label\">所有选定的日记账分录都将被确认和审核，之后您将无法修改.</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -726,7 +726,7 @@ msgstr "<strong class=\"text-muted\">销售员</strong>"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_invoice_document_with_payments
 msgid "<strong>Amount Due</strong>"
-msgstr "<strong>到期金额</strong>"
+msgstr "<strong>待办金额</strong>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.report_journal
@@ -1783,12 +1783,12 @@ msgstr "货币总额"
 #: model_terms:ir.ui.view,arch_db:account.portal_my_invoices
 #: model_terms:ir.ui.view,arch_db:account.view_invoice_tree
 msgid "Amount Due"
-msgstr "到期金额"
+msgstr "待办金额"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_move__amount_residual_signed
 msgid "Amount Due Signed"
-msgstr "到期金额签署"
+msgstr "已开票待办金额"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__match_total_amount
@@ -4457,7 +4457,7 @@ msgstr "到期"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__residual
 msgid "Due Amount"
-msgstr "到期金额"
+msgstr "待办总额"
 
 #. module: account
 #. openerp-web
@@ -5238,7 +5238,7 @@ msgstr "分组"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment_register__group_payment
 msgid "Group Payment"
-msgstr "支付组"
+msgstr "合并收付"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_tax__amount_type__group
@@ -8308,7 +8308,7 @@ msgstr "过账差额在"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.validate_account_move_view
 msgid "Post Journal Entries"
-msgstr "发布日记账分录 "
+msgstr "过账待定的分录 "
 
 #. module: account
 #: model:ir.actions.server,name:account.action_account_confirm_payments
@@ -8318,7 +8318,7 @@ msgstr "后支付"
 #. module: account
 #: model:ir.actions.act_window,name:account.action_validate_account_move
 msgid "Post entries"
-msgstr "追加记账"
+msgstr "批量过账"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_move__state__posted
@@ -11153,7 +11153,7 @@ msgstr "你的账户当前无发票和付款."
 #: code:addons/account/wizard/account_validate_account_move.py:0
 #, python-format
 msgid "There are no journal items in the draft state to post."
-msgstr "草稿狀態中沒有要過帳的日記帳項目"
+msgstr "没有要过帐的日记账分录"
 
 #. module: account
 #: code:addons/account/models/company.py:0
@@ -12137,7 +12137,7 @@ msgstr "含税"
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Write-Off"
-msgstr "销账"
+msgstr "核销"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__amount
@@ -12232,7 +12232,7 @@ msgstr "您只能同时注册所有流入或流出的付款"
 #: code:addons/account/models/account_payment.py:0
 #, python-format
 msgid "You can only register payments for open invoices"
-msgstr "只有打开状态的发票能被登记付款"
+msgstr "只有已过帐且仍有待办金额的发票能被登记付款"
 
 #. module: account
 #: code:addons/account/wizard/account_invoice_send.py:0
