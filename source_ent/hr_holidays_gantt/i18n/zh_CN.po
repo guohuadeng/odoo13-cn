@@ -29,4 +29,4 @@ msgstr "天"
 #. module: hr_holidays_gantt
 #: model:ir.model,name:hr_holidays_gantt.model_hr_leave
 msgid "Time Off"
-msgstr "休息时间"
+msgstr "休假管理"

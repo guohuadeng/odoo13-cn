@@ -26162,12 +26162,12 @@ msgstr "时间格式"
 #: model:ir.module.category,name:base.module_category_human_resources_time_off
 #: model:ir.module.module,shortdesc:base.module_hr_holidays
 msgid "Time Off"
-msgstr "休息时间"
+msgstr "休假管理"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_holidays_gantt
 msgid "Time off Gantt"
-msgstr "休息时间甘特"
+msgstr "假期安排甘特图"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_timesheet_grid
