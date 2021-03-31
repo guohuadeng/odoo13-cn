@@ -67,7 +67,7 @@ msgstr "仅限已批准的时间表"
 #: model:ir.model.fields,field_description:sale_timesheet_enterprise.field_project_project__allow_billable
 #: model:ir.model.fields,field_description:sale_timesheet_enterprise.field_project_task__allow_billable
 msgid "Bill from Tasks"
-msgstr ""
+msgstr "按任务工时计费"
 
 #. module: sale_timesheet_enterprise
 #: model_terms:ir.ui.view,arch_db:sale_timesheet_enterprise.project_task_create_sale_order_view_form

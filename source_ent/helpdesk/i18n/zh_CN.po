@@ -2119,7 +2119,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_sla_report_analysis__sla_deadline
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_ticket__sla_deadline
 msgid "SLA Deadline"
-msgstr ""
+msgstr "SLA完成期限"
 
 #. module: helpdesk
 #. openerp-web
