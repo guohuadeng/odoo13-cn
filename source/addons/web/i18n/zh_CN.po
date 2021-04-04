@@ -1994,28 +1994,28 @@ msgstr "语言"
 #: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:0
 #, python-format
 msgid "Last 30 Days"
-msgstr "近30天"
+msgstr "最近30天"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:0
 #, python-format
 msgid "Last 365 Days"
-msgstr "近365天"
+msgstr "最近365天"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:0
 #, python-format
 msgid "Last 5 Years"
-msgstr "近5年"
+msgstr "最近5年"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:0
 #, python-format
 msgid "Last 7 Days"
-msgstr "近7天"
+msgstr "最近7天"
 
 #. module: web
 #. openerp-web
@@ -3808,7 +3808,7 @@ msgstr "时间"
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "Time Ranges"
-msgstr "时间范围"
+msgstr "同期对比"
 
 #. module: web
 #. openerp-web
@@ -3828,7 +3828,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/web_calendar.xml:0
 #, python-format
 msgid "Today"
-msgstr "今日"
+msgstr "今天"
 
 #. module: web
 #. openerp-web
@@ -4108,7 +4108,7 @@ msgstr "验证错误"
 #: code:addons/web/static/src/js/views/pivot/pivot_model.js:0
 #, python-format
 msgid "Variation"
-msgstr "变形"
+msgstr "同比增长"
 
 #. module: web
 #. openerp-web

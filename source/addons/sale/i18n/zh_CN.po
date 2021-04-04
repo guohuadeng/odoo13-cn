@@ -3514,7 +3514,7 @@ msgstr "已售出"
 #: model_terms:ir.ui.view,arch_db:sale.product_form_view_sale_order_button
 #: model_terms:ir.ui.view,arch_db:sale.product_template_form_view_sale_order_button
 msgid "Sold in the last 365 days"
-msgstr "已在过去365天内出售"
+msgstr "已在最近365天内出售"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__source_id

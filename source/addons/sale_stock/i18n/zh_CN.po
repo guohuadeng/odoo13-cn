@@ -563,7 +563,7 @@ msgstr "送货策略"
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.product_template_view_form_inherit_stock
 msgid "Sold in the last 365 days"
-msgstr "已在过去365天内出售"
+msgstr "已在最近365天内出售"
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_move

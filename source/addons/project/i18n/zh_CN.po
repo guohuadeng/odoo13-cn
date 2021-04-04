@@ -1565,7 +1565,7 @@ msgstr "最近3个月"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.rating_rating_view_search_project
 msgid "Last 30 Days"
-msgstr "过去30天"
+msgstr "最近30天"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.rating_project_rating_page

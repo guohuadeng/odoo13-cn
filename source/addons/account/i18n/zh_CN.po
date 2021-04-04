@@ -8735,7 +8735,7 @@ msgstr "参考."
 #: model:ir.model.fields,field_description:account.field_account_move_line__ref
 #, python-format
 msgid "Reference"
-msgstr "编号"
+msgstr "对账订单号"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_payment__payment_reference

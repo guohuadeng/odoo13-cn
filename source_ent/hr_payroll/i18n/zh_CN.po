@@ -1254,7 +1254,7 @@ msgstr "工作岗位"
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.payroll_report_view_search
 msgid "Last 365 Days Payslip"
-msgstr "过去365天工资单"
+msgstr "最近365天工资单"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_index____last_update
