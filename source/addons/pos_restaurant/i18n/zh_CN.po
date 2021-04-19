@@ -113,7 +113,7 @@ msgstr "<strong>POS：</strong>"
 msgid ""
 "A background image used to display a floor layout in the point of sale "
 "interface"
-msgstr "背景图像，用于在销售点界面显示楼层规划"
+msgstr "背景图像，用于在收银台界面显示楼层规划"
 
 #. module: pos_restaurant
 #: model_terms:ir.actions.act_window,help:pos_restaurant.action_restaurant_floor_form
@@ -387,7 +387,7 @@ msgstr "编辑"
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__iface_splitbill
 msgid "Enables Bill Splitting in the Point of Sale."
-msgstr "销售点中允许账单拆分。"
+msgstr "收银台中允许账单拆分。"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__floor_id
@@ -414,7 +414,7 @@ msgstr ""
 #. module: pos_restaurant
 #: model_terms:ir.ui.view,arch_db:pos_restaurant.pos_config_view_form_inherit_restaurant
 msgid "Floors"
-msgstr "最低标准"
+msgstr "楼层区域"
 
 #. module: pos_restaurant
 #: model:pos.category,name:pos_restaurant.food
@@ -425,7 +425,7 @@ msgstr "食品"
 #: model:product.product,name:pos_restaurant.pos_food_funghi
 #: model:product.template,name:pos_restaurant.pos_food_funghi_product_template
 msgid "Funghi"
-msgstr ""
+msgstr "菌类"
 
 #. module: pos_restaurant
 #. openerp-web
@@ -704,7 +704,7 @@ msgstr "付款"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_floor__pos_config_id
 msgid "Point of Sale"
-msgstr "POS"
+msgstr "POS收银台"
 
 #. module: pos_restaurant
 #: model:ir.model,name:pos_restaurant.model_pos_config
@@ -905,7 +905,7 @@ msgstr "桌台"
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_pos_config__is_table_management
 msgid "Table Management"
-msgstr "表管理"
+msgstr "桌台管理"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,field_description:pos_restaurant.field_restaurant_table__name
@@ -955,7 +955,7 @@ msgstr "本层座位清单"
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_config__floor_ids
 msgid "The restaurant floors served by this point of sale."
-msgstr "此销售点提供的餐厅最低标准。"
+msgstr "此收银台服务的餐厅层区。"
 
 #. module: pos_restaurant
 #: model:ir.model.fields,help:pos_restaurant.field_pos_order__table_id

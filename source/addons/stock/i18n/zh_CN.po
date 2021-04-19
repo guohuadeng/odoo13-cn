@@ -532,7 +532,7 @@ msgstr "<strong>状态:</strong>"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.message_head
 msgid "<strong>The initial demand has been updated.</strong>"
-msgstr "<strong>待办总数量已被更新。</strong>"
+msgstr "<strong>需求总数量已被更新。</strong>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
@@ -2556,7 +2556,7 @@ msgstr ""
 msgid ""
 "If the picking is unlocked you can edit initial demand (for a draft picking)"
 " or done quantities (for a done picking)."
-msgstr "如果拣货被解锁，你可以编辑待办总数量（适用于拣货草稿）或已完成数量（适用于已完成的拣货）。"
+msgstr "如果拣货被解锁，你可以编辑需求总数量（适用于拣货草稿）或已完成数量（适用于已完成的拣货）。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__show_reserved
@@ -2692,7 +2692,7 @@ msgstr "指示产品的理论数量与最新数量之间的差距。"
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_move_tree
 msgid "Initial Demand"
-msgstr "待办总数量"
+msgstr "需求总数量"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:0
@@ -2926,7 +2926,7 @@ msgstr "是一个报废位置？"
 #: model:ir.model.fields,field_description:stock.field_stock_move__is_initial_demand_editable
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__is_initial_demand_editable
 msgid "Is initial demand editable"
-msgstr "待办总数量是否可以编辑"
+msgstr "需求总数量是否可以编辑"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__is_quantity_done_editable
@@ -4256,7 +4256,7 @@ msgstr "按工人批量处理调拨"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_overprocessed_transfer
 msgid "Processed more than initial demand"
-msgstr "处理的多于待办总数量"
+msgstr "处理的多于需求总数量"
 
 #. module: stock
 #: model:ir.model,name:stock.model_procurement_group
@@ -6926,7 +6926,7 @@ msgstr "当产品到达<b>%s</b>时，<br/><b>%s</b>会被建立并送到<b>%s</
 msgid ""
 "When the picking is not done this allows changing the initial demand. When "
 "the picking is done this allows changing the done quantities."
-msgstr "当拣货进行时，允许改变待办总数量。当拣选完成时，只允许改变已完成数量。"
+msgstr "当拣货进行时，允许改变需求总数量。当拣选完成时，只允许改变已完成数量。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
@@ -7228,7 +7228,7 @@ msgstr "您还没有记录<i>完成</i>数量，通过点击<i>apply</i>\n Odoo�
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_backorder_confirmation
 msgid "You have processed less products than the initial demand."
-msgstr "你已经处理了待办总数量的部分产品。"
+msgstr "你已经处理了需求总数量的部分产品。"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_overprocessed_transfer
