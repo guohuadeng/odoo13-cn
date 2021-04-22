@@ -109,7 +109,7 @@ msgstr "根据安装的模块，这将允许您定义产品的路线:是否购�
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__default_location_dest_id_usage
 msgid "Destination Location Type"
-msgstr "目标位置类型"
+msgstr "目的区位类型"
 
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order_line__move_dest_ids
