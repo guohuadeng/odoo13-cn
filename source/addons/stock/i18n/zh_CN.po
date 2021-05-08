@@ -5016,7 +5016,7 @@ msgid ""
 "Reserving products manually in delivery orders or by running the scheduler "
 "is advised to better manage priorities in case of long customer lead times "
 "or/and frequent stock-outs."
-msgstr "建议在交货订单中手动保留产品或运行调度程序，以便在客户交货时间过长或/和过多库存时能更好地管理优先级。"
+msgstr "建议在交货订单中手动预留产品或运行调度程序，以便在客户交货时间过长或/和过多库存时能更好地管理优先级。"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__responsible_id
