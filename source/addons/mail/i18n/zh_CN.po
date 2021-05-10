@@ -4935,7 +4935,7 @@ msgstr "富文本/HTML消息"
 #: code:addons/mail/static/src/xml/thread.xml:0
 #, python-format
 msgid "Rotate"
-msgstr "替换"
+msgstr "旋转"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_email_template_search
