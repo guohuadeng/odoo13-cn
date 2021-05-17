@@ -3784,7 +3784,7 @@ msgstr "错误的文件类型。请选择图片文件。"
 #, python-format
 msgid ""
 "This filter is global and will be removed for everybody if you continue."
-msgstr "这是一个所有人都可以使用的全球筛选，如果你继续，将会向所有人移除。"
+msgstr "这是一个所有人都可以使用的全局筛选，如果你继续，将会向所有人移除。"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.preview_externalreport

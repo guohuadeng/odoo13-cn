@@ -3438,7 +3438,7 @@ msgstr "方法"
 #. module: stock
 #: model:ir.model,name:stock.model_stock_warehouse_orderpoint
 msgid "Minimum Inventory Rule"
-msgstr "安全库存补货规则"
+msgstr "安全库存规则管理"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__product_min_qty
@@ -3448,7 +3448,7 @@ msgstr "最小预警量"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__orderpoint_ids
 msgid "Minimum Stock Rules"
-msgstr "安全库存补货规则"
+msgstr "安全库存规则"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_report_stock_quantity__move_ids
@@ -4934,7 +4934,7 @@ msgstr "重订货最小预警量"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
 msgid "Reordering Rule"
-msgstr "安全库存订货规则"
+msgstr "安全库存规则"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_orderpoint_form
@@ -4945,12 +4945,12 @@ msgstr "安全库存订货规则"
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_form
 #: model_terms:ir.ui.view,arch_db:stock.view_warehouse_orderpoint_tree
 msgid "Reordering Rules"
-msgstr "安全库存订货规则"
+msgstr "安全库存规则"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.warehouse_orderpoint_search
 msgid "Reordering Rules Search"
-msgstr "安全库存订货规则搜索"
+msgstr "安全库存规则搜索"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_product_replenish
@@ -6097,7 +6097,7 @@ msgstr "建立此移库动作的相应规则"
 msgid ""
 "The stock will be reserved for operations waiting for availability and the "
 "reordering rules will be triggered."
-msgstr "库存会保留给待料的事务，同时会触发相应的安全库存订货规则。"
+msgstr "库存会保留给待料的事务，同时会触发相应的安全库存规则。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__propagate_warehouse_id
