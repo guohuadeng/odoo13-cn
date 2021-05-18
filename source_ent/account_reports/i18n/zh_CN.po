@@ -377,7 +377,7 @@ msgstr "支付给供应商的预付款"
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_account_aged_partner
 msgid "Aged Partner Balances"
-msgstr "到期的业务伙伴余额"
+msgstr "到期的业务伙伴余额表"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_aged_partner_balance.py:0
