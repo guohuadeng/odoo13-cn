@@ -1357,7 +1357,7 @@ msgstr "通过EMail发送内容"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Delivered"
-msgstr "已送货"
+msgstr "已发货"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__qty_delivered_manual
@@ -1369,12 +1369,12 @@ msgstr "手动发货"
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__qty_delivered
 #, python-format
 msgid "Delivered Quantity"
-msgstr "已交货数量"
+msgstr "已发货"
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__product_template__invoice_policy__delivery
 msgid "Delivered quantities"
-msgstr "已交货数量"
+msgstr "按已发货数量开票"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_account_move__partner_shipping_id
@@ -1887,12 +1887,12 @@ msgstr "当月的发票收入。 这是销售渠道本月开具的发票金额�
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__res_config_settings__default_invoice_policy__delivery
 msgid "Invoice what is delivered"
-msgstr " 发货发票"
+msgstr "按已发货数量开票"
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__res_config_settings__default_invoice_policy__order
 msgid "Invoice what is ordered"
-msgstr "订单发票"
+msgstr "按订单数量开票"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
@@ -2452,7 +2452,7 @@ msgstr "订单 #"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__count
 msgid "Order Count"
-msgstr "订购数量"
+msgstr "订单数量"
 
 #. module: sale
 #: code:addons/sale/controllers/portal.py:0
@@ -2513,7 +2513,7 @@ msgstr "订单到发票"
 #: code:addons/sale/models/sale.py:0
 #, python-format
 msgid "Ordered Quantity"
-msgstr "订购数量"
+msgstr "按订单数量开票"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_product_product__invoice_policy
@@ -2522,13 +2522,13 @@ msgid ""
 "Ordered Quantity: Invoice quantities ordered by the customer.\n"
 "Delivered Quantity: Invoice quantities delivered to the customer."
 msgstr ""
-"订购数量：客户订购的发票数量\n"
-"已交货数量：交付给客户的发票数量。"
+"按订单数量开票：按订单中客户订购的产品数量开票。\n"
+"按已发货数量开票：按订单中已交付给客户的产品数量开票。"
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__product_template__invoice_policy__order
 msgid "Ordered quantities"
-msgstr "订购数量"
+msgstr "按订单数量开票"
 
 #. module: sale
 #: model:ir.ui.menu,name:sale.menu_sale_order
@@ -2837,7 +2837,7 @@ msgstr "待开票量"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Quantities to invoice from sales orders"
-msgstr "从销售订单到发票的数量"
+msgstr "每个产品的默认设置：销售订单开票时，如何计算数量"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__product_uom_qty
@@ -3760,7 +3760,7 @@ msgstr "预先开票金额的百分比，不含税。"
 msgid ""
 "The product used to invoice a down payment should be of type 'Service'. "
 "Please use another product or update this product."
-msgstr "此产品用于开具预付定金发票，开票策略应该设为“订购数量”。请更新你的定金产品，以创建定金发票。"
+msgstr "此产品用于开具预付定金发票，开票策略应该设为“按订单数量开票”。请更新你的定金产品，以创建定金发票。"
 
 #. module: sale
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
@@ -3769,7 +3769,7 @@ msgid ""
 "The product used to invoice a down payment should have an invoice policy set"
 " to \"Ordered quantities\". Please update your deposit product to be able to"
 " create a deposit invoice."
-msgstr "此产品用于首付开票，开票策略应该设为“订购数量”。请更新你的押金产品，以创建押金发票。"
+msgstr "此产品用于首付开票，开票策略应该设为“按订单数量开票”。请更新你的押金产品，以创建押金发票。"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__currency_rate
@@ -3807,7 +3807,7 @@ msgstr "目前，您的账户没有报价。"
 msgid ""
 "There is no invoiceable line. If a product has a Delivered quantities "
 "invoicing policy, please make sure that a quantity has been delivered."
-msgstr "发票行不存在。如果产品具有已交货数量的发票条款，请确保已交付的数量。"
+msgstr "发票行不存在。如果产品具有“按已发货数量开票”的发票条款，请确保已交付的数量。"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
