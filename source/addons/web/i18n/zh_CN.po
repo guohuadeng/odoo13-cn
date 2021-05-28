@@ -3951,7 +3951,7 @@ msgstr "启用所有"
 #: code:addons/web/static/src/js/views/pivot/pivot_model.js:0
 #, python-format
 msgid "Undefined"
-msgstr "未定义的"
+msgstr " "
 
 #. module: web
 #. openerp-web
