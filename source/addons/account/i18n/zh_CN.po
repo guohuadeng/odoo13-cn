@@ -3126,12 +3126,12 @@ msgstr "通用报表"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__invoice_reference_model
 msgid "Communication Standard"
-msgstr "编号生成标准"
+msgstr "编码生成标准"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_journal__invoice_reference_type
 msgid "Communication Type"
-msgstr "编号类型"
+msgstr "编码类型"
 
 #. module: account
 #: model:ir.model,name:account.model_res_company
@@ -7001,7 +7001,7 @@ msgstr "五月"
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__communication
 msgid "Memo"
-msgstr "备忘"
+msgstr "付款单号"
 
 #. module: account
 #. openerp-web
@@ -8012,12 +8012,12 @@ msgstr "收款："
 #: model:ir.model.fields,field_description:account.field_account_move__invoice_payment_ref
 #: model:ir.model.fields,field_description:account.field_account_payment__payment_reference
 msgid "Payment Reference"
-msgstr "付款参考"
+msgstr "付款单号"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_account_journal_form
 msgid "Payment References"
-msgstr "付款参考"
+msgstr "付款单号"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_report__invoice_payment_state
