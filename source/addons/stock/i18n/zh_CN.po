@@ -6073,14 +6073,14 @@ msgstr "序列号必须包含至少一个数字。"
 #: model:ir.model.fields,help:stock.field_res_users__property_stock_customer
 msgid ""
 "The stock location used as destination when sending goods to this contact."
-msgstr "当发送产品到此联系人时， 此预定义的库存将用做目的区位。"
+msgstr "当发送产品到此联系人时， 此预定义的区位将用做目的区位。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_res_partner__property_stock_supplier
 #: model:ir.model.fields,help:stock.field_res_users__property_stock_supplier
 msgid ""
 "The stock location used as source when receiving goods from this contact."
-msgstr "当从此联系人接收产品时， 此预定义的库存将用做源区位。"
+msgstr "当从此联系人接收产品时， 此预定义的区位将用做源区位。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_line__picking_id

@@ -191,7 +191,7 @@ msgstr "委外作业类型"
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_res_partner__property_stock_subcontractor
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_res_users__property_stock_subcontractor
 msgid "Subcontractor Location"
-msgstr "委外位置"
+msgstr "委外区位"
 
 #. module: mrp_subcontracting
 #: model:ir.model.fields,field_description:mrp_subcontracting.field_mrp_bom__subcontractor_ids
@@ -214,7 +214,7 @@ msgstr "是否委外"
 msgid ""
 "The stock location used as source and destination when sending        goods "
 "to this contact during a subcontracting process."
-msgstr "用于委外的区位。即生产委外时，用于该合作伙伴收料，发回产成品的区们"
+msgstr "用于委外的区位。即生产委外时，用于该合作伙伴接收物料，发回产成品的区位"
 
 #. module: mrp_subcontracting
 #: code:addons/mrp_subcontracting/models/stock_move.py:0
