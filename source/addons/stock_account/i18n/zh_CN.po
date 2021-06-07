@@ -323,17 +323,17 @@ msgstr "是昂格鲁-撒克逊行"
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_account_move
 msgid "Journal Entries"
-msgstr "日记账分录"
+msgstr "记账凭证"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__account_move_id
 msgid "Journal Entry"
-msgstr "日记账分录"
+msgstr "记账凭证"
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_account_move_line
 msgid "Journal Item"
-msgstr "日记账项"
+msgstr "会计分录"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_res_config_settings__module_stock_landed_costs
@@ -700,7 +700,7 @@ msgid ""
 "                unless there is a specific valuation account set on the source location. This is the default value for all products in this category.\n"
 "                It can also directly be set on each product."
 msgstr ""
-"在进行自动库存估价时，所有进货库存凭证的对应日记账项目将在此账户中过账，\n"
+"在进行自动库存估价时，所有进货库存凭证的对应会计分录目将在此账户中过账，\n"
 "                除非在来源区位设置了特定的评估账户。这是此类别中所有产品的默认值。\n"
 "          它也可以直接在每个产品上设置。 "
 
@@ -711,7 +711,7 @@ msgid ""
 "                unless there is a specific valuation account set on the destination location. This is the default value for all products in this category.\n"
 "                It can also directly be set on each product."
 msgstr ""
-"在进行自动库存评估时，所有外发库存凭证的对应日记账项目将在此账户中过账，\n"
+"在进行自动库存评估时，所有外发库存凭证的对应会计分录目将在此账户中过账，\n"
 "               除非在目的地设置了特定的评估账户。 这是此类别中所有产品的默认值。\n"
 "                它也可以直接在每个产品上设置。"
 

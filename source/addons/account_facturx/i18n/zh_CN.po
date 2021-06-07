@@ -24,7 +24,7 @@ msgstr ""
 #. module: account_facturx
 #: model:ir.model,name:account_facturx.model_account_move
 msgid "Journal Entries"
-msgstr "日记账分录"
+msgstr "记账凭证"
 
 #. module: account_facturx
 #: code:addons/account_facturx/models/account_move.py:0

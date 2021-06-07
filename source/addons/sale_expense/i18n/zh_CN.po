@@ -70,7 +70,7 @@ msgstr "开票"
 #. module: sale_expense
 #: model:ir.model,name:sale_expense.model_account_move_line
 msgid "Journal Item"
-msgstr "日记账项"
+msgstr "会计分录"
 
 #. module: sale_expense
 #: model:ir.model,name:sale_expense.model_product_template

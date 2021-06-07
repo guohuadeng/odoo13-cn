@@ -108,7 +108,7 @@ msgstr ""
 #. module: sale_stock_renting
 #: model:ir.model,name:sale_stock_renting.model_account_move
 msgid "Journal Entries"
-msgstr "日记账分录"
+msgstr "记账凭证"
 
 #. module: sale_stock_renting
 #: model:ir.model,name:sale_stock_renting.model_stock_production_lot
