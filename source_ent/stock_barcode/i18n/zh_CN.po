@@ -800,7 +800,7 @@ msgstr "盘点指令"
 #: code:addons/stock_barcode/static/src/xml/stock_barcode.xml:0
 #, python-format
 msgid "document"
-msgstr "仓库作业单"
+msgstr "单据条码"
 
 #. module: stock_barcode
 #. openerp-web
@@ -835,18 +835,18 @@ msgstr "了解下这个模块的功能！请尝试打印条码"
 #: code:addons/stock_barcode/static/src/xml/stock_barcode.xml:0
 #, python-format
 msgid "to create a new transfer from this location."
-msgstr "从此区位创建新作业。"
+msgstr "以创建此区位的入库作业。"
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/xml/stock_barcode.xml:0
 #, python-format
 msgid "to create a new transfer."
-msgstr "去创建一个新的作业"
+msgstr "以创建此类型的仓库作业"
 
 #. module: stock_barcode
 #. openerp-web
 #: code:addons/stock_barcode/static/src/xml/stock_barcode.xml:0
 #, python-format
 msgid "to open it."
-msgstr "打开它"
+msgstr "以操作此仓库作业"

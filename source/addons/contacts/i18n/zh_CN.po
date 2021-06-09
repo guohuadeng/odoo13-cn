@@ -75,7 +75,7 @@ msgstr "在通讯录中创建联系人"
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.menu_country_state_partner
 msgid "Fed. States"
-msgstr "州/省"
+msgstr "省/直辖市"
 
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.menu_localisation
