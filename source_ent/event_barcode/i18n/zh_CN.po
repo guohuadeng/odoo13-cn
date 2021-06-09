@@ -80,7 +80,7 @@ msgstr "条码接口"
 #. module: event_barcode
 #: model_terms:ir.ui.view,arch_db:event_barcode.res_config_settings_view_form
 msgid "Barcode Nomenclature"
-msgstr "条码命名规则"
+msgstr "条码处理规则"
 
 #. module: event_barcode
 #: model:ir.model.constraint,message:event_barcode.constraint_event_registration_barcode_event_uniq

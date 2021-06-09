@@ -909,7 +909,7 @@ msgstr "条码"
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_wms_barcode_nomenclature_all
 msgid "Barcode Nomenclatures"
-msgstr "条码命名规则"
+msgstr "条码处理规则"
 
 #. module: stock
 #: model:ir.model,name:stock.model_barcode_rule

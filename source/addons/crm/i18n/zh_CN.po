@@ -83,7 +83,7 @@ msgstr "为你的商机 <b>选择一个名字</b> ，例如： <i>'需要一个�
 msgid ""
 "<b>Drag &amp; drop opportunities</b> between columns as you progress in your"
 " sales cycle."
-msgstr "<b>拖拽商机</b> 移动商机漏斗进行处理."
+msgstr "<b>拖拽商机</b> 移动商机进行处理."
 
 #. module: crm
 #. openerp-web

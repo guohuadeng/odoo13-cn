@@ -3883,6 +3883,7 @@ msgid ""
 "Try to add some records, or make sure that there is at least one measure and"
 " no active filter in the search bar."
 msgstr ""
+"请尝试录入一些数据，系统会生成相关分析报表。请注意过滤搜索条件。"
 
 #. module: web
 #. openerp-web
@@ -3892,6 +3893,7 @@ msgid ""
 "Try to add some records, or make sure that there is no\n"
 "                active filter in the search bar."
 msgstr ""
+"请尝试录入一些数据，同时确认没有特殊的过滤搜索条件。"
 
 #. module: web
 #. openerp-web
