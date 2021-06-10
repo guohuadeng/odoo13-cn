@@ -1708,7 +1708,7 @@ msgstr "翻转轴"
 #: code:addons/web/static/src/xml/kanban.xml:0
 #, python-format
 msgid "Fold"
-msgstr "收拢"
+msgstr "折叠"
 
 #. module: web
 #. openerp-web

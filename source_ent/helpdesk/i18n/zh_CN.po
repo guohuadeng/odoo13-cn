@@ -1180,7 +1180,7 @@ msgstr "首次分派日期"
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_stage__fold
 msgid "Folded in Kanban"
-msgstr "集中到看板中"
+msgstr "默认折叠"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form

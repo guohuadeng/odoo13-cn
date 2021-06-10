@@ -2195,7 +2195,7 @@ msgstr "固定的补货组"
 #: code:addons/stock/static/src/xml/stock_traceability_report_line.xml:0
 #, python-format
 msgid "Fold"
-msgstr "收拢"
+msgstr "折叠"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__message_follower_ids
@@ -6608,7 +6608,7 @@ msgstr "计量单位"
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_stock_uom_categ_form_action
 msgid "UoM Categories"
-msgstr "计量单位类别"
+msgstr "计量单位分类"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_change_product_quantity
@@ -7258,7 +7258,7 @@ msgstr "你必须定义分组和筛选方法并将它们作为参数传递。"
 msgid ""
 "You have to select a product unit of measure that is in the same category "
 "than the default unit of measure of the product"
-msgstr "你必须选择同一计量单位类别内的计量单位而不是产品的默认计量单位。"
+msgstr "你必须选择同一计量单位分类内的计量单位而不是产品的默认计量单位。"
 
 #. module: stock
 #: code:addons/stock/wizard/stock_picking_return.py:0

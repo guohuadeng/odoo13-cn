@@ -1527,7 +1527,7 @@ msgstr "固定"
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription_stage__fold
 msgid "Folded in Kanban"
-msgstr "集中到看板中"
+msgstr "默认折叠"
 
 #. module: sale_subscription
 #: model:ir.model.fields,field_description:sale_subscription.field_sale_subscription__message_follower_ids
