@@ -1143,7 +1143,7 @@ msgstr "维修单的名必须唯一！"
 msgid ""
 "The product unit of measure you chose has a different category than the "
 "product unit of measure."
-msgstr "你选择的产品计量单位跟产品的计量单位分类不同。"
+msgstr "你选择的产品计量单位跟产品的计量单位类别不同。"
 
 #. module: repair
 #: code:addons/repair/models/repair.py:0
