@@ -14072,7 +14072,7 @@ msgstr "传真"
 #: model:ir.model.fields,field_description:base.field_res_bank__state
 #: model:ir.model.fields,field_description:base.field_res_company__state_id
 msgid "Fed. State"
-msgstr "省/直辖市"
+msgstr "省|直辖市"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_country_state
@@ -24824,17 +24824,17 @@ msgstr "开始配置"
 #: model_terms:ir.ui.view,arch_db:base.view_partner_short_form
 #: model_terms:ir.ui.view,arch_db:base.view_res_bank_form
 msgid "State"
-msgstr "省/直辖市"
+msgstr "省|直辖市"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country_state__code
 msgid "State Code"
-msgstr "省/直辖市代码"
+msgstr "省|直辖市代码"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country_state__name
 msgid "State Name"
-msgstr "省/直辖市名称"
+msgstr "省|直辖市名称"
 
 #. module: base
 #: model:res.country,name:base.ps
@@ -24849,7 +24849,7 @@ msgstr "公司状态"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country__state_ids
 msgid "States"
-msgstr "省/直辖市"
+msgstr "省|直辖市列表"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_language_install__state

@@ -417,7 +417,7 @@ msgstr "BOM修订版"
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.report_mrp_bom_inherit_mrp_plm
 msgid "BoM Version"
-msgstr ""
+msgstr "BoM 版本"
 
 #. module: mrp_plm
 #: code:addons/mrp_plm/models/mrp_eco.py:0
@@ -755,12 +755,12 @@ msgstr "ECO(s)"
 #: model_terms:ir.ui.view,arch_db:mrp_plm.report_mrp_bom_inherit_mrp_plm
 #, python-format
 msgid "ECOs"
-msgstr "ECOs"
+msgstr "ECOs工程变更"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_bom_view_kanban
 msgid "Eco"
-msgstr "Eco"
+msgstr "Eco工程变更"
 
 #. module: mrp_plm
 #: code:addons/mrp_plm/models/mrp_eco.py:0

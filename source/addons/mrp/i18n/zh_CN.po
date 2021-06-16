@@ -1042,7 +1042,7 @@ msgstr "消耗在作业"
 #: model:ir.model.fields,field_description:mrp.field_mrp_product_produce__consumption
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__consumption
 msgid "Consumption"
-msgstr ""
+msgstr "用料数量控制"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_product_produce_wizard
@@ -1518,7 +1518,7 @@ msgstr "产成品区位"
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_product_produce__consumption__flexible
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_workorder__consumption__flexible
 msgid "Flexible"
-msgstr ""
+msgstr "可调整"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__message_follower_ids
@@ -2830,7 +2830,7 @@ msgstr "打印"
 #: code:addons/mrp/static/src/xml/mrp.xml:0
 #, python-format
 msgid "Print Unfolded"
-msgstr ""
+msgstr "打印全部节点"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document__priority
