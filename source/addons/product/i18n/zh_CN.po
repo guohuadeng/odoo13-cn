@@ -672,7 +672,7 @@ msgstr "定义供应商价格表。"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__delay
 msgid "Delivery Lead Time"
-msgstr "交货提前时间"
+msgstr "交货提前天数"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__description

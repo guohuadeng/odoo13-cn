@@ -2982,7 +2982,7 @@ msgstr "网站公众种类"
 #: model:ir.model.fields,field_description:website_sale.field_product_product__website_sequence
 #: model:ir.model.fields,field_description:website_sale.field_product_template__website_sequence
 msgid "Website Sequence"
-msgstr "网站序列"
+msgstr "网站排序"
 
 #. module: website_sale
 #: model:ir.actions.act_url,name:website_sale.action_open_website
