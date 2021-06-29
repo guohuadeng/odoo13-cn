@@ -51,7 +51,7 @@ msgstr "帮助中心客户满意度"
 #: model:ir.model,name:website_helpdesk.model_helpdesk_team
 #: model_terms:ir.ui.view,arch_db:website_helpdesk.team
 msgid "Helpdesk Team"
-msgstr "帮助中心团队"
+msgstr "服务团队"
 
 #. module: website_helpdesk
 #: model_terms:ir.ui.view,arch_db:website_helpdesk.not_published_any_team

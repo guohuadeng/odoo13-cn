@@ -993,7 +993,7 @@ msgstr "点击此处为您的报价添加一些产品或服务。"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.crm_team_salesteams_view_kanban
 msgid "Click to define an invoicing target"
-msgstr "单击此处可定义发票目标"
+msgstr "单击此处可定义收款目标"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -2541,7 +2541,7 @@ msgstr "订单"
 #: model:ir.ui.menu,name:sale.menu_sale_order_invoice
 #: model_terms:ir.ui.view,arch_db:sale.crm_team_salesteams_view_kanban
 msgid "Orders to Invoice"
-msgstr "订单发票"
+msgstr "待开票订单"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_orders_upselling
@@ -3414,7 +3414,7 @@ msgstr "在报价单上设置默认有效期"
 #: code:addons/sale/static/src/js/sale.js:0
 #, python-format
 msgid "Set an invoicing target: "
-msgstr "设置一个开票对象:"
+msgstr "设置一个收款目标:"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form

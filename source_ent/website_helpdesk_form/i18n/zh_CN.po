@@ -64,7 +64,7 @@ msgstr "说明"
 #: model:ir.model,name:website_helpdesk_form.model_helpdesk_team
 #, python-format
 msgid "Helpdesk Team"
-msgstr "帮助中心团队"
+msgstr "服务团队"
 
 #. module: website_helpdesk_form
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_form.ticket_submit

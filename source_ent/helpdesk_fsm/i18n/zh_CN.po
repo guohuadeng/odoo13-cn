@@ -95,7 +95,7 @@ msgstr "服务台"
 #. module: helpdesk_fsm
 #: model:ir.model,name:helpdesk_fsm.model_helpdesk_team
 msgid "Helpdesk Team"
-msgstr "帮助中心团队"
+msgstr "服务团队"
 
 #. module: helpdesk_fsm
 #: model:ir.model,name:helpdesk_fsm.model_helpdesk_ticket
@@ -126,12 +126,12 @@ msgstr "更新时间"
 #: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_team__use_fsm
 #: model:ir.model.fields,field_description:helpdesk_fsm.field_helpdesk_ticket__use_fsm
 msgid "Onsite Interventions"
-msgstr ""
+msgstr "现场服务"
 
 #. module: helpdesk_fsm
 #: model_terms:ir.ui.view,arch_db:helpdesk_fsm.helpdesk_team_view_form
 msgid "Plan Field Service tasks from tickets"
-msgstr ""
+msgstr "通过工单申请现场服务"
 
 #. module: helpdesk_fsm
 #: model_terms:ir.ui.view,arch_db:helpdesk_fsm.helpdesk_ticket_view_form
