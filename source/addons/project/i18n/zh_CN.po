@@ -498,7 +498,7 @@ msgstr "所有任务"
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__privacy_visibility__employees
 msgid "All employees"
-msgstr ""
+msgstr "所有员工"
 
 #. module: project
 #. openerp-web
@@ -991,6 +991,10 @@ msgid ""
 "- Portal users and all employees: employees may see everything.   Portal users may see project and tasks followed by.\n"
 "   them or by someone of their company."
 msgstr ""
+"定见本项目及任务对谁可见:\n"
+"- 指定员工: 被指定的员工可以看到本项目及相关任务。\n"
+"- 所有员工: 所有员工都可以看到本项目及相关任务。\n"
+"- 门户用户及所有员工: 员工可以看到本项目所有内容。   门户用户可以看到他们自己的项目及他们关注的项目。\n"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
@@ -1501,7 +1505,7 @@ msgstr "和这个项目相关的内部邮件。收件会自动同步为任务（
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__privacy_visibility__followers
 msgid "Invited employees"
-msgstr ""
+msgstr "指定员工"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__message_is_follower
@@ -2092,7 +2096,7 @@ msgstr "门户访问网址"
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_project__privacy_visibility__portal
 msgid "Portal users and all employees"
-msgstr ""
+msgstr "门户用户及所有员工"
 
 #. module: project
 #. openerp-web
@@ -2557,7 +2561,7 @@ msgstr "将您的任务分解成子里程碑"
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 #, python-format
 msgid "Stage"
-msgstr "阶段"
+msgstr "任务阶段"
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_task_stage
@@ -2583,7 +2587,7 @@ msgstr "阶段已改变"
 #: model:ir.actions.act_window,name:project.open_task_type_form
 #: model:ir.ui.menu,name:project.menu_project_config_project
 msgid "Stages"
-msgstr "阶段"
+msgstr "任务阶段"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
