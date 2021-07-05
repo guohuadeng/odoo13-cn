@@ -680,8 +680,8 @@ msgid ""
 "                materials used to make a finished product; through a manufacturing\n"
 "                order or a pack of products."
 msgstr ""
-"物料清单（BOM）可定义制造成品所需原的材料，\n"
-"包括工单或包装。"
+"物料清单（BOM）可定义制造成品所需的原材料，\n"
+"可用于生产制造或包装。"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit

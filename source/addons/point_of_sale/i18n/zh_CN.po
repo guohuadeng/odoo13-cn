@@ -743,7 +743,7 @@ msgstr "已取消"
 #: code:addons/point_of_sale/static/src/js/screens.js:0
 #, python-format
 msgid "Cannot return change without a cash payment method"
-msgstr "不能改变无现金支付的方法"
+msgstr "不能改变无现金支付的支付方式"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_config.py:0
@@ -845,7 +845,7 @@ msgstr "椅子"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:0
 #, python-format
 msgid "Change"
-msgstr "修改"
+msgstr "找零"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2350,7 +2350,7 @@ msgstr "消息"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:0
 #, python-format
 msgid "Method"
-msgstr "方法"
+msgstr "支付方式"
 
 #. module: point_of_sale
 #: model:pos.category,name:point_of_sale.pos_category_miscellaneous
@@ -2866,7 +2866,7 @@ msgstr "付款日期"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__name
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_payment_search
 msgid "Payment Method"
-msgstr "付款方法"
+msgstr "支付方式"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_payment_method_form
@@ -2878,7 +2878,7 @@ msgstr "付款方法"
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_payment_method_view_search
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_payment_method_view_tree
 msgid "Payment Methods"
-msgstr "付款方法"
+msgstr "支付方式"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_make_payment__payment_name
@@ -3033,7 +3033,7 @@ msgstr "请在关闭此会话之前关闭所有销售点的会话。打开的会
 #: code:addons/point_of_sale/static/src/js/models.js:0
 #, python-format
 msgid "Please configure a payment method in your POS."
-msgstr "请在POS中配置支付方法。"
+msgstr "请在POS中配置支付方式。"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_session.py:0
@@ -4081,7 +4081,7 @@ msgstr "起始现金"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:0
 #, python-format
 msgid "State"
-msgstr "状态"
+msgstr "省|直辖市"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order__state
@@ -4283,7 +4283,7 @@ msgstr "电话:"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:0
 #, python-format
 msgid "Tendered"
-msgstr "投标"
+msgstr "收款"
 
 #. module: point_of_sale
 #. openerp-web
