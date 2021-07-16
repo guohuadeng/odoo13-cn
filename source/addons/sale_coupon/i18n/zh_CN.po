@@ -1159,7 +1159,7 @@ msgstr "促销"
 #: model:ir.model.fields,field_description:sale_coupon.field_sale_coupon_reward__reward_product_quantity
 #: model_terms:ir.ui.view,arch_db:sale_coupon.sale_coupon_program_view_form_common
 msgid "Quantity"
-msgstr "最少购买量"
+msgstr "奖励数量"
 
 #. module: sale_coupon
 #: model:ir.model.fields.selection,name:sale_coupon.selection__sale_coupon__state__reserved
