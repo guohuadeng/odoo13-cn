@@ -2140,7 +2140,7 @@ msgstr "表情符号"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_ir_model_fields__tracking
 msgid "Enable Ordered Tracking"
-msgstr "启用跟踪命令"
+msgstr "启用变更审计"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.mail_resend_cancel_view_form
@@ -4935,7 +4935,7 @@ msgstr "富文本/HTML消息"
 #: code:addons/mail/static/src/xml/thread.xml:0
 #, python-format
 msgid "Rotate"
-msgstr "替换"
+msgstr "旋转"
 
 #. module: mail
 #: model_terms:ir.ui.view,arch_db:mail.view_email_template_search

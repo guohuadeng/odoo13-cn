@@ -252,12 +252,12 @@ msgstr "收单方账号"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_token__acquirer_ref
 msgid "Acquirer Ref."
-msgstr "收单方参照"
+msgstr "收单方单号"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__acquirer_reference
 msgid "Acquirer Reference"
-msgstr "收单方参考"
+msgstr "收单方单号"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_icon__acquirer_ids
@@ -859,7 +859,7 @@ msgstr "HTTP 路由"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__is_processed
 msgid "Has the payment been post processed"
-msgstr "付款是否已过账处理"
+msgstr "已过账"
 
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer__pre_msg
@@ -986,7 +986,7 @@ msgstr "发票"
 #. module: payment
 #: model:ir.model,name:payment.model_account_move
 msgid "Journal Entries"
-msgstr "日记账分录"
+msgstr "记账凭证"
 
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__journal_id
@@ -1486,7 +1486,7 @@ msgstr "请稍候..."
 #: model:ir.cron,cron_name:payment.cron_post_process_payment_tx
 #: model:ir.cron,name:payment.cron_post_process_payment_tx
 msgid "Post process payment transactions"
-msgstr "后期处理付款交易"
+msgstr "付款成功后的后续处理"
 
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.confirm
@@ -1742,7 +1742,7 @@ msgstr "%s的%s交易%s已取消."
 msgid ""
 "The transaction %s with %s for %s has been confirmed. The related payment is"
 " posted: %s"
-msgstr "%s的%s交易%s已确认。相关付款已过账：%s"
+msgstr "%s的%s交易%s已确认。相关收款（即客户付款）已过账：%s"
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:0

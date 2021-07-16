@@ -32,4 +32,4 @@ msgstr "从准备好开发票的订单中生成发票。"
 #: code:addons/website_sale_management/static/src/xml/website_sale_dashboard.xml:6
 #, python-format
 msgid "Orders to Invoice"
-msgstr "订单发票"
+msgstr "待开票订单"

@@ -188,12 +188,12 @@ msgstr "日记账"
 #. module: documents_account
 #: model:ir.model,name:documents_account.model_account_move
 msgid "Journal Entries"
-msgstr "日记账分录"
+msgstr "记账凭证"
 
 #. module: documents_account
 #: model:ir.model,name:documents_account.model_account_move_line
 msgid "Journal Item"
-msgstr "日记账项"
+msgstr "会计分录"
 
 #. module: documents_account
 #: model:ir.model,name:documents_account.model_documents_account_folder_setting
@@ -229,7 +229,7 @@ msgstr "更新时间"
 #: model:ir.model,name:documents_account.model_account_reconcile_model
 msgid ""
 "Preset to create journal entries during a invoices and payments matching"
-msgstr "请在发票和付款匹配期间创建日记账分录"
+msgstr "请在发票和付款匹配期间创建记账凭证"
 
 #. module: documents_account
 #: model:ir.model.fields,field_description:documents_account.field_account_move_line__reconciliation_invoice_id

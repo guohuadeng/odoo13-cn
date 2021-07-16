@@ -1007,4 +1007,4 @@ msgstr "工作操作"
 #. module: quality
 #: model:quality.reason,name:quality.reason_workcenter
 msgid "Workcenter Failure"
-msgstr "工作中心故障"
+msgstr "生产单位故障"

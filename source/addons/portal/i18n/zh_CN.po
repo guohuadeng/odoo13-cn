@@ -754,7 +754,7 @@ msgstr "发生了一些错误。"
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
 msgid "State / Province"
-msgstr "州/省"
+msgstr "省/直辖市"
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details

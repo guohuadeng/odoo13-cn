@@ -250,12 +250,12 @@ msgstr "国家地区"
 #. module: account_intrastat
 #: model:ir.model,name:account_intrastat.model_account_move
 msgid "Journal Entries"
-msgstr "日记账分录"
+msgstr "记账凭证"
 
 #. module: account_intrastat
 #: model:ir.model,name:account_intrastat.model_account_move_line
 msgid "Journal Item"
-msgstr "日记账项"
+msgstr "会计分录"
 
 #. module: account_intrastat
 #: model:ir.model.fields,field_description:account_intrastat.field_account_intrastat_report____last_update

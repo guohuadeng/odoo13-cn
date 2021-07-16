@@ -96,7 +96,7 @@ msgid ""
 "journal entries for its costs. This way, we can record one production's cost"
 " multiple times and only consider new entries in the work centers time "
 "lines."
-msgstr "技术领域在正在进行的生产过账日记账分录时自动检查其成本。 这样，我们可以多次记录一个生产成本，只考虑工作中心时间线上的新条目。"
+msgstr "技术领域在正在进行的生产过账记账凭证时自动检查其成本。 这样，我们可以多次记录一个生产成本，只考虑生产单位时间线上的新条目。"
 
 #. module: mrp_account
 #: code:addons/mrp_account/models/product.py:0
@@ -114,9 +114,9 @@ msgstr "计价"
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_workcenter
 msgid "Work Center"
-msgstr "工作中心"
+msgstr "生产单位"
 
 #. module: mrp_account
 #: model:ir.model,name:mrp_account.model_mrp_workcenter_productivity
 msgid "Workcenter Productivity Log"
-msgstr "工作中心生产力日志"
+msgstr "生产单位生产力日志"

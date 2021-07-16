@@ -350,12 +350,12 @@ msgstr "是MTO"
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_account_move
 msgid "Journal Entries"
-msgstr "日记账分录"
+msgstr "记账凭证"
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_account_move_line
 msgid "Journal Item"
-msgstr "日记账项"
+msgstr "会计分录"
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_production_lot
@@ -462,7 +462,7 @@ msgid ""
 "is advised to better manage priorities in case of long customer lead times "
 "or/and frequent stock-outs. By default, the scheduler runs automatically "
 "every 24 hours."
-msgstr "在交付订单或运行调度程序时手动保留产品，建议在长客户提前期或/或频繁缺货时更好地管理优先级。在默认情况下，调度器每隔24小时自动运行。"
+msgstr "在交付订单或运行调度程序时手动预留产品，建议在长客户提前期或/或频繁缺货时更好地管理优先级。在默认情况下，调度器每隔24小时自动运行。"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order_line__route_id
@@ -553,7 +553,7 @@ msgstr "一次运送所有产品"
 #. module: sale_stock
 #: model:ir.model.fields.selection,name:sale_stock.selection__res_config_settings__default_picking_policy__direct
 msgid "Ship products as soon as available, with back orders"
-msgstr "尽快运送产品，并退回订单"
+msgstr "有货就发，数量不足时生成欠单"
 
 #. module: sale_stock
 #: model:ir.model.fields,field_description:sale_stock.field_sale_order__picking_policy
@@ -563,7 +563,7 @@ msgstr "送货策略"
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.product_template_view_form_inherit_stock
 msgid "Sold in the last 365 days"
-msgstr "已在过去365天内出售"
+msgstr "已在最近365天内出售"
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_move
@@ -665,7 +665,7 @@ msgstr "当所有产品就绪时"
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock
 msgid "When to reserve sold products"
-msgstr "何时保留已销售产品"
+msgstr "何时为已销售产品预留库存"
 
 #. module: sale_stock
 #: model_terms:ir.ui.view,arch_db:sale_stock.res_config_settings_view_form_stock

@@ -435,7 +435,7 @@ msgstr "新建"
 #: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_form_fsm_quotation
 #: model_terms:ir.ui.view,arch_db:industry_fsm.view_task_form2_inherit
 msgid "New Quotation"
-msgstr "新采购报价"
+msgstr "创建报价"
 
 #. module: industry_fsm
 #: model_terms:ir.actions.act_window,help:industry_fsm.project_task_action_fsm

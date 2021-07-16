@@ -63,7 +63,7 @@ msgstr "联系人"
 #: model:ir.model.fields,field_description:web_map.field_res_partner__contact_address_complete
 #: model:ir.model.fields,field_description:web_map.field_res_users__contact_address_complete
 msgid "Contact Address Complete"
-msgstr "完成联系地址"
+msgstr "完整地址"
 
 #. module: web_map
 #: model:ir.model,name:web_map.model_ir_http

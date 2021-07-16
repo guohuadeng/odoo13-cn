@@ -156,7 +156,7 @@ msgstr "名称"
 #. module: base_geolocalize
 #: model_terms:ir.ui.view,arch_db:base_geolocalize.view_crm_partner_geo_form
 msgid "Partner Assignation"
-msgstr "合作伙伴指派"
+msgstr "合作伙伴POI定位"
 
 #. module: base_geolocalize
 #: code:addons/base_geolocalize/models/base_geocoder.py:69

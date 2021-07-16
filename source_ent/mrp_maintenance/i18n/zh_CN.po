@@ -207,12 +207,12 @@ msgstr "粗刨"
 #: model:ir.model.fields,field_description:mrp_maintenance.field_maintenance_equipment__workcenter_id
 #: model_terms:ir.ui.view,arch_db:mrp_maintenance.maintenance_equipment_view_form_inherit_mrp
 msgid "Work Center"
-msgstr "工作中心"
+msgstr "生产单位"
 
 #. module: mrp_maintenance
 #: model:ir.ui.menu,name:mrp_maintenance.menu_workcenter_tree
 msgid "Work Centers"
-msgstr "工作中心"
+msgstr "生产单位"
 
 #. module: mrp_maintenance
 #: model:ir.model,name:mrp_maintenance.model_mrp_workorder
@@ -229,4 +229,4 @@ msgstr "天数"
 #: code:addons/mrp_maintenance/models/mrp_maintenance.py:0
 #, python-format
 msgid "work centers"
-msgstr "工作中心"
+msgstr "生产单位"

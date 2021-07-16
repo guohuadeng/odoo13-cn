@@ -1214,7 +1214,7 @@ msgid ""
 "    Adds workcenters to Quality Control\n"
 msgstr ""
 "\n"
-"    给质量控制添加工作中心\n"
+"    给质量控制添加生产单位\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_mrp_workorder_iot
@@ -2045,7 +2045,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"允许外包服务。该模块允许销售提供的服务\n"
+"允许委外服务。该模块允许销售提供的服务\n"
 "并自动生成给供应商的采购订单。\n"
 "    "
 
@@ -2182,7 +2182,7 @@ msgstr ""
 "==========================\n"
 "\n"
 "*成本结构报告\n"
-"此外，允许计算基于其BoM的产品成本，使用其组件和工作中心操作的成本。.\n"
+"此外，允许计算基于其BoM的产品成本，使用其组件和生产单位操作的成本。.\n"
 "它在产品本身上添加了一个按钮，还在产品列表视图中添加了一个操作。.\n"
 "如果自动库存评估处于启用状态，将创建必要的会计条目.\n"
 "\n"
@@ -2233,7 +2233,7 @@ msgstr ""
 "资产管理\n"
 "=================\n"
 "管理一个公司或一个人拥有的资产。\n"
-"跟踪贬值的，并创建相应的日记账分录。"
+"跟踪贬值的，并创建相应的记账凭证。"
 
 #. module: base
 #: model:ir.module.module,description:base.module_attachment_indexation
@@ -4206,7 +4206,7 @@ msgstr ""
 "* 预防维护和修复维护 \n"
 "* 定义不同的维护请求阶段\n"
 "* 计划维护请求（也称定期预防维护）\n"
-"* 相关的工作中心设备\n"
+"* 相关的生产单位设备\n"
 "* MTBF、 MTTR， ...\n"
 
 #. module: base
@@ -4669,7 +4669,7 @@ msgstr ""
 "===============================\n"
 "\n"
 "一个可以计划的资源表现(一个开发人员的任务或一个\n"
-"制造业订单工作中心). 这个模块可以管理相关的\n"
+"制造业订单生产单位). 这个模块可以管理相关的\n"
 "每个资源的资源日历. 同样也可以管理每个子资源.\n"
 "    "
 
@@ -6045,7 +6045,7 @@ msgstr ""
 "\n"
 "该模块增加了以下功能：\n"
 "\n"
-" 不可更改性：取消或取消修改POS订单，发票和日记账分录的关键数据的所有方法\n"
+" 不可更改性：取消或取消修改POS订单，发票和记账凭证的关键数据的所有方法\n"
 "\n"
 " 安全性：链接算法验证不可比性\n"
 "\n"
@@ -6156,11 +6156,10 @@ msgstr ""
 " 这是在 Odoo 中管理产品和价格表的基础模块。\n"
 "========================================================================\n"
 "\n"
-" 产品支持变量、不同的定价方式、供应商信息、=========\n"
+" 产品支持变量、不同的定价方式、供应商信息、\n"
 " 按库存/订单生产、不同的计量单位、包装和属性。\n"
 "\n"
 " 价格表支持：\n"
-"-------------------\n"
 " * 多级别折扣（按照产品、类别、数量）\n"
 " * 根据不同的条件计算价格：\n"
 " * 其他价格表\n"
@@ -6170,7 +6169,7 @@ msgstr ""
 "\n"
 " 价格表优惠（按照产品和/或合作伙伴）。\n"
 "\n"
-"Print product labels with barcode.\n"
+"打印产品条码标签。\n"
 "    "
 
 #. module: base
@@ -9547,7 +9546,7 @@ msgstr "管理"
 #: model:ir.model.fields,help:base.field_res_country_state__name
 msgid ""
 "Administrative divisions of a country. E.g. Fed. State, Departement, Canton"
-msgstr "一个国家的行政区划. E.g. 省/州, 部, 区"
+msgstr "一个国家的行政区划. E.g. 省/直辖市, 部, 区"
 
 #. module: base
 #: code:addons/base/models/ir_model.py:0 code:addons/base/models/ir_model.py:0
@@ -11877,7 +11876,7 @@ msgstr "库克群岛"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__copied
 msgid "Copied"
-msgstr "已复制"
+msgstr "可复制"
 
 #. module: base
 #: model:res.country,name:base.cr
@@ -13496,7 +13495,7 @@ msgstr ""
 "------\n"
 "\n"
 " - 在税收中可以设置账户“基本税收账户”即\n"
-" 将在现金基础日记账分录和创建的行上设置的账户\n"
+" 将在现金基础记账凭证和创建的行上设置的账户\n"
 " 用于跟踪税基金额，此账户不被视为in\n"
 " 墨西哥的报道\n"
 "\n"
@@ -13633,7 +13632,7 @@ msgid ""
 "* Cost Structure report (mrp_account)"
 msgstr ""
 "MRP 的企业版扩展\n"
-"* 工单计划。通过按生产订单/工作中心分组的甘特图，检查计划\n"
+"* 工单计划。通过按生产订单/生产单位分组的甘特图，检查计划\n"
 "* 跟踪报告\n"
 "* 成本结构报告 (mrp_account)"
 
@@ -14073,12 +14072,12 @@ msgstr "传真"
 #: model:ir.model.fields,field_description:base.field_res_bank__state
 #: model:ir.model.fields,field_description:base.field_res_company__state_id
 msgid "Fed. State"
-msgstr "省/州"
+msgstr "省|直辖市"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_country_state
 msgid "Fed. States"
-msgstr "省/州"
+msgstr "省/直辖市"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery_fedex
@@ -14443,7 +14442,7 @@ msgstr "芬兰"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_lang__week_start
 msgid "First Day of Week"
-msgstr "每周五天"
+msgstr "每周第一天"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_mx_reports_closing
@@ -16118,7 +16117,7 @@ msgstr "未启用的用户"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__index
 msgid "Indexed"
-msgstr "已索引"
+msgstr "建立索引"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_attachment__index_content
@@ -19033,7 +19032,7 @@ msgstr "应用数量"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_cron__numbercall
 msgid "Number of Calls"
-msgstr "电话数量"
+msgstr "最大调用次数"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users__companies_count
@@ -19105,7 +19104,7 @@ msgstr "对象名"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__relation
 msgid "Object Relation"
-msgstr "对象关系"
+msgstr "关联模型"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.report_irmodeloverview
@@ -23246,7 +23245,7 @@ msgstr "检测到循环。"
 #: model:ir.model.fields.selection,name:base.selection__ir_server_object_lines__evaluation_type__reference
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "Reference"
-msgstr "参考"
+msgstr "编码"
 
 #. module: base
 #: code:addons/base/models/ir_qweb_fields.py:0
@@ -23819,7 +23818,7 @@ msgstr "销售订阅仪表板"
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_purchase
 msgid "Sale based on service outsourcing."
-msgstr "基于服务外包的销售。"
+msgstr "基于服务委外的销售。"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_enterprise
@@ -24316,7 +24315,7 @@ msgstr "序列大小 "
 #: model_terms:ir.ui.view,arch_db:base.sequence_view_tree
 #: model_terms:ir.ui.view,arch_db:base.view_sequence_search
 msgid "Sequences"
-msgstr "顺序号"
+msgstr "顺序号编码规则"
 
 #. module: base
 #: model:ir.ui.menu,name:base.next_id_5
@@ -24825,17 +24824,17 @@ msgstr "开始配置"
 #: model_terms:ir.ui.view,arch_db:base.view_partner_short_form
 #: model_terms:ir.ui.view,arch_db:base.view_res_bank_form
 msgid "State"
-msgstr "省/ 州"
+msgstr "省|直辖市"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country_state__code
 msgid "State Code"
-msgstr "省/ 州代码"
+msgstr "省|直辖市代码"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country_state__name
 msgid "State Name"
-msgstr "省/ 州名称"
+msgstr "省|直辖市名称"
 
 #. module: base
 #: model:res.country,name:base.ps
@@ -24850,7 +24849,7 @@ msgstr "公司状态"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country__state_ids
 msgid "States"
-msgstr "省/ 州"
+msgstr "省|直辖市列表"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_language_install__state
@@ -24997,12 +24996,12 @@ msgstr "在线开发工具"
 #. module: base
 #: model:ir.module.module,summary:base.module_mrp_subcontracting
 msgid "Subcontract Productions"
-msgstr "委外生产"
+msgstr "委外制造"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_subcontracting_account
 msgid "Subcontracting Management with Stock Valuation"
-msgstr "委外生产中的库存估值"
+msgstr "委外制造中的库存估值"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.edit_menu_access
@@ -26163,12 +26162,12 @@ msgstr "时间格式"
 #: model:ir.module.category,name:base.module_category_human_resources_time_off
 #: model:ir.module.module,shortdesc:base.module_hr_holidays
 msgid "Time Off"
-msgstr "休息时间"
+msgstr "休假管理"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_holidays_gantt
 msgid "Time off Gantt"
-msgstr "休息时间甘特"
+msgstr "假期安排甘特图"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_timesheet_grid
@@ -27849,7 +27848,7 @@ msgstr "你可以从你的电脑上传一个文件或者复制/粘贴一个 Inte
 msgid ""
 "You can manage the different federal states you are working on from here. "
 "Each state is attached to one country."
-msgstr "你可以管理不同的省/州，每一个省/州都关联到一个国家。"
+msgstr "你可以管理不同的省/直辖市，每一个省/直辖市都关联到一个国家。"
 
 #. module: base
 #: code:addons/base/models/res_partner.py:0

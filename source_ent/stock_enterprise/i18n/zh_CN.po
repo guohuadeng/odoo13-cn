@@ -312,7 +312,7 @@ msgstr "等待可用量"
 #: model:ir.actions.act_window,name:stock_enterprise.stock_report_dashboard_action
 #: model:ir.ui.menu,name:stock_enterprise.stock_dashboard_menuitem
 msgid "Warehouse Analysis"
-msgstr ""
+msgstr "库存分析"
 
 #. module: stock_enterprise
 #: model_terms:ir.ui.view,arch_db:stock_enterprise.stock_report_view_grid

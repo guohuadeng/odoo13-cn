@@ -79,7 +79,7 @@ msgstr "讨论频道"
 #. module: website_helpdesk_livechat
 #: model:ir.model,name:website_helpdesk_livechat.model_helpdesk_team
 msgid "Helpdesk Team"
-msgstr "帮助中心团队"
+msgstr "服务团队"
 
 #. module: website_helpdesk_livechat
 #: model:ir.model.fields,field_description:website_helpdesk_livechat.field_helpdesk_team__is_canned_response

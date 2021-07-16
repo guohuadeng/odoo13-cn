@@ -240,7 +240,7 @@ msgstr "旷工率"
 
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.res_config_settings_view_form
-#: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_form
+#: model_terms:ir.ui.view,arch_db:hr_payroll.view_hr_payslip_formmyconf
 msgid "Accounting"
 msgstr "会计"
 
@@ -1254,7 +1254,7 @@ msgstr "工作岗位"
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.payroll_report_view_search
 msgid "Last 365 Days Payslip"
-msgstr "过去365天工资单"
+msgstr "最近365天工资单"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_payroll_index____last_update
@@ -1869,7 +1869,7 @@ msgstr "退款："
 #. module: hr_payroll
 #: model_terms:ir.ui.view,arch_db:hr_payroll.payroll_hr_work_entry_view_form_inherit
 msgid "Refuse Time Off"
-msgstr "拒绝休息时间"
+msgstr "拒绝休假申请"
 
 #. module: hr_payroll
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_employee__registration_number
@@ -2309,7 +2309,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_work_entry__leave_id
 #: model:ir.model.fields,field_description:hr_payroll.field_hr_work_entry_type__is_leave
 msgid "Time Off"
-msgstr "休息时间"
+msgstr "休假"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_leave_type

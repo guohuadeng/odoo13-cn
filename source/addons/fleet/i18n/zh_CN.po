@@ -56,7 +56,7 @@ msgstr "<span>发送一个预警</span>"
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form
 msgid "<span>g/km</span>"
-msgstr "<span>克/公里</span>"
+msgstr "<span>克每公里</span>"
 
 #. module: fleet
 #: model_terms:ir.ui.view,arch_db:fleet.fleet_vehicle_view_form

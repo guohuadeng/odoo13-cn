@@ -32,7 +32,7 @@ msgstr "点击查看更多结果..."
 #. module: website_helpdesk_slides
 #: model:ir.model,name:website_helpdesk_slides.model_helpdesk_team
 msgid "Helpdesk Team"
-msgstr "帮助中心团队"
+msgstr "服务团队"
 
 #. module: website_helpdesk_slides
 #: model_terms:ir.ui.view,arch_db:website_helpdesk_slides.website_helpdesk_slides_team_page

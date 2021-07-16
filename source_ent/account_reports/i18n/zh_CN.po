@@ -1297,7 +1297,7 @@ msgstr "Groupby应该是一个来自account . move.line的字段"
 #: code:addons/account_reports/models/account_financial_report.py:0
 #, python-format
 msgid "Groupby should be a journal item field"
-msgstr "Groupby应该是一个日记账项的字段"
+msgstr "Groupby应该是一个会计分录的字段"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__hide_if_empty
@@ -1421,7 +1421,7 @@ msgstr "日记账"
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_account_move
 msgid "Journal Entries"
-msgstr "日记账分录"
+msgstr "记账凭证"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_report.py:0
@@ -1432,23 +1432,23 @@ msgstr "日记账组"
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_account_move_line
 msgid "Journal Item"
-msgstr "日记账项"
+msgstr "会计分录"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.line_caret_options
 msgid "Journal Items"
-msgstr "日记账项"
+msgstr "会计分录"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_report.py:0
 #, python-format
 msgid "Journal Items (%s)"
-msgstr "日记账项 (%s)"
+msgstr "会计分录 (%s)"
 
 #. module: account_reports
 #: model:ir.actions.server,name:account_reports.action_journal_items
 msgid "Journal Items by tax"
-msgstr "含税日记账项"
+msgstr "含税会计分录"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_consolidated_journals.py:0
@@ -1665,7 +1665,7 @@ msgstr "无单位"
 msgid ""
 "Note you can set through the customer statement about a receivable journal "
 "item"
-msgstr "注意你可以通过关于应收日记账项的客户对账单来设置"
+msgstr "注意你可以通过关于应收会计分录的客户对账单来设置"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_generic_tax_report.py:0
@@ -2036,7 +2036,7 @@ msgstr "序号"
 msgid ""
 "Set to True to automatically filter out journal items that have the boolean "
 "field 'tax_exigible' set to False"
-msgstr "设置为True，自动筛选出具有布尔字段'tax_exigible'的日记账项为False。"
+msgstr "设置为True，自动筛选出具有布尔字段'tax_exigible'的会计分录为False。"
 
 #. module: account_reports
 #: model:account.financial.html.report.line,name:account_reports.account_financial_report_executivesummary_st_cash_forecast0
@@ -2341,7 +2341,7 @@ msgstr "查看发票"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_general_ledger_report
 msgid "View Journal Entry"
-msgstr "查看日记账分录"
+msgstr "查看记账凭证"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.line_caret_options
@@ -2493,9 +2493,9 @@ msgstr ""
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.main_template
 msgid "unposted Journal Entries"
-msgstr "未过账日记账分录"
+msgstr "未过账记账凭证"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.line_template_general_ledger_report
 msgid "⇒ journal items"
-msgstr "⇒ 日记账项"
+msgstr "⇒ 会计分录"

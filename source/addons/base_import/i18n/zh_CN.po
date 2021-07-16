@@ -95,7 +95,7 @@ msgstr "基础导入对照"
 #: code:addons/base_import/static/src/xml/base_import.xml:0
 #, python-format
 msgid "Batch limit"
-msgstr ""
+msgstr "每批处理数量"
 
 #. module: base_import
 #. openerp-web
@@ -702,7 +702,7 @@ msgstr "空格键"
 #: code:addons/base_import/static/src/xml/base_import.xml:0
 #, python-format
 msgid "Start at line"
-msgstr ""
+msgstr "从第几行开始"
 
 #. module: base_import
 #. openerp-web
@@ -807,7 +807,7 @@ msgstr "文本分隔符: "
 msgid ""
 "The first row\n"
 "                         contains the label of the column"
-msgstr ""
+msgstr "第一行包含字段标签"
 
 #. module: base_import
 #. openerp-web

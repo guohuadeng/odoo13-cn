@@ -123,7 +123,7 @@ msgstr "ID"
 #. module: hr_contract_reports
 #: model_terms:ir.ui.view,arch_db:hr_contract_reports.contract_employee_report_view_search
 msgid "Last 365 Days"
-msgstr "过去365天"
+msgstr "最近365天"
 
 #. module: hr_contract_reports
 #: model_terms:ir.ui.view,arch_db:hr_contract_reports.contract_employee_report_view_dashboard

@@ -116,7 +116,7 @@ msgstr ""
 #: model:ir.model,name:project_timesheet_holidays.model_hr_leave
 #, python-format
 msgid "Time Off"
-msgstr "休息时间"
+msgstr "休假管理"
 
 #. module: project_timesheet_holidays
 #: model:ir.model.fields,field_description:project_timesheet_holidays.field_res_company__leave_timesheet_task_id

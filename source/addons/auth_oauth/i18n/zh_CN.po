@@ -59,12 +59,12 @@ msgstr "允许"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__auth_endpoint
 msgid "Authentication URL"
-msgstr "身份验证网址"
+msgstr "请求鉴权URL"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__body
 msgid "Body"
-msgstr "正文"
+msgstr "显示名称"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__css_class
@@ -100,7 +100,7 @@ msgstr "创建时间"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__data_endpoint
 msgid "Data URL"
-msgstr "数据网址"
+msgstr "取用户数据URL"
 
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__display_name
@@ -237,7 +237,7 @@ msgstr "用户"
 #. module: auth_oauth
 #: model:ir.model.fields,field_description:auth_oauth.field_auth_oauth_provider__validation_endpoint
 msgid "Validation URL"
-msgstr "验证网址"
+msgstr "用户鉴权URL"
 
 #. module: auth_oauth
 #: code:addons/auth_oauth/controllers/main.py:0

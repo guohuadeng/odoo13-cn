@@ -41,7 +41,7 @@ msgstr "失败"
 #. module: quality_mrp_workorder
 #: model:ir.model.fields,field_description:quality_mrp_workorder.field_mrp_workorder__measure
 msgid "Measure"
-msgstr "测量"
+msgstr "统计指标"
 
 #. module: quality_mrp_workorder
 #: model:ir.model.fields,field_description:quality_mrp_workorder.field_mrp_workorder__measure_success

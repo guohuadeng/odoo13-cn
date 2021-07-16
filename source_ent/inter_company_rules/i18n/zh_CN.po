@@ -1,29 +1,19 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* inter_company_rules
-# 
-# Translators:
-# Martin Trigaux, 2019
-# Jeffery CHEN Fan <jeffery9@gmail.com>, 2019
-# 山西清水欧度(QQ:54773801) <54773801@qq.com>, 2019
-# inspur qiuguodong <qiuguodong@inspur.com>, 2019
-# Jeanphy <hzh0292@qq.com>, 2019
-# liAnGjiA <liangjia@qq.com>, 2020
-# as co02 <asco02@163.com>, 2020
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server saas~12.5+e\n"
+"Project-Id-Version: Odoo Server 13.0+e\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-26 08:05+0000\n"
-"PO-Revision-Date: 2019-08-26 09:36+0000\n"
-"Last-Translator: as co02 <asco02@163.com>, 2020\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"POT-Creation-Date: 2021-04-28 05:48+0000\n"
+"PO-Revision-Date: 2021-04-28 05:48+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: \n"
 
 #. module: inter_company_rules
 #: code:addons/inter_company_rules/models/account_move.py:0
@@ -62,7 +52,7 @@ msgstr "自动生成的销售订单"
 #: model:ir.model.fields,field_description:inter_company_rules.field_res_company__auto_validation
 #: model:ir.model.fields,field_description:inter_company_rules.field_res_config_settings__auto_validation
 msgid "Automatic Validation"
-msgstr ""
+msgstr "自动验证过审"
 
 #. module: inter_company_rules
 #: model:ir.model,name:inter_company_rules.model_res_company
@@ -89,7 +79,7 @@ msgstr "在菜单:设置/用户/公司中,为公司(%s)配置正确的仓库"
 msgid ""
 "Default value to set on Purchase(Sales) Orders that will be created based on"
 " Sale(Purchase) Orders made to this company"
-msgstr "在该公司销售（采购）订单的基础之上再建立的采购（销售）订单的默认值"
+msgstr "根据关联公司的销售（采购）订单，生成目标公司的采购（销售）订单的默认值"
 
 #. module: inter_company_rules
 #: model:ir.model.fields.selection,name:inter_company_rules.selection__res_company__rule_type__not_synchronize
@@ -104,6 +94,8 @@ msgid ""
 "warehouse %(warehouse)s when a company confirms a %(event_type)s for "
 "%(company)s."
 msgstr ""
+"生成一个 %(validation)s %(generated_object)s                至 "
+"仓库 %(warehouse)s ，当某关联公司确认一个 %(event_type)s 属于当前公司 %(company)s."
 
 #. module: inter_company_rules
 #: code:addons/inter_company_rules/models/res_company.py:0
@@ -112,13 +104,15 @@ msgid ""
 "Generate a %(validation)s %(generated_object)s                when a company"
 " confirms a %(event_type)s for %(company)s."
 msgstr ""
+"生成一个 %(validation)s %(generated_object)s                当某关联公司"
+" 确认一个 %(event_type)s 属于当前公司 %(company)s."
 
 #. module: inter_company_rules
 #: code:addons/inter_company_rules/models/res_company.py:0
 #, python-format
 msgid ""
 "Generate a bill/invoice when a company confirms an invoice/bill for %s."
-msgstr "当公司确认发票/账单时，生成账单/发票。"
+msgstr "为当前公司 %s 生成一张发票/账单时，当关联公司确认生成账单/发票。"
 
 #. module: inter_company_rules
 #: code:addons/inter_company_rules/models/purchase_order.py:0
@@ -141,12 +135,12 @@ msgstr "公司间交易消息"
 #. module: inter_company_rules
 #: model:ir.model,name:inter_company_rules.model_account_move
 msgid "Journal Entries"
-msgstr "日记账分录"
+msgstr "会计凭证"
 
 #. module: inter_company_rules
 #: model:ir.model,name:inter_company_rules.model_account_move_line
 msgid "Journal Item"
-msgstr "日记账项"
+msgstr "会计分录"
 
 #. module: inter_company_rules
 #: code:addons/inter_company_rules/models/purchase_order.py:0
@@ -237,7 +231,7 @@ msgstr "源销售订单"
 #. module: inter_company_rules
 #: model:ir.model.fields.selection,name:inter_company_rules.selection__res_company__rule_type__invoice_and_refund
 msgid "Synchronize invoices/bills"
-msgstr "同步发票/账单"
+msgstr "同步发票/帐单"
 
 #. module: inter_company_rules
 #: model:ir.model.fields.selection,name:inter_company_rules.selection__res_company__rule_type__so_and_po

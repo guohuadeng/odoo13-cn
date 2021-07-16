@@ -417,7 +417,7 @@ msgstr "BOM修订版"
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.report_mrp_bom_inherit_mrp_plm
 msgid "BoM Version"
-msgstr ""
+msgstr "BoM 版本"
 
 #. module: mrp_plm
 #: code:addons/mrp_plm/models/mrp_eco.py:0
@@ -755,12 +755,12 @@ msgstr "ECO(s)"
 #: model_terms:ir.ui.view,arch_db:mrp_plm.report_mrp_bom_inherit_mrp_plm
 #, python-format
 msgid "ECOs"
-msgstr "ECOs"
+msgstr "ECOs工程变更"
 
 #. module: mrp_plm
 #: model_terms:ir.ui.view,arch_db:mrp_plm.mrp_bom_view_kanban
 msgid "Eco"
-msgstr "Eco"
+msgstr "Eco工程变更"
 
 #. module: mrp_plm
 #: code:addons/mrp_plm/models/mrp_eco.py:0
@@ -1792,12 +1792,12 @@ msgstr "网上沟通记录"
 #. module: mrp_plm
 #: model:ir.model.fields,field_description:mrp_plm.field_mrp_eco_routing_change__workcenter_id
 msgid "Work Center"
-msgstr "工作中心"
+msgstr "生产单位"
 
 #. module: mrp_plm
 #: model:ir.ui.menu,name:mrp_plm.menu_mrp_plm_workcenters
 msgid "Work Centers"
-msgstr "工作中心"
+msgstr "生产单位"
 
 #. module: mrp_plm
 #: code:addons/mrp_plm/models/mrp_eco.py:0

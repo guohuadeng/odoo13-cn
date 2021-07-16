@@ -1475,7 +1475,7 @@ msgstr "禁止修改未处于草稿状态的销售订单。"
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_account_move
 msgid "Journal Entries"
-msgstr "日记账分录"
+msgstr "记账凭证"
 
 #. module: website_sale
 #: model:ir.model.fields.selection,name:website_sale.selection__res_company__website_sale_onboarding_payment_acquirer_state__just_done
@@ -1878,14 +1878,14 @@ msgstr "订单关注"
 #. module: website_sale
 #: model:ir.actions.act_window,name:website_sale.sale_order_action_to_invoice
 msgid "Orders To Invoice"
-msgstr "订单发票"
+msgstr "待开票订单"
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:0
 #, python-format
 msgid "Orders to Invoice"
-msgstr "订单发票"
+msgstr "待开票订单"
 
 #. module: website_sale
 #. openerp-web
@@ -2591,12 +2591,12 @@ msgstr "来源"
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "State / Province"
-msgstr "州/省"
+msgstr "省/直辖市"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
 msgid "State / Province..."
-msgstr "州/省..."
+msgstr "省/直辖市..."
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_res_company__website_sale_onboarding_payment_acquirer_state
@@ -2982,7 +2982,7 @@ msgstr "网站公众种类"
 #: model:ir.model.fields,field_description:website_sale.field_product_product__website_sequence
 #: model:ir.model.fields,field_description:website_sale.field_product_template__website_sequence
 msgid "Website Sequence"
-msgstr "网站序列"
+msgstr "网站排序"
 
 #. module: website_sale
 #: model:ir.actions.act_url,name:website_sale.action_open_website

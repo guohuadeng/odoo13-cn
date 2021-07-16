@@ -71,12 +71,12 @@ msgstr "日记账"
 #. module: account_3way_match
 #: model:ir.model,name:account_3way_match.model_account_move
 msgid "Journal Entries"
-msgstr "日记账分录"
+msgstr "记账凭证"
 
 #. module: account_3way_match
 #: model:ir.model,name:account_3way_match.model_account_move_line
 msgid "Journal Item"
-msgstr "日记账项"
+msgstr "会计分录"
 
 #. module: account_3way_match
 #: model:ir.model.fields.selection,name:account_3way_match.selection__account_move__release_to_pay__no

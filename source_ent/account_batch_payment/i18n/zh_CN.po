@@ -399,7 +399,7 @@ msgstr "已发送"
 msgid ""
 "Some journal items from the selected batch payment are already selected in "
 "another reconciliation : "
-msgstr "已选批量存款的一些日记账分录已在其他核对中选择："
+msgstr "已选批量存款的一些记账凭证已在其他核对中选择："
 
 #. module: account_batch_payment
 #: model:ir.model.fields,field_description:account_batch_payment.field_account_batch_payment__state

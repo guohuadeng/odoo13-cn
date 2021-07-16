@@ -936,12 +936,12 @@ msgstr "点击创建一张询价单然后转化为采购单"
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_move
 msgid "Journal Entries"
-msgstr "日记账分录"
+msgstr "记账凭证"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_move_line
 msgid "Journal Item"
-msgstr "日记账项"
+msgstr "会计分录"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_bill_union____last_update
@@ -1224,7 +1224,7 @@ msgstr "订单行"
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__order_id
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_search
 msgid "Order Reference"
-msgstr "订单关联"
+msgstr "单据编号"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_report__state
@@ -1775,7 +1775,7 @@ msgstr "章节名称(如：产品，服务)"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_res_config_settings__use_po_lead
 msgid "Security Lead Time for Purchase"
-msgstr "安全交货时间"
+msgstr "采购交货提前期"
 
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__access_token

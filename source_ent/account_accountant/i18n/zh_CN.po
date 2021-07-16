@@ -201,12 +201,12 @@ msgstr "中间科目，用于从一个流动性科目到另外一个科目转账
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_account_move
 msgid "Journal Entries"
-msgstr "日记账分录"
+msgstr "记账凭证"
 
 #. module: account_accountant
 #: model:ir.model,name:account_accountant.model_account_move_line
 msgid "Journal Item"
-msgstr "日记账项"
+msgstr "会计分录"
 
 #. module: account_accountant
 #: model:ir.model.fields,field_description:account_accountant.field_digest_digest__kpi_account_bank_cash_value
@@ -273,7 +273,7 @@ msgstr "凭证附件"
 msgid ""
 "No users can edit journal entries related to a tax prior and inclusive of "
 "this date."
-msgstr "没有用户可以编辑与此日期之前和之前相关的税收相关的日记账分录。"
+msgstr "没有用户可以编辑与此日期之前和之前相关的税收相关的记账凭证。"
 
 #. module: account_accountant
 #: model:ir.model.fields,help:account_accountant.field_account_change_lock_date__fiscalyear_lock_date
@@ -326,7 +326,7 @@ msgstr "准备好发现你最爱的新应用了吗<b>财务 app</>? 点击这里
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.res_config_settings_view_form
 msgid "Record cost of goods sold in your journal entries"
-msgstr "在你的日记账分录中记录销售的货物的成本"
+msgstr "在你的记账凭证中记录销售的货物的成本"
 
 #. module: account_accountant
 #: model_terms:ir.ui.view,arch_db:account_accountant.view_account_change_lock_date

@@ -109,7 +109,7 @@ msgstr "下载为 Excel 文件"
 #: code:addons/web_cohort/static/src/xml/web_cohort.xml:0
 #, python-format
 msgid "Measures"
-msgstr "测量"
+msgstr "统计指标"
 
 #. module: web_cohort
 #. openerp-web

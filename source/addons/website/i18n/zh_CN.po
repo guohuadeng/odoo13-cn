@@ -3844,7 +3844,7 @@ msgid ""
 "Our products are designed for small to medium size companies willing to optimize\n"
 "                                                    their performance."
 msgstr ""
-"我们的产品专为中小型公司而设计\n"
+"我们的产品专为中大型集团公司而设计\n"
 "                  帮助他们优化业绩。"
 
 #. module: website
@@ -3853,7 +3853,7 @@ msgid ""
 "Our products are designed for small to medium size companies willing to optimize\n"
 "                                their performance."
 msgstr ""
-"我们的产品专为中小型公司而设计\n"
+"我们的产品专为中大型集团公司而设计\n"
 " 帮助他们优化业绩。"
 
 #. module: website

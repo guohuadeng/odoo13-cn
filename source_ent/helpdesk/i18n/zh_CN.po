@@ -696,7 +696,7 @@ msgstr "已取消"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Channels"
-msgstr "渠道"
+msgstr "服务渠道"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
@@ -1180,7 +1180,7 @@ msgstr "首次分派日期"
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_stage__fold
 msgid "Folded in Kanban"
-msgstr "集中到看板中"
+msgstr "默认折叠"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
@@ -1223,7 +1223,7 @@ msgstr "未来活动"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Generate credit notes from tickets"
-msgstr ""
+msgstr "通过工单申请退款"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
@@ -1233,7 +1233,7 @@ msgstr "联系您的网站访客"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Grant coupons from Tickets"
-msgstr ""
+msgstr "通过工单发放优惠券"
 
 #. module: helpdesk
 #: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__kanban_state__done
@@ -1322,23 +1322,23 @@ msgstr "帮助中心标签"
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_ticket__team_id
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_tree
 msgid "Helpdesk Team"
-msgstr "帮助中心团队"
+msgstr "服务团队"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.index
 msgid "Helpdesk Team Satisfaction"
-msgstr "帮助中心团队满意度"
+msgstr "服务团队满意度"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Helpdesk Team..."
-msgstr "帮助中心团队..."
+msgstr "服务团队..."
 
 #. module: helpdesk
 #: model:ir.actions.act_window,name:helpdesk.helpdesk_team_action
 #: model:ir.ui.menu,name:helpdesk.helpdesk_team_menu
 msgid "Helpdesk Teams"
-msgstr "帮助中心团队"
+msgstr "服务团队"
 
 #. module: helpdesk
 #: model:ir.model,name:helpdesk.model_helpdesk_ticket
@@ -1488,7 +1488,7 @@ msgstr "接收的EMail创建服务单"
 msgid ""
 "Individuals to whom the tickets will be automatically assigned. Keep empty "
 "for everyone to be part of the team."
-msgstr ""
+msgstr "工单将分配给以下成员。留空则表示将分配给所有成员。"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__message_is_follower
@@ -1886,7 +1886,7 @@ msgstr ""
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Performance"
-msgstr "效能"
+msgstr "绩效与标准"
 
 #. module: helpdesk
 #: model:ir.actions.act_window,name:helpdesk.helpdesk_ticket_action_team_performance
@@ -1928,7 +1928,7 @@ msgstr "优先级"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Productivity"
-msgstr "生产力"
+msgstr "成员与执行"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
@@ -2083,7 +2083,7 @@ msgstr ""
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Repair broken products"
-msgstr ""
+msgstr "通过工单进行产品售后维修"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__use_product_repairs
@@ -2119,7 +2119,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_sla_report_analysis__sla_deadline
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_ticket__sla_deadline
 msgid "SLA Deadline"
-msgstr ""
+msgstr "SLA完成期限"
 
 #. module: helpdesk
 #. openerp-web
@@ -2283,12 +2283,12 @@ msgstr "查看服务水平协议"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Self-Service"
-msgstr "自助服务"
+msgstr "客户自助门户"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Sell &amp; Track Hours"
-msgstr "销售及跟踪时间"
+msgstr "销售与时效跟踪"
 
 #. module: helpdesk
 #. openerp-web
@@ -2784,7 +2784,7 @@ msgstr ""
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__allow_portal_ticket_closing
 msgid "Ticket closing"
-msgstr ""
+msgstr "关闭工单"
 
 #. module: helpdesk
 #: model:mail.message.subtype,description:helpdesk.mt_ticket_new

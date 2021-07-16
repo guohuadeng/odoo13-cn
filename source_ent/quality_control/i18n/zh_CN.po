@@ -332,7 +332,7 @@ msgstr "最大偏差"
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_check__measure
 msgid "Measure"
-msgstr "测量"
+msgstr "统计指标"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_quality_point__measure_frequency_unit

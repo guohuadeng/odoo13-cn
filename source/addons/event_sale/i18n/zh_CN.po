@@ -238,7 +238,7 @@ msgstr "是一张活动票吗？"
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_account_move
 msgid "Journal Entries"
-msgstr "日记账分录"
+msgstr "记账凭证"
 
 #. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_configurator____last_update

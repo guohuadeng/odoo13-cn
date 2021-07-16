@@ -67,7 +67,7 @@ msgstr "仅限已批准的时间表"
 #: model:ir.model.fields,field_description:sale_timesheet_enterprise.field_project_project__allow_billable
 #: model:ir.model.fields,field_description:sale_timesheet_enterprise.field_project_task__allow_billable
 msgid "Bill from Tasks"
-msgstr ""
+msgstr "按任务工时计费"
 
 #. module: sale_timesheet_enterprise
 #: model_terms:ir.ui.view,arch_db:sale_timesheet_enterprise.project_task_create_sale_order_view_form
@@ -162,12 +162,12 @@ msgstr "ID"
 #. module: sale_timesheet_enterprise
 #: model_terms:ir.ui.view,arch_db:sale_timesheet_enterprise.project_view_form_inherit
 msgid "Invoice your time and material from tasks"
-msgstr ""
+msgstr "按任务工时及物料消耗进行收款"
 
 #. module: sale_timesheet_enterprise
 #: model:ir.model,name:sale_timesheet_enterprise.model_account_move_line
 msgid "Journal Item"
-msgstr "日记账项"
+msgstr "会计分录"
 
 #. module: sale_timesheet_enterprise
 #: model:ir.model.fields,field_description:sale_timesheet_enterprise.field_project_task_create_sale_order____last_update
@@ -306,7 +306,7 @@ msgstr "时间"
 #. module: sale_timesheet_enterprise
 #: model:ir.model.fields,field_description:sale_timesheet_enterprise.field_project_project__allow_timesheet_timer
 msgid "Timesheet Timer"
-msgstr ""
+msgstr "项目计时器"
 
 #. module: sale_timesheet_enterprise
 #: model:ir.model.fields,field_description:sale_timesheet_enterprise.field_project_task__timesheet_timer_first_start
@@ -336,7 +336,7 @@ msgstr "工时单开票"
 #. module: sale_timesheet_enterprise
 #: model_terms:ir.ui.view,arch_db:sale_timesheet_enterprise.project_view_form_inherit
 msgid "Track your time using a timer"
-msgstr ""
+msgstr "用计时器来跟踪项目时效"
 
 #. module: sale_timesheet_enterprise
 #: model:ir.model.fields,field_description:sale_timesheet_enterprise.field_project_task_create_sale_order__price_unit

@@ -72,7 +72,7 @@ msgstr "时长"
 #. module: helpdesk_timesheet
 #: model:ir.model,name:helpdesk_timesheet.model_helpdesk_team
 msgid "Helpdesk Team"
-msgstr "帮助中心团队"
+msgstr "服务团队"
 
 #. module: helpdesk_timesheet
 #: model:ir.model,name:helpdesk_timesheet.model_helpdesk_ticket

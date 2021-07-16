@@ -1708,7 +1708,7 @@ msgstr "翻转轴"
 #: code:addons/web/static/src/xml/kanban.xml:0
 #, python-format
 msgid "Fold"
-msgstr "收拢"
+msgstr "折叠"
 
 #. module: web
 #. openerp-web
@@ -1994,28 +1994,28 @@ msgstr "语言"
 #: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:0
 #, python-format
 msgid "Last 30 Days"
-msgstr "近30天"
+msgstr "最近30天"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:0
 #, python-format
 msgid "Last 365 Days"
-msgstr "近365天"
+msgstr "最近365天"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:0
 #, python-format
 msgid "Last 5 Years"
-msgstr "近5年"
+msgstr "最近5年"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/control_panel/search/control_panel_view_parameters.js:0
 #, python-format
 msgid "Last 7 Days"
-msgstr "近7天"
+msgstr "最近7天"
 
 #. module: web
 #. openerp-web
@@ -2261,7 +2261,7 @@ msgstr "若长时间未响应，请按下F5重新加载应用"
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "Measures"
-msgstr "测量"
+msgstr "统计值"
 
 #. module: web
 #. openerp-web
@@ -3784,7 +3784,7 @@ msgstr "错误的文件类型。请选择图片文件。"
 #, python-format
 msgid ""
 "This filter is global and will be removed for everybody if you continue."
-msgstr "这是一个所有人都可以使用的全球筛选，如果你继续，将会向所有人移除。"
+msgstr "这是一个所有人都可以使用的全局筛选，如果你继续，将会向所有人移除。"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.preview_externalreport
@@ -3808,7 +3808,7 @@ msgstr "时间"
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "Time Ranges"
-msgstr "时间范围"
+msgstr "同期对比"
 
 #. module: web
 #. openerp-web
@@ -3828,7 +3828,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/web_calendar.xml:0
 #, python-format
 msgid "Today"
-msgstr "今日"
+msgstr "今天"
 
 #. module: web
 #. openerp-web
@@ -3883,6 +3883,7 @@ msgid ""
 "Try to add some records, or make sure that there is at least one measure and"
 " no active filter in the search bar."
 msgstr ""
+"请尝试录入一些数据，系统会生成相关分析报表。请注意过滤搜索条件。"
 
 #. module: web
 #. openerp-web
@@ -3892,6 +3893,7 @@ msgid ""
 "Try to add some records, or make sure that there is no\n"
 "                active filter in the search bar."
 msgstr ""
+"请尝试录入一些数据，同时确认没有特殊的过滤搜索条件。"
 
 #. module: web
 #. openerp-web
@@ -3951,7 +3953,7 @@ msgstr "启用所有"
 #: code:addons/web/static/src/js/views/pivot/pivot_model.js:0
 #, python-format
 msgid "Undefined"
-msgstr "未定义的"
+msgstr " "
 
 #. module: web
 #. openerp-web
@@ -4108,7 +4110,7 @@ msgstr "验证错误"
 #: code:addons/web/static/src/js/views/pivot/pivot_model.js:0
 #, python-format
 msgid "Variation"
-msgstr "变形"
+msgstr "同比增长"
 
 #. module: web
 #. openerp-web

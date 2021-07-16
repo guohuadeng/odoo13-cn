@@ -164,7 +164,7 @@ msgstr "本次合并中已经存在相同的合并科目编码。"
 msgid ""
 "A journal entry should only be linked to a company period OR to a analysis "
 "period of another consolidation !"
-msgstr "一条日记账分录只能与其他合并的一个会计期间或一个分析期间连接"
+msgstr "一条记账凭证只能与其他合并的一个会计期间或一个分析期间连接"
 
 #. module: account_consolidation
 #: model:ir.model,name:account_consolidation.model_account_account
@@ -986,12 +986,12 @@ msgstr "日记账"
 #: model:ir.model,name:account_consolidation.model_account_move_line
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_journal_line_form
 msgid "Journal Item"
-msgstr "日记账项"
+msgstr "会计分录"
 
 #. module: account_consolidation
 #: model:ir.actions.act_window,name:account_consolidation.view_account_move_line_filter
 msgid "Journal Items"
-msgstr "日记账项"
+msgstr "会计分录"
 
 #. module: account_consolidation
 #: model_terms:ir.ui.view,arch_db:account_consolidation.consolidation_journal_form
@@ -1542,7 +1542,7 @@ msgstr "您可以在这里定义基于其他子合并的复杂合并，作为整
 #: code:addons/account_consolidation/models/consolidation_journal.py:0
 #, python-format
 msgid "You can't edit an auto-generated journal entry."
-msgstr "无法编辑自动生成的日记账分录。"
+msgstr "无法编辑自动生成的记账凭证。"
 
 #. module: account_consolidation
 #: code:addons/account_consolidation/models/consolidation_journal.py:0
