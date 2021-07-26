@@ -885,7 +885,7 @@ msgstr "没有权限，用户EMail中忽略此数据"
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner_mass__action__nothing
 #: model:ir.model.fields.selection,name:crm.selection__crm_partner_binding__action__nothing
 msgid "Do not link to a customer"
-msgstr "不要链接到某个客户"
+msgstr "不要关联到客户"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
@@ -1492,7 +1492,7 @@ msgstr "安排活动时刻表"
 #: model:ir.model.fields.selection,name:crm.selection__crm_lead2opportunity_partner_mass__action__exist
 #: model:ir.model.fields.selection,name:crm.selection__crm_partner_binding__action__exist
 msgid "Link to an existing customer"
-msgstr "链接到现有客户"
+msgstr "关联到现有客户"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead__partner_id
@@ -1588,7 +1588,7 @@ msgstr "市场营销"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Medium"
-msgstr "媒介"
+msgstr "中等"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0

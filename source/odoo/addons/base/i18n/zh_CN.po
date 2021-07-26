@@ -154,8 +154,8 @@ msgstr ""
 "\n"
 "    1) 发票号码 +++RRR/RRRR/RRRDD+++\n"
 "        **R..R =** 发票号码, **DD =** 校验数字\n"
-"    2) 客户参考 +++RRR/RRRR/SSSDD+++\n"
-"        **R..R =** 无数字字母客户参考， **SSS =** 序列号, **DD =** 校验数字\n"
+"    2) 客户单号 +++RRR/RRRR/SSSDD+++\n"
+"        **R..R =** 无数字字母客户单号， **SSS =** 序列号, **DD =** 校验数字\n"
 "    "
 
 #. module: base
@@ -7985,7 +7985,7 @@ msgstr ""
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.report_irmodeloverview
 msgid "- domain ="
-msgstr "- 域 ="
+msgstr "- 筛选域 ="
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.report_irmodeloverview
@@ -12480,7 +12480,7 @@ msgstr "客户点评"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_customer
 msgid "Customer References"
-msgstr "客户参考"
+msgstr "客户成功案例"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_partner_customer_form
@@ -13288,7 +13288,7 @@ msgstr "文档 - 休假"
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__domain
 #: model:ir.model.fields,field_description:base.field_ir_rule__domain_force
 msgid "Domain"
-msgstr "域"
+msgstr "筛选域"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window__domain
@@ -20019,7 +20019,7 @@ msgstr ""
 "只需点击几下即可吸引客户。\n"
 "\n"
 "定义电子邮件模板以重用新闻稿的内容或特定设计。\n"
-"使用自己的IP /域设置多个电子邮件服务器以优化打开率。\n"
+"使用自己的IP /域名设置多个电子邮件服务器以优化打开率。\n"
 "\n"
 "组织营销活动\n"
 "----------------------------\n"
@@ -20734,7 +20734,7 @@ msgstr ""
 "设计的构件并编辑所有行内内容。\n"
 "\n"
 "从开箱即用的业务功能中收益； 电子商务、活动、博客、招聘\n"
-"启事、客户参考、号召性行动等。\n"
+"启事、客户成功案例、号召性行动等。\n"
 "\n"
 "编辑所有行内内容\n"
 "--------------------\n"
@@ -20757,7 +20757,7 @@ msgstr ""
 "企业功能准备就绪，开箱即用\n"
 "--------------------------------\n"
 "\n"
-"只需点击一下即可启用即时可用的企业功能； 电子商务、号召性行动、招聘启事、活动、客户参考、博客等。\n"
+"只需点击一下即可启用即时可用的企业功能； 电子商务、号召性行动、招聘启事、活动、客户成功案例、博客等。\n"
 "\n"
 "传统电子商务和 CMS 的后端设计不佳，因为这不是他们的\n"
 "核心焦点。通过 Odoo 集成，您可以从最好的管理\n"
@@ -22830,7 +22830,7 @@ msgstr "发布活动，售票"
 #. module: base
 #: model:ir.module.module,summary:base.module_website_customer
 msgid "Publish your customer references"
-msgstr "发布你的客户参考"
+msgstr "发布你的客户成功案例"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_membership
@@ -23611,7 +23611,7 @@ msgstr "规则"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_rule_form
 msgid "Rule Definition (Domain Filter)"
-msgstr "规则定义（ 域  筛选）"
+msgstr "规则定义(筛选域)"
 
 #. module: base
 #: model:ir.model.constraint,message:base.constraint_ir_rule_no_access_rights

@@ -634,7 +634,7 @@ msgstr "币种"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__partner_ref
 msgid "Customer Ref"
-msgstr "客户单号"
+msgstr "客户产品编码"
 
 #. module: product
 #: model:ir.model,name:product.model_decimal_precision

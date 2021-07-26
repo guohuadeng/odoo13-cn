@@ -4002,7 +4002,7 @@ msgstr "未命名的"
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "Update to:"
-msgstr "更新到:"
+msgstr "更新为:"
 
 #. module: web
 #. openerp-web

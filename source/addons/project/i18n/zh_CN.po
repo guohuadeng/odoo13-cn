@@ -1283,22 +1283,22 @@ msgstr "当显示任务列表时，给出序列顺序"
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__kanban_state__done
 msgid "Green"
-msgstr "绿色"
+msgstr "已完成"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type__legend_done
 msgid "Green Kanban Label"
-msgstr "绿色看板标签"
+msgstr "已完成的看板标签"
 
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__kanban_state__normal
 msgid "Grey"
-msgstr "灰色"
+msgstr "等待中"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type__legend_normal
 msgid "Grey Kanban Label"
-msgstr "灰色看板标签"
+msgstr "等待中的看板标签"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_project_project_filter
@@ -2370,12 +2370,12 @@ msgstr "记录线索ID"
 #. module: project
 #: model:ir.model.fields.selection,name:project.selection__project_task__kanban_state__blocked
 msgid "Red"
-msgstr "红色"
+msgstr "阻塞"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type__legend_blocked
 msgid "Red Kanban Label"
-msgstr "红色的看板标签"
+msgstr "阻塞的看板标签"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.portal_my_tasks

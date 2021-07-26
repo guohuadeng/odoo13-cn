@@ -764,7 +764,7 @@ msgstr "物料清单结构与成本"
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrp_bom
 msgid "BoM Structure &amp; Cost"
-msgstr "BOM结构 &amp; 成本"
+msgstr "结构&amp;成本报告"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__type

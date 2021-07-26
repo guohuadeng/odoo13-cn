@@ -2178,7 +2178,7 @@ msgstr "筛选"
 #: model:ir.model.fields,field_description:stock.field_stock_assign_serial__next_serial_number
 #: model:ir.model.fields,field_description:stock.field_stock_move__next_serial
 msgid "First SN"
-msgstr "第一 SN"
+msgstr "序列号开始"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_rule__group_propagation_option__fixed
@@ -3690,7 +3690,7 @@ msgstr "作业次数"
 #: model:ir.model.fields,field_description:stock.field_stock_assign_serial__next_serial_count
 #: model:ir.model.fields,field_description:stock.field_stock_move__next_serial_count
 msgid "Number of SN"
-msgstr "SN编码"
+msgstr "要生成的序列号数量"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__lead_days

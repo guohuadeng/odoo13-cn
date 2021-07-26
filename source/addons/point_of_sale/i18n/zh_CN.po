@@ -912,7 +912,7 @@ msgstr "请检查您的网络连接然后重试。"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_category__child_id
 msgid "Children Categories"
-msgstr "儿童类"
+msgstr "下级POS类别"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
