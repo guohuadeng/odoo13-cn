@@ -7044,7 +7044,7 @@ msgid ""
 msgstr ""
 "\n"
 "该模块有助于分析事件注册模式，\n"
-"通过为已注册的与会者启用同类群组视图。\n"
+"通过为已注册的与会者启用同类数列视图。\n"
 "    "
 
 #. module: base
@@ -7792,7 +7792,7 @@ msgstr "# 访问权限"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users__groups_count
 msgid "# Groups"
-msgstr "# 群组"
+msgstr "# 权限组"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users__rules_count
@@ -9528,7 +9528,7 @@ msgstr ""
 " 通常不希望这样。设置模板用户的一种简单方法是\n"
 "使用有效的 LDAP 用户登录一次，让 Odoo 使用相同的登录名（和空白密码）创建一个空白的本地\n"
 "用户，然后将该新\n"
-" 用户重命名为 LDAP 中不存在的用户名，并设置其群组\n"
+" 用户重命名为 LDAP 中不存在的用户名，并设置其权限组\n"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_administration
@@ -14953,8 +14953,8 @@ msgid ""
 "                         The first group rules restrict further the global rules, but can be relaxed by additional group rules."
 msgstr ""
 "全局规则 (没有指定组)是强制的，不能被旁路.\n"
-"                         群组规则授予额外的许可，但是约束在全局规则的范围内.\n"
-"                         第一个群组规则进一步限制了全局规则，但是任何附加组规则将增加更多权限。"
+"                         权限组规则授予额外的许可，但是约束在全局规则的范围内.\n"
+"                         第一个权限组规则进一步限制了全局规则，但是任何附加组规则将增加更多权限。"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_rule_form
@@ -15139,7 +15139,7 @@ msgstr "网格视图"
 #: model_terms:ir.ui.view,arch_db:base.ir_access_view_search
 #: model_terms:ir.ui.view,arch_db:base.view_groups_search
 msgid "Group"
-msgstr "群组"
+msgstr "权限组"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.act_report_xml_search_view
@@ -15162,12 +15162,12 @@ msgstr "分组"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_groups__full_name
 msgid "Group Name"
-msgstr "群组名称"
+msgstr "权限组名称"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_groups__share
 msgid "Group created to set access rights for sharing data with some users."
-msgstr "为设置一些用户的共享数据访问权限所建立的用户群组"
+msgstr "为设置一些用户的共享数据访问权限所建立的用户权限组"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_country_group_form
@@ -15182,7 +15182,7 @@ msgstr "联系人组"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_rule_form
 msgid "Group-specific rules are combined together with a logical OR operator"
-msgstr "指定了群组的规则使用逻辑操作符或 OR组合在一起"
+msgstr "指定了权限组的规则使用逻辑操作符或 OR组合在一起"
 
 #. module: base
 #: code:addons/base/models/res_users.py:0
@@ -15202,12 +15202,12 @@ msgstr "指定了群组的规则使用逻辑操作符或 OR组合在一起"
 #: model_terms:ir.ui.view,arch_db:base.view_users_form
 #, python-format
 msgid "Groups"
-msgstr "群组"
+msgstr "权限组"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_rule_form
 msgid "Groups (no group = global)"
-msgstr "群组 (无群组 = 全局，意思是如果没有用户群组则表示作用于全局)"
+msgstr "权限组 (无权限组 = 全局，意思是如果没有用户权限组则表示作用于全局)"
 
 #. module: base
 #: model:res.country,name:base.gp
@@ -15823,7 +15823,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_rule__global
 msgid "If no group is specified the rule is global and applied to everyone"
-msgstr "如果不指定群组，规则是全局的并应用于每个用户."
+msgstr "如果不指定权限组，规则是全局的并应用于每个用户."
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_property__res_id
@@ -15876,7 +15876,7 @@ msgid ""
 "applies to the users of those groups only."
 msgstr ""
 "如果这字段是空，视图应用到所有用户。\n"
-"否则这些视图只能用于这些群组内的用户。"
+"否则这些视图只能用于这些权限组内的用户。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_ui_view__active
@@ -15925,7 +15925,7 @@ msgid ""
 "If you have groups, the visibility of this menu will be based on these "
 "groups. If this field is empty, Odoo will compute visibility based on the "
 "related object's read access."
-msgstr "如果您归属于用户群组，则此菜单的可见性将有这些用户群组决定。如果该字段为空，系统将基于关联对象的读取权限计算可见性。"
+msgstr "如果您归属于用户权限组，则此菜单的可见性将有这些用户权限组决定。如果该字段为空，系统将基于关联对象的读取权限计算可见性。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_access__active
@@ -16366,7 +16366,7 @@ msgstr "公司间 SO/PO/INV 规则"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_groups_search
 msgid "Internal Groups"
-msgstr "内部群组"
+msgstr "内部权限组"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
@@ -17807,7 +17807,7 @@ msgid ""
 " line and then delete it through the button that appeared. Items can be "
 "assigned to specific groups in order to make them accessible to some users "
 "within the system."
-msgstr "管理和自定义用户的菜单项。你可以用勾选一些菜单项，然后删除。菜单项可以分配给某些特定的用户群组，以便他们使用系统的某些特定的功能"
+msgstr "管理和自定义用户的菜单项。你可以用勾选一些菜单项，然后删除。菜单项可以分配给某些特定的用户权限组，以便他们使用系统的某些特定的功能"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_slides
@@ -19602,7 +19602,7 @@ msgstr ""
 "----------------------\n"
 "\n"
 "通过兴趣小组共同合作，减少会议和EMail负担。\n"
-"创建一个群组，让人们共享文档，讨论想法，并投票\n"
+"创建一个权限组，让人们共享文档，讨论想法，并投票\n"
 "推广最佳做法。\n"
 "\n"
 "改善信息和专业知识的可及性\n"
@@ -22376,7 +22376,7 @@ msgid ""
 "                They usually do not belong to the usual Odoo groups."
 msgstr ""
 "门户成员有特定的访问权限 (如记录规则和限制菜单)。\n"
-"他们通常不属于普通的Odoo群组。"
+"他们通常不属于普通的Odoo权限组。"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__report_paperformat__orientation__portrait
@@ -22815,7 +22815,7 @@ msgstr "公共管理"
 msgid ""
 "Public users have specific access rights (such as record rules and restricted menus).\n"
 "                They usually do not belong to the usual Odoo groups."
-msgstr "公众用户有特定的访问权限 (如记录规则和限制菜单)。 他们通常不属于通常的Odoo群组"
+msgstr "公众用户有特定的访问权限 (如记录规则和限制菜单)。 他们通常不属于通常的Odoo权限组"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_blog
@@ -25664,12 +25664,12 @@ msgstr "国家名必须唯一"
 #: code:addons/base/models/res_users.py:0
 #, python-format
 msgid "The name of the group can not start with \"-\""
-msgstr "用户群组的名称不能以“-”开始"
+msgstr "用户权限组的名称不能以“-”开始"
 
 #. module: base
 #: model:ir.model.constraint,message:base.constraint_res_groups_name_uniq
 msgid "The name of the group must be unique within an application!"
-msgstr "在一个应用中用户群组的名称必须唯一！"
+msgstr "在一个应用中用户权限组的名称必须唯一！"
 
 #. module: base
 #: model:ir.model.constraint,message:base.constraint_res_lang_name_uniq
@@ -27143,12 +27143,12 @@ msgstr "用户日志"
 #: model_terms:ir.ui.view,arch_db:base.view_groups_form
 msgid ""
 "Users added to this group are automatically added in the following groups."
-msgstr "加入本群组的用户也将自动加入以下群组。"
+msgstr "加入本权限组的用户也将自动加入以下权限组。"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_res_groups__implied_ids
 msgid "Users of this group automatically inherit those groups"
-msgstr "这个群组的用户自动继承那些群组"
+msgstr "这个权限组的用户自动继承那些权限组"
 
 #. module: base
 #: model:res.country,name:base.uz

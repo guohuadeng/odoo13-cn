@@ -1659,7 +1659,7 @@ msgstr "让我们核对一下结果。关闭Odoo Studio以获得<b>app的概览<
 #: code:addons/web_studio/static/src/xml/sidebar_common.xml:0
 #, python-format
 msgid "Limit visibility to groups"
-msgstr "限制群组的可见性"
+msgstr "限制权限组的可见性"
 
 #. module: web_studio
 #. openerp-web
@@ -3067,7 +3067,7 @@ msgstr "你必须选择一个关联"
 #: code:addons/web_studio/static/src/xml/sidebar_common.xml:0
 #, python-format
 msgid "You need to be part of these groups to see this field:"
-msgstr "您需要加入这些群组才能查看此字段："
+msgstr "您需要加入这些权限组才能查看此字段："
 
 #. module: web_studio
 #. openerp-web
