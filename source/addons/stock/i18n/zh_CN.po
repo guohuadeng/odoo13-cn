@@ -1705,7 +1705,7 @@ msgstr ""
 "自定义区位来反映库存的结构\n"
 "和组织。系统能管理实体区位\n"
 "（库存、货架、储位等等），\n"
-"业务伙伴区位（客户、\n"
+"往来单位区位（客户、\n"
 "供应商）和虚拟区位，即是对方的库存作业，如：生产订单\n"
 "的消耗、盘点等。"
 
@@ -1868,7 +1868,7 @@ msgstr "拣货说明"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__partner_id
 msgid "Destination Address "
-msgstr "目的地地址 "
+msgstr "往来单位目的地址"
 
 #. module: stock
 #: code:addons/stock/models/stock_rule.py:0
@@ -2126,7 +2126,7 @@ msgstr ""
 "系统中每一个库存作业都是将产品从一个\n"
 "区位移至另一区位。例如，若果你从供应商那边收到产品，\n"
 "Odoo将会把产品从供应商区位调拨到仓库区位。每个报表可用在\n"
-"实体区位、业务伙伴区位或者虚拟区位进行。"
+"实体区位、往来单位区位或者虚拟区位进行。"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.exception_on_picking
@@ -2216,7 +2216,7 @@ msgstr "关注者(渠道)"
 #: model:ir.model.fields,field_description:stock.field_stock_production_lot__message_partner_ids
 #: model:ir.model.fields,field_description:stock.field_stock_scrap__message_partner_ids
 msgid "Followers (Partners)"
-msgstr "关注者(业务伙伴)"
+msgstr "关注者(往来单位)"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_category__removal_strategy_id
@@ -4122,12 +4122,12 @@ msgstr "部分可用"
 #: model:ir.model.fields,field_description:stock.field_procurement_group__partner_id
 #: model_terms:ir.ui.view,arch_db:stock.view_move_search
 msgid "Partner"
-msgstr "业务伙伴"
+msgstr "往来单位"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_rule__partner_address_id
 msgid "Partner Address"
-msgstr "业务伙伴地址"
+msgstr "往来单位地址"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_inventory_filter
@@ -5416,7 +5416,7 @@ msgstr "设为草稿"
 msgid ""
 "Sets a location if you produce at a fixed location. This can be a partner "
 "location if you subcontract the manufacturing operations."
-msgstr "在此设置区位，当你在一个固定的区位进行生产时。如果你将生产作业委外，这里可以设置为业务伙伴的区位。"
+msgstr "在此设置区位，当你在一个固定的区位进行生产时。如果你将生产作业委外，这里可以设置为往来单位的区位。"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_stock_config_settings
@@ -6138,7 +6138,7 @@ msgid ""
 "routes put another location. If it is empty, it will check for the customer "
 "location on the partner. "
 msgstr ""
-"当你用这种拣货类型手工创建一个移库时候，这是一个默认的目的区位。你也可以改变这个区位或者在路径设置中更改为其他区位。如果为空，系统会检查相关业务伙伴的客户区位"
+"当你用这种拣货类型手工创建一个移库时候，这是一个默认的目的区位。你也可以改变这个区位或者在路径设置中更改为其他区位。如果为空，系统会检查相关往来单位的客户区位"
 " 。"
 
 #. module: stock
@@ -6398,7 +6398,7 @@ msgstr "调拨"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__picking_partner_id
 msgid "Transfer Destination Address"
-msgstr "调拨目的地地址"
+msgstr "调拨目的地址"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_overprocessed_transfer
