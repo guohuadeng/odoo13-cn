@@ -161,33 +161,33 @@ msgstr "%s: 中转区位"
 #: model:ir.actions.report,print_report_name:stock.action_report_delivery
 msgid ""
 "'Delivery Slip - %s - %s' % (object.partner_id.name or '', object.name)"
-msgstr "'送货单 - %s - %s' % (object.partner_id.name or '', object.name)"
+msgstr "'送货单_%s_%s' % (object.partner_id.name or '', object.name)"
 
 #. module: stock
 #: model:ir.actions.report,print_report_name:stock.action_report_inventory
 msgid "'Inventory - %s' % (object.name)"
-msgstr "'库存 - %s' % (object.name)"
+msgstr "'盘点单_%s' % (object.name)"
 
 #. module: stock
 #: model:ir.actions.report,print_report_name:stock.action_report_location_barcode
 msgid "'Location - %s' % object.name"
-msgstr "'区位 - %s' % object.name"
+msgstr "'区位_%s' % object.name"
 
 #. module: stock
 #: model:ir.actions.report,print_report_name:stock.action_report_lot_label
 msgid "'Lot-Serial - %s' % object.name"
-msgstr "'批次编号 - %s' % object.name"
+msgstr "'批次序列号__%s' % object.name"
 
 #. module: stock
 #: model:ir.actions.report,print_report_name:stock.action_report_picking_type_label
 msgid "'Operation-type - %s' % object.name"
-msgstr "'作业-类型 - %s' % object.name"
+msgstr "'作业类型_%s' % object.name"
 
 #. module: stock
 #: model:ir.actions.report,print_report_name:stock.action_report_picking
 msgid ""
 "'Picking Operations - %s - %s' % (object.partner_id.name or '', object.name)"
-msgstr "'拣货作业 - %s - %s' % (object.partner_id.name or '', object.name)"
+msgstr "'库存作业_%s_%s' % (object.partner_id.name or '', object.name)"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__state
@@ -1347,7 +1347,7 @@ msgstr "计数"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_inventory__prefill_counted_quantity
 msgid "Counted Quantities"
-msgstr "计数的数量"
+msgstr "实际数量"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_line__product_qty
@@ -1656,12 +1656,12 @@ msgstr "默认出向路线"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_inventory__prefill_counted_quantity__counted
 msgid "Default to stock on hand"
-msgstr "默认为在手库存"
+msgstr "默认为在手数量(明盘)"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_inventory__prefill_counted_quantity__zero
 msgid "Default to zero"
-msgstr "默认为零"
+msgstr "默认为零(盲盘)"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_production_lot__product_uom_id
@@ -1933,7 +1933,7 @@ msgstr "差异"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_inventory_line_search
 msgid "Difference different than zero"
-msgstr "差值不等于零"
+msgstr "差异不为零"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_package_destination_form_view
@@ -2548,7 +2548,7 @@ msgid ""
 "If the inventory adjustment is not validated, date at which the theoritical quantities have been checked.\n"
 "If the inventory adjustment is validated, date at which the inventory adjustment has been validated."
 msgstr ""
-"如果库存调整状态为无效， 则当时理论库存量将被使用。\n"
+"如果库存调整状态为无效， 则当时账面库存量将被使用。\n"
 "如果库存调整状态为有效果， 则当时的库存调整量已被过账。"
 
 #. module: stock
@@ -2620,7 +2620,7 @@ msgstr "如果不勾选，允许你隐藏规则而无需删除。"
 msgid ""
 "If you cancel this inventory adjustment, all its inventory adjustment lines "
 "will be lost. Are you sure you want to discard it ?"
-msgstr "如果你取消这个库存调整，它的所有库存调整线将会丢失。你确定要扔掉它吗?"
+msgstr "如果你取消这个盘点单，它的所有盘点明细，盘盈盘亏情况都将丢失。你确定要取消吗?"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_immediate_transfer
@@ -2684,7 +2684,7 @@ msgstr "入库作业模式"
 msgid ""
 "Indicates the gap between the product's theoretical quantity and its newest "
 "quantity."
-msgstr "指示产品的理论数量与最新数量之间的差距。"
+msgstr "指示产品的账面数量与最新数量之间的差距。"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__product_uom_qty
@@ -2802,7 +2802,7 @@ msgstr "盘点"
 #: model_terms:ir.ui.view,arch_db:stock.view_partner_stock_form
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_quant_pivot
 msgid "Inventory"
-msgstr "库存"
+msgstr "盘点任务"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_inventory_form
@@ -3759,7 +3759,7 @@ msgstr ""
 #: code:addons/stock/models/stock_inventory.py:0
 #, python-format
 msgid "Only a stock manager can validate an inventory adjustment."
-msgstr "只有库存经理可以验证库存调整。"
+msgstr "只有库存经理可以验证库存盘点。"
 
 #. module: stock
 #: code:addons/stock/models/stock_rule.py:0
@@ -3894,7 +3894,7 @@ msgstr "出库类型"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_inventory_line_search
 msgid "Outdated Theoretical Quantities"
-msgstr "理论的超期数量"
+msgstr "账面数量需更新"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__outgoing_qty
@@ -4132,7 +4132,7 @@ msgstr "往来单位地址"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_inventory_filter
 msgid "Physical Inventories by Date"
-msgstr "实体库存 按日期"
+msgstr " 按盘点日期分组"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:0
@@ -4208,7 +4208,7 @@ msgstr "请指定至少一个非0的数值。"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.quant_search_view
 msgid "Positive Stock"
-msgstr "正数库存"
+msgstr "库存有货"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__show_reserved
@@ -4421,7 +4421,7 @@ msgstr "产品类型"
 #: model:ir.model,name:stock.model_uom_uom
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_line__product_uom_id
 msgid "Product Unit of Measure"
-msgstr "产品计量单位"
+msgstr "计量单位"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.stock_product_normal_action
@@ -4713,7 +4713,7 @@ msgid ""
 msgstr ""
 "计划到达的产品数量。\n"
 "对于一个区位来说，这包括了将要到达此区位或其子区位的货物。\n"
-"对于一个库存来说，这包括了将要到达这个库存的的这个区位,或其子区位的货物。\n"
+"对于一个仓库来说，这包括了将要到达这个仓库的的这个区位,或其子区位的货物。\n"
 "另外，这包括了所有“内部”类型区位要到达的货物。"
 
 #. module: stock
@@ -5016,7 +5016,7 @@ msgid ""
 "Reserving products manually in delivery orders or by running the scheduler "
 "is advised to better manage priorities in case of long customer lead times "
 "or/and frequent stock-outs."
-msgstr "建议在交货订单中手动预留产品或运行调度程序，以便在客户交货时间过长或/和过多库存时能更好地管理优先级。"
+msgstr "建议在交货订单中手动预留产品或运行调度程序定期补货。以便在客户交货时间过长，或频繁出入库时能更好地管理优先级。"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__responsible_id
@@ -5530,7 +5530,7 @@ msgstr "显示库存各种可用量信息。"
 msgid ""
 "Some products of the inventory adjustment are tracked. Are you sure you "
 "don't want to specify a serial or lot number for them?"
-msgstr "部分商品的库存调整需要追溯。 你确认不需要指定一个序号或者批号吗？"
+msgstr "部分商品的盘点需要追溯。 你确认不需要指定一个序号或者批号吗？"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__origin
@@ -5576,7 +5576,7 @@ msgstr "源箱码："
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_inventory__product_ids
 msgid "Specify Products to focus your inventory on particular Products."
-msgstr "指定产品，将您的库存集中在特定的产品上"
+msgstr "指定产品，将只对指定的产品进行库存盘点"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_inventory_form
@@ -5602,7 +5602,7 @@ msgstr "状态"
 #: model_terms:ir.ui.view,arch_db:stock.view_move_search
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Status"
-msgstr "备货状态"
+msgstr "状态"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__activity_state
@@ -5627,7 +5627,7 @@ msgstr "库存"
 #. module: stock
 #: model:ir.model,name:stock.model_stock_assign_serial
 msgid "Stock Assign Serial Numbers"
-msgstr "库存指定序列号码"
+msgstr "为产品库存指定序列号"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_inventory_line_tree
@@ -5696,7 +5696,7 @@ msgstr "库存包装层级"
 #: model:ir.model.fields,field_description:stock.field_res_users__picking_warn
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__picking_id
 msgid "Stock Picking"
-msgstr "库存拣货"
+msgstr "库存作业"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__stock_quant_ids
@@ -5889,7 +5889,7 @@ msgid ""
 "picking confirmation (when costing method used is 'average price' or "
 "'real'). Value given in company currency and in product uom."
 msgstr ""
-"该技术字段用来记录用户在拣货确认期间设置的产品成本（使用 '平均价格' 或'真正'的成本方法时）。以公司的货币及产品的默认计量单位来赋予值。"
+"该技术字段用来记录用户在作业确认期间设置的产品成本（使用 '平均价格' 或'真正'的成本方法时）。以公司的货币及产品的默认计量单位来赋予值。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_line__produce_line_ids
@@ -6110,7 +6110,7 @@ msgstr "在已创建的移动/补货传播的仓库，它可以与此规则所�
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_line__theoretical_qty
 msgid "Theoretical Quantity"
-msgstr "理论数量"
+msgstr "账面数量"
 
 #. module: stock
 #: code:addons/stock/models/stock_inventory.py:0
@@ -6118,7 +6118,7 @@ msgstr "理论数量"
 msgid ""
 "There is already one inventory adjustment line for this product, you should "
 "rather modify this one instead of creating a new one."
-msgstr "这个产品已经有一个库存调整线，你应该修改这个而不是创建一个新的。"
+msgstr "这个产品已经有一条盘点记录，你应该修改这个而不是创建一个新的。"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.stock_move_line_action
@@ -6128,7 +6128,7 @@ msgstr "还没有产品移动"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__name
 msgid "This field will fill the packing origin and the name of its moves"
-msgstr "此字段将填写拣货源和其移动的名称"
+msgstr "此字段将填写库存作业来源和其调拨的名称"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking_type__default_location_dest_id
@@ -6138,7 +6138,7 @@ msgid ""
 "routes put another location. If it is empty, it will check for the customer "
 "location on the partner. "
 msgstr ""
-"当你用这种拣货类型手工创建一个移库时候，这是一个默认的目的区位。你也可以改变这个区位或者在路径设置中更改为其他区位。如果为空，系统会检查相关往来单位的客户区位"
+"当你用这种库存类型手工创建一个移库时候，这是一个默认的目的区位。你也可以改变这个区位或者在路径设置中更改为其他区位。如果为空，系统会检查相关往来单位的客户区位"
 " 。"
 
 #. module: stock
@@ -6148,7 +6148,7 @@ msgid ""
 "this operation type. It is possible however to change it or that the routes "
 "put another location. If it is empty, it will check for the supplier "
 "location on the partner. "
-msgstr "这是使用此作业类型手动创建拣货时的默认目的区位。 但是可以改变它或者路线放置另一个区位。 如果它是空的，它将检查合作伙伴上的客户区位。"
+msgstr "这是使用此作业类型手动创建作业时的默认目的区位。 但是可以改变它或者路线放置另一个区位。 如果它是空的，它将检查合作伙伴上的客户区位。"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_production_lot_form
@@ -6238,7 +6238,7 @@ msgid ""
 "returned picking in order to avoid logistic rules to be applied again (which"
 " would create duplicated operations)"
 msgstr ""
-"这个拣货显示和别的作业链接起来. 稍后, 如果你正在接收退回的货物，确保<b>逆转</b> ，这样是为了防止同样的物流规则再次被执行 (创建重复作业)"
+"这个作业显示和别的作业链接起来. 稍后, 如果你正在接收退回的货物，确保<b>逆转</b> ，这样是为了防止同样的物流规则再次被执行 (创建重复作业)"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_change_product_qty__new_quantity
@@ -6359,7 +6359,7 @@ msgstr "追溯你仓库内的产品区位"
 #: code:addons/stock/models/stock_inventory.py:0
 #, python-format
 msgid "Tracked Products in Inventory Adjustment"
-msgstr "库存调整中的产品追溯"
+msgstr "产品库存作业追溯"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_track_line__tracking__lot
@@ -6838,7 +6838,7 @@ msgstr "警告"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_partner_stock_warnings_form
 msgid "Warning on the Picking"
-msgstr "拣货的警告"
+msgstr "库存作业时的警告"
 
 #. module: stock
 #: code:addons/stock/models/product.py:0
@@ -6926,7 +6926,7 @@ msgstr "当产品到达<b>%s</b>时，<br/><b>%s</b>会被建立并送到<b>%s</
 msgid ""
 "When the picking is not done this allows changing the initial demand. When "
 "the picking is done this allows changing the done quantities."
-msgstr "当拣货进行时，允许改变需求总数量。当拣选完成时，只允许改变已完成数量。"
+msgstr "当库存作业进行时，允许改变需求总数量。当作业完成时，只允许改变已完成数量。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_warehouse_orderpoint__product_min_qty
@@ -6966,7 +6966,7 @@ msgstr "在验证转移时，产品将从该所有者处获得。"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__additional
 msgid "Whether the move was added after the picking's confirmation"
-msgstr "是否在拣货确认后添加了移动"
+msgstr "是否在作业完成后又添加了移动"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_return_picking_line__wizard_id
@@ -7045,7 +7045,7 @@ msgstr "您无法更改当前在库存移动中保留的产品类型。 如果�
 msgid ""
 "You can not delete product moves if the picking is done. You can only "
 "correct the done quantities."
-msgstr "如果拣货已完成，不能删除产品移动。你可以纠正完成数量。"
+msgstr "如果库存作业已完成，不能删除产品移动。你可以纠正完成数量。"
 
 #. module: stock
 #: code:addons/stock/models/stock_move_line.py:0
@@ -7085,7 +7085,7 @@ msgstr "只能处理1.0%s具有唯一序列号的产品。"
 msgid ""
 "You can't validate the inventory '%s', maybe this inventory has been already"
 " validated or isn't ready."
-msgstr "无法验证库存'%s'，可能此库存已验证或尚未准备好。"
+msgstr "无法验证盘点'%s'，可能此库存已验证或尚未准备好。"
 
 #. module: stock
 #: code:addons/stock/models/stock_location.py:0
@@ -7264,13 +7264,13 @@ msgstr "你必须选择同一计量单位类别内的计量单位而不是产品
 #: code:addons/stock/wizard/stock_picking_return.py:0
 #, python-format
 msgid "You may only return Done pickings."
-msgstr "你只能退回已完成的拣货。"
+msgstr "你只能退回已完成的库存作业。"
 
 #. module: stock
 #: code:addons/stock/wizard/stock_picking_return.py:0
 #, python-format
 msgid "You may only return one picking at a time."
-msgstr "你每次只能退回一次拣货。"
+msgstr "每次只能对一次库存作业进行退回操作。"
 
 #. module: stock
 #: code:addons/stock/models/stock_picking.py:0

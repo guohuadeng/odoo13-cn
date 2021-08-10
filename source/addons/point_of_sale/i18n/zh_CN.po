@@ -1441,7 +1441,7 @@ msgstr "差异"
 msgid ""
 "Difference between the theoretical closing balance and the real closing "
 "balance."
-msgstr "理论关闭余额和实际关闭余额的差异"
+msgstr "账面关闭余额和实际关闭余额的差异"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_digest_digest
@@ -4493,7 +4493,7 @@ msgstr ""
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__cash_register_balance_end
 msgid "Theoretical Closing Balance"
-msgstr " 理论的关闭余额"
+msgstr " 账面关闭余额"
 
 #. module: point_of_sale
 #. openerp-web
@@ -4579,7 +4579,7 @@ msgid ""
 " and the theoretical cash when closing a session, for non-POS managers. If "
 "this maximum is reached, the user will have an error message at the closing "
 "of his session saying that he needs to contact his manager."
-msgstr "该字段定义了在关闭一个会话时候理论的余额和实际余额的最大差额如果达到该最大值，用户就会得到一个错误信息告知他需要联系他的经理"
+msgstr "该字段定义了在关闭一个会话时候账面余额和实际余额的最大差额如果达到该最大值，用户就会得到一个错误信息告知他需要联系他的经理"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__group_pos_manager_id
