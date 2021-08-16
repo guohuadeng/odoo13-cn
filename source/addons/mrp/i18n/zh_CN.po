@@ -4456,7 +4456,7 @@ msgid ""
 " operation type. That allows to define stock rules which trigger different "
 "manufacturing orders with different BoMs."
 msgstr ""
-"当采购具有设定操作类型的“生产”路线时，它将尝试使用相同操作类型的BoM为该产品创建生产订单。 这允许定义触发与不同BOM的不同制造订单的采购规则。"
+"当补货具有设定操作类型的“生产”路线时，它将优先尝试使用相同操作类型的BoM为该产品创建生产订单。 这允许你配置不同的补货规则，实现不同仓库的生产订单触发使用不同的BoM。"
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_bom__ready_to_produce__asap
