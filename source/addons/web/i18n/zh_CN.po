@@ -3689,7 +3689,7 @@ msgstr "操作被中断了。这通常意味着当前的操作花费了太多时
 msgid ""
 "The record has been modified, your changes will be discarded. Do you want to"
 " proceed?"
-msgstr "记录已被修改，您的更改将被丢弃。 你想继续吗？"
+msgstr "记录已被修改，您的更改将被丢弃。 你想继续吗？如果是在树结构中切换，则变更已生效，可直接确认忽略此问题。"
 
 #. module: web
 #. openerp-web
