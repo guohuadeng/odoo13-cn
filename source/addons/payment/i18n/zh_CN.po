@@ -869,7 +869,7 @@ msgstr "帮助信息"
 #. module: payment
 #: model:ir.model.fields,help:payment.field_payment_acquirer__display_as
 msgid "How the acquirer is displayed to the customers."
-msgstr "收购者是如何显示给客户。"
+msgstr "服务商是如何显示给客户。"
 
 #. module: payment
 #: model:ir.model.fields.selection,name:payment.selection__payment_acquirer_onboarding_wizard__paypal_user_type__new_user
@@ -894,7 +894,7 @@ msgstr "ID"
 #. module: payment
 #: model_terms:ir.ui.view,arch_db:payment.acquirer_form
 msgid "If not defined, the acquirer name will be used."
-msgstr "如果没有定义，将使用收购者的名称。"
+msgstr "如果没有定义，将使用服务商的名称。"
 
 #. module: payment
 #. openerp-web
@@ -1498,7 +1498,7 @@ msgstr "处理人"
 #: model:ir.model.fields,field_description:payment.field_payment_transaction__provider
 #: model_terms:ir.ui.view,arch_db:payment.acquirer_search
 msgid "Provider"
-msgstr "供应商"
+msgstr "服务商"
 
 #. module: payment
 #. openerp-web
@@ -1598,7 +1598,7 @@ msgstr "选择付款方式"
 #. module: payment
 #: model:ir.model.fields,field_description:payment.field_payment_acquirer__sequence
 msgid "Sequence"
-msgstr "序号"
+msgstr "排序"
 
 #. module: payment
 #. openerp-web
@@ -1811,10 +1811,10 @@ msgid ""
 "tx_values: transaction values\n"
 "context: the current context dictionary"
 msgstr ""
-"这个模板呈送收购者按钮与所有必要的值。\n"
+"这个模板呈送服务商按钮与所有必要的值。\n"
 "它使用qWeb与以下评估上下文呈现：:\n"
 "tx_url:用于发布表单的URL\n"
-"收购者:付款。收购者浏览记录\n"
+"服务商:支付服务商\n"
 "用户:当前用户浏览记录\n"
 "参考编号:交易参考编号\n"
 "货币:交易货币浏览记录\n"

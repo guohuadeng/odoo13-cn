@@ -4049,7 +4049,7 @@ msgstr "在销售点订单明细中指定产品批号/序号"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__split_transactions
 msgid "Split Transactions"
-msgstr ""
+msgstr "每订单独立分录"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_details_wizard__start_date
@@ -4500,7 +4500,7 @@ msgstr " 账面关闭余额"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:0
 #, python-format
 msgid "There are no products in this category."
-msgstr ""
+msgstr "当前POS类别内没有商品，请补货。"
 
 #. module: point_of_sale
 #. openerp-web

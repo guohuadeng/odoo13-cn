@@ -3739,8 +3739,8 @@ msgstr "订单未处于需要客户签名的状态。"
 msgid ""
 "The order was not confirmed despite response from the acquirer (%s): order "
 "total is %r but acquirer replied with %r."
-msgstr "尽管来自收购人(%s)的回应:订单"
-"全部是%r，但是收购者用%r回答。"
+msgstr "订单未被服务商确认(%s):订单"
+"总额为 %r，但服务商返回信息为 %r"
 
 #. module: sale
 #: code:addons/sale/models/sale.py:0

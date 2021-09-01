@@ -1352,7 +1352,7 @@ msgstr "实际数量"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_line__product_qty
 msgid "Counted Quantity"
-msgstr "计数的数量"
+msgstr "实际数量"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_template_property_form
@@ -2802,18 +2802,18 @@ msgstr "盘点"
 #: model_terms:ir.ui.view,arch_db:stock.view_partner_stock_form
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_quant_pivot
 msgid "Inventory"
-msgstr "盘点任务"
+msgstr "库存管理"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_inventory_form
 msgid "Inventory Adjustment"
-msgstr "库存调整"
+msgstr "库存盘点"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_inventory_form
 #: model:ir.ui.menu,name:stock.menu_action_inventory_form
 msgid "Inventory Adjustments"
-msgstr "库存调整"
+msgstr "库存盘点"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_inventory__date
