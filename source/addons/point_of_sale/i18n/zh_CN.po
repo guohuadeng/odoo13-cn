@@ -582,7 +582,7 @@ msgstr "自动打开收银箱。"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__iface_available_categ_ids
 msgid "Available PoS Product Categories"
-msgstr "可用PoS品类"
+msgstr "可用PoS类别"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__available_pricelist_ids
@@ -593,7 +593,7 @@ msgstr "可用价格表"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "Available Product Categories"
-msgstr "可用品类"
+msgstr "可用类别"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_product_product__available_in_pos
@@ -808,7 +808,7 @@ msgstr "收银员"
 msgid ""
 "Categories are used to browse your products through the\n"
 "                touchscreen interface."
-msgstr "用于在触摸屏幕上浏览你的品类"
+msgstr "用于在触摸屏幕上浏览你的类别"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1054,7 +1054,7 @@ msgstr "确认"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "Connect Devices"
-msgstr ""
+msgstr "连接设备"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -1546,7 +1546,7 @@ msgstr "显示名称"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "Display pictures of product categories"
-msgstr "显示品类的图片"
+msgstr "显示类别的图片"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/digest.py:0
@@ -3091,12 +3091,12 @@ msgstr "POS 订单"
 #: model:ir.ui.menu,name:point_of_sale.menu_products_pos_category
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "PoS Product Categories"
-msgstr "PoS品类"
+msgstr "PoS类别"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.product_pos_category_tree_view
 msgid "PoS Product Category"
-msgstr "PoS品类"
+msgstr "PoS类别"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_partner_property_form
@@ -3251,7 +3251,7 @@ msgstr "POS单明细"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.product_pos_category_form_view
 msgid "Pos Product Categories"
-msgstr "POS品类"
+msgstr "POS类别"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__pos_session_duration
@@ -3433,7 +3433,7 @@ msgstr "产品"
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order__product_categ_id
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_report_pos_order_search
 msgid "Product Category"
-msgstr "品类"
+msgstr "类别"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -3443,7 +3443,7 @@ msgstr "产品价格"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.product_pos_category_tree_view
 msgid "Product Product Categories"
-msgstr "产品品类"
+msgstr "产品类别"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order__product_qty
@@ -3649,7 +3649,7 @@ msgstr "责任用户"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__limit_categories
 msgid "Restrict Available Product Categories"
-msgstr ""
+msgstr "限制可售类别"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__restrict_price_control
@@ -4064,7 +4064,7 @@ msgstr ""
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "Start selling from a default product category"
-msgstr "从默认品类开始销售"
+msgstr "从默认类别开始销售"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__cash_register_balance_start
@@ -4397,7 +4397,7 @@ msgstr "将要使用的物理POS。"
 msgid ""
 "The point of sale will display this product category by default. If no "
 "category is specified, all available products will be shown."
-msgstr "销售点将默认显示此品类。"
+msgstr "销售点将默认显示此类别。"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__iface_available_categ_ids
