@@ -866,7 +866,7 @@ msgstr "可用"
 #: model_terms:ir.ui.view,arch_db:stock.product_template_search_form_view_stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_product_search_form_view
 msgid "Available Products"
-msgstr "可用的产品"
+msgstr "当前在库的产品"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__backorder_id
@@ -3546,7 +3546,7 @@ msgstr "名称"
 #: model_terms:ir.ui.view,arch_db:stock.product_template_search_form_view_stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_product_search_form_view
 msgid "Negative Forecasted Quantity"
-msgstr "负数预测数量"
+msgstr "预测数量小于0"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.quant_search_view
