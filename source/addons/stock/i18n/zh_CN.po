@@ -4807,7 +4807,7 @@ msgstr "接收"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__reception_steps__one_step
 msgid "Receive goods directly (1 step)"
-msgstr "直接接收产品(1步收货）"
+msgstr "直接收货入库(1步收货）"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__reception_steps__two_steps
@@ -4817,7 +4817,7 @@ msgstr "接到产品到收料区， 再入库（2步收货）"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__reception_steps__three_steps
 msgid "Receive goods in input, then quality and then stock (3 steps)"
-msgstr "接收产品到收料区， 检验， 然后入库（3步收货）"
+msgstr "收货到收料区， 检验， 然后入库（3步收货）"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:0
@@ -6080,7 +6080,7 @@ msgstr "当发送产品到此联系人时， 此预定义的区位将用做目�
 #: model:ir.model.fields,help:stock.field_res_users__property_stock_supplier
 msgid ""
 "The stock location used as source when receiving goods from this contact."
-msgstr "当从此联系人接收产品时， 此预定义的区位将用做源区位。"
+msgstr "当从此联系人接收入库时， 此预定义的区位将用做源区位。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move_line__picking_id
