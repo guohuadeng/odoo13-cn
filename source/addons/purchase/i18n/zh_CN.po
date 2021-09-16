@@ -1634,7 +1634,7 @@ msgstr "重新发送邮件"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order__date_planned
 msgid "Receipt Date"
-msgstr "接收日期"
+msgstr "计划收货日期"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_form
@@ -1748,7 +1748,7 @@ msgstr "短信发送错误"
 #. module: purchase
 #: model:ir.model.fields,field_description:purchase.field_purchase_order_line__date_planned
 msgid "Scheduled Date"
-msgstr "安排的日期"
+msgstr "计划收货日期"
 
 #. module: purchase
 #: model_terms:ir.ui.view,arch_db:purchase.purchase_order_line_search
