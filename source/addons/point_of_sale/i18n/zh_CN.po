@@ -2914,7 +2914,7 @@ msgstr "可用支付方式"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:0
 #, python-format
 msgid "Payment request pending"
-msgstr "正在处理的付款请求"
+msgstr "在线支付处理中"
 
 #. module: point_of_sale
 #. openerp-web
@@ -4525,7 +4525,7 @@ msgstr ""
 #: code:addons/point_of_sale/static/src/js/screens.js:0
 #, python-format
 msgid "There is already an electronic payment in progress."
-msgstr "一张订单只能使用一种在线支付方式。如需更新支付方式，请在付款明细中删除当前的付款明细。"
+msgstr "有一笔在线支付还没完成。请先重新请求支付结果。将如需更新支付方式，请在付款明细中先进行删除操作。"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
