@@ -98,7 +98,7 @@ msgstr "'发票 - %s' % (object.name)"
 #: code:addons/point_of_sale/models/pos_order.py:0
 #, python-format
 msgid "(RESCUE FOR %(session)s)"
-msgstr "（救援%(session)s）"
+msgstr "（继续%(session)s）"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
@@ -1796,7 +1796,7 @@ msgstr "强制完成"
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
 msgid "Generation of your order references"
-msgstr "订单参考的生成"
+msgstr "订单编号的生成"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.pos_config_view_form
@@ -2672,7 +2672,7 @@ msgstr "操作类型显示在库存仪表盘中。"
 #: model:ir.model.fields,field_description:point_of_sale.field_report_pos_order__order_id
 #, python-format
 msgid "Order"
-msgstr "订单"
+msgstr "订单编号"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2720,12 +2720,12 @@ msgstr "订单行"
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__order_id
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_pack_operation_lot__order_id
 msgid "Order Ref"
-msgstr "订单参考"
+msgstr "订单编号"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_session__sequence_number
 msgid "Order Sequence Number"
-msgstr "订单编号"
+msgstr "订单号步长"
 
 #. module: point_of_sale
 #: model_terms:ir.ui.view,arch_db:point_of_sale.view_pos_pos_form
@@ -2961,7 +2961,7 @@ msgstr "按会话"
 msgid ""
 "Person who uses the cash register. It can be a reliever, a student or an "
 "interim employee."
-msgstr "使用现金登记的人可以是救援者，学生或者临时工"
+msgstr "使用现金登记的人可以是代班店员，学生或者临时工"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3626,7 +3626,7 @@ msgstr "重新打印小票"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:0
 #, python-format
 msgid "Request sent"
-msgstr "请求已发出"
+msgstr "等待用户支付..."
 
 #. module: point_of_sale
 #. openerp-web
@@ -3667,7 +3667,7 @@ msgstr "重新开始"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:0
 #, python-format
 msgid "Retry"
-msgstr "重试"
+msgstr "刷新支付结果"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/models/pos_order.py:0
