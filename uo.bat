@@ -9,3 +9,4 @@ xcopy .\source_ent  d:\pjweb\o13.erpapp.cn\addons_ent /E /Y
 rd /s/q d:\pjweb\o13.erpapp.cn\addons_ent\.tx
 cd ..
 uo.bat
+cd odoo13-cn

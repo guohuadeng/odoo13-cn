@@ -25,7 +25,7 @@ msgstr ""
 #. module: helpdesk_account
 #: model:ir.model,name:helpdesk_account.model_account_move_reversal
 msgid "Account Move Reversal"
-msgstr "会计凭证逆转"
+msgstr "会计分录逆转"
 
 #. module: helpdesk_account
 #: code:addons/helpdesk_account/models/helpdesk.py:0

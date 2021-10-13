@@ -48,7 +48,7 @@ msgstr "科目表模版"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_move__account_move_ids
 msgid "Account Move"
-msgstr "会计凭证"
+msgstr "会计分录"
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_account_reconciliation_widget
@@ -267,7 +267,7 @@ msgstr "分组"
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_inventory__has_account_moves
 msgid "Has Account Moves"
-msgstr "有会计凭证"
+msgstr "有会计分录"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_change_standard_price__id

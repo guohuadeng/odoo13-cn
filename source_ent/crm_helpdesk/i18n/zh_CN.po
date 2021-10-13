@@ -104,7 +104,7 @@ msgstr "团队"
 #. module: crm_helpdesk
 #: model:ir.model.fields,field_description:crm_helpdesk.field_crm_lead_convert2ticket__ticket_type_id
 msgid "Ticket Type"
-msgstr "入场券类型"
+msgstr "客服类型"
 
 #. module: crm_helpdesk
 #: code:addons/crm_helpdesk/wizard/crm_lead_convert2ticket.py:0

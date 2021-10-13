@@ -214,9 +214,9 @@ msgstr ""
 "<?xml version=\"1.0\"?>\n"
 "<div>\n"
 " 亲爱的 ${object.sudo().partner_id.name or '女士/先生'},<br/><br/>\n"
-" 这是一条系统自动的通知，我们已经关闭了您的服务单(reference ${object.id}).\n"
+" 这是一条系统自动的通知，我们已经关闭了您的客服单(reference ${object.id}).\n"
 "  我们希望所提供的服务已满足了您的要求。\n"
-"  如果您有其他任何问题或意见，可以立即回复此EMail，我们将重新开启此条服务单。<br/><br/>\n"
+"  如果您有其他任何问题或意见，可以立即回复此EMail，我们将重新开启此条客服单。<br/><br/>\n"
 " 谢谢您的合作<br/>\n"
 " 谨致问候,<br/><br/>\n"
 " ${object.team_id.name or 'Helpdesk'} 团队.\n"
@@ -254,7 +254,7 @@ msgstr ""
 " <a href=\"/helpdesk/ticket/${object.id}/${object.access_token}\">${object.name}</a>\n"
 " % endif\n"
 " 我们的 ${object.team_id.name or ''} 团队已收到并正在审核。\n"
-" 您的服务单编号为 ${object.id}.<br/><br/>\n"
+" 您的客服单编号为 ${object.id}.<br/><br/>\n"
 " 如需留言，请回复此EMail。<br/>\n"
 " 谢谢,<br/><br/>\n"
 " ${object.team_id.name or '帮助台'} 团队.\n"
@@ -267,7 +267,7 @@ msgstr ""
 msgid ""
 "<b>Stars</b> mark the <b>ticket priority</b>. You can change it directly "
 "from here!"
-msgstr "<b>用星星</b> 标记 <b>服务单优先级</b>. 您可从此处直接更改它!"
+msgstr "<b>用星星</b> 标记 <b>客服单优先级</b>. 您可从此处直接更改它!"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.tickets_followup
@@ -340,13 +340,13 @@ msgid ""
 "                </small>"
 msgstr ""
 "<small>\n"
-"                    如果问题已经解决，您可以关闭工单。\n"
+"                    如果问题已经解决，您可以关闭客服单。\n"
 "                </small>"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.tickets_followup
 msgid "<small><b>Close this ticket</b></small>"
-msgstr "<small><b>关闭工单</b></small>"
+msgstr "<small><b>关闭客服单</b></small>"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_kanban
@@ -360,7 +360,7 @@ msgstr ""
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.view_partner_form_inherit_helpdesk
 msgid "<span class=\"o_stat_text\"> Tickets</span>"
-msgstr "服务单"
+msgstr "客服单"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.tickets_followup
@@ -466,7 +466,7 @@ msgstr "添加描述"
 msgid ""
 "Add columns to configure <b>stages for your tickets</b>.<br/><i>e.g. "
 "Awaiting Customer Feedback, Customer Followup, ...</i>"
-msgstr "添加列以配置 <b>服务单的阶段</b>.<br/><i>例如，等待客户反馈、客户关注, ...</i>"
+msgstr "添加列以配置 <b>客服单的阶段</b>.<br/><i>例如，等待客户反馈、客户关注, ...</i>"
 
 #. module: helpdesk
 #: model:res.groups,name:helpdesk.group_helpdesk_manager
@@ -514,18 +514,18 @@ msgstr "全部"
 #: model:ir.actions.act_window,name:helpdesk.helpdesk_ticket_action_main
 #: model:ir.ui.menu,name:helpdesk.helpdesk_ticket_menu_all
 msgid "All Tickets"
-msgstr "全部工单"
+msgstr "全部客服单"
 
 #. module: helpdesk
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_team__allow_portal_ticket_closing
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Allow customers to close their tickets"
-msgstr "允许客户关闭他们的工单"
+msgstr "允许客户关闭他们的客服单"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Allow product returns from tickets"
-msgstr "允许通过工单进行退货"
+msgstr "允许通过客服单进行退货"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
@@ -576,7 +576,7 @@ msgstr "分配给我"
 #: code:addons/helpdesk/static/src/js/tours/helpdesk.js:0
 #, python-format
 msgid "Assign the ticket to someone."
-msgstr "将服务单分配给某人。"
+msgstr "将客服单分配给某人。"
 
 #. module: helpdesk
 #: code:addons/helpdesk/models/helpdesk_ticket.py:0
@@ -627,7 +627,7 @@ msgstr "附件数量"
 msgid ""
 "Automated email sent to the ticket's customer when the ticket reaches this "
 "stage."
-msgstr "当工单到该阶段时，自动给客户发送邮件。"
+msgstr "当客服单到该阶段时，自动给客户发送邮件。"
 
 #. module: helpdesk
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_team__assign_method
@@ -637,10 +637,10 @@ msgid ""
 "\tRandomly: randomly but everyone gets the same amount\n"
 "\tBalanced: to the person with the least amount of open tickets"
 msgstr ""
-"新工单的自动分配方式：\n"
+"新客服单的自动分配方式：\n"
 "\t手动：手动\n"
 "\t随机的：随机的，但是每个人都是相同的比例\n"
-"\t平衡的：分配给成员最小的打开的工单数。"
+"\t平衡的：分配给成员最小的打开的客服单数。"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.team_rating_progress_data
@@ -708,7 +708,7 @@ msgstr "选择一封邮件:"
 #: code:addons/helpdesk/static/src/js/tours/helpdesk.js:0
 #, python-format
 msgid "Click here to view this team's tickets."
-msgstr "单击此处查看此团队的服务单。"
+msgstr "单击此处查看此团队的客服单。"
 
 #. module: helpdesk
 #. openerp-web
@@ -744,12 +744,12 @@ msgstr "关闭日期"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.tickets_followup
 msgid "Close the ticket"
-msgstr "关闭工单"
+msgstr "关闭客服单"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.tickets_followup
 msgid "Close ticket"
-msgstr "关闭工单"
+msgstr "关闭客服单"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_tickets_view_search
@@ -759,7 +759,7 @@ msgstr "已关闭"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_sla_report_analysis_view_search
 msgid "Closed Ticket"
-msgstr "关闭工单"
+msgstr "关闭客服单"
 
 #. module: helpdesk
 #. openerp-web
@@ -767,13 +767,13 @@ msgstr "关闭工单"
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_search_analysis
 #, python-format
 msgid "Closed Tickets"
-msgstr "完成的服务单"
+msgstr "完成的客服单"
 
 #. module: helpdesk
 #: model:ir.actions.act_window,name:helpdesk.helpdesk_ticket_action_7days_analysis
 #: model:ir.actions.act_window,name:helpdesk.helpdesk_ticket_action_close_analysis
 msgid "Closed Tickets Analysis"
-msgstr "完成的服务单分析"
+msgstr "完成的客服单分析"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_ticket__closed_by_partner
@@ -823,7 +823,7 @@ msgstr "配置SLA 策略"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Connect third party application and create tickets using web services"
-msgstr "连接第三方应用程序，使用网页服务创建服务单。"
+msgstr "连接第三方应用程序，使用网页服务创建客服单。"
 
 #. module: helpdesk
 #: model:ir.model,name:helpdesk.model_res_partner
@@ -860,29 +860,29 @@ msgstr "创建一个新的模板"
 #: model_terms:ir.actions.act_window,help:helpdesk.helpdesk_ticket_action_team
 #: model_terms:ir.actions.act_window,help:helpdesk.helpdesk_ticket_action_unassigned
 msgid "Create a new ticket"
-msgstr "创建新服务单"
+msgstr "创建新客服单"
 
 #. module: helpdesk
 #: model_terms:ir.actions.act_window,help:helpdesk.helpdesk_tag_action
 msgid "Create a new ticket tag"
-msgstr "创建一个新的服务单标签"
+msgstr "创建一个新的客服单标签"
 
 #. module: helpdesk
 #: model_terms:ir.actions.act_window,help:helpdesk.helpdesk_team_action
 msgid "Create a new ticket team"
-msgstr "创建一个新的服务单团队"
+msgstr "创建一个新的客服单团队"
 
 #. module: helpdesk
 #: model_terms:ir.actions.act_window,help:helpdesk.helpdesk_ticket_type_action
 msgid "Create a new ticket type"
-msgstr "创建一个新的服务单类别"
+msgstr "创建一个新的客服单类别"
 
 #. module: helpdesk
 #: model_terms:ir.actions.act_window,help:helpdesk.helpdesk_ticket_action_main
 #: model_terms:ir.actions.act_window,help:helpdesk.helpdesk_ticket_action_main_my
 #: model_terms:ir.actions.act_window,help:helpdesk.helpdesk_ticket_action_main_tree
 msgid "Create your first ticket."
-msgstr "创建您的首个服务单。"
+msgstr "创建您的首个客服单。"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_sla__create_uid
@@ -916,7 +916,7 @@ msgstr "创建日期"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.tickets_followup
 msgid "Current stage of this ticket"
-msgstr "此工单的当前阶段"
+msgstr "此客服单的当前阶段"
 
 #. module: helpdesk
 #: code:addons/helpdesk/models/helpdesk_ticket.py:0
@@ -958,7 +958,7 @@ msgstr "客户满意度"
 #: code:addons/helpdesk/models/helpdesk_ticket.py:0
 #, python-format
 msgid "Customer Tickets"
-msgstr "客户工单"
+msgstr "客户客服单"
 
 #. module: helpdesk
 #. openerp-web
@@ -1043,7 +1043,7 @@ msgstr "备注..."
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_form
 msgid "Description of the ticket..."
-msgstr "服务单的说明..."
+msgstr "客服单的说明..."
 
 #. module: helpdesk
 #: model:ir.model,name:helpdesk.model_digest_digest
@@ -1118,7 +1118,7 @@ msgstr "客户EMail"
 msgid ""
 "Emails sent to <strong>${email_alias}</strong> generate new tickets in your "
 "Helpdesk funnel.<br>"
-msgstr "发送EMail至 <strong>${email_alias}</strong> 会在您的帮助中心中生成新的服务单<br>"
+msgstr "发送EMail至 <strong>${email_alias}</strong> 会在您的帮助中心中生成新的客服单<br>"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__use_website_helpdesk_slides
@@ -1132,7 +1132,7 @@ msgstr "允许在线学习"
 msgid ""
 "Enter a subject or title for this ticket.<br/><i>(e.g. Problem with "
 "installation, Wrong order, Can't understand bill, etc.)</i>"
-msgstr "为此服务单输入主题或标题.<br/><i>(例如，安装时出现问题、错误的订单、无法理解账单等.)</i>"
+msgstr "为此客服单输入主题或标题.<br/><i>(例如，安装时出现问题、错误的订单、无法理解账单等.)</i>"
 
 #. module: helpdesk
 #. openerp-web
@@ -1165,7 +1165,7 @@ msgstr ""
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_sla_report_analysis_view_search
 msgid "Failed Ticket"
-msgstr "作废的工单"
+msgstr "作废的客服单"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_search_analysis
@@ -1187,7 +1187,7 @@ msgstr "默认折叠"
 msgid ""
 "Follow this team to automatically track the events associated to tickets of "
 "this team."
-msgstr "关注此销售团队，自动跟踪此团队中用户相关的工单。"
+msgstr "关注此销售团队，自动跟踪此团队中用户相关的客服单。"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__message_follower_ids
@@ -1213,7 +1213,7 @@ msgstr "关注者(业务伙伴)"
 msgid ""
 "For example, we respond to urgent tickets related to bugs\n"
 "            in two hours and resolve them within 36 hours."
-msgstr "例如：我们将在两小时内对紧急的服务单进行反馈，并且会在36小时内解决。"
+msgstr "例如：我们将在两小时内对紧急的客服单进行反馈，并且会在36小时内解决。"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_tickets_view_search
@@ -1223,7 +1223,7 @@ msgstr "未来活动"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Generate credit notes from tickets"
-msgstr "通过工单申请退款"
+msgstr "通过客服单申请退款"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
@@ -1233,7 +1233,7 @@ msgstr "联系您的网站访客"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Grant coupons from Tickets"
-msgstr "通过工单发放优惠券"
+msgstr "通过客服单发放优惠券"
 
 #. module: helpdesk
 #: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_ticket__kanban_state__done
@@ -1266,7 +1266,7 @@ msgstr "分组"
 #. module: helpdesk
 #: model:mail.activity.type,name:helpdesk.mail_act_helpdesk_handle
 msgid "Handle Ticket"
-msgstr "处理服务单"
+msgstr "处理客服单"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.team_rating_progress_data
@@ -1344,25 +1344,25 @@ msgstr "服务团队"
 #: model:ir.model,name:helpdesk.model_helpdesk_ticket
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_form
 msgid "Helpdesk Ticket"
-msgstr "帮助中心工单"
+msgstr "帮助中心客服单"
 
 #. module: helpdesk
 #: model:ir.actions.act_window,name:helpdesk.helpdesk_ticket_analysis_action
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_graph_analysis
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_pivot_analysis
 msgid "Helpdesk Ticket Analysis"
-msgstr "帮助中心工单分析"
+msgstr "帮助中心客服单分析"
 
 #. module: helpdesk
 #: model:ir.model,name:helpdesk.model_helpdesk_ticket_type
 msgid "Helpdesk Ticket Type"
-msgstr "帮忙中心服务单类别"
+msgstr "帮忙中心客服单类别"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_graph_main
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_pivot_main
 msgid "Helpdesk Tickets"
-msgstr "帮助中心工单"
+msgstr "帮助中心客服单"
 
 #. module: helpdesk
 #. openerp-web
@@ -1391,7 +1391,7 @@ msgstr "从票据创建日期到指定阶段的小时数"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "How to assign newly created tickets to the right person"
-msgstr "如何将新创建的服务单分配给正确的人"
+msgstr "如何将新创建的客服单分配给正确的人"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_sla__id
@@ -1462,8 +1462,8 @@ msgid ""
 "In Channel: You can create a new ticket by typing /helpdesk [ticket title]. "
 "You can search ticket by typing /helpdesk_search [Keyword1],[Keyword2],."
 msgstr ""
-"在频道中：你可以创建新的服务单，通过输入/helpdesk [服务单主题]。你可以通过输入/helpdesk_search "
-"[关键词1],[关键词2]搜索服务单"
+"在频道中：你可以创建新的客服单，通过输入/helpdesk [客服单主题]。你可以通过输入/helpdesk_search "
+"[关键词1],[关键词2]搜索客服单"
 
 #. module: helpdesk
 #: code:addons/helpdesk/models/helpdesk.py:0
@@ -1481,14 +1481,14 @@ msgstr "进行中"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Incoming emails create tickets"
-msgstr "接收的EMail创建服务单"
+msgstr "接收的EMail创建客服单"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid ""
 "Individuals to whom the tickets will be automatically assigned. Keep empty "
 "for everyone to be part of the team."
-msgstr "工单将分配给以下成员。留空则表示将分配给所有成员。"
+msgstr "客服单将分配给以下成员。留空则表示将分配给所有成员。"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__message_is_follower
@@ -1524,7 +1524,7 @@ msgstr "看板有效解释"
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_digest_digest__kpi_helpdesk_tickets_closed_value
 msgid "Kpi Helpdesk Tickets Closed Value"
-msgstr "Kpi 服务同心服务单关闭值"
+msgstr "Kpi 服务同心客服单关闭值"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.team_rating_data
@@ -1597,7 +1597,7 @@ msgstr "最近一次反馈"
 #: code:addons/helpdesk/static/src/js/tours/helpdesk.js:0
 #, python-format
 msgid "Let's create your first ticket."
-msgstr "让我们创建您的首个服务单。"
+msgstr "让我们创建您的首个客服单。"
 
 #. module: helpdesk
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_ticket__email_cc
@@ -1659,7 +1659,7 @@ msgstr "最小优先级"
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_sla__stage_id
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_sla_status__sla_stage_id
 msgid "Minimum stage a ticket needs to reach in order to satisfy this SLA."
-msgstr "为满足此 SLA 服务单需达到的最低阶段。"
+msgstr "为满足此 SLA 客服单需达到的最低阶段。"
 
 #. module: helpdesk
 #. openerp-web
@@ -1682,28 +1682,28 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_tickets_view_search
 #, python-format
 msgid "My Tickets"
-msgstr "我的门票"
+msgstr "我的客服单"
 
 #. module: helpdesk
 #. openerp-web
 #: code:addons/helpdesk/static/src/xml/helpdesk_team_templates.xml:0
 #, python-format
 msgid "My high priority tickets"
-msgstr "高优先级工单"
+msgstr "高优先级客服单"
 
 #. module: helpdesk
 #. openerp-web
 #: code:addons/helpdesk/static/src/xml/helpdesk_team_templates.xml:0
 #, python-format
 msgid "My open tickets"
-msgstr "我正在做的工单"
+msgstr "我正在做的客服单"
 
 #. module: helpdesk
 #. openerp-web
 #: code:addons/helpdesk/static/src/xml/helpdesk_team_templates.xml:0
 #, python-format
 msgid "My urgent tickets"
-msgstr "紧急工单"
+msgstr "紧急客服单"
 
 #. module: helpdesk
 #: model:helpdesk.stage,name:helpdesk.stage_new
@@ -1738,7 +1738,7 @@ msgstr "下一活动类型"
 #: model_terms:ir.actions.act_window,help:helpdesk.helpdesk_ticket_action_sla_urgent
 #: model_terms:ir.actions.act_window,help:helpdesk.helpdesk_ticket_action_urgent
 msgid "No tickets to display"
-msgstr "无服务单。"
+msgstr "无客服单。"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__message_needaction_counter
@@ -1798,7 +1798,7 @@ msgstr "仅整数位有效"
 msgid ""
 "Only apply the SLA to a specific ticket type. If left empty it will apply to"
 " all types."
-msgstr "仅应用SLA到特定类型的工单，如果留空，则应用到所有类型。"
+msgstr "仅应用SLA到特定类型的客服单，如果留空，则应用到所有类型。"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_tickets_view_search
@@ -1808,7 +1808,7 @@ msgstr "打开"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_search_analysis
 msgid "Open Tickets"
-msgstr "正在做的工单"
+msgstr "正在做的客服单"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_sla_report_analysis__ticket_open_hours
@@ -1993,7 +1993,7 @@ msgstr "点评"
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__use_rating
 msgid "Ratings on tickets"
-msgstr "工单评分"
+msgstr "客服单评分"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_sla_view_form
@@ -2083,7 +2083,7 @@ msgstr ""
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Repair broken products"
-msgstr "通过工单进行产品售后维修"
+msgstr "通过客服单进行产品售后维修"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__use_product_repairs
@@ -2183,12 +2183,12 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_sla_report_analysis_view_pivot
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_sla_report_analysis_view_search
 msgid "SLA Status Analysis"
-msgstr ""
+msgstr "SLA统计分析"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_sla_report_analysis_view_search
 msgid "SLA Status Deadline"
-msgstr ""
+msgstr "SLA响应时效"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_sla_report_analysis__sla_status_failed
@@ -2228,7 +2228,7 @@ msgstr "保存此页面并刷新以启用该功能"
 #: code:addons/helpdesk/static/src/js/tours/helpdesk.js:0
 #, python-format
 msgid "Save this ticket and the modifications you've made to it."
-msgstr "保存此服务单以及对此服务单所做的修改。"
+msgstr "保存此客服单以及对此客服单所做的修改。"
 
 #. module: helpdesk
 #: code:addons/helpdesk/controllers/portal.py:0
@@ -2407,14 +2407,14 @@ msgstr "阶段"
 msgid ""
 "Stages the team will use. This team's tickets will only be able to be in "
 "these stages."
-msgstr "团队将要使用的阶段，这个团队的工单都会在这些阶段中。"
+msgstr "团队将要使用的阶段，这个团队的客服单都会在这些阶段中。"
 
 #. module: helpdesk
 #: model_terms:ir.actions.act_window,help:helpdesk.helpdesk_stage_action
 msgid ""
 "Stages will allow operators to easily track how a specific\n"
 "            tickets are positioned in the process."
-msgstr "阶段可帮助操作员更轻松送的追踪服务单的整个处理流程"
+msgstr "阶段可帮助操作员更轻松送的追踪客服单的整个处理流程"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_sla_report_analysis__sla_status
@@ -2456,7 +2456,7 @@ msgstr "主题..."
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "Submit tickets with an online form"
-msgstr "使用在线表单提交服务单"
+msgstr "使用在线表单提交客服单"
 
 #. module: helpdesk
 #. openerp-web
@@ -2495,7 +2495,7 @@ msgstr "标签"
 #. module: helpdesk
 #: model_terms:ir.actions.act_window,help:helpdesk.helpdesk_tag_action
 msgid "Tags allows to organize tickets."
-msgstr "标签允许组织管理工单。"
+msgstr "标签允许组织管理客服单。"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_sla_view_form
@@ -2521,7 +2521,7 @@ msgstr "目标成功率"
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_res_users__helpdesk_target_closed
 msgid "Target Tickets to Close"
-msgstr "工单完成目标"
+msgstr "客服单完成目标"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_stage_view_form
@@ -2561,7 +2561,7 @@ msgstr "团队"
 #. module: helpdesk
 #: model_terms:ir.actions.act_window,help:helpdesk.helpdesk_team_action
 msgid "Teams allows to organize tickets."
-msgstr "团队允许组织管理工单。"
+msgstr "团队允许组织管理客服单。"
 
 #. module: helpdesk
 #: model:ir.actions.act_window,name:helpdesk.email_template_action_helpdesk
@@ -2606,7 +2606,7 @@ msgstr ""
 msgid ""
 "The success rate is based on the tickets which passed the SLA policies "
 "successfully."
-msgstr "成功率基于通过SLA策略成功的服务单。"
+msgstr "成功率基于通过SLA策略成功的客服单。"
 
 #. module: helpdesk
 #: code:addons/helpdesk/controllers/portal.py:0
@@ -2617,14 +2617,14 @@ msgstr ""
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.portal_helpdesk_ticket
 msgid "There are currently no Ticket for your account."
-msgstr "您的账户当前没有工单。"
+msgstr "您的账户当前没有客服单。"
 
 #. module: helpdesk
 #. openerp-web
 #: code:addons/helpdesk/static/src/xml/helpdesk_team_templates.xml:0
 #, python-format
 msgid "This dashboard will activate once you have created your first ticket."
-msgstr "创建了你的第一张工单之后将启用该仪表板。"
+msgstr "创建了你的第一张客服单之后将启用该仪表板。"
 
 #. module: helpdesk
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_ticket__assign_hours
@@ -2693,7 +2693,7 @@ msgstr "门票"
 #: model:ir.actions.act_window,name:helpdesk.helpdesk_ticket_action_dashboard_urgent
 #: model:ir.actions.act_window,name:helpdesk.helpdesk_ticket_team_analysis_action
 msgid "Ticket Analysis"
-msgstr "工单分析"
+msgstr "客服单分析"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_sla_report_analysis__ticket_closed
@@ -2709,7 +2709,7 @@ msgstr ""
 #: model:mail.message.subtype,name:helpdesk.mt_team_ticket_new
 #: model:mail.message.subtype,name:helpdesk.mt_ticket_new
 msgid "Ticket Created"
-msgstr "已创建的工单"
+msgstr "已创建的客服单"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_sla_report_analysis_view_search
@@ -2730,7 +2730,7 @@ msgstr ""
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_tickets_view_search
 msgid "Ticket ID"
-msgstr "服务单编号"
+msgstr "客服单编号"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_tickets_view_tree
@@ -2741,7 +2741,7 @@ msgstr ""
 #: model:mail.message.subtype,name:helpdesk.mt_team_ticket_rated
 #: model:mail.message.subtype,name:helpdesk.mt_ticket_rated
 msgid "Ticket Rated"
-msgstr "服务单评价"
+msgstr "客服单评价"
 
 #. module: helpdesk
 #: model:ir.model,name:helpdesk.model_helpdesk_sla_status
@@ -2756,13 +2756,13 @@ msgstr ""
 #. module: helpdesk
 #: model:mail.message.subtype,name:helpdesk.mt_team_ticket_stage
 msgid "Ticket Stage Changed"
-msgstr "工单阶段已改变"
+msgstr "客服单阶段已改变"
 
 #. module: helpdesk
 #: model:ir.actions.act_window,name:helpdesk.helpdesk_tag_action
 #: model:ir.ui.menu,name:helpdesk.helpdesk_tag_menu
 msgid "Ticket Tags"
-msgstr "工单标签"
+msgstr "客服单标签"
 
 #. module: helpdesk
 #: model:ir.actions.act_window,name:helpdesk.helpdesk_ticket_type_action
@@ -2773,7 +2773,7 @@ msgstr "工单标签"
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_search_analysis
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_tickets_view_search
 msgid "Ticket Type"
-msgstr "入场券类型"
+msgstr "客服类型"
 
 #. module: helpdesk
 #: code:addons/helpdesk/controllers/portal.py:0
@@ -2784,17 +2784,17 @@ msgstr ""
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__allow_portal_ticket_closing
 msgid "Ticket closing"
-msgstr "关闭工单"
+msgstr "关闭客服单"
 
 #. module: helpdesk
 #: model:mail.message.subtype,description:helpdesk.mt_ticket_new
 msgid "Ticket created"
-msgstr "工单已创建"
+msgstr "客服单已创建"
 
 #. module: helpdesk
 #: model:mail.message.subtype,description:helpdesk.mt_ticket_rated
 msgid "Ticket rated"
-msgstr "服务单评价"
+msgstr "客服单评价"
 
 #. module: helpdesk
 #. openerp-web
@@ -2824,36 +2824,36 @@ msgstr "服务单评价"
 #: model_terms:ir.ui.view,arch_db:helpdesk.portal_my_home_menu_helpdesk
 #, python-format
 msgid "Tickets"
-msgstr "服务单"
+msgstr "客服单"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_digest_digest__kpi_helpdesk_tickets_closed
 msgid "Tickets Closed"
-msgstr "服务单已关闭"
+msgstr "客服单已关闭"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_search_analysis
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_ticket_view_search_analysis_closed
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_tickets_view_search
 msgid "Tickets Search"
-msgstr "搜索工单"
+msgstr "搜索客服单"
 
 #. module: helpdesk
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_stage__is_close
 msgid ""
 "Tickets in this stage are considered as done. This is used notably when "
 "computing SLAs and KPIs on tickets."
-msgstr "此阶段中的服务单被视为已完成。尤其在计算服务单 SLA 和 KPI 时使用。"
+msgstr "此阶段中的客服单被视为已完成。尤其在计算客服单 SLA 和 KPI 时使用。"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_kanban
 msgid "Tickets to Review"
-msgstr "待审核的工单"
+msgstr "待审核的客服单"
 
 #. module: helpdesk
 #: model:ir.model.fields,help:helpdesk.field_helpdesk_sla__priority
 msgid "Tickets under this priority will not be taken into account."
-msgstr "低于该优先级的工单不会进入该账户。"
+msgstr "低于该优先级的客服单不会进入该账户。"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__use_helpdesk_sale_timesheet
@@ -2875,7 +2875,7 @@ msgstr "首次分配时间（小时）"
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__use_helpdesk_timesheet
 msgid "Timesheet on Ticket"
-msgstr "服务单的时间表"
+msgstr "客服单的时间表"
 
 #. module: helpdesk
 #: model_terms:ir.actions.act_window,help:helpdesk.action_upcoming_sla_fail_all_tickets
@@ -2934,7 +2934,7 @@ msgstr "类型"
 #. module: helpdesk
 #: model_terms:ir.actions.act_window,help:helpdesk.helpdesk_ticket_type_action
 msgid "Type allows to organize tickets."
-msgstr "类型允许组织管理工单。"
+msgstr "类型允许组织管理客服单。"
 
 #. module: helpdesk
 #: model:ir.model.constraint,message:helpdesk.constraint_helpdesk_ticket_type_name_uniq
@@ -2985,7 +2985,7 @@ msgstr "即将到来的SLA失败"
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__upcoming_sla_fail_tickets
 msgid "Upcoming SLA Fail Tickets"
-msgstr "即将到来的SLA失败的工单"
+msgstr "即将到来的SLA失败的客服单"
 
 #. module: helpdesk
 #: model:ir.model.fields.selection,name:helpdesk.selection__helpdesk_sla__priority__3
@@ -3043,14 +3043,14 @@ msgstr "用户"
 #: code:addons/helpdesk/static/src/xml/helpdesk_team_templates.xml:0
 #, python-format
 msgid "View failed tickets"
-msgstr "查看失败的工单"
+msgstr "查看失败的客服单"
 
 #. module: helpdesk
 #. openerp-web
 #: code:addons/helpdesk/static/src/xml/helpdesk_team_templates.xml:0
 #, python-format
 msgid "View high priority failed tickets"
-msgstr "查看高优先级失败的工单"
+msgstr "查看高优先级失败的客服单"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
@@ -3062,7 +3062,7 @@ msgstr ""
 #: code:addons/helpdesk/static/src/xml/helpdesk_team_templates.xml:0
 #, python-format
 msgid "View urgent failed tickets"
-msgstr "查看紧急处理失败的工单"
+msgstr "查看紧急处理失败的客服单"
 
 #. module: helpdesk
 #. openerp-web
@@ -3103,7 +3103,7 @@ msgid ""
 "With random assignation, every user gets the same number of tickets. With "
 "balanced assignation, tickets are assigned to the user with the least amount"
 " of open tickets."
-msgstr "通过随机分配，每个用户均可获得同等数量的服务单。通过均衡分配，可将服务单分配给具有最少未清服务单的用户。"
+msgstr "通过随机分配，每个用户均可获得同等数量的客服单。通过均衡分配，可将客服单分配给具有最少未清客服单的用户。"
 
 #. module: helpdesk
 #: model:ir.model.fields,field_description:helpdesk.field_helpdesk_team__resource_calendar_id
@@ -3157,7 +3157,7 @@ msgstr "天<br/>"
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_sla_view_form
 msgid "e.g. Close urgent tickets within 36 hours"
-msgstr "例如：36小时解决紧急的工单"
+msgstr "例如：36小时解决紧急的客服单"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
@@ -3184,9 +3184,9 @@ msgstr ""
 #: code:addons/helpdesk/static/src/xml/helpdesk_team_templates.xml:0
 #, python-format
 msgid "to create a ticket."
-msgstr "创建服务单。"
+msgstr "创建客服单。"
 
 #. module: helpdesk
 #: model_terms:ir.ui.view,arch_db:helpdesk.helpdesk_team_view_form
 msgid "to create tickets"
-msgstr "创建服务单"
+msgstr "创建客服单"

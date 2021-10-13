@@ -135,7 +135,7 @@ msgstr "公司间交易消息"
 #. module: inter_company_rules
 #: model:ir.model,name:inter_company_rules.model_account_move
 msgid "Journal Entries"
-msgstr "会计凭证"
+msgstr "会计分录"
 
 #. module: inter_company_rules
 #: model:ir.model,name:inter_company_rules.model_account_move_line
