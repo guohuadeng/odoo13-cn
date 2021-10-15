@@ -1,0 +1,82 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sale_amazon_authentication
+# 
+# Translators:
+# Martin Trigaux, 2020
+# liAnGjiA <liangjia@qq.com>, 2020
+# 
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 13.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-07-27 13:21+0000\n"
+"PO-Revision-Date: 2020-08-04 05:13+0000\n"
+"Last-Translator: liAnGjiA <liangjia@qq.com>, 2020\n"
+"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. module: sale_amazon_authentication
+#: model:ir.model.fields,field_description:sale_amazon_authentication.field_amazon_account__access_key
+msgid "Access Key"
+msgstr "访问标识Access Key"
+
+#. module: sale_amazon_authentication
+#: model:ir.model,name:sale_amazon_authentication.model_amazon_account
+msgid "Amazon Account"
+msgstr "Amazon账号"
+
+#. module: sale_amazon_authentication
+#: model:ir.model.fields,field_description:sale_amazon_authentication.field_amazon_account__auth_token
+msgid "Authorization Token"
+msgstr "令牌Authorization Token"
+
+#. module: sale_amazon_authentication
+#: model:ir.model.fields,field_description:sale_amazon_authentication.field_amazon_account__secret_key
+msgid "Secret Key"
+msgstr "安全密钥Secret Key"
+
+#. module: sale_amazon_authentication
+#: model:ir.model.fields,help:sale_amazon_authentication.field_amazon_account__access_key
+msgid "The Access Key ID of the Amazon Seller Central account"
+msgstr "Amazon卖家账户的Access Key"
+
+#. module: sale_amazon_authentication
+#: model:ir.model.fields,help:sale_amazon_authentication.field_amazon_account__auth_token
+msgid ""
+"The MWS Authorization Token of the Amazon Seller Central account for Odoo"
+msgstr ""
+"该卖家用于odoo的 MWS Authorization Token"
+
+#. module: sale_amazon_authentication
+#: code:addons/sale_amazon_authentication/models/mws_connector.py:0
+#, python-format
+msgid "The Odoo proxy encountered an internal server error."
+msgstr "访问Odoo Amazon代理出错: internal server error"
+
+#. module: sale_amazon_authentication
+#: code:addons/sale_amazon_authentication/models/mws_connector.py:0
+#, python-format
+msgid "The Odoo proxy encountered an unhandled error."
+msgstr "访问Odoo Amazon代理出错: unhandled error"
+
+#. module: sale_amazon_authentication
+#: code:addons/sale_amazon_authentication/models/mws_connector.py:0
+#, python-format
+msgid "The Odoo proxy received a malformed request."
+msgstr "访问Odoo Amazon代理出错: 请求格式错误，received a malformed request"
+
+#. module: sale_amazon_authentication
+#: model:ir.model.fields,help:sale_amazon_authentication.field_amazon_account__secret_key
+msgid "The Secret Key of the Amazon Seller Central account"
+msgstr "Amazon卖家账户的 Secret Key"
+
+#. module: sale_amazon_authentication
+#: code:addons/sale_amazon_authentication/models/mws_connector.py:0
+#, python-format
+msgid "You don't have an active subscription. Please buy one here: %s"
+msgstr "没有可关的许可授权，请获取: %s"
