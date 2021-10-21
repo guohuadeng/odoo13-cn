@@ -499,7 +499,7 @@ msgstr "暂停"
 #. module: industry_fsm
 #: model:ir.model.fields,field_description:industry_fsm.field_report_project_task_user_fsm__hours_planned
 msgid "Planned Hours"
-msgstr "已计划的时数"
+msgstr "计划时长(小时)"
 
 #. module: industry_fsm
 #: model_terms:ir.ui.view,arch_db:industry_fsm.project_task_view_search_fsm

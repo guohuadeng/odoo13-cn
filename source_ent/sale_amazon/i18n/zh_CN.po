@@ -55,7 +55,7 @@ msgstr ""
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_marketplace__api_ref
 msgid "API Identifier"
-msgstr ""
+msgstr "API唯一编码"
 
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_account__access_key
@@ -313,7 +313,7 @@ msgstr "显示名称"
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_marketplace__domain
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_offer__domain
 msgid "Domain"
-msgstr "网域"
+msgstr "商城域名"
 
 #. module: sale_amazon
 #: code:addons/sale_amazon/models/amazon_account.py:0
@@ -613,7 +613,7 @@ msgstr "本账户下商城信息更新成功。"
 #. module: sale_amazon
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_account_view_form
 msgid "Sync Cancellations"
-msgstr "更新取消"
+msgstr "同步订单取消"
 
 #. module: sale_amazon
 #: model:ir.model.fields,field_description:sale_amazon.field_amazon_account__active_marketplace_ids
@@ -702,7 +702,7 @@ msgstr "国家编码请使用 ISO 3166-1 标准"
 #: model:ir.model.fields,help:sale_amazon.field_amazon_marketplace__domain
 #: model:ir.model.fields,help:sale_amazon.field_amazon_offer__domain
 msgid "The domain name associated with the marketplace"
-msgstr "销售区域必须与Amazon商城匹配"
+msgstr "商城域名必须与Amazon商城匹配"
 
 #. module: sale_amazon
 #: model:ir.model.fields,help:sale_amazon.field_res_partner__amazon_email
@@ -846,4 +846,4 @@ msgstr "[%s] %的礼品包装费"
 #. module: sale_amazon
 #: model_terms:ir.ui.view,arch_db:sale_amazon.amazon_account_view_form
 msgid "e.g. American Market"
-msgstr "如：美国商城"
+msgstr "如: Amazon美国"

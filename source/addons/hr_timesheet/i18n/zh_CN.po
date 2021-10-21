@@ -351,7 +351,7 @@ msgstr "无"
 #. module: hr_timesheet
 #: model:ir.model.fields,field_description:hr_timesheet.field_report_project_task_user__hours_planned
 msgid "Planned Hours"
-msgstr "已计划的时数"
+msgstr "计划时长(小时)"
 
 #. module: hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_uom_uom

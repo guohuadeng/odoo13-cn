@@ -200,7 +200,7 @@ msgstr "类别"
 #. module: purchase_requisition
 #: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
 msgid "Close"
-msgstr "关闭"
+msgstr "结案"
 
 #. module: purchase_requisition
 #: model:ir.model.fields.selection,name:purchase_requisition.selection__purchase_requisition__state__done

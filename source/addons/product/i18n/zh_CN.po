@@ -520,7 +520,7 @@ msgstr "配置属性以生成单品Sku"
 #. module: product
 #: model:ir.model.fields.selection,name:product.selection__product_template__type__consu
 msgid "Consumable"
-msgstr "能消耗"
+msgstr "消耗品"
 
 #. module: product
 #: model:ir.model,name:product.model_res_partner
@@ -1723,7 +1723,7 @@ msgstr "采购计量单位"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_supplierinfo__min_qty
 msgid "Quantity"
-msgstr "数量"
+msgstr "起购数量"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_packaging__qty

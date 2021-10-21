@@ -2064,7 +2064,7 @@ msgstr "占位符"
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task__planned_hours
 msgid "Planned Hours"
-msgstr "已计划的时数"
+msgstr "计划时长(小时)"
 
 #. module: project
 #: code:addons/project/models/analytic_account.py:0
