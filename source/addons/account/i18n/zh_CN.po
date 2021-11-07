@@ -7507,7 +7507,7 @@ msgstr "不平衡"
 #. module: account
 #: model:account.account.type,name:account.data_account_off_sheet
 msgid "Off-Balance Sheet"
-msgstr "资产负债表"
+msgstr "资产负债表外"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_payment_term_line_form
