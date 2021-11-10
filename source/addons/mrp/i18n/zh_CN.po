@@ -3195,11 +3195,15 @@ msgstr "递归错误！一个物料清单的产品不应该在本身BOM或子BOM
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom__code
-#: model:ir.model.fields,field_description:mrp.field_mrp_production__name
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing__code
-#: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__name
 msgid "Reference"
 msgstr "编码"
+
+#. module: mrp
+#: model:ir.model.fields,field_description:mrp.field_mrp_production__name
+#: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__name
+msgid "Reference"
+msgstr "单号"
 
 #. module: mrp
 #: model:ir.model.constraint,message:mrp.constraint_mrp_production_name_uniq
