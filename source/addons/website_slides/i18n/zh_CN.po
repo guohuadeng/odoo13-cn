@@ -916,14 +916,14 @@ msgstr "直接应用为ACL。 允许隐藏非成员的频道及其内容。"
 #: code:addons/website_slides/static/src/js/slides_slide_archive.js:0
 #, python-format
 msgid "Archive"
-msgstr "存档"
+msgstr "归档"
 
 #. module: website_slides
 #. openerp-web
 #: code:addons/website_slides/static/src/js/slides_slide_archive.js:0
 #, python-format
 msgid "Archive Slide"
-msgstr "存档幻灯片"
+msgstr "归档幻灯片"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_search
@@ -938,7 +938,7 @@ msgstr "已停用"
 #: code:addons/website_slides/static/src/xml/slide_management.xml:0
 #, python-format
 msgid "Are you sure you want to archive this slide ?"
-msgstr "您确定要存档此幻灯片吗？"
+msgstr "您确定要归档此幻灯片吗？"
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form

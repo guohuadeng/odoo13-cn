@@ -2015,7 +2015,7 @@ msgstr "该价格购买产品"
 #: code:addons/product/models/product_template.py:0
 #, python-format
 msgid "The product template is archived so no combination is possible."
-msgstr "产品已经存档，所以无法合并。"
+msgstr "产品已经归档，所以无法合并。"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_supplierinfo__min_qty

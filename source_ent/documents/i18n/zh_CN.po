@@ -543,7 +543,7 @@ msgstr "允许您管理文档"
 #: model_terms:ir.ui.view,arch_db:documents.document_view_form
 #, python-format
 msgid "Archive"
-msgstr "存档"
+msgstr "归档"
 
 #. module: documents
 #: model_terms:ir.ui.view,arch_db:documents.document_view_form
@@ -2120,8 +2120,8 @@ msgid ""
 "To delete files, archive them first. </br>Archived documents can still be "
 "accessed using the Archive option in the Filters top menu."
 msgstr ""
-"‎要‎‎删除‎‎文档, 请先将其‎‎存档‎‎。‎ </br> 存档‎‎文档‎‎仍然‎‎可以‎‎使用 \"过滤器顶部‎‎\" 菜单‎‎中的 "
-"\"‎‎存档‎‎\" 选项访问。‎"
+"‎要‎‎删除‎‎文档, 请先将其‎‎归档‎‎。‎ </br> 归档‎‎文档‎‎仍然‎‎可以‎‎使用 \"过滤器顶部‎‎\" 菜单‎‎中的 "
+"\"‎‎归档‎‎\" 选项访问。‎"
 
 #. module: documents
 #: model:mail.activity.type,name:documents.mail_documents_activity_data_tv

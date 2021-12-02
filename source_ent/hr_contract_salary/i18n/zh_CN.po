@@ -564,7 +564,7 @@ msgstr "现在申请"
 #: model:ir.cron,cron_name:hr_contract_salary.ir_cron_clean_redundant_salary_data
 #: model:ir.cron,name:hr_contract_salary.ir_cron_clean_redundant_salary_data
 msgid "Archive/Delete redundant generated salary data"
-msgstr "存档/删除 多余薪资数据"
+msgstr "归档/删除 多余薪资数据"
 
 #. module: hr_contract_salary
 #: model_terms:hr.job,website_description:hr_contract_salary.job_developer_belgium

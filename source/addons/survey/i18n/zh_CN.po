@@ -985,7 +985,7 @@ msgstr "内部调查不允许为员工以外的任何人创建令牌。"
 #: code:addons/survey/models/survey_survey.py:0
 #, python-format
 msgid "Creating token for archived surveys is not allowed."
-msgstr "不允许为存档的调查创建令牌。"
+msgstr "不允许为归档的调查创建令牌。"
 
 #. module: survey
 #: code:addons/survey/models/survey_survey.py:0

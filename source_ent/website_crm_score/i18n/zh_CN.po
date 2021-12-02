@@ -53,7 +53,7 @@ msgstr "启用"
 #. module: website_crm_score
 #: model:ir.model.fields.selection,name:website_crm_score.selection__website_crm_score__rule_type__active
 msgid "Archive"
-msgstr "存档"
+msgstr "归档"
 
 #. module: website_crm_score
 #: model_terms:ir.ui.view,arch_db:website_crm_score.team_user_view_search

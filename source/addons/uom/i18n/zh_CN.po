@@ -388,7 +388,7 @@ msgstr "你不能删除该计量单位类别，因为它已被系统使用。"
 msgid ""
 "You cannot delete this UoM as it is used by the system. You should rather "
 "archive it."
-msgstr "你不能删除该计量单位，因为它已被系统使用。你应该把它存档。"
+msgstr "你不能删除该计量单位，因为它已被系统使用。你应该把它归档。"
 
 #. module: uom
 #: model_terms:ir.actions.act_window,help:uom.product_uom_form_action

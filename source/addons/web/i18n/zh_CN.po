@@ -598,7 +598,7 @@ msgstr "应用"
 #: code:addons/web/static/src/js/views/list/list_controller.js:0
 #, python-format
 msgid "Archive"
-msgstr "存档"
+msgstr "归档"
 
 #. module: web
 #. openerp-web
@@ -627,7 +627,7 @@ msgstr "您确定要停用所有选定的记录吗？"
 #: code:addons/web/static/src/js/views/form/form_controller.js:0
 #, python-format
 msgid "Are you sure that you want to archive this record?"
-msgstr "你确定要存档此记录吗？"
+msgstr "你确定要归档此记录吗？"
 
 #. module: web
 #. openerp-web

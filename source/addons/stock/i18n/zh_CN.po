@@ -7091,7 +7091,7 @@ msgstr "无法验证盘点'%s'，可能此库存已验证或尚未准备好。"
 #: code:addons/stock/models/stock_location.py:0
 #, python-format
 msgid "You cannot archive the location %s as it is used by your warehouse %s"
-msgstr "您不能将区位%s存档，因为它由您的仓库%s使用"
+msgstr "您不能将区位%s归档，因为它由您的仓库%s使用"
 
 #. module: stock
 #: code:addons/stock/models/stock_move.py:0

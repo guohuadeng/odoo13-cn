@@ -7782,7 +7782,7 @@ msgstr "这是管理香港会计和本地化图表的基础模块"
 msgid ""
 " another model requires the record being deleted. If possible, archive it "
 "instead."
-msgstr "另一个模型要求删除记录。如果可能的话，把它存档。"
+msgstr "另一个模型要求删除记录。如果可能的话，把它归档。"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_users__accesses_count
@@ -7980,7 +7980,7 @@ msgid ""
 "- Delete: another model requires the record being deleted. If possible, archive it instead."
 msgstr ""
 "- 创建/更新: 未设置强制字段.\n"
-"- 删除: 另一个模型要求删除记录。如果可能的话，把它存档"
+"- 删除: 另一个模型要求删除记录。如果可能的话，把它归档"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.report_irmodeloverview

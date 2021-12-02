@@ -5628,7 +5628,7 @@ msgstr "网站访客 #%s"
 #: model:ir.cron,cron_name:website.website_visitor_cron
 #: model:ir.cron,name:website.website_visitor_cron
 msgid "Website Visitor : Archive old visitors"
-msgstr "网站访问者:存档旧访问者"
+msgstr "网站访问者:归档旧访问者"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_faq_collapse
