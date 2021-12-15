@@ -205,7 +205,7 @@ msgstr "来自"
 #: code:addons/stock_barcode/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "From:"
-msgstr "来自:"
+msgstr "从:"
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_barcode_lot__id
@@ -448,7 +448,7 @@ msgstr "产品调拨明细(作业明细)"
 #: code:addons/stock_barcode/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "Put In Pack"
-msgstr "放入包裹"
+msgstr "装箱"
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_barcode_lot__qty_done
@@ -523,7 +523,7 @@ msgstr "扫描更多产品，或扫描目标区位"
 #: code:addons/stock_barcode/static/src/xml/qweb_templates.xml:0
 #, python-format
 msgid "Scan products"
-msgstr "扫描产品"
+msgstr "扫描产品或已在此源区位的箱码"
 
 #. module: stock_barcode
 #. openerp-web
@@ -654,7 +654,7 @@ msgstr "这个区位不属于指定的主区位。"
 #: code:addons/stock_barcode/static/src/js/client_action/abstract_client_action.js:0
 #, python-format
 msgid "This package is already scanned."
-msgstr "这个包裹已扫描。"
+msgstr "这个箱码已经扫描过了。"
 
 #. module: stock_barcode
 #. openerp-web
