@@ -59,7 +59,7 @@ msgstr "'产品条码 - %s' % (object.name)"
 #. module: product
 #: model:ir.actions.report,print_report_name:product.report_product_packaging
 msgid "'Products packaging - %s' % (object.name)"
-msgstr "'产品包装 - %s' % (object.name)"
+msgstr "'产品箱规-%s' % (object.name)"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_attribute__create_variant
@@ -1127,7 +1127,7 @@ msgstr "设置此属性值，不可用于与指定产品的某属性值。或者
 #. module: product
 #: model:res.groups,name:product.group_stock_packaging
 msgid "Manage Product Packaging"
-msgstr "管理产品包装形式"
+msgstr "管理产品箱规形式"
 
 #. module: product
 #: model:res.groups,name:product.group_product_variant
@@ -1287,7 +1287,7 @@ msgstr "其他价格表"
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_packaging__name
 msgid "Package Type"
-msgstr "箱规"
+msgstr "箱规名称"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_packaging_form_view
@@ -1295,7 +1295,7 @@ msgstr "箱规"
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 #: model_terms:ir.ui.view,arch_db:product.product_variant_easy_edit_view
 msgid "Packaging"
-msgstr "包装"
+msgstr "箱规包装"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_category__parent_id
@@ -1568,19 +1568,19 @@ msgstr "产品包裹"
 #: model:ir.model,name:product.model_product_packaging
 #: model_terms:ir.ui.view,arch_db:product.product_packaging_form_view
 msgid "Product Packaging"
-msgstr "产品包装"
+msgstr "产品箱规"
 
 #. module: product
 #: model:ir.actions.report,name:product.report_product_packaging
 msgid "Product Packaging (PDF)"
-msgstr "产品包装 (PDF)"
+msgstr "产品箱规 (PDF)"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.action_packaging_view
 #: model:ir.model.fields,field_description:product.field_res_config_settings__group_stock_packaging
 #: model_terms:ir.ui.view,arch_db:product.product_packaging_tree_view
 msgid "Product Packagings"
-msgstr "产品包装"
+msgstr "产品箱规包装"
 
 #. module: product
 #: model:ir.model,name:product.model_report_product_report_pricelist

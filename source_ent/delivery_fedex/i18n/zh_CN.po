@@ -343,7 +343,7 @@ msgstr "密码"
 #. module: delivery_fedex
 #: model:ir.model,name:delivery_fedex.model_product_packaging
 msgid "Product Packaging"
-msgstr "产品包装"
+msgstr "产品箱规包装"
 
 #. module: delivery_fedex
 #: model:ir.model.fields,field_description:delivery_fedex.field_delivery_carrier__delivery_type

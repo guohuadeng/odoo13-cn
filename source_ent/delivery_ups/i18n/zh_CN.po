@@ -342,7 +342,7 @@ msgstr "英镑"
 #. module: delivery_ups
 #: model:ir.model,name:delivery_ups.model_product_packaging
 msgid "Product Packaging"
-msgstr "产品包装"
+msgstr "产品箱规包装"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
@@ -612,7 +612,7 @@ msgstr "UPS配置"
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_default_packaging_id
 msgid "UPS Default Packaging Type"
-msgstr "UPS 默认包装类型"
+msgstr "UPS 默认箱规包装"
 
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_label_file_type
@@ -684,7 +684,7 @@ msgstr "单位"
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_package_dimension_unit
 msgid "Units for UPS Package Size"
-msgstr "UPS包装尺寸单位"
+msgstr "UPS箱规包装尺寸"
 
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_duty_payment
@@ -694,14 +694,14 @@ msgstr "Ups关税款项"
 #. module: delivery_ups
 #: model:ir.model.fields,field_description:delivery_ups.field_delivery_carrier__ups_package_weight_unit
 msgid "Ups Package Weight Unit"
-msgstr "UPS 包装重量单位"
+msgstr "UPS 箱规重量单位"
 
 #. module: delivery_ups
 #: code:addons/delivery_ups/models/ups_request.py:0
 #: code:addons/delivery_ups/models/ups_request.py:0
 #, python-format
 msgid "Username/Password is invalid for this delivery provider."
-msgstr ""
+msgstr "本承运商的用户名/密码不正确"
 
 #. module: delivery_ups
 #: model_terms:ir.ui.view,arch_db:delivery_ups.view_delivery_carrier_form_with_provider_ups

@@ -187,7 +187,7 @@ msgstr "DHL配置"
 #. module: delivery_dhl
 #: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_default_packaging_id
 msgid "DHL Default Packaging Type"
-msgstr "DHL 默认包装类型"
+msgstr "DHL 默认箱规包装"
 
 #. module: delivery_dhl
 #: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_password
@@ -356,7 +356,7 @@ msgstr "包裹尺寸单位"
 #. module: delivery_dhl
 #: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__dhl_package_weight_unit
 msgid "Package Weight Unit"
-msgstr "包装重量单位"
+msgstr "装箱重量单位"
 
 #. module: delivery_dhl
 #: code:addons/delivery_dhl/models/dhl_request.py:0
@@ -372,7 +372,7 @@ msgstr "英镑"
 #. module: delivery_dhl
 #: model:ir.model,name:delivery_dhl.model_product_packaging
 msgid "Product Packaging"
-msgstr "产品包装"
+msgstr "产品箱规包装"
 
 #. module: delivery_dhl
 #: model:ir.model.fields,field_description:delivery_dhl.field_delivery_carrier__delivery_type

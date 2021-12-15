@@ -182,27 +182,27 @@ msgstr "包裹"
 #. module: delivery_usps
 #: model:ir.model.fields.selection,name:delivery_usps.selection__delivery_carrier__usps_first_class_mail_type__package_service
 msgid "Package Service"
-msgstr "包装服务"
+msgstr "装箱服务"
 
 #. module: delivery_usps
 #: model:ir.model.fields,field_description:delivery_usps.field_delivery_carrier__usps_custom_container_girth
 msgid "Package girth (in inches)"
-msgstr "以英尺为单位记录包装周长"
+msgstr "以英尺为单位记录箱规周长"
 
 #. module: delivery_usps
 #: model:ir.model.fields,field_description:delivery_usps.field_delivery_carrier__usps_custom_container_height
 msgid "Package height (in inches)"
-msgstr "以英尺为单位记录包装高度"
+msgstr "以英尺为单位记录箱规高度"
 
 #. module: delivery_usps
 #: model:ir.model.fields,field_description:delivery_usps.field_delivery_carrier__usps_custom_container_length
 msgid "Package length (in inches)"
-msgstr "包装长度"
+msgstr "箱规长度"
 
 #. module: delivery_usps
 #: model:ir.model.fields,field_description:delivery_usps.field_delivery_carrier__usps_custom_container_width
 msgid "Package width (in inches)"
-msgstr "以英尺为单位记录包装宽度"
+msgstr "以英尺为单位记录箱规宽度"
 
 #. module: delivery_usps
 #: model:ir.model.fields.selection,name:delivery_usps.selection__delivery_carrier__usps_domestic_regular_container__padded_flat_rate_envelope
@@ -219,7 +219,7 @@ msgstr "包裹"
 #: model:ir.model.fields,help:delivery_usps.field_delivery_carrier__usps_machinable
 msgid ""
 "Please check on USPS website to ensure that your package is machinable."
-msgstr "请使用USPS网站进行检查并确保你的包装是可加工的。"
+msgstr "请使用USPS网站进行检查并确保你的箱规包装是合适可用的。"
 
 #. module: delivery_usps
 #: code:addons/delivery_usps/models/usps_request.py:0

@@ -45,7 +45,7 @@ msgstr "帮助中心工单"
 #. module: helpdesk_stock
 #: model:ir.model.fields,field_description:helpdesk_stock.field_helpdesk_ticket__lot_id
 msgid "Lot/Serial Number"
-msgstr "批次/序列号码"
+msgstr "批次/序列号"
 
 #. module: helpdesk_stock
 #: model:ir.model.fields,help:helpdesk_stock.field_helpdesk_ticket__lot_id

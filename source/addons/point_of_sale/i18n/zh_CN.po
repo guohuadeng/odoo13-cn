@@ -1658,7 +1658,7 @@ msgstr "空订单"
 #: code:addons/point_of_sale/static/src/js/screens.js:0
 #, python-format
 msgid "Empty Serial/Lot Number"
-msgstr "空的批次/序列号码"
+msgstr "空的批次/序列号"
 
 #. module: point_of_sale
 #: model:ir.model.fields,help:point_of_sale.field_pos_config__iface_scan_via_proxy
@@ -2285,12 +2285,12 @@ msgstr "批次名称"
 #: code:addons/point_of_sale/static/src/js/models.js:0
 #, python-format
 msgid "Lot/Serial Number(s) Required"
-msgstr "批次/序列号码必须"
+msgstr "批次/序列号必须"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_order_line__pack_lot_ids
 msgid "Lot/serial Number"
-msgstr "批次/序列号码"
+msgstr "批次/序列号"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__module_pos_loyalty
@@ -4912,7 +4912,7 @@ msgstr "计量单位"
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_config__use_existing_lots
 msgid "Use Existing Lots/Serial Numbers"
-msgstr "使用已有批次/序列号码"
+msgstr "使用已有批次/序列号"
 
 #. module: point_of_sale
 #: model:ir.model.fields,field_description:point_of_sale.field_pos_payment_method__use_payment_terminal

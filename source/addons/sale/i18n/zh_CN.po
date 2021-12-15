@@ -676,7 +676,7 @@ msgstr "可以为产品和客户设置警告信息(销售)"
 msgid ""
 "Ability to select a package type in sales orders and to force a quantity "
 "that is a multiple of the number of units per package."
-msgstr "能够选择销售订单中的包装类型，并强制为每个包装数量的倍数。"
+msgstr "能够选择销售订单中的箱规包装类型，并强制为每个箱规数量的倍数。"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -3357,7 +3357,7 @@ msgstr "允许产品使用多计量单位进行采购与销售。"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Sell products by multiple of unit # per package"
-msgstr "可在每个包装中多个单位销售产品"
+msgstr "可在按箱规包装来销售多个单位的产品"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form

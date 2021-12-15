@@ -681,7 +681,7 @@ msgid ""
 "                order or a pack of products."
 msgstr ""
 "物料清单（BOM）可定义制造成品所需的原材料，\n"
-"可用于生产制造或包装。"
+"可用于生产制造或产品套件。"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_workorder_form_view_inherit
@@ -2031,7 +2031,7 @@ msgstr "批次/序列号"
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__finished_lot_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder_line__lot_id
 msgid "Lot/Serial Number"
-msgstr "批次/序列号码"
+msgstr "批次/序列号"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_unbuild__lot_id
@@ -2041,7 +2041,7 @@ msgstr ""
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_finisehd_move_line
 msgid "Lot/Serial number"
-msgstr "批次/序列号码"
+msgstr "批次/序列号"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.view_stock_move_lots
@@ -2051,7 +2051,7 @@ msgstr "批次"
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_traceability
 msgid "Lots/Serial Numbers"
-msgstr "批次/序列号码"
+msgstr "批次/序列号"
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_document__priority__1

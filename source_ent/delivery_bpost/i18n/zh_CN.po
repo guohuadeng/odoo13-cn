@@ -177,7 +177,7 @@ msgstr "请至少提供一个发货项目"
 #. module: delivery_bpost
 #: model:ir.model,name:delivery_bpost.model_product_packaging
 msgid "Product Packaging"
-msgstr "产品包装"
+msgstr "产品箱规包装"
 
 #. module: delivery_bpost
 #: model:ir.model.fields,field_description:delivery_bpost.field_delivery_carrier__delivery_type

@@ -22,7 +22,7 @@ msgstr ""
 #. module: delivery_barcode
 #: model:ir.model.fields,field_description:delivery_barcode.field_stock_picking__delivery_packaging_ids
 msgid "Delivery Packaging"
-msgstr "交货包装"
+msgstr "交货箱码"
 
 #. module: delivery_barcode
 #: model:ir.model,name:delivery_barcode.model_stock_picking

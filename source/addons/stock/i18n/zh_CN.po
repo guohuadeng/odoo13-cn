@@ -453,7 +453,7 @@ msgstr "<strong>仓库区位</strong>"
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 #: model_terms:ir.ui.view,arch_db:stock.report_picking
 msgid "<strong>Lot/Serial Number</strong>"
-msgstr "<strong>批次/序列号码</strong>"
+msgstr "<strong>批次/序列号</strong>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_warehouse_orderpoint_kanban
@@ -641,7 +641,7 @@ msgid ""
 "Add and customize route operations to process product moves in your warehouse(s): e.g. unload > quality control > stock for incoming products, pick > pack > ship for outgoing products. \n"
 " You can also set putaway strategies on warehouse locations in order to send incoming products into specific child locations straight away (e.g. specific bins, racks)."
 msgstr ""
-"添加并自定义路线作业以处理你库存中的产品移动：例如：卸货>品控>入库，拣货>包装>发运。\n"
+"添加并自定义路线作业以处理你库存中的产品移动：例如：卸货>品控>入库，拣货>装箱>发运。\n"
 "您也可以在仓库区位设置上架策略，以便直接将入库产品发送到特定的子区位（例如：特定的货位、货架）。"
 
 #. module: stock
@@ -653,7 +653,7 @@ msgid ""
 "strategies on warehouse locations in order to send incoming products into "
 "specific child locations straight away (e.g. specific bins, racks)."
 msgstr ""
-"添加并自定义路线作业以处理你库存中的产品移动：例如：卸货>品控>入库，拣货>包装>发运。您也可以在仓库区位设置上架策略，以便直接将入库产品发送到特定的子区位（例如：特定的货位、货架）。"
+"添加并自定义路线作业以处理你库存中的产品移动：例如：卸货>品控>入库，拣货>装箱>发运。您也可以在仓库区位设置上架策略，以便直接将入库产品发送到特定的子区位（例如：特定的货位、货架）。"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
@@ -1112,12 +1112,12 @@ msgstr "库存预留"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__has_packages
 msgid "Check the existence of destination packages on move lines"
-msgstr "检查移动行上的打包装箱的存在"
+msgstr "检查移动行上的装箱码是否存在"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_picking__move_line_exist
 msgid "Check the existence of pack operation on the picking"
-msgstr "检查拣货时是否需要进行包装作业"
+msgstr "检查拣货时是否需要进行装箱作业"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_location__return_location
@@ -1375,7 +1375,7 @@ msgstr "创建欠单？"
 #: model:ir.model.fields,field_description:stock.field_stock_picking__use_create_lots
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__use_create_lots
 msgid "Create New Lots/Serial Numbers"
-msgstr "创建新批次/序列号码"
+msgstr "创建新批次/序列号"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_backorder_confirmation
@@ -1400,7 +1400,7 @@ msgstr "作业新作业类型"
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_package_view
 msgid "Create a new package"
-msgstr "创建新包裹(箱码)"
+msgstr "创建新箱码(包裹)"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.product_template_action_product
@@ -1896,12 +1896,12 @@ msgstr "目的地移动"
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__result_package_id
 #: model_terms:ir.ui.view,arch_db:stock.view_move_line_form
 msgid "Destination Package"
-msgstr "打包装箱"
+msgstr "装箱码"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.message_body
 msgid "Destination Package :"
-msgstr "打包装箱："
+msgstr "装箱码："
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_package_destination__location_dest_id
@@ -2608,7 +2608,7 @@ msgstr "如果这个送货被拆分，该字段连接到包括了已经处理的
 #: model:ir.model.fields,help:stock.field_stock_picking__picking_type_entire_packs
 #: model:ir.model.fields,help:stock.field_stock_picking_type__show_entire_packs
 msgid "If ticked, you will be able to select entire packages to move"
-msgstr "如果勾选此项，你将被允许可以选择整个包装来进行移动。"
+msgstr "如果勾选此项，你将被允许可以选择整箱/托盘来进行移动。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__active
@@ -2760,7 +2760,7 @@ msgstr "内部类型"
 msgid ""
 "Internal reference number in case it differs from the manufacturer's "
 "lot/serial number"
-msgstr "内部参考号码，它不同于制造商的批次/序列号码"
+msgstr "内部参考号码，它不同于制造商的批次/序列号"
 
 #. module: stock
 #: code:addons/stock/models/product.py:0
@@ -3258,7 +3258,7 @@ msgstr "批次/序列号 :"
 #: model_terms:ir.ui.view,arch_db:stock.report_package_barcode
 #: model_terms:ir.ui.view,arch_db:stock.search_product_lot_filter
 msgid "Lot/Serial Number"
-msgstr "批次/序列号码"
+msgstr "批次/序列号"
 
 #. module: stock
 #: model:ir.actions.report,name:stock.action_report_lot_label
@@ -3273,7 +3273,7 @@ msgstr "批次/序列号 (ZPL)"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_inventory_tree
 msgid "Lot/Serial Number Inventory"
-msgstr "批次/序列号码库存"
+msgstr "批次/序列号库存"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__lot_name
@@ -3284,7 +3284,7 @@ msgstr "批次/序列号 名称"
 #: model_terms:ir.ui.view,arch_db:stock.product_form_view_procurement_button
 #: model_terms:ir.ui.view,arch_db:stock.product_template_form_view_procurement_button
 msgid "Lot/Serial Numbers"
-msgstr "批次/序列号码"
+msgstr "批次/序列号"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__group_stock_production_lot
@@ -3312,7 +3312,7 @@ msgstr "没有提供批次或序列号用来追溯产品"
 #: model_terms:ir.ui.view,arch_db:stock.view_production_lot_form
 #: model_terms:ir.ui.view,arch_db:stock.view_production_lot_tree
 msgid "Lots/Serial Numbers"
-msgstr "批次/序列号码"
+msgstr "批次/序列号"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__mto_pull_id
@@ -3366,7 +3366,7 @@ msgstr "管理推式以及拉式库存流"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Manage product packagings (e.g. pack of 6 bottles, box of 10 pieces)"
-msgstr "管理产品包装（例如6瓶每包，10件每盒）"
+msgstr "管理产品箱规包装（例如6瓶每包，10件每盒）"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -3974,12 +3974,12 @@ msgstr "箱码"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__pack_type_id
 msgid "Pack Type"
-msgstr "箱规"
+msgstr "装箱作业类型"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__delivery_steps__pick_pack_ship
 msgid "Pack goods, send goods in output and then deliver (3 steps)"
-msgstr "包装产品， 发送到待出货区，再送货（3步发货)"
+msgstr "将产品装箱， 发送到待出货区，再送货（3步发货)"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_package_level__package_id
@@ -4061,7 +4061,7 @@ msgstr "箱规："
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_type_form
 msgid "Packages"
-msgstr "包裹(箱码)"
+msgstr "箱码(包裹)"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_package_view
@@ -4072,13 +4072,13 @@ msgid ""
 " A package can also be unpacked, allowing the disposal of its former content"
 " as single units again."
 msgstr ""
-"包裹(箱码)通常是由包装作业员在调拨时创建的，并且能够包含多个不同产品。你可以把包裹里面的东西拿出之放在别处并再次重用此，或者把此包裹打包在更大的包裹中。一个包裹可以被拆解，让包裹之前的内容作为单一的单位弃置。"
+"箱码(包裹)通常是由装箱作业员在调拨时创建的，并且能够包含多个不同产品。你可以把包裹里面的东西拿出之放在别处并再次重用此，或者把此包裹打包在更大的包裹中。一个包裹可以被拆解，让包裹之前的内容作为单一的单位弃置。"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.quant_package_search_view
 #: model_terms:ir.ui.view,arch_db:stock.stock_inventory_line_search
 msgid "Packaging"
-msgstr "包裹(箱码)"
+msgstr "箱码(包裹)"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__wh_pack_stock_loc_id
@@ -4375,13 +4375,13 @@ msgstr "产品移动(移库明细)"
 #. module: stock
 #: model:ir.actions.report,name:stock.label_product_packaging
 msgid "Product Packaging (ZPL)"
-msgstr "产品包装 (ZPL)"
+msgstr "产品箱规包装 (ZPL)"
 
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_product_packagings
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Product Packagings"
-msgstr "产品包装"
+msgstr "产品箱规包装"
 
 #. module: stock
 #: code:addons/stock/models/stock_quant.py:0
@@ -4545,7 +4545,7 @@ msgstr "装箱"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Put your products in packs (e.g. parcels, boxes) and track them"
-msgstr "把你的产品放入包裹（例如集装箱，包装盒）并追溯它们"
+msgstr "把你的产品装箱（例如托盘，集装箱，包装盒）并追溯它们"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_putaway_rule
@@ -4895,7 +4895,7 @@ msgstr "登记产品接收"
 #: model_terms:ir.ui.view,arch_db:stock.view_move_kandan
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Register lots, packs, location"
-msgstr "登记批次，包裹(箱码)，区位"
+msgstr "登记批次，箱码(包裹)，区位"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
@@ -5399,7 +5399,7 @@ msgstr "为批次和序列号设置过期日期"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Set owner on stored products"
-msgstr "在储存的产品上设置所有者"
+msgstr "允许在仓库中储存第三方的产品，并可在储存的产品上设置所有者"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -5482,13 +5482,13 @@ msgstr "显示详细作业"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_package_level__show_lots_m2o
 msgid "Show Lots M2O"
-msgstr "显示批次M2O"
+msgstr "显示批次关联记录"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_package_level__show_lots_text
 #: model:ir.model.fields,field_description:stock.field_stock_picking__show_lots_text
 msgid "Show Lots Text"
-msgstr "显示批次文本"
+msgstr "仅显示批次/序列号"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__show_mark_as_todo
@@ -5684,12 +5684,12 @@ msgstr "库存作业"
 #. module: stock
 #: model:ir.model,name:stock.model_stock_package_destination
 msgid "Stock Package Destination"
-msgstr "包裹(箱码)目的地"
+msgstr "箱码(包裹)目的地"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_package_level
 msgid "Stock Package Level"
-msgstr "库存包装层级"
+msgstr "库存装箱层级"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_partner__picking_warn
@@ -5993,7 +5993,7 @@ msgid ""
 "                operation a specific type which will alter its views accordingly.\n"
 "                On the operation type you could e.g. specify if packing is needed by default,\n"
 "                if it should show the customer."
-msgstr "作业类型系统允许您为每个库存分配一个特定的类型，该类型将相应地改变其视图。在作业类型上，您可以指定是否需要包装，是否应该向客户显示等作业。"
+msgstr "作业类型系统允许您为每个库存分配一个特定的类型，该类型将相应地改变其视图。在作业类型上，您可以指定是否需要装箱，是否应该向客户显示等作业。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_quant__package_id
@@ -6502,7 +6502,7 @@ msgstr "展开"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_production_lot__name
 msgid "Unique Lot/Serial Number"
-msgstr "唯一批次/序列号码"
+msgstr "唯一批次/序列号"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__price_unit
@@ -6634,7 +6634,7 @@ msgstr "紧急"
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__picking_type_use_existing_lots
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__use_existing_lots
 msgid "Use Existing Lots/Serial Numbers"
-msgstr "使用已有批次/序列号码"
+msgstr "使用已有批次/序列号"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_product_replenish
@@ -7002,7 +7002,7 @@ msgstr "在此作业类型下不能创建批次或者序列号。要更改此设
 msgid ""
 "You are trying to put products going to different locations into the same "
 "package"
-msgstr "你正在将发货到不同地方的产品装进同一个包装内。"
+msgstr "你正在将发货到不同地方的产品装箱进同一个箱码内。"
 
 #. module: stock
 #: code:addons/stock/models/stock_move.py:0
@@ -7148,7 +7148,7 @@ msgstr "不能修改盘点损失数量"
 msgid ""
 "You cannot move the same package content more than once in the same transfer"
 " or split the same package into two location."
-msgstr "你不能在同一调拨中多次移动同一包装内容，或将同一包装拆分到两个区位。"
+msgstr "你不能在同一调拨中多次移动同一箱码内容，或将同一箱码内产品拆分到两个区位。"
 
 #. module: stock
 #: code:addons/stock/models/stock_move.py:0

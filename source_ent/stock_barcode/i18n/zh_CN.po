@@ -141,7 +141,7 @@ msgstr "默认移动"
 msgid ""
 "Delivery Packages needs to be enabled in Inventory Settings to use packages"
 msgstr ""
-"请在仓库设置中启用打包功能，才可使用条码进行包装作业"
+"请在仓库设置中启用装箱功能，才可使用条码进行箱码扫码作业"
 
 #. module: stock_barcode
 #. openerp-web
@@ -296,7 +296,7 @@ msgstr "批次"
 #: code:addons/stock_barcode/models/stock_picking.py:0
 #, python-format
 msgid "Lot/Serial Number Details"
-msgstr "批次/序列号码细节"
+msgstr "批次/序列号细节"
 
 #. module: stock_barcode
 #: model:ir.model.fields,field_description:stock_barcode.field_stock_barcode_lot_line__move_line_id
@@ -583,7 +583,7 @@ msgstr "成功"
 msgid ""
 "The barcode \"%(barcode)s\" doesn't correspond to a proper product, package "
 "or location."
-msgstr "当前条码 \"%(barcode)s\" 找不到对应的产品、包装或区位。"
+msgstr "当前条码 \"%(barcode)s\" 找不到对应的产品、箱码或区位。"
 
 #. module: stock_barcode
 #. openerp-web
@@ -765,7 +765,7 @@ msgstr "请扫描更多产品或目标区位。"
 msgid ""
 "You are expected to scan one or more products or a package available at the "
 "picking's location"
-msgstr "请扫描一个或多个产品，或在拣货区位的包装条码。"
+msgstr "请扫描一个或多个产品，或在拣货区位的箱码。"
 
 #. module: stock_barcode
 #. openerp-web

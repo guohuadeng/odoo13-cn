@@ -286,13 +286,13 @@ msgstr "请至少提供一个发货项目"
 #. module: delivery_easypost
 #: model:ir.model,name:delivery_easypost.model_product_packaging
 msgid "Product Packaging"
-msgstr "产品包装"
+msgstr "产品箱规包装"
 
 #. module: delivery_easypost
 #: code:addons/delivery_easypost/models/easypost_request.py:0
 #, python-format
 msgid "Product packaging used in pack %s is not configured for easypost."
-msgstr "‎产品‎‎‎‎包装‎ %s ‎未在 easypost 内配置。‎"
+msgstr "产品箱规包装 %s 未在 easypost 内配置。"
 
 #. module: delivery_easypost
 #: model:ir.model.fields,field_description:delivery_easypost.field_delivery_carrier__easypost_production_api_key
@@ -353,8 +353,8 @@ msgid ""
 "The %s carrier is missing (Missing field(s) :\n"
 " Default Product Packaging)"
 msgstr ""
-"‎ %s 缺少‎‎承运人‎‎(缺少‎‎字段‎‎:‎‎‎‎ ‎\n"
-"‎ ‎‎默认‎‎产品‎‎包装‎"
+" %s 缺少承运人(缺少字段:\n"
+"默认产品箱规包装"
 
 #. module: delivery_easypost
 #: code:addons/delivery_easypost/models/easypost_request.py:0

@@ -603,7 +603,7 @@ msgstr "最大值"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_product_packaging__max_weight
 msgid "Maximum weight shippable in this packaging"
-msgstr "可交付最大重量包装。"
+msgstr "本包装箱内可交付的最大重量。"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__name
@@ -708,7 +708,7 @@ msgstr "打印退货标签"
 #. module: delivery
 #: model:ir.model,name:delivery.model_product_packaging
 msgid "Product Packaging"
-msgstr "产品包装"
+msgstr "产品箱规包装"
 
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_sale_order_line__product_qty
@@ -897,7 +897,7 @@ msgstr "发货完成后将设置客户运费。"
 msgid ""
 "The weight of your package is higher than the maximum weight authorized for "
 "this package type. Please choose another package type."
-msgstr "您的邮包的重量大于这个包装类型所授权的最大重量。请选择另一个邮包类型。"
+msgstr "您的装箱重量大于这个箱规类型所授权的最大重量。请选择另一个箱规类型。"
 
 #. module: delivery
 #: code:addons/delivery/models/delivery_grid.py:0
