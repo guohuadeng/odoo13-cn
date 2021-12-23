@@ -414,7 +414,7 @@ msgstr "呼叫演示"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Campaign"
-msgstr "营销"
+msgstr "营销活动"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_lost_view_form
@@ -821,12 +821,12 @@ msgstr "关闭日期"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__day_open
 msgid "Days to Assign"
-msgstr "分配天数"
+msgstr "已分配天数"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__day_close
 msgid "Days to Close"
-msgstr "关闭日期"
+msgstr "已关闭天数"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_config_settings__crm_alias_prefix
@@ -1039,7 +1039,7 @@ msgstr "在漏斗中折叠"
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_form
 msgid "Follow-up"
-msgstr "催款"
+msgstr "跟进"
 
 #. module: crm
 #: model:mail.activity.type,name:crm.mail_activity_demo_followup_quote
@@ -1588,7 +1588,7 @@ msgstr "市场营销"
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Medium"
-msgstr "中等"
+msgstr "媒介"
 
 #. module: crm
 #: code:addons/crm/models/crm_lead.py:0
@@ -2109,7 +2109,7 @@ msgstr "准备好提升您的销售业绩了吗? 您 可以在 <b>CRM</b> 应用
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__referred
 msgid "Referred By"
-msgstr "引荐于"
+msgstr "推荐人"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner__action
