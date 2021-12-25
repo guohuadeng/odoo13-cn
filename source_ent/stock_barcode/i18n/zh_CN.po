@@ -755,7 +755,7 @@ msgstr "请扫描源区位。"
 #: code:addons/stock_barcode/static/src/js/client_action/abstract_client_action.js:0
 #, python-format
 msgid "You are expected to scan more products or a destination location."
-msgstr "请扫描更多产品或目标区位。"
+msgstr "条码无效,请扫描更多产品或目标区位。"
 
 #. module: stock_barcode
 #. openerp-web
@@ -765,7 +765,7 @@ msgstr "请扫描更多产品或目标区位。"
 msgid ""
 "You are expected to scan one or more products or a package available at the "
 "picking's location"
-msgstr "请扫描一个或多个产品，或在拣货区位的箱码。"
+msgstr "请扫描一个或多个产品，或扫描已在此源区位的箱码。"
 
 #. module: stock_barcode
 #. openerp-web
