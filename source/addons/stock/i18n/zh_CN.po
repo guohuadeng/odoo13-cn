@@ -4191,7 +4191,7 @@ msgstr "计划的调拨"
 #: code:addons/stock/models/stock_picking.py:0
 #, python-format
 msgid "Please add 'Done' qantitites to the picking to create a new pack."
-msgstr "请给拣货添加‘完成’数量用以创建新包。"
+msgstr "请给拣货添加 完成数量 用以创建新包。"
 
 #. module: stock
 #: code:addons/stock/models/stock_picking.py:0
