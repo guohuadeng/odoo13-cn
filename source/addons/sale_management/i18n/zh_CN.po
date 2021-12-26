@@ -237,7 +237,7 @@ msgstr "没有权限，用户EMail中忽略此数据"
 msgid ""
 "Forbidden product, unit price, quantity, and UoM on non-accountable sale "
 "quote line"
-msgstr "非责任销售报价行上的禁止产品，单价，数量和计量单位"
+msgstr "报价单模板明细上的产品，单价，数量和计量单位有误"
 
 #. module: sale_management
 #: model:ir.model.fields,help:sale_management.field_sale_order_option__sequence
@@ -307,7 +307,7 @@ msgstr "明细行"
 #. module: sale_management
 #: model:ir.model.constraint,message:sale_management.constraint_sale_order_template_line_accountable_product_id_required
 msgid "Missing required product and UoM on accountable sale quote line."
-msgstr "在责任销售报价单上缺少所需产品和计量单位。"
+msgstr "在报价单模板上缺少所需产品和计量单位。"
 
 #. module: sale_management
 #: model:ir.model.fields.selection,name:sale_management.selection__sale_order_template_line__display_type__line_note
