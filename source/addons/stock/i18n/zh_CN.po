@@ -1726,25 +1726,25 @@ msgstr "延迟"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__delivery_steps__ship_only
 msgid "Deliver goods directly (1 step)"
-msgstr "直接出货（1步）"
+msgstr "直接出货（1步出库）"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:0
 #, python-format
 msgid "Deliver in 1 step (ship)"
-msgstr "1步出货（发货）"
+msgstr "1步出库（发货）"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:0
 #, python-format
 msgid "Deliver in 2 steps (pick + ship)"
-msgstr "2步出货（拣货+发货）"
+msgstr "2步出库（拣货+发货）"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:0
 #, python-format
 msgid "Deliver in 3 steps (pick + pack + ship)"
-msgstr "3步出货（拣货+打包+发货）"
+msgstr "3步出库（拣货+打包+发货）"
 
 #. module: stock
 #: code:addons/stock/models/product.py:0
@@ -1755,7 +1755,7 @@ msgstr "已交货数量"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_picking_type__code__outgoing
 msgid "Delivery"
-msgstr "出库交货"
+msgstr "出库"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
@@ -2006,7 +2006,7 @@ msgstr "显示名称"
 #. module: stock
 #: model:res.groups,name:stock.group_lot_on_delivery_slip
 msgid "Display Serial & Lot Number in Delivery Slips"
-msgstr "用于在出库单上显示的批次 / 序列号"
+msgstr "用于在出库单上显示的批次/序列号"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.package_level_tree_view_picking
@@ -2654,7 +2654,7 @@ msgstr "进行中"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__in_type_id
 msgid "In Type"
-msgstr "入库类型"
+msgstr "入库作业"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_product_product__incoming_qty
@@ -2753,7 +2753,7 @@ msgstr "内部中转区位"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__int_type_id
 msgid "Internal Type"
-msgstr "内部类型"
+msgstr "内部调拨作业"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_production_lot__ref
@@ -3889,7 +3889,7 @@ msgstr "其他信息"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__out_type_id
 msgid "Out Type"
-msgstr "出库类型"
+msgstr "出库作业"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_inventory_line_search
@@ -3974,12 +3974,12 @@ msgstr "箱码"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__pack_type_id
 msgid "Pack Type"
-msgstr "装箱作业类型"
+msgstr "打包装箱作业"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__delivery_steps__pick_pack_ship
 msgid "Pack goods, send goods in output and then deliver (3 steps)"
-msgstr "将产品装箱， 发送到待出货区，再送货（3步发货)"
+msgstr "产品拆垛装箱，发送到待出货区，再发货 (3步出库)"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_package_level__package_id
@@ -4145,7 +4145,7 @@ msgstr "拣货"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__pick_type_id
 msgid "Pick Type"
-msgstr "拣货类型"
+msgstr "拣货作业"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_overprocessed_transfer__picking_id
@@ -4807,35 +4807,35 @@ msgstr "接收"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__reception_steps__one_step
 msgid "Receive goods directly (1 step)"
-msgstr "直接收货入库(1步收货）"
+msgstr "直接接收产品 (1步入库)"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__reception_steps__two_steps
 msgid "Receive goods in input and then stock (2 steps)"
-msgstr "接到产品到收料区， 再入库（2步收货）"
+msgstr "接收产品到收货区，再入库 (2步入库)"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__reception_steps__three_steps
 msgid "Receive goods in input, then quality and then stock (3 steps)"
-msgstr "收货到收料区， 检验， 然后入库（3步收货）"
+msgstr "接收产品到收货区，装箱堆垛质检，然后入库 (3步入库)"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:0
 #, python-format
 msgid "Receive in 1 step (stock)"
-msgstr "单步收货"
+msgstr "1步入库(直入库存)"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:0
 #, python-format
 msgid "Receive in 2 steps (input + stock)"
-msgstr "两步入库(收货+入库）"
+msgstr "2步入库(收货+入库）"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:0
 #, python-format
 msgid "Receive in 3 steps (input + quality + stock)"
-msgstr "三步入库(收货+质检+入库)"
+msgstr "3步入库(收货+质检+入库)"
 
 #. module: stock
 #: code:addons/stock/models/product.py:0
@@ -5326,7 +5326,7 @@ msgstr "发送一个自动确认电子邮件时，交货订单完成"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__delivery_steps__pick_ship
 msgid "Send goods in output and then deliver (2 steps)"
-msgstr "送到待出货区，再送货（2步发货)"
+msgstr "产品送到待出货区，再发货 (2步出库)"
 
 #. module: stock
 #: code:addons/stock/models/stock_picking.py:0
