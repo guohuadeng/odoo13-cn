@@ -48,7 +48,7 @@ msgid ""
 "                                </span>"
 msgstr ""
 "<span class=\"oe_grey\">\n"
-"                                    例如：1 *（此单位）=比率*（参考单位）\n"
+"                                    如:1*此单位=比率*参考单位\n"
 "                                </span>"
 
 #. module: uom

@@ -4550,7 +4550,7 @@ msgstr "把你的产品装箱（例如托盘，集装箱，包装盒）并追溯
 #. module: stock
 #: model:ir.model,name:stock.model_stock_putaway_rule
 msgid "Putaway Rule"
-msgstr "上架规则"
+msgstr "上架策略"
 
 #. module: stock
 #: code:addons/stock/models/product.py:0
@@ -4570,7 +4570,7 @@ msgstr "上架规则"
 #: model_terms:ir.ui.view,arch_db:stock.view_putaway_search
 #, python-format
 msgid "Putaway Rules"
-msgstr "上架规则"
+msgstr "上架策略"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_stock_rule
@@ -4580,7 +4580,7 @@ msgstr "上架："
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_putaway_tree
 msgid "Putaways Rules"
-msgstr "上架规则"
+msgstr "上架策略"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse_orderpoint__qty_multiple
