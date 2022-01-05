@@ -528,7 +528,7 @@ msgid ""
 "        and widgets to help the encoding. All reporting will still be expressed in hours (default value)."
 msgstr ""
 "这将设置编码时间表的度量单位。这将非常方便的提供\n"
-"帮助编码的工具和小部件。所有报告仍将以小时（默认值）表示。"
+"帮助编码的工具和挂件。所有报告仍将以小时（默认值）表示。"
 
 #. module: hr_timesheet
 #: code:addons/hr_timesheet/controllers/portal.py:0

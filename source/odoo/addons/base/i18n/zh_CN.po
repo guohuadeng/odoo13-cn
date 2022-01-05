@@ -10846,7 +10846,7 @@ msgstr "由"
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, python-format
 msgid "By default the widget uses the field informations"
-msgstr "默认情况下，小部件使用字段信息"
+msgstr "默认情况下，挂件使用字段信息"
 
 #. module: base
 #: model:res.partner.industry,full_name:base.res_partner_industry_C
@@ -17415,7 +17415,7 @@ msgstr "将PoS配置与餐厅的物联网盒相关联"
 #: code:addons/base/models/ir_qweb_fields.py:0
 #, python-format
 msgid "List of contact fields to display in the widget"
-msgstr "要在窗口小部件中显示的联系人字段列表"
+msgstr "要在窗口挂件中显示的联系人字段列表"
 
 #. module: base
 #: model:ir.model.fields,help:base.field_ir_model_fields__modules

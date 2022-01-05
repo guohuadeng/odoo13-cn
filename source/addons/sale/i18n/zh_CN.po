@@ -726,7 +726,7 @@ msgstr "账户号码"
 #. module: sale
 #: model:ir.model,name:sale.model_account_reconciliation_widget
 msgid "Account Reconciliation widget"
-msgstr "账户调节小部件"
+msgstr "会计对账挂件"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_advance_payment_inv__deposit_account_id
@@ -1397,9 +1397,7 @@ msgstr "当前发票的交货地址"
 #: model:ir.model.fields,help:sale.field_sale_order__expected_date
 msgid ""
 "Delivery date you can promise to the customer, computed from the minimum "
-"lead time of the order lines in case of Service products. In case of "
-"shipping, the shipping policy of the order will be taken into account to "
-"either use the minimum or maximum lead time of the order lines."
+"lead time of the order lines."
 msgstr ""
 "你能承诺给客户的交货日期，通过服务产品的订单明细行的最小前置时间计算。一旦发货，订单的发货策略将会被考虑来决定是使用订单明细行的最小或最大前置时间。"
 
@@ -1626,9 +1624,7 @@ msgid ""
 "Fiscal positions are used to adapt taxes and accounts for particular "
 "customers or sales orders/invoices.The default value comes from the "
 "customer."
-msgstr "财政状况是用来调整税收和特殊账户的。 "
-"客户或销售订单/发票。默认值来自"
-"客户”。"
+msgstr "财政状况是用来调整税收和特殊账户的。 客户或销售订单/发票。默认值来自客户”。"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__message_follower_ids
@@ -2851,6 +2847,12 @@ msgid "Quantity"
 msgstr "数量"
 
 #. module: sale
+#: model:ir.model.fields,field_description:sale.field_product_product__visible_qty_configurator
+#: model:ir.model.fields,field_description:sale.field_product_template__visible_qty_configurator
+msgid "Quantity visible in configurator"
+msgstr "在选品向导中数量可见"
+
+#. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
 msgid "Quantity:"
 msgstr "数量："
@@ -2979,7 +2981,7 @@ msgstr "重开发票策略可见"
 #: code:addons/sale/controllers/portal.py:0
 #, python-format
 msgid "Reference"
-msgstr "参考"
+msgstr "参考编码"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__origin
@@ -3400,8 +3402,7 @@ msgid ""
 "Sending an email is useful if you need to share specific information or "
 "content about a product (instructions, rules, links, media, etc.). Create "
 "and set the email template from the product detail form (in Sales tab)."
-msgstr ""
-"如果你需要分享某个产品的具体信息或内容（指令、规则、链接、媒体等），发送EMail是很有用的。创建EMail模板从产品明细表（销售标签）。"
+msgstr "如果你需要分享某个产品的具体信息或内容（指令、规则、链接、媒体等），发送EMail是很有用的。创建EMail模板从产品明细表（销售标签）。"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__sequence
@@ -3705,7 +3706,8 @@ msgid ""
 "The following products cannot be restricted to the company %s because they have already been used in quotations or sales orders in another company:\n"
 "%s\n"
 "You can archive these products and recreate them with your company restriction instead, or leave them as shared product."
-msgstr "下列产品不限于本公司%s，因为它们已在其他公司的报价或销售订单中使用:\n"
+msgstr ""
+"下列产品不限于本公司%s，因为它们已在其他公司的报价或销售订单中使用:\n"
 "%s\n"
 "你可以将这些产品归档，然后根据公司的限制重新创建它们，或者将它们作为共享产品保留。"
 
@@ -3739,8 +3741,7 @@ msgstr "订单未处于需要客户签名的状态。"
 msgid ""
 "The order was not confirmed despite response from the acquirer (%s): order "
 "total is %r but acquirer replied with %r."
-msgstr "订单未被服务商确认(%s):订单"
-"总额为 %r，但服务商返回信息为 %r"
+msgstr "订单未被服务商确认(%s):订单总额为 %r，但服务商返回信息为 %r"
 
 #. module: sale
 #: code:addons/sale/models/sale.py:0
