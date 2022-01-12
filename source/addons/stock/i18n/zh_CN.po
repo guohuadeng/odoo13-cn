@@ -106,10 +106,10 @@ msgstr ""
 " * 草稿：转移尚未确认。 预订不适用。\n"
 " * 等待另一个作业:在准备好之前，该传输正在等待另一个作业。\n"
 " * 等待：转移正在等待某些产品的可用性。\n"
-"(a) 运输政策是“尽快”：没有产品可以保留。\n"
-"(b) 运输政策是“当所有产品准备就绪”时：并非所有产品都可以保留。\n"
+"(a) 运输政策是“尽快”：没有产品可以预留。\n"
+"(b) 运输政策是“当所有产品准备就绪”时：并非所有产品都可以预留。\n"
 " * 就绪：转移已准备好进行处理。\n"
-"(a) 运输政策是“尽快”：至少保留了一种产品。\n"
+"(a) 运输政策是“尽快”：至少预留了一种产品。\n"
 "(b) 运输政策是“当所有产品准备就绪”时：所有产品都已预订。\n"
 " * 完成：已处理转移。\n"
 " * 已取消：转移已取消。"
@@ -202,7 +202,7 @@ msgstr ""
 "* 新建: 当库存移动被创建，还没被确认时。\n"
 "* 等待其它移动: 当需要等待另外一个移库完成时，出现该状态。例如：链式物流.\n"
 "* 等待可用: 当需求还不能被直接了当地解决时，出现该状态。可能需要等调度程序被运行，有个部件在等待制造等等...\n"
-"* 可用: 当产品已经被保留了，状态就被设置为 可用。\n"
+"* 可用: 当产品已经被预留了，状态就被设置为 可用。\n"
 "* 完成: 当这次装运被处理，状态就是“完成”。"
 
 #. module: stock
@@ -317,7 +317,7 @@ msgid ""
 "                                All products could not be reserved. Click on the \"Check Availability\" button to try to reserve products."
 msgstr ""
 "<i class=\"fa fa-exclamation-triangle\"/>\n"
-"                                所有产品都无法保留。 单击“库存预留”按钮以尝试保留产品。"
+"                                所有产品都无法预留。 单击“库存预留”按钮以尝试预留产品。"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_mrp_line
@@ -1307,7 +1307,7 @@ msgstr "通道(X)"
 msgid ""
 "Could not reserve all requested products. Please use the 'Mark as Todo' "
 "button to handle the reservation manually."
-msgstr "不能预留全部需要的产品。请使用‘标记为待做’按钮手工保留。"
+msgstr "不能预留全部需要的产品。请使用‘标记为待办’按钮手工预留。"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking_type__count_picking
@@ -2938,7 +2938,7 @@ msgstr "完成数量是否可以编辑"
 #, python-format
 msgid ""
 "It is not possible to reserve more products of %s than you have in stock."
-msgstr "你不能保留超出库存的%s 产品。"
+msgstr "你不能预留超出库存的%s 产品。"
 
 #. module: stock
 #: code:addons/stock/models/stock_quant.py:0
@@ -3969,7 +3969,7 @@ msgstr "PRINT"
 #: model:ir.model.fields,field_description:stock.field_stock_inventory_line__package_id
 #, python-format
 msgid "Pack"
-msgstr "箱码"
+msgstr "装箱"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__pack_type_id
@@ -4683,7 +4683,7 @@ msgstr "数量减少！"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__availability
 msgid "Quantity in stock that can still be reserved for this move"
-msgstr "库存中的数量仍然可以保留。"
+msgstr "库存中的数量仍然可以预留。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__product_qty
@@ -4738,7 +4738,7 @@ msgstr "超期数量"
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__reserved_availability
 msgid "Quantity that has already been reserved for this move"
-msgstr "已为这次移动保留的数量"
+msgstr "已为这次移动预留的数量"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_quant
@@ -6028,7 +6028,7 @@ msgid ""
 "\"%s\". Please change the quantity done or the"
 "                                   rounding precision of your unit of "
 "measure."
-msgstr "产品”%s“的数量小数位与单位”%s“的定义不同。 请修改数量或者修正单位的小数点保留设置值。"
+msgstr "产品 \"%s\" 的数量小数位与单位 \"%s\" 的定义不同。 请修改完成数量或者修正计量单位的小数点设置值。"
 
 #. module: stock
 #: code:addons/stock/models/stock_move.py:0
@@ -6097,7 +6097,7 @@ msgstr "建立此移库动作的相应规则"
 msgid ""
 "The stock will be reserved for operations waiting for availability and the "
 "reordering rules will be triggered."
-msgstr "库存会保留给待料的事务，同时会触发相应的安全库存规则。"
+msgstr "库存会预留给待料的事务，同时会触发相应的安全库存规则。"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_rule__propagate_warehouse_id
@@ -6597,7 +6597,7 @@ msgstr "未读消息计数器"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 msgid "Unreserve"
-msgstr "取消保留"
+msgstr "取消预留"
 
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_stock_uom_form_action
@@ -7015,7 +7015,7 @@ msgid ""
 "(example: 0.00001)."
 msgstr ""
 "你使用的计量单位小于在储存产品时需要用到的计量单位。 "
-"这可能导致已保留数量上的舍入问题！你应该使用尽可能小的计量单位来管理库存或将其舍入精度更改为较小值（例如：0.00001）。"
+"这可能导致已预留数量上的舍入问题！你应该使用尽可能小的计量单位来管理库存或将其舍入精度更改为较小值（例如：0.00001）。"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_routes_form
@@ -7037,7 +7037,7 @@ msgid ""
 "You can not change the type of a product that is currently reserved on a "
 "stock move. If you need to change the type, you should first unreserve the "
 "stock move."
-msgstr "您无法更改当前在库存移动中保留的产品类型。 如果您需要更改类型，则应先取消保留库存的移动。"
+msgstr "您无法更改当前在库存移动中预留的产品类型。 如果您需要更改类型，则应先取消预留库存的移动。"
 
 #. module: stock
 #: code:addons/stock/models/stock_move_line.py:0
@@ -7111,7 +7111,7 @@ msgstr "您不能更改已完成或已取消转账的预定日期。"
 msgid ""
 "You cannot change the location type or its use as a scrap location as there "
 "are products reserved in this location. Please unreserve the products first."
-msgstr "您无法更改区位类型，或者此区位已被作为报废区位且此区位中保留了产品。请先将产品取消保留。"
+msgstr "您无法更改区位类型，或者此区位已被作为报废区位且此区位中预留了产品。请先将产品取消预留。"
 
 #. module: stock
 #: code:addons/stock/models/product.py:0
@@ -7119,7 +7119,7 @@ msgstr "您无法更改区位类型，或者此区位已被作为报废区位且
 msgid ""
 "You cannot change the ratio of this unit of mesure as some products with "
 "this UoM have already been moved or are currently reserved."
-msgstr "你无法更改此计量单位的换算比率，因为某些使用此计量单位的产品已发生移动或当前已被保留。"
+msgstr "你无法更改此计量单位的换算比率，因为某些使用此计量单位的产品已发生移动或当前已被预留。"
 
 #. module: stock
 #: code:addons/stock/models/product.py:0
@@ -7209,7 +7209,7 @@ msgstr "您不能使用两次相同的序列号。 请更正序列号编码。"
 msgid ""
 "You cannot validate a transfer if no quantites are reserved nor done. To "
 "force the transfer, switch in edit more and encode the done quantities."
-msgstr "你不能过账没有保留数量的移库。要强制过账， 请切换到编辑模式并修改完成数量。"
+msgstr "你不能过账没有预留数量的移库。要强制过账， 请切换到编辑模式并修改完成数量。"
 
 #. module: stock
 #: code:addons/stock/wizard/stock_picking_return.py:0
