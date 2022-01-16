@@ -970,7 +970,7 @@ msgstr "追踪:"
 #. module: delivery
 #: model:ir.model,name:delivery.model_stock_picking
 msgid "Transfer"
-msgstr "调拨"
+msgstr "调拨作业"
 
 #. module: delivery
 #: model:product.product,uom_name:delivery.product_product_delivery

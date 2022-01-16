@@ -1017,7 +1017,7 @@ msgstr "色调"
 #: code:addons/pos_restaurant/static/src/xml/floors.xml:0
 #, python-format
 msgid "Transfer"
-msgstr "调拨"
+msgstr "调拨作业"
 
 #. module: pos_restaurant
 #. openerp-web

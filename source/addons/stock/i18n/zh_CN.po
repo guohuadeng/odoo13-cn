@@ -6393,7 +6393,7 @@ msgstr "追溯明细"
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_form
 #: model_terms:ir.ui.view,arch_db:stock.view_picking_internal_search
 msgid "Transfer"
-msgstr "调拨"
+msgstr "调拨作业"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__picking_partner_id
@@ -6415,7 +6415,7 @@ msgstr "调拨参照"
 #: model:ir.ui.menu,name:stock.all_picking
 #: model_terms:ir.ui.view,arch_db:stock.procurement_group_form_view
 msgid "Transfers"
-msgstr "调拨"
+msgstr "所有调拨作业"
 
 #. module: stock
 #: model_terms:ir.actions.act_window,help:stock.action_picking_form

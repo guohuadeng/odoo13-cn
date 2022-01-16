@@ -6706,7 +6706,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"该模块在仓库管理中添加批量调拨选项\n"
+"该模块在仓库管理中添加批量作业计划选项\n"
 "==================================================================\n"
 "    "
 
@@ -27435,7 +27435,7 @@ msgstr "瓦利斯群岛和富图纳群岛"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_picking_batch
 msgid "Warehouse Management: Batch Transfer"
-msgstr "仓库管理：批量调拨"
+msgstr "仓库管理：批量作业计划"
 
 #. module: base
 #: code:addons/base/models/ir_mail_server.py:0

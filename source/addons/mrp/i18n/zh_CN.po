@@ -4151,12 +4151,12 @@ msgstr "追踪"
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_picking
 msgid "Transfer"
-msgstr "调拨"
+msgstr "调拨作业"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
 msgid "Transfers"
-msgstr "调拨"
+msgstr "调拨作业"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_document__type

@@ -385,7 +385,7 @@ msgstr "这将决定进货的操作类型。"
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_stock_picking
 msgid "Transfer"
-msgstr "调拨"
+msgstr "调拨作业"
 
 #. module: purchase_stock
 #: code:addons/purchase_stock/models/purchase.py:0

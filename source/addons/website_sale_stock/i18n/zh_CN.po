@@ -180,7 +180,7 @@ msgstr "阈值"
 #. module: website_sale_stock
 #: model:ir.model,name:website_sale_stock.model_stock_picking
 msgid "Transfer"
-msgstr "调拨"
+msgstr "调拨作业"
 
 #. module: website_sale_stock
 #: model:ir.model.fields,field_description:website_sale_stock.field_res_config_settings__website_warehouse_id

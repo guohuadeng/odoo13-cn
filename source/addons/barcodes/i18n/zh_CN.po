@@ -270,8 +270,8 @@ msgid ""
 msgstr ""
 "条码模式也可以定义为如何数值化，例如重量或者价格也可以被编码到条码。\n"
 "它们以 <code>{NNN}</code>表示，在这里 N 用来定义该条码指定位置的字符为数字。\n"
-"浮点数也支持，小数用 D 表示，例如<code>{NNNDD}</code>。\n"
-"在这些实例中，如相关记录的条码字符 <i>必填</i> ，则设置数字为０。"
+"浮点数也支持，小数用 D 表示，例如<code>{NNNDD}</code>，\n"
+"在这些条码实例中，数字字符是 <i>必填</i> 的，则如果无值请在条码的相关位置设置为数字 ０。"
 
 #. module: barcodes
 #: model:ir.model.fields,field_description:barcodes.field_barcode_rule__name

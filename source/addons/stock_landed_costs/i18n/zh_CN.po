@@ -634,7 +634,7 @@ msgstr "合计"
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__picking_ids
 msgid "Transfers"
-msgstr "调拨"
+msgstr "调拨作业"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,help:stock_landed_costs.field_stock_landed_cost__activity_exception_decoration
