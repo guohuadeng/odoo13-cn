@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # 	* mrp
-# 
+#
 # Translators:
 # v2exerer <9010446@qq.com>, 2019
 # roye w <159820@qq.com>, 2019
@@ -24,20 +24,19 @@
 # Martin Trigaux, 2019
 # liAnGjiA <liangjia@qq.com>, 2020
 # Jeffery CHEN Fan <jeffery9@gmail.com>, 2020
-# 
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 13.0\n"
+"Project-Id-Version: Odoo Server 13.0+e-20211210\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-12-05 12:32+0000\n"
-"PO-Revision-Date: 2019-08-26 09:12+0000\n"
-"Last-Translator: Jeffery CHEN Fan <jeffery9@gmail.com>, 2020\n"
-"Language-Team: Chinese (China) (https://www.transifex.com/odoo/teams/41243/zh_CN/)\n"
+"POT-Creation-Date: 2022-01-16 14:18+0000\n"
+"PO-Revision-Date: 2022-01-16 14:18+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Language: zh_CN\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: \n"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__state
@@ -143,22 +142,22 @@ msgstr "方桌桌脚规格18“x2½”"
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_kanban
 #: model_terms:ir.ui.view,arch_db:mrp.stock_production_type_kanban
 msgid "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
-msgstr "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"Manage\" title=\"Manage\"/>"
+msgstr "<i class=\"fa fa-ellipsis-v\" role=\"img\" aria-label=\"管理\" title=\"管理\"/>"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
 msgid "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
-msgstr "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"Pause\" title=\"Pause\"/>"
+msgstr "<i class=\"fa fa-pause\" role=\"img\" aria-label=\"暂停\" title=\"暂停\"/>"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
 msgid "<i class=\"fa fa-play\" role=\"img\" aria-label=\"Run\" title=\"Run\"/>"
-msgstr "<i class=\"fa fa-play\" role=\"img\" aria-label=\"Run\" title=\"Run\"/>"
+msgstr "<i class=\"fa fa-play\" role=\"img\" aria-label=\"执行\" title=\"执行\"/>"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_kanban
 msgid "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
-msgstr "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"Stop\" title=\"Stop\"/>"
+msgstr "<i class=\"fa fa-stop\" role=\"img\" aria-label=\"停止\" title=\"停止\"/>"
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_bom.py:0
@@ -364,6 +363,13 @@ msgid "A Manufacturing Order is already done or cancelled."
 msgstr "生产单已经完成或者被取消."
 
 #. module: mrp
+#: code:addons/mrp/models/stock_warehouse.py:0
+#, python-format
+msgid ""
+"A product with a kit-type bill of materials can not have a reordering rule."
+msgstr ""
+
+#. module: mrp
 #: code:addons/mrp/models/mrp_workcenter.py:0
 #, python-format
 msgid "A workcenter cannot be an alternative of itself"
@@ -534,6 +540,15 @@ msgstr "批准"
 #: model_terms:ir.ui.view,arch_db:mrp.view_mrp_workcenter_search
 msgid "Archived"
 msgstr "已停用"
+
+#. module: mrp
+#: code:addons/mrp/models/mrp_production.py:0
+#, python-format
+msgid ""
+"At least one work order has a quantity produced lower than the quantity "
+"produced in the manufacturing order. You must complete the work orders "
+"before posting the inventory."
+msgstr ""
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_bom_form_view
@@ -786,7 +801,7 @@ msgid "BoM details"
 msgstr "物料清单详情"
 
 #. module: mrp
-#: code:addons/mrp/models/mrp_bom.py:0 code:addons/mrp/models/mrp_bom.py:0
+#: code:addons/mrp/models/mrp_bom.py:0
 #, python-format
 msgid "BoM line product %s should not be the same as BoM product."
 msgstr ""
@@ -895,6 +910,7 @@ msgid "Checksum/SHA1"
 msgstr "校验和/SHA1"
 
 #. module: mrp
+#: model:ir.model.fields,field_description:mrp.field_mrp_bom__code
 #: model:ir.model.fields,field_description:mrp.field_mrp_workcenter__code
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_view_kanban
 msgid "Code"
@@ -1959,7 +1975,7 @@ msgstr "最近的活动"
 #: model:product.product,description:mrp.product_product_wood_ply
 #: model:product.template,description:mrp.product_product_wood_ply_product_template
 msgid "Layers that are stick together to assemble wood panels."
-msgstr "粘在一起组装木板的层。"
+msgstr "粘在一起组装木板的层板。"
 
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_workorder__leave_id
@@ -2081,7 +2097,7 @@ msgstr "主要附件"
 #: code:addons/mrp/models/stock_warehouse.py:0
 #, python-format
 msgid "Make To Order"
-msgstr "按订单生成"
+msgstr "按订单产生"
 
 #. module: mrp
 #: model:res.groups,name:mrp.group_mrp_routings
@@ -2290,6 +2306,11 @@ msgid "Mime Type"
 msgstr "MIME 类型"
 
 #. module: mrp
+#: model:ir.model,name:mrp.model_stock_warehouse_orderpoint
+msgid "Minimum Inventory Rule"
+msgstr "最小库存规则"
+
+#. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_workcenter_view
 msgid "Minutes"
 msgstr "分钟"
@@ -2338,6 +2359,7 @@ msgstr "名称"
 #: code:addons/mrp/models/mrp_unbuild.py:0
 #: code:addons/mrp/models/mrp_unbuild.py:0
 #: code:addons/mrp/models/mrp_unbuild.py:0
+#: code:addons/mrp/models/stock_rule.py:0
 #, python-format
 msgid "New"
 msgstr "新建"
@@ -2543,7 +2565,7 @@ msgstr "操作类型"
 #: model_terms:ir.ui.view,arch_db:mrp.workcenter_line_pivot
 #, python-format
 msgid "Operations"
-msgstr "操作"
+msgstr "作业"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.report_mrporder
@@ -2788,7 +2810,7 @@ msgstr "请设定正在生产的数量且不可为零。"
 #: model:product.product,name:mrp.product_product_wood_ply
 #: model:product.template,name:mrp.product_product_wood_ply_product_template
 msgid "Ply Layer"
-msgstr "层层"
+msgstr "层板"
 
 #. module: mrp
 #: model:product.product,name:mrp.product_product_ply_veneer
@@ -2799,7 +2821,7 @@ msgstr "单板层"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line__possible_bom_product_template_attribute_value_ids
 msgid "Possible Bom Product Template Attribute Value"
-msgstr ""
+msgstr "可用的产品变体值"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_production_form_view
@@ -2939,7 +2961,7 @@ msgstr "产品移动"
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_move_line
 msgid "Product Moves (Stock Move Line)"
-msgstr "产品移动(移库明细)"
+msgstr "产品调拨明细(作业明细)"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_product_template
@@ -3176,6 +3198,17 @@ msgid "Real Duration"
 msgstr "实际时长"
 
 #. module: mrp
+#: model:ir.model.fields,help:mrp.field_stock_picking_type__code
+msgid ""
+"Receipt: Receive products into Warehouse. The inventory qty increase.\n"
+"Delivery: Delivery products out of Warehouse. The inventory qty decrease.\n"
+"Internal Transfer:  Transfer products. The inventory qty do not change."
+msgstr ""
+"入库: 接收产品到指定仓库。库存数量增加。\n"
+"出库: 从仓库发出产品。库存数量减少。\n"
+"内部调拨:  仓库内部调拨产品。库存数量不变。"
+
+#. module: mrp
 #: model:ir.model,name:mrp.model_mrp_product_produce
 msgid "Record Production"
 msgstr "记录生产"
@@ -3194,13 +3227,8 @@ msgid ""
 msgstr "递归错误！一个物料清单的产品不应该在本身BOM或子BOM中！"
 
 #. module: mrp
-#: model:ir.model.fields,field_description:mrp.field_mrp_bom__code
-#: model:ir.model.fields,field_description:mrp.field_mrp_routing__code
-msgid "Reference"
-msgstr "编码"
-
-#. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__name
+#: model:ir.model.fields,field_description:mrp.field_mrp_routing__code
 #: model:ir.model.fields,field_description:mrp.field_mrp_unbuild__name
 msgid "Reference"
 msgstr "单号"
@@ -3300,6 +3328,7 @@ msgstr "责任用户"
 #: model:ir.model.fields,field_description:mrp.field_mrp_bom_line__routing_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_production__routing_id
 #: model:ir.model.fields,field_description:mrp.field_mrp_routing__name
+#: model:ir.sequence,name:mrp.sequence_mrp_route
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_form_view
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_search_view
 #: model_terms:ir.ui.view,arch_db:mrp.mrp_routing_tree_view
@@ -3873,8 +3902,8 @@ msgid "The production order for '%s' has no quantity specified."
 msgstr "'%s '的生产订单没有指定的数量"
 
 #. module: mrp
+#: code:addons/mrp/models/mrp_bom.py:0 code:addons/mrp/models/mrp_bom.py:0
 #: model:ir.model.constraint,message:mrp.constraint_mrp_production_qty_positive
-#: code:addons/mrp/models/mrp_bom.py:0
 #, python-format
 msgid "The quantity to produce must be positive!"
 msgstr "待生产的数量必须是正数!"
@@ -4166,7 +4195,7 @@ msgstr "类型"
 #. module: mrp
 #: model:ir.model.fields,field_description:mrp.field_stock_picking_type__code
 msgid "Type of Operation"
-msgstr "操作类型"
+msgstr "调拨方向"
 
 #. module: mrp
 #: model:ir.model.fields,help:mrp.field_mrp_production__activity_exception_decoration
@@ -4460,7 +4489,8 @@ msgid ""
 " operation type. That allows to define stock rules which trigger different "
 "manufacturing orders with different BoMs."
 msgstr ""
-"当补货具有设定操作类型的“生产”路线时，它将优先尝试使用相同操作类型的BoM为该产品创建生产订单。 这允许你配置不同的补货规则，实现不同仓库的生产订单触发使用不同的BoM。"
+"当补货具有设定操作类型的“生产”路线时，它将优先尝试使用相同操作类型的BoM为该产品创建生产订单。 "
+"这允许你配置不同的补货规则，实现不同仓库的生产订单触发使用不同的BoM。"
 
 #. module: mrp
 #: model:ir.model.fields.selection,name:mrp.selection__mrp_bom__ready_to_produce__asap
@@ -4669,7 +4699,7 @@ msgstr "生产单位生产力"
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_workcenter_productivity
 msgid "Workcenter Productivity Log"
-msgstr "生产单位生产日志"
+msgstr "生产单位产能日志"
 
 #. module: mrp
 #: model_terms:ir.ui.view,arch_db:mrp.oee_loss_form_view
@@ -4751,6 +4781,14 @@ msgstr "你不能不知道你消费了多少东西"
 #: code:addons/mrp/models/mrp_bom.py:0
 #, python-format
 msgid ""
+"You can not create a kit-type bill of materials for products that have at "
+"least one reordering rule."
+msgstr ""
+
+#. module: mrp
+#: code:addons/mrp/models/mrp_bom.py:0
+#, python-format
+msgid ""
 "You can not delete a Bill of Material with running manufacturing orders.\n"
 "Please close or cancel it first."
 msgstr "正在生产中的物料清单不可删除,请先关闭或取消制造订单."
@@ -4821,6 +4859,7 @@ msgstr ""
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_abstract_workorder.py:0
+#: code:addons/mrp/models/mrp_workorder.py:0
 #, python-format
 msgid "You cannot produce the same serial number twice."
 msgstr "不能重复生产相同的序列号。"
@@ -4850,6 +4889,15 @@ msgstr ""
 #, python-format
 msgid "You have to produce at least one %s."
 msgstr "必须至少生产一%s。"
+
+#. module: mrp
+#: code:addons/mrp/models/mrp_production.py:0
+#, python-format
+msgid ""
+"You must indicate a non-zero amount consumed for at least one of your "
+"components"
+msgstr ""
+"必须为物料明细定义一个非零的消耗数量"
 
 #. module: mrp
 #: code:addons/mrp/models/mrp_workorder.py:0
