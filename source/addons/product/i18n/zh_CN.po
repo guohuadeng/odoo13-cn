@@ -827,7 +827,7 @@ msgstr "对同一产品采取不同的打包方式"
 #: model:ir.model.fields,help:product.field_product_product__sequence
 #: model:ir.model.fields,help:product.field_product_template__sequence
 msgid "Gives the sequence order when displaying a product list"
-msgstr "显示产品列表时，给出序列号"
+msgstr "显示产品列表时，会按此序号排序"
 
 #. module: product
 #: code:addons/product/models/product_template.py:0

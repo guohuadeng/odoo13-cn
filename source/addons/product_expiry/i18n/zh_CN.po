@@ -64,7 +64,7 @@ msgstr "到此日期后，该批次/序列号产品将会出现“过期警报�
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_move_form_expiry
 #: model_terms:ir.ui.view,arch_db:product_expiry.view_product_form_expiry
 msgid "Dates"
-msgstr "日期"
+msgstr "保质期信息"
 
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_stock_production_lot__life_date
@@ -79,7 +79,7 @@ msgstr "到期警报"
 #. module: product_expiry
 #: model:ir.model.fields,field_description:product_expiry.field_stock_production_lot__product_expiry_reminded
 msgid "Expiry has been reminded"
-msgstr ""
+msgstr "过期警报已发送"
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_stock_production_lot

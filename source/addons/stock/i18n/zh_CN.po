@@ -379,8 +379,8 @@ msgid ""
 "Report\" aria-label=\"Traceability Report\"><i class=\"fa fa-fw fa-level-up "
 "fa-rotate-270\"/></span>"
 msgstr ""
-"<span role=\"img\" class=\"o_stock_reports_stream\" title=\"Traceability "
-"Report\" aria-label=\"Traceability Report\"><i class=\"fa fa-fw fa-level-up "
+"<span role=\"img\" class=\"o_stock_reports_stream\" title=\"追溯"
+"报告\" aria-label=\"追溯报告\"><i class=\"fa fa-fw fa-level-up "
 "fa-rotate-270\"/></span>"
 
 #. module: stock
@@ -2903,7 +2903,7 @@ msgstr "关注者"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_package_level__is_fresh_package
 msgid "Is Fresh Package"
-msgstr "是新箱码"
+msgstr "是本次作业新建"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__is_locked
@@ -4076,6 +4076,10 @@ msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.quant_package_search_view
+msgid "Packaging"
+msgstr "箱规"
+
+#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_inventory_line_search
 msgid "Packaging"
 msgstr "托盘(箱码)"
