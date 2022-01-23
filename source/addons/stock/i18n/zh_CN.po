@@ -4076,13 +4076,9 @@ msgstr ""
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.quant_package_search_view
-msgid "Packaging"
-msgstr "箱规"
-
-#. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.stock_inventory_line_search
 msgid "Packaging"
-msgstr "托盘(箱码)"
+msgstr "箱规"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__wh_pack_stock_loc_id
