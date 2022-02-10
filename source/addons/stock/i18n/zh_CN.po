@@ -222,7 +222,7 @@ msgstr ""
 "* 客户区位：虚拟区位，表示发送给客户的产品的目的区位\n"
 "* 库存损失：虚拟区位作为库存作业的对应物，用于纠正库存水平（物理库存）\n"
 "* 生产：生产作业的虚拟对应区位：此区位消耗组件并生产成品\n"
-"* 中转站：应在公司间或仓库间运营中使用的对应地点"
+"* 中转区位：应在公司间或仓库间运营中使用的对应地点"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_stock_rule
@@ -1726,7 +1726,7 @@ msgstr "延迟"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__delivery_steps__ship_only
 msgid "Deliver goods directly (1 step)"
-msgstr "直接出货（1步出库）"
+msgstr "直接发货（1步出库）"
 
 #. module: stock
 #: code:addons/stock/models/stock_warehouse.py:0
@@ -3913,7 +3913,7 @@ msgstr "出库作业模式"
 #: code:addons/stock/models/stock_warehouse.py:0
 #, python-format
 msgid "Output"
-msgstr "出货"
+msgstr "发货"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_warehouse__wh_output_stock_loc_id
@@ -3979,7 +3979,7 @@ msgstr "打包装箱作业"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__delivery_steps__pick_pack_ship
 msgid "Pack goods, send goods in output and then deliver (3 steps)"
-msgstr "产品拆垛装箱，发送到待出货区，再发货 (3步出库)"
+msgstr "产品拆垛装箱，发送到待发货区，再发货 (3步出库)"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_package_level__package_id
@@ -4698,7 +4698,7 @@ msgid ""
 "In a context with a single Warehouse, this includes goods arriving to the Stock Location of this Warehouse, or any of its children.\n"
 "Otherwise, this includes goods arriving to any Stock Location with 'internal' type."
 msgstr ""
-"计划出货产品的数量。\n"
+"计划发货产品的数量。\n"
 "在单个库存区位的情况下，这包括离开该区位或其任何子区位的货品。\n"
 "在单个库存的情况下，这包括离开库存的库存区位或其任何子区位的货物。\n"
 "否则，这包括任何离开“内部”类型库存区位的货物。"
@@ -5326,7 +5326,7 @@ msgstr "发送一个自动确认电子邮件时，交货订单完成"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__stock_warehouse__delivery_steps__pick_ship
 msgid "Send goods in output and then deliver (2 steps)"
-msgstr "产品送到待出货区，再发货 (2步出库)"
+msgstr "产品送到待发货区，再发货 (2步出库)"
 
 #. module: stock
 #: code:addons/stock/models/stock_picking.py:0
