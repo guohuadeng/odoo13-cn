@@ -4622,7 +4622,7 @@ msgstr "少于或等于"
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "not"
-msgstr "不是"
+msgstr "未"
 
 #. module: web
 #. openerp-web
