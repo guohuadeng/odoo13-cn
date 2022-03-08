@@ -5145,12 +5145,12 @@ msgstr "补货规则"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_putaway_search
 msgid "Rules on Categories"
-msgstr "基于类别的规则"
+msgstr "基于品类的策略"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_putaway_search
 msgid "Rules on Products"
-msgstr "基于产品的规则"
+msgstr "基于产品的策略"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_procurement_compute
