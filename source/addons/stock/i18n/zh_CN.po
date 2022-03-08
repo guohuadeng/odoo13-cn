@@ -432,7 +432,7 @@ msgstr ""
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
 msgid "<strong>Counted Quantity</strong>"
-msgstr "<strong>计算数量</strong>"
+msgstr "<strong>实盘数量</strong>"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.report_inventory
@@ -739,7 +739,7 @@ msgstr "允许从空库存开始。"
 msgid ""
 "Allows to start with prefill counted quantity for each lines or with all "
 "counted quantity set to zero."
-msgstr "允许从每行的预填充计数开始，或将所有计数数量设置为零。"
+msgstr "允许从每行的预填充计数开始，或将所有实盘数量设置为零。"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.view_stock_rule_form
@@ -2783,7 +2783,7 @@ msgstr "非法的域右作业符 %s"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_quant__inventory_quantity
 msgid "Inventoried Quantity"
-msgstr "盘点的数量"
+msgstr "账面数量"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_inventory__line_ids
@@ -5389,7 +5389,7 @@ msgstr "设置一个本产品特定的下架策略，它将优先于本品类的
 #. module: stock
 #: model:ir.actions.server,name:stock.model_stock_inventory_line_action_reset_product_qty
 msgid "Set counted quantities to 0"
-msgstr "设置计数数量为0"
+msgstr "设置实盘数量为0"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
