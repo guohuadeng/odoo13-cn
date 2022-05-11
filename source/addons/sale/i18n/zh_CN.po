@@ -2074,7 +2074,7 @@ msgstr "前置时间"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Let your customers log in to see their documents"
-msgstr "让你的客户登录查看他们的证件"
+msgstr "让你的客户登录查看他们的订单"
 
 #. module: sale
 #. openerp-web

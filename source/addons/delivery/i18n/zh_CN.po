@@ -397,7 +397,7 @@ msgstr ""
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__prod_environment
 msgid "Environment"
-msgstr "环境"
+msgstr "生产环境"
 
 #. module: delivery
 #: code:addons/delivery/models/delivery_carrier.py:0
@@ -798,7 +798,7 @@ msgstr "服务产品"
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_delivery_carrier__prod_environment
 msgid "Set to True if your credentials are certified for production."
-msgstr "如果您的凭证已通过生产认证，请设置为True。"
+msgstr "如果您的运费模模已通过生产认证，请勾选设置为真。"
 
 #. module: delivery
 #: code:addons/delivery/models/stock_picking.py:0

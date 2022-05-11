@@ -11287,7 +11287,7 @@ msgstr "城市"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_address_city
 msgid "City Addresses"
-msgstr "城市地址"
+msgstr "城市辖区"
 
 #. module: base
 #: model:ir.model.fields.selection,name:base.selection__ir_logging__type__client

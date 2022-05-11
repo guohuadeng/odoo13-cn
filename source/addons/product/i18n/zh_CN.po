@@ -1812,7 +1812,7 @@ msgstr "销售表格录入"
 #: model_terms:ir.ui.view,arch_db:product.product_product_tree_view
 #: model_terms:ir.ui.view,arch_db:product.product_template_tree_view
 msgid "Sales Price"
-msgstr "销售价格"
+msgstr "零售标价"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product__categ_id

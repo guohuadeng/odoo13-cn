@@ -136,7 +136,7 @@ msgstr "不考虑库存的销售"
 #. module: website_sale_stock
 #: model:ir.model.fields.selection,name:website_sale_stock.selection__product_template__inventory_availability__threshold
 msgid "Show inventory below a threshold and prevent sales if not enough stock"
-msgstr "显示的库存低于阈值，如果没有足够的库存，则阻止销售"
+msgstr "显示库存，当库存低于阀值，则阻止销售"
 
 #. module: website_sale_stock
 #: model:ir.model.fields.selection,name:website_sale_stock.selection__product_template__inventory_availability__always
@@ -149,7 +149,7 @@ msgstr "在网站上显示库存并且如果没有足够的库存，则阻止销
 msgid ""
 "Show inventory when below the threshold and prevent sales if not enough "
 "stock"
-msgstr ""
+msgstr "显示库存，当库存低于阀值，则阻止销售"
 
 #. module: website_sale_stock
 #: model:ir.model.fields.selection,name:website_sale_stock.selection__product_template__inventory_availability__custom
