@@ -372,7 +372,7 @@ msgstr "如果您是通过安全服务器（HTTPS），检查是否接受了证�
 #. module: iot
 #: model:ir.model.fields,field_description:iot.field_iot_box__version
 msgid "Image Version"
-msgstr "图像版本"
+msgstr "Rom版本"
 
 #. module: iot
 #: model:ir.ui.menu,name:iot.iot_menu_root
