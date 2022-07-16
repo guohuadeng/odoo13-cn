@@ -809,7 +809,7 @@ msgstr "尽快"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_picking__owner_id
 msgid "Assign Owner"
-msgstr "指定所有者"
+msgstr "指定货主"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_picking_responsible
@@ -949,7 +949,7 @@ msgstr "散装内容"
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__product_template__tracking__lot
 msgid "By Lots"
-msgstr "按 批次"
+msgstr "按批次"
 
 #. module: stock
 #: model:ir.model.fields.selection,name:stock.selection__product_template__tracking__serial
@@ -1258,7 +1258,7 @@ msgstr "已确认"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_res_config_settings__group_stock_tracking_owner
 msgid "Consignment"
-msgstr "寄售"
+msgstr "寄售(多货主)"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__consume_line_ids
@@ -2306,7 +2306,7 @@ msgstr "来自"
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move_line__owner_id
 msgid "From Owner"
-msgstr "来自所有者"
+msgstr "来自货主"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__show_reserved_availability
@@ -3336,7 +3336,7 @@ msgstr "按订单生成"
 #. module: stock
 #: model:res.groups,name:stock.group_tracking_owner
 msgid "Manage Different Stock Owners"
-msgstr "管理不同的库存所有者"
+msgstr "管理不同的货主的存货"
 
 #. module: stock
 #: model:res.groups,name:stock.group_production_lot
@@ -3939,17 +3939,17 @@ msgstr "概览"
 #: model_terms:ir.ui.view,arch_db:stock.quant_search_view
 #: model_terms:ir.ui.view,arch_db:stock.view_move_line_form
 msgid "Owner"
-msgstr "所有者"
+msgstr "货主"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__restrict_partner_id
 msgid "Owner "
-msgstr "所有者 "
+msgstr "货主 "
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.message_body
 msgid "Owner :"
-msgstr "所有者:"
+msgstr "货主:"
 
 #. module: stock
 #: code:addons/stock/models/product.py:0
@@ -5399,7 +5399,7 @@ msgstr "为批次和序列号设置过期日期"
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
 msgid "Set owner on stored products"
-msgstr "允许在仓库中储存第三方的产品，并可在储存的产品上设置所有者"
+msgstr "允许在仓库中储存第三方的产品，并可为存货设置属于不同的货主"
 
 #. module: stock
 #: model_terms:ir.ui.view,arch_db:stock.res_config_settings_view_form
@@ -5880,7 +5880,7 @@ msgstr "用于计算验证是否应该显示的技术字段。"
 msgid ""
 "Technical field used to depict a restriction on the ownership of quants to "
 "consider when marking this move as 'done'"
-msgstr "该技术字段用来描述当所有者的份移动标记为’完成‘时的限制"
+msgstr "该技术字段用来描述当货主的存货调拨作业标记为 '完成' 时要进行技术限制"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__price_unit
@@ -6162,7 +6162,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_quant__owner_id
 msgid "This is the owner of the quant"
-msgstr "这是库存分析所有者"
+msgstr "这是存货的货主"
 
 #. module: stock
 #: model:ir.model.fields,help:stock.field_stock_move__product_uom_qty
@@ -6961,7 +6961,7 @@ msgstr "在验证调拨时，产品将会分派到此物主。"
 #: model:ir.model.fields,help:stock.field_stock_move_line__owner_id
 msgid ""
 "When validating the transfer, the products will be taken from this owner."
-msgstr "在验证转移时，产品将从该所有者处获得。"
+msgstr "在验证完成仓库作业时，产品将从该货主的存货中获得。"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_move__additional

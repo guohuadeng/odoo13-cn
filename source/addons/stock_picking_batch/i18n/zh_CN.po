@@ -455,7 +455,8 @@ msgstr "有些产品需要批次/序列号。"
 msgid ""
 "Some transfers are still waiting for goods. Please check or force their "
 "availability before setting this batch to done."
-msgstr ""
+msgstr "仍有部份作业没有就绪，请在具体单据中进行预留，或者手工确定详细作业。"
+"这样才能完成作业计划。"
 
 #. module: stock_picking_batch
 #: model:mail.message.subtype,description:stock_picking_batch.mt_batch_state
