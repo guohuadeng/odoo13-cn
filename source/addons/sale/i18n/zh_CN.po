@@ -454,7 +454,7 @@ msgstr "<span class=\"o_form_label\">确认EMail</span>"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "<span class=\"o_form_label\">Down Payments</span>"
-msgstr "<span class=\"o_form_label\">预付款</span>"
+msgstr "<span class=\"o_form_label\">销售定金</span>"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_order_form
@@ -1326,7 +1326,7 @@ msgstr "日期:"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__deduct_down_payments
 msgid "Deduct down payments"
-msgstr "扣除预付款"
+msgstr "扣除销售定金"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
@@ -1477,51 +1477,51 @@ msgstr "完成"
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
 #, python-format
 msgid "Down Payment"
-msgstr "预付款"
+msgstr "销售定金"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__amount
 msgid "Down Payment Amount"
-msgstr "预付款总额"
+msgstr "定金总额"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__fixed_amount
 msgid "Down Payment Amount(Fixed)"
-msgstr "预付款金额（固定）"
+msgstr "定金金额（固定）"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__product_id
 msgid "Down Payment Product"
-msgstr "预付款产品"
+msgstr "销售定金产品"
 
 #. module: sale
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
 #, python-format
 msgid "Down Payment: %s"
-msgstr "预付款：%s"
+msgstr "销售定金：%s"
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__sale_advance_payment_inv__advance_payment_method__fixed
 msgid "Down payment (fixed amount)"
-msgstr "预付款(固定金额)"
+msgstr "定金(固定金额)"
 
 #. module: sale
 #: model:ir.model.fields.selection,name:sale.selection__sale_advance_payment_inv__advance_payment_method__percentage
 msgid "Down payment (percentage)"
-msgstr "预付款(百分比)"
+msgstr "定金(百分比)"
 
 #. module: sale
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
 #, python-format
 msgid "Down payment of %s%%"
-msgstr "预付款按 %s%%"
+msgstr "销售定金按 %s%%"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_line__is_downpayment
 msgid ""
 "Down payments are made when creating invoices from a sales order. They are "
 "not copied when duplicating a sales order."
-msgstr "从销售订单创建发票时，将进行预付款。 复制销售订单时不会复制它们。"
+msgstr "从销售订单创建发票时，将生成预收定金条目。 复制销售订单时不会复制它们。"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_order_portal_template
@@ -1718,7 +1718,7 @@ msgstr "HTML 颜色索引"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv__has_down_payments
 msgid "Has down payments"
-msgstr "有预付款"
+msgstr "有定金"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_product_attribute_value__html_color
@@ -1974,7 +1974,7 @@ msgstr "关注者"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_line__is_downpayment
 msgid "Is a down payment"
-msgstr "是预付款吗"
+msgstr "是定金"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_product_attribute_value__is_custom
@@ -2791,7 +2791,7 @@ msgstr "单品Sku"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.res_config_settings_view_form
 msgid "Product used for down payments"
-msgstr "用于预付款的产品"
+msgstr "用于销售定金的产品"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.product_template_action
@@ -3123,7 +3123,7 @@ msgstr "销售"
 #. module: sale
 #: model:ir.model,name:sale.model_sale_advance_payment_inv
 msgid "Sales Advance Payment Invoice"
-msgstr "销售预付款发票"
+msgstr "销售定金发票"
 
 #. module: sale
 #: code:addons/sale/models/sales_team.py:0
@@ -3785,7 +3785,7 @@ msgstr "在订单当天适用的货币跟本位币兑换比率为 1"
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:0
 #, python-format
 msgid "The value of the down payment amount must be positive."
-msgstr "预付款金额的值必须为正数。"
+msgstr "销售定金金额的值必须为正数。"
 
 #. module: sale
 #. openerp-web

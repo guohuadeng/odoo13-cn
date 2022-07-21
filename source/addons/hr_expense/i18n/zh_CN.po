@@ -909,7 +909,7 @@ msgstr "附件"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet__user_id
 msgid "Manager"
-msgstr "管理员"
+msgstr "审批经理"
 
 #. module: hr_expense
 #. openerp-web

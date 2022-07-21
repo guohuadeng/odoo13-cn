@@ -24908,7 +24908,7 @@ msgstr "库存Intrastat"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_account_enterprise
 msgid "Stock account enterprise"
-msgstr "企业股票账户"
+msgstr "企业版库存管理"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_enterprise

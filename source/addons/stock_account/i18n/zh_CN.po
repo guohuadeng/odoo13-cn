@@ -588,7 +588,7 @@ msgstr "凭证处于不一致的状态:它们不属于同一个来源或目标�
 msgid ""
 "There is no valuation layers. Valuation layers are created when some product"
 " moves should impact the valuation of the stock."
-msgstr "没有评估层。当某些产品凭证会影响股票的估值时，会创建评估层。"
+msgstr "没有库存计价明细。当产品调拨产生了库存价值变更时，会创建新的库存计价。"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_valuation_layer__value
