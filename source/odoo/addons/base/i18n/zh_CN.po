@@ -25214,7 +25214,7 @@ msgstr "标签..."
 #. module: base
 #: model:res.country,name:base.tw
 msgid "Taiwan"
-msgstr "台湾"
+msgstr "中国台湾"
 
 #. module: base
 #: model:res.country,name:base.tj

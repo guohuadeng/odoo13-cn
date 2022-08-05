@@ -385,7 +385,7 @@ msgid ""
 msgstr ""
 "基本价格计算。\n"
 "销售价格: 此价格将作为产品销售价格。\n"
-"成本: 此价格将被用于计算成本。\n"
+"标准成本: 此价格将被用于计算成本，即库存价值。\n"
 "其它价格表: 基本其它价格表计算的基本价格。"
 
 #. module: product
@@ -542,7 +542,7 @@ msgstr "包含的数量"
 #: model:ir.model.fields,field_description:product.field_product_template__standard_price
 #: model:ir.model.fields.selection,name:product.selection__product_pricelist_item__base__standard_price
 msgid "Cost"
-msgstr "成本"
+msgstr "单位成本"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product__cost_currency_id

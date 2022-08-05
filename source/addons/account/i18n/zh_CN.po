@@ -2492,7 +2492,7 @@ msgstr "账单电子化"
 #. module: account
 #: model:res.groups,name:account.group_account_invoice
 msgid "Billing"
-msgstr "开单"
+msgstr "开单出纳"
 
 #. module: account
 #: model:res.groups,name:account.group_account_manager

@@ -173,7 +173,7 @@ msgstr "配置错误。 请在产品或其类别上配置价格差异科目来�
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.view_change_standard_price
 msgid "Cost"
-msgstr "成本"
+msgstr "单位成本"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_product_category__property_cost_method
