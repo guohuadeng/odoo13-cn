@@ -2497,7 +2497,7 @@ msgstr "开单出纳"
 #. module: account
 #: model:res.groups,name:account.group_account_manager
 msgid "Billing Administrator"
-msgstr "账单管理员"
+msgstr "开单出纳管理员"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_move_in_invoice_type
@@ -9613,7 +9613,7 @@ msgstr "显示强制税"
 #. module: account
 #: model:res.groups,name:account.group_account_user
 msgid "Show Full Accounting Features"
-msgstr "显示所有会计功能"
+msgstr "所有会计功能"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_payment__show_partner_bank_account
