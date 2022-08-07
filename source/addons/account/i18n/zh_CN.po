@@ -1344,7 +1344,7 @@ msgstr "会计分录"
 #. module: account
 #: model:ir.actions.act_window,name:account.open_account_journal_dashboard_kanban
 msgid "Accounting Overview"
-msgstr "会计概览"
+msgstr "财务概览"
 
 #. module: account
 #: code:addons/account/models/company.py:0
