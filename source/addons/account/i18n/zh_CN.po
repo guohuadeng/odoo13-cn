@@ -2869,12 +2869,12 @@ msgstr "一旦您的账户开具了发票，不可更改名字。如需执行此
 #: model:ir.model.fields,field_description:account.field_account_tax_template__chart_template_id
 #: model:ir.model.fields,field_description:account.field_res_company__chart_template_id
 msgid "Chart Template"
-msgstr "表模板"
+msgstr "会计制度"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.open_account_charts_modules
 msgid "Chart Templates"
-msgstr "表模板"
+msgstr "会计制度"
 
 #. module: account
 #: code:addons/account/models/company.py:0
