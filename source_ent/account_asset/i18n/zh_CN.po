@@ -454,7 +454,7 @@ msgstr "自动化资产"
 #. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_form_asset_inherit
 msgid "Automate Deferred Expense"
-msgstr "自动执行递延费用"
+msgstr "资产则自动执行递延费用"
 
 #. module: account_asset
 #: model_terms:ir.ui.view,arch_db:account_asset.view_account_form_asset_inherit
