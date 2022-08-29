@@ -1140,7 +1140,7 @@ msgstr "创建一个报价是新销售的第一步!"
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.view_sale_advance_payment_inv
 msgid "Create and View Invoice"
-msgstr "创建并查看发票"
+msgstr "创建并查看凭证"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_view_sale_advance_payment_inv
@@ -1618,7 +1618,7 @@ msgstr "FedEx 连接器"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__fiscal_position_id
 msgid "Fiscal Position"
-msgstr "财政状况"
+msgstr "税科目调整"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order__fiscal_position_id
@@ -1626,7 +1626,7 @@ msgid ""
 "Fiscal positions are used to adapt taxes and accounts for particular "
 "customers or sales orders/invoices.The default value comes from the "
 "customer."
-msgstr "财政状况是用来调整税收和特殊账户的。 客户或销售订单/发票。默认值来自客户”。"
+msgstr "税科目调整是用来调整税收和特殊账户的。 客户或销售订单/发票。默认值来自客户”。"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order__message_follower_ids

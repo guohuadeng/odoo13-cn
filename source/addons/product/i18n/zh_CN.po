@@ -2069,7 +2069,7 @@ msgstr "这是所有属性额外价格的总和"
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view
 msgid "This note is added to sales orders and invoices."
-msgstr "此备注添加到销售订单以及发票。"
+msgstr "此说明将会自动加入到销售订单明细及销售账单明细的该产品说明中"
 
 #. module: product
 #: model_terms:ir.ui.view,arch_db:product.product_template_form_view

@@ -3807,7 +3807,7 @@ msgstr "选择客户"
 #: code:addons/point_of_sale/static/src/js/screens.js:0
 #, python-format
 msgid "Select Fiscal Position"
-msgstr "选择第一个财政状况"
+msgstr "选择第一个税科目调整"
 
 #. module: point_of_sale
 #. openerp-web
