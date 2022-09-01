@@ -366,7 +366,7 @@ msgstr "章节下增加合计"
 #: code:addons/account_reports/models/account_cash_flow_report.py:0
 #, python-format
 msgid "Advance Payments received from customers"
-msgstr "从客户收到的预付款"
+msgstr "销售预收款"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_cash_flow_report.py:0

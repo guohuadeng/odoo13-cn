@@ -7058,7 +7058,7 @@ msgstr "减去报告行"
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_filter
 #: model_terms:ir.ui.view,arch_db:account.view_account_move_line_filter
 msgid "Miscellaneous"
-msgstr "杂项"
+msgstr "库存与杂项"
 
 #. module: account
 #. openerp-web
@@ -7076,7 +7076,7 @@ msgstr "杂项操作"
 #. module: account
 #: model:ir.model.constraint,message:account.constraint_account_move_line_check_accountable_required_fields
 msgid "Missing required account on accountable invoice line."
-msgstr "销售订单行缺少必要字段."
+msgstr "会计分录行缺少必要字段."
 
 #. module: account
 #. openerp-web
@@ -12514,7 +12514,7 @@ msgstr "在已经录入本币记账凭证的情况下不能为该账户设定币
 msgid ""
 "You cannot switch an account to prevent the reconciliation if some partial "
 "reconciliations are still pending."
-msgstr "在局部调账还在挂账状态，你不能切换一个科目到回避调整状态。"
+msgstr "该科目仍有凭证没有完成对帐，无法变更科目类型等基础信息。"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
