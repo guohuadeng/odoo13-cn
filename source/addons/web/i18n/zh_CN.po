@@ -1645,7 +1645,7 @@ msgstr "字段："
 #: code:addons/web/static/src/xml/debug.xml:0
 #, python-format
 msgid "Fields View Get"
-msgstr "字段视图获取"
+msgstr "当前视图获取"
 
 #. module: web
 #. openerp-web
