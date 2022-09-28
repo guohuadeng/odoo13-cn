@@ -165,7 +165,7 @@ msgstr "即时库存"
 #: model:ir.model.fields,field_description:product_expiry.field_stock_production_lot__removal_date
 #: model:ir.model.fields,field_description:product_expiry.field_stock_quant__removal_date
 msgid "Removal Date"
-msgstr "下架日期"
+msgstr "到期下架日期"
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_stock_production_lot__product_expiry_alert
@@ -191,7 +191,7 @@ msgstr "该批次/序列号的产品的保质期过期日期，包含产品将�
 msgid ""
 "This is the date on which the goods with this Serial Number should be "
 "removed from the stock."
-msgstr "该批次/序列号的产品的下架日期，包含产品将在今日从库存移除。"
+msgstr "该批次/序列号的产品的到期下架日期，包含产品将在今日从库存移除。"
 
 #. module: product_expiry
 #: model:ir.model.fields,help:product_expiry.field_stock_production_lot__use_date
