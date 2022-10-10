@@ -1086,7 +1086,7 @@ msgstr "会计分录冲销"
 #: model:ir.model.fields,field_description:account.field_account_journal__bank_acc_number
 #: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__acc_number
 msgid "Account Number"
-msgstr "科目编码"
+msgstr "账户号码"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner__property_account_payable_id
@@ -5906,7 +5906,7 @@ msgstr "发票格式"
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.view_move_form
 msgid "Invoice Lines"
-msgstr "发票明细行"
+msgstr "发票/收据明细行"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_config_settings__module_account_payment

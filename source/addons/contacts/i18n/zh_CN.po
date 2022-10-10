@@ -31,7 +31,7 @@ msgstr "银行账户"
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.menu_action_res_bank_form
 msgid "Banks"
-msgstr "银行"
+msgstr "银行档案"
 
 #. module: contacts
 #: model:ir.ui.menu,name:contacts.res_partner_menu_config
