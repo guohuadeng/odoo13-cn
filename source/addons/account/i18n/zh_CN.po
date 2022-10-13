@@ -6452,7 +6452,7 @@ msgstr "KPI账户总收入"
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_form
 #, python-format
 msgid "Label"
-msgstr "标签"
+msgstr "摘要"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_reconcile_model__match_label_param
