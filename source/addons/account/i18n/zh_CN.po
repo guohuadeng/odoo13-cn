@@ -3833,7 +3833,7 @@ msgstr "客户发票"
 #: model_terms:ir.ui.view,arch_db:account.account_journal_dashboard_kanban_view
 #, python-format
 msgid "Customer Payment"
-msgstr "客户付款"
+msgstr "客户收付款(ARAP)"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_res_partner__property_payment_term_id
@@ -3846,7 +3846,7 @@ msgstr "客户付款条款"
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_search
 msgid "Customer Payments"
-msgstr "客户付款"
+msgstr "客户收付款(ARAP)"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_move__access_url
@@ -7328,7 +7328,7 @@ msgstr "没有到期"
 #: model:ir.model.fields.selection,name:account.selection__account_move__invoice_payment_state__not_paid
 #: model_terms:ir.ui.view,arch_db:account.view_account_invoice_filter
 msgid "Not Paid"
-msgstr "未付款"
+msgstr "未支付"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__res_company__account_dashboard_onboarding_state__not_done
@@ -12013,7 +12013,7 @@ msgstr "供应商付款条款"
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:account.view_account_payment_search
 msgid "Vendor Payments"
-msgstr "供应商账单"
+msgstr "供应商付收款(APAR)"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_product_product__supplier_taxes_id
