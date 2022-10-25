@@ -859,7 +859,7 @@ msgstr "贷"
 #: code:addons/account_reports/models/account_report_coa.py:0
 #, python-format
 msgid "Credit"
-msgstr "信用"
+msgstr "贷方"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_general_ledger.py:0
@@ -2173,7 +2173,7 @@ msgstr "为本报告生成的菜单项，如果没有，则没有。"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.main_template
 msgid "There are"
-msgstr "这儿"
+msgstr "仍有"
 
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.search_template_date_filter
@@ -2457,7 +2457,7 @@ msgstr "报告模块的名称"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.main_template
 msgid "prior or included in this period"
-msgstr ""
+msgstr "需处理。可能也被包含在此期间。"
 
 #. module: account_reports
 #: model:ir.model.fields,help:account_reports.field_account_financial_html_report__date_range
