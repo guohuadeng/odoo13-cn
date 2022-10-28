@@ -647,7 +647,7 @@ msgstr "盘点已完成"
 #: code:addons/stock_barcode/static/src/js/client_action/abstract_client_action.js:0
 #, python-format
 msgid "This location is not a child of the main location."
-msgstr "这个区位不属于指定的主区位。"
+msgstr "这个区位不属于指定的主区位，如已进入区位或者货架作业，则无需再扫码货架。"
 
 #. module: stock_barcode
 #. openerp-web

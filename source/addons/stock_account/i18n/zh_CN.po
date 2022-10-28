@@ -135,14 +135,14 @@ msgstr "找不到产品%s的库存出库库科目。 在处理此操作之前，
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.view_change_standard_price
 msgid "Change Price"
-msgstr "更改价格"
+msgstr "更改成本"
 
 #. module: stock_account
 #: model:ir.actions.act_window,name:stock_account.action_view_change_standard_price
 #: model:ir.model,name:stock_account.model_stock_change_standard_price
 #: model_terms:ir.ui.view,arch_db:stock_account.view_change_standard_price
 msgid "Change Standard Price"
-msgstr "更改标准价"
+msgstr "更改单位成本"
 
 #. module: stock_account
 #: code:addons/stock_account/models/product.py:0

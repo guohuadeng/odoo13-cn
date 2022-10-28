@@ -8966,12 +8966,12 @@ msgstr "费用的默认分析账户"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_auto_transfer
 msgid "Account Automatic Transfers"
-msgstr "会计自动转账"
+msgstr "科目自动结转"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_generic_auto_transfer_demo
 msgid "Account Automatic Transfers Demo Data"
-msgstr "会计自动转账演示数据"
+msgstr "科目自动结转演示数据"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_bank_statement_import
@@ -10410,7 +10410,7 @@ msgstr "与本公司相关的银行账户"
 #: model:ir.model.fields,field_description:base.field_res_users__bank_ids
 #: model_terms:ir.ui.view,arch_db:base.view_res_bank_tree
 msgid "Banks"
-msgstr "银行"
+msgstr "银行档案"
 
 #. module: base
 #: model:res.country,name:base.bb

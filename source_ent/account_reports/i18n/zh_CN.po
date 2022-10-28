@@ -270,7 +270,7 @@ msgstr "资产"
 #: code:addons/account_reports/models/account_partner_ledger.py:0
 #, python-format
 msgid "Account"
-msgstr "账户"
+msgstr "科目"
 
 #. module: account_reports
 #: model:ir.model,name:account_reports.model_account_analytic_report
@@ -1194,7 +1194,7 @@ msgstr "脚注"
 #. module: account_reports
 #: model:ir.model.fields.selection,name:account_reports.selection__account_financial_html_report_line__special_date_changer__strict_range
 msgid "Force given dates for all accounts and account types"
-msgstr "所有账户和账户类型强制指定的日期"
+msgstr "所有科目和科目类型强制指定的日期"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__formulas
@@ -2019,7 +2019,7 @@ msgstr "保存"
 #. module: account_reports
 #: model_terms:ir.ui.view,arch_db:account_reports.main_template
 msgid "Search account"
-msgstr "搜索账户"
+msgstr "搜索科目"
 
 #. module: account_reports
 #: model:ir.model.fields,field_description:account_reports.field_account_financial_html_report_line__name
