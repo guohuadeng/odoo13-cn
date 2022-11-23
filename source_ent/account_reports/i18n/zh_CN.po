@@ -487,13 +487,13 @@ msgstr "应用"
 #: code:addons/account_reports/models/account_report.py:0
 #, python-format
 msgid "As of %s"
-msgstr "作为 %s"
+msgstr "期间 %s"
 
 #. module: account_reports
 #: code:addons/account_reports/models/account_aged_partner_balance.py:0
 #, python-format
 msgid "As of: %s"
-msgstr ""
+msgstr "期间: %s"
 
 #. module: account_reports
 #: model:ir.model.fields.selection,name:account_reports.selection__account_financial_html_report_line__special_date_changer__to_beginning_of_period

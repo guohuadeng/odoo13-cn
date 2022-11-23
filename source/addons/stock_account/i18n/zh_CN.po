@@ -473,7 +473,7 @@ msgstr "为当前产品选择一个类别"
 #. module: stock_account
 #: model:ir.model.fields.selection,name:stock_account.selection__product_category__property_cost_method__standard
 msgid "Standard Price"
-msgstr "标准价格"
+msgstr "标准售价"
 
 #. module: stock_account
 #: model:ir.model.fields,help:stock_account.field_product_category__property_cost_method
