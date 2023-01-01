@@ -38,7 +38,7 @@ msgstr ""
 #. module: helpdesk_repair
 #: model_terms:ir.ui.view,arch_db:helpdesk_repair.helpdesk_ticket_view_form_inherit_stock_user
 msgid "Repair"
-msgstr "维修"
+msgstr "新建维修单"
 
 #. module: helpdesk_repair
 #: model:ir.model,name:helpdesk_repair.model_repair_order
@@ -51,14 +51,14 @@ msgstr "维修单"
 #: model_terms:ir.ui.view,arch_db:helpdesk_repair.helpdesk_ticket_view_form_inherit_helpdesk_repair
 #, python-format
 msgid "Repairs"
-msgstr "维修"
+msgstr "维修单"
 
 #. module: helpdesk_repair
 #: model:ir.model.fields,field_description:helpdesk_repair.field_helpdesk_ticket__repairs_count
 msgid "Repairs Count"
-msgstr ""
+msgstr "维修单数量"
 
 #. module: helpdesk_repair
 #: model:ir.model.fields,field_description:helpdesk_repair.field_repair_order__ticket_id
 msgid "Ticket"
-msgstr "门票"
+msgstr "客服单"
