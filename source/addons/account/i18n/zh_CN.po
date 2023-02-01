@@ -354,8 +354,8 @@ msgstr ""
 "                                <span attrs=\"{'invisible': ['|', '|', ('type', '!=', 'out_refund'), ('state', '!=', 'draft'), ('name', '!=', '/')]}\">草稿红字发票</span>\n"
 "                                <span attrs=\"{'invisible': ['|', '|', ('type', '!=', 'in_invoice'), ('state', '!=', 'draft'), ('name', '!=', '/')]}\">账单草稿</span>\n"
 "                                <span attrs=\"{'invisible': ['|', '|', ('type', '!=', 'in_refund'), ('state', '!=', 'draft'), ('name', '!=', '/')]}\">返款草稿</span>\n"
-"                                <span attrs=\"{'invisible': ['|', '|', ('type', '!=', 'out_receipt'), ('state', '!=', 'draft'), ('name', '!=', '/')]}\">销售收据草稿</span>\n"
-"                                <span attrs=\"{'invisible': ['|', '|', ('type', '!=', 'in_receipt'), ('state', '!=', 'draft'), ('name', '!=', '/')]}\">采购收据草稿</span>"
+"                                <span attrs=\"{'invisible': ['|', '|', ('type', '!=', 'out_receipt'), ('state', '!=', 'draft'), ('name', '!=', '/')]}\">应收收据草稿</span>\n"
+"                                <span attrs=\"{'invisible': ['|', '|', ('type', '!=', 'in_receipt'), ('state', '!=', 'draft'), ('name', '!=', '/')]}\">应付收据草稿</span>"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_invoice_send_wizard_form
@@ -3492,7 +3492,7 @@ msgstr "创建新的对账模型"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_out_receipt_type
 msgid "Create a new sales receipt"
-msgstr "创建一个新的销售收据"
+msgstr "创建一个新的应收收据"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.product_product_action_sellable
@@ -4428,13 +4428,13 @@ msgstr "付款草稿"
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Draft Purchase Receipt"
-msgstr "草稿采购收据"
+msgstr "草稿应付收据"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Draft Sales Receipt"
-msgstr "草稿销售收据"
+msgstr "草稿应收收据"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
@@ -8065,7 +8065,7 @@ msgstr "付款条款行"
 #: model:ir.model.fields,field_description:account.field_account_payment__payment_type
 #: model:ir.model.fields,field_description:account.field_account_payment_method__payment_type
 msgid "Payment Type"
-msgstr "付款类型"
+msgstr "支付类型"
 
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_journal__post_at__pay_val
@@ -8537,13 +8537,13 @@ msgstr "采购"
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_move__type__in_receipt
 msgid "Purchase Receipt"
-msgstr "采购收据"
+msgstr "应付收据"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Purchase Receipt Created"
-msgstr "已生成采购收据"
+msgstr "已生成应付收据"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -8804,7 +8804,7 @@ msgstr "登记银行对账单"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_in_receipt_type
 msgid "Register a new purchase receipt"
-msgstr "创建新采购收据"
+msgstr "创建新应付收据"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_account_payments
@@ -9153,13 +9153,13 @@ msgstr "销售员"
 #. module: account
 #: model:ir.model.fields.selection,name:account.selection__account_move__type__out_receipt
 msgid "Sales Receipt"
-msgstr "销售收据"
+msgstr "应收收据"
 
 #. module: account
 #: code:addons/account/models/account_move.py:0
 #, python-format
 msgid "Sales Receipt Created"
-msgstr "已生成销售收据"
+msgstr "已生成应收收据"
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.account_invoice_onboarding_sale_tax_form
@@ -12114,14 +12114,14 @@ msgstr "网上沟通记录"
 msgid ""
 "When the purchase receipt is confirmed, you can record the\n"
 "                vendor payment related to this purchase receipt."
-msgstr "当采购收据被确认时，你可以登记供应商采购收据的付款"
+msgstr "当应付收据被确认时，你可以登记供应商应付收据的付款"
 
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_move_out_receipt_type
 msgid ""
 "When the sale receipt is confirmed, you can record the customer\n"
 "                payment related to this sales receipt."
-msgstr "当销售收据被确认时，你可以登记客户销售收据的付款"
+msgstr "当应收收据被确认时，你可以登记客户应收收据的付款"
 
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice_send__is_log

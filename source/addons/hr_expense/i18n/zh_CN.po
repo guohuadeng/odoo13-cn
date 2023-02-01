@@ -1154,7 +1154,7 @@ msgstr "付款方法"
 #. module: hr_expense
 #: model:ir.model.fields,field_description:hr_expense.field_hr_expense_sheet_register_payment_wizard__payment_method_id
 msgid "Payment Type"
-msgstr "付款类型"
+msgstr "支付类型"
 
 #. module: hr_expense
 #: code:addons/hr_expense/models/hr_expense.py:0

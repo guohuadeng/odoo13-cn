@@ -4772,7 +4772,7 @@ msgstr "已拒绝"
 #: model:ir.model.fields,field_description:mail.field_mail_message__res_id
 #: model:ir.model.fields,field_description:mail.field_mail_wizard_invite__res_id
 msgid "Related Document ID"
-msgstr "相关单据编号"
+msgstr "相关单据标识ID"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_email_template_preview__model
