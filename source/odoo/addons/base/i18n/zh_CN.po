@@ -24050,7 +24050,7 @@ msgstr "搜索模块"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_config_settings_view_form
 msgid "Search..."
-msgstr "搜索..."
+msgstr "odooApp搜索..."
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_document_layout__secondary_color

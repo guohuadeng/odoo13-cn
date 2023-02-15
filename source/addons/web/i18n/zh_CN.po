@@ -3305,7 +3305,7 @@ msgstr "搜索更多..."
 #: code:addons/web/static/src/xml/base.xml:0
 #, python-format
 msgid "Search..."
-msgstr "搜索..."
+msgstr "odooApp搜索..."
 
 #. module: web
 #. openerp-web
